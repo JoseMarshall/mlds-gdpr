@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.development
+.env.test.local
+.env.production.local
+.env.development.local
+
+#  build / generate output
+dist
+built
+
+.vscode
+.DS_Store
