@@ -61,10 +61,16 @@ const classTransformerHandlers = {
   },
 };
 
-function getGdprClass(className, id) {
+function getGdprClass(className, node) {
   let foundClassType = Object.entries(gdprClassesRegex).find(([_, regex]) => regex.test(className));
 
   if (foundClassType) {
+    if (
+      foundClassType[0] === gdprClasses.CHAPTER &&
+      node?.textContent?.trim().match(/^Secção \d+$/)
+    ) {
+      return gdprClasses.SECTION;
+    }
     return foundClassType[0];
   }
 
@@ -73,7 +79,6 @@ function getGdprClass(className, id) {
    */
   const lastElement = readingStack[readingStack.length - 1];
   if ([gdprClasses.POINT, gdprClasses.SUBPOINT].includes(lastElement?.classType) && !className) {
-    // readingStack.push({ id, classType: gdprClasses.SUBPOINT });
     return gdprClasses.SUBPOINT;
   }
 
@@ -115,7 +120,7 @@ function elementTransformer(obj) {
 function parseElement(element) {
   const children = element.children;
   let result = {
-    classType: getGdprClass(element.className),
+    classType: getGdprClass(element.className, element),
     content: {},
   };
   const ignoreTags = ['COLGROUP', 'COL'];
@@ -134,7 +139,8 @@ function parseElement(element) {
 
     const id = uuid();
     if (isLeaf) {
-      const childClassType = getGdprClass(element.id, id) ?? getGdprClass(element.className, id);
+      const childClassType =
+        getGdprClass(element.id, element) ?? getGdprClass(element.className, element);
       result.content[id] = {
         classType: childClassType,
         content:
@@ -144,7 +150,7 @@ function parseElement(element) {
       };
     } else {
       result.content[id] = {
-        classType: getGdprClass(child.id, id) ?? getGdprClass(child.className, id),
+        classType: getGdprClass(child.id, child) ?? getGdprClass(child.className, child),
         content: parseElement(child),
       };
     }
@@ -154,7 +160,7 @@ function parseElement(element) {
 }
 
 function transverseNode(node) {
-  const classType = getGdprClass(node.className);
+  const classType = getGdprClass(node.className, node);
 
   while (shouldPopFromStack(classType)) {
     readingStack.pop();
@@ -184,14 +190,14 @@ function transverseNode(node) {
 }
 
 function main() {
-  const gdprHtml = fs.readFileSync(path.resolve(__dirname, '../raw-data/cap1.html'), 'utf8');
+  const gdprHtml = fs.readFileSync(path.resolve(__dirname, '../raw-data/gdpr-eu-pt.html'), 'utf8');
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
 
   const htmlNodes = Array.from(dom.window.document.body.children);
   htmlNodes.forEach(transverseNode);
   // output the JSON to a file
   fs.writeFileSync(
-    path.resolve(__dirname, '../datasets/cap1.json'),
+    path.resolve(__dirname, '../datasets/gdpr-eu-pt.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
 
