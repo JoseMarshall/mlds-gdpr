@@ -190,14 +190,17 @@ function transverseNode(node) {
 }
 
 function main() {
-  const gdprHtml = fs.readFileSync(path.resolve(__dirname, '../raw-data/gdpr-eu-de.html'), 'utf8');
+  const gdprHtml = fs.readFileSync(
+    path.resolve(__dirname, '../../raw-data/gdpr-eu-de.html'),
+    'utf8'
+  );
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
 
   const htmlNodes = Array.from(dom.window.document.body.children);
   htmlNodes.forEach(transverseNode);
   // output the JSON to a file
   fs.writeFileSync(
-    path.resolve(__dirname, '../datasets/gdpr-eu-de.json'),
+    path.resolve(__dirname, '../../datasets/gdpr-eu-de.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
 

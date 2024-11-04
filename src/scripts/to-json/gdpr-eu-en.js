@@ -28,7 +28,7 @@ const gdprClassesIdRegex = {
 };
 
 const classTransformerHandlers = {
-  [gdprClasses.POINT]: content => {
+  [gdprClasses.POINT]: (content) => {
     if (typeof content !== 'object') {
       return content;
     }
@@ -39,25 +39,21 @@ const classTransformerHandlers = {
       typeof values[0].content === 'string' &&
       typeof values[1].content === 'string'
     ) {
-      return values
-        .map(x => x.content)
-        .sort((a, b) => (a.length >= b.length ? 1 : -1));
+      return values.map((x) => x.content).sort((a, b) => (a.length >= b.length ? 1 : -1));
     }
     return content;
   },
 
-  [gdprClasses.SUBPOINT]: content =>
+  [gdprClasses.SUBPOINT]: (content) =>
     typeof content === 'object' && !Array.isArray(content)
       ? Object.values(content)
-          .map(x => x.content ?? x)
+          .map((x) => x.content ?? x)
           .sort((a, b) => (a.length >= b.length ? 1 : -1))
       : content,
 };
 
 function getGdprClass(id, content, parent) {
-  let foundClassType = Object.entries(gdprClassesIdRegex).find(([_, regex]) =>
-    regex.test(id)
-  );
+  let foundClassType = Object.entries(gdprClassesIdRegex).find(([_, regex]) => regex.test(id));
 
   if (foundClassType) {
     return foundClassType[0];
@@ -68,8 +64,8 @@ function getGdprClass(id, content, parent) {
     return typeof content === 'object' && Object.keys(content).length === 2
       ? gdprClasses.SUBPOINT
       : typeof content === 'string'
-      ? gdprClasses.POINT
-      : null;
+        ? gdprClasses.POINT
+        : null;
   } else if (gdprClassesIdRegex.ARTICLE.test(parent.id)) {
     if (typeof content === 'object' && Object.keys(content).length === 2) {
       return gdprClasses.POINT;
@@ -102,7 +98,7 @@ function flatObjectWithSingleChild(obj) {
   if (typeof obj === 'string') {
     return obj
       .split('\n')
-      .map(x => x.trim())
+      .map((x) => x.trim())
       .join(' ');
   }
   const keys = Object.keys(obj);
@@ -119,12 +115,11 @@ function parseElement(element) {
   let result = { content: {} };
   const ignoreTags = ['COLGROUP', 'COL'];
 
-  Array.from(children).forEach(child => {
+  Array.from(children).forEach((child) => {
     if (ignoreTags.includes(child.tagName)) {
       return;
     }
-    const isLeaf =
-      ['P', 'SPAN'].includes(child.tagName) && child.children.length === 0;
+    const isLeaf = ['P', 'SPAN'].includes(child.tagName) && child.children.length === 0;
 
     const id = child.id || uuid();
     if (isLeaf) {
@@ -132,11 +127,7 @@ function parseElement(element) {
     } else {
       result.content[id] = { content: parseElement(child) };
     }
-    result.content[id].classType = getGdprClass(
-      id,
-      result.content[id].content,
-      element
-    );
+    result.content[id].classType = getGdprClass(id, result.content[id].content, element);
     result.content[id].content = contentTransformer(result.content[id]);
   });
 
@@ -148,11 +139,11 @@ function parseHtmlToJson(document) {
   const result = {};
 
   // Select all top-level divs in the document
-  const chapterDivs = Array.from(
-    document.querySelectorAll("div[id^='cpt_']")
-  ).filter(div => gdprClassesIdRegex.CHAPTER.test(div.id));
+  const chapterDivs = Array.from(document.querySelectorAll("div[id^='cpt_']")).filter((div) =>
+    gdprClassesIdRegex.CHAPTER.test(div.id)
+  );
 
-  chapterDivs.forEach(chapterDiv => {
+  chapterDivs.forEach((chapterDiv) => {
     const id = chapterDiv.id;
     result[id] = {
       classType: gdprClasses.CHAPTER,
@@ -165,7 +156,7 @@ function parseHtmlToJson(document) {
 
 function main() {
   const gdprHtml = fs.readFileSync(
-    path.resolve(__dirname, '../raw-data/gdpr-eu-en.html'),
+    path.resolve(__dirname, '../../raw-data/gdpr-eu-en.html'),
     'utf8'
   );
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
@@ -173,7 +164,7 @@ function main() {
   const jsonOutput = parseHtmlToJson(dom.window.document);
   // output the JSON to a file
   fs.writeFileSync(
-    path.resolve(__dirname, '../datasets/gdpr-eu-en.json'),
+    path.resolve(__dirname, '../../datasets/gdpr-eu-en.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
 
