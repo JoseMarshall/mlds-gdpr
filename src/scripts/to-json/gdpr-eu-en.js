@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
-const { v4: uuid } = require('uuid');
+
+const { uuidV4Generator } = require('./common');
 
 const gdprClasses = {
   CHAPTER: 'CHAPTER',
@@ -9,7 +10,6 @@ const gdprClasses = {
   ARTICLE: 'ARTICLE',
   POINT: 'POINT',
   SUBPOINT: 'SUBPOINT',
-  PARAGRAPH: 'PARAGRAPH',
 
   // For Id annotation
   TITLE: 'TITLE',
@@ -70,7 +70,7 @@ function getGdprClass(id, content, parent) {
     if (typeof content === 'object' && Object.keys(content).length === 2) {
       return gdprClasses.POINT;
     }
-    return gdprClasses.PARAGRAPH;
+    return gdprClasses.POINT;
   } else if (
     typeof content === 'object' &&
     Object.keys(content).length === 2 &&
@@ -110,31 +110,35 @@ function flatObjectWithSingleChild(obj) {
 }
 
 // Recursive function to parse each element
-function parseElement(element) {
+async function parseElement(element) {
   const children = element.children;
   let result = { content: {} };
   const ignoreTags = ['COLGROUP', 'COL'];
 
-  Array.from(children).forEach((child) => {
+  for (const child of Array.from(children)) {
     if (ignoreTags.includes(child.tagName)) {
-      return;
+      continue;
     }
     const isLeaf = ['P', 'SPAN'].includes(child.tagName) && child.children.length === 0;
 
-    const id = child.id || uuid();
+    const id = await (await uuidV4Generator.next()).value;
     if (isLeaf) {
       result.content[id] = { content: child.textContent.trim() };
     } else {
-      result.content[id] = { content: parseElement(child) };
+      result.content[id] = { content: await parseElement(child) };
     }
-    result.content[id].classType = getGdprClass(id, result.content[id].content, element);
+    result.content[id].classType = getGdprClass(
+      child.id || id,
+      result.content[id].content,
+      element
+    );
     result.content[id].content = contentTransformer(result.content[id]);
-  });
+  }
 
   return flatObjectWithSingleChild(result.content);
 }
 
-function parseHtmlToJson(document) {
+async function parseHtmlToJson(document) {
   // Root object to hold JSON structure for all top-level divs
   const result = {};
 
@@ -143,32 +147,32 @@ function parseHtmlToJson(document) {
     gdprClassesIdRegex.CHAPTER.test(div.id)
   );
 
-  chapterDivs.forEach((chapterDiv) => {
-    const id = chapterDiv.id;
+  for (const chapterDiv of chapterDivs) {
+    const id = await (await uuidV4Generator.next()).value;
     result[id] = {
       classType: gdprClasses.CHAPTER,
-      content: parseElement(chapterDiv),
+      content: await parseElement(chapterDiv),
     };
-  });
+  }
 
   return result;
 }
 
-function main() {
+async function main() {
   const gdprHtml = fs.readFileSync(
     path.resolve(__dirname, '../../raw-data/gdpr-eu-en.html'),
     'utf8'
   );
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
   // Usage example
-  const jsonOutput = parseHtmlToJson(dom.window.document);
+  const jsonOutput = await parseHtmlToJson(dom.window.document);
   // output the JSON to a file
   fs.writeFileSync(
     path.resolve(__dirname, '../../datasets/gdpr-eu-en.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
-
-  console.log('JSON file generated successfully ✅');
 }
 
-main();
+main().then(() => {
+  console.log('JSON file generated successfully ✅');
+});
