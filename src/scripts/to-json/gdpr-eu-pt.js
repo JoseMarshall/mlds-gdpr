@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
-const { v4: uuid } = require('uuid');
+const { uuidV4Generator } = require('./common');
 
 const gdprClasses = {
   CHAPTER: 'CHAPTER',
@@ -9,7 +9,6 @@ const gdprClasses = {
   ARTICLE: 'ARTICLE',
   POINT: 'POINT',
   SUBPOINT: 'SUBPOINT',
-  PARAGRAPH: 'PARAGRAPH',
 
   // For Id annotation
   TITLE: 'TITLE',
@@ -36,7 +35,6 @@ const gdprClassesPrecedence = {
   [gdprClasses.ARTICLE]: 2,
   [gdprClasses.POINT]: 3,
   [gdprClasses.SUBPOINT]: 4,
-  [gdprClasses.PARAGRAPH]: 5,
 };
 
 const classTransformerHandlers = {
@@ -110,6 +108,9 @@ function flatObjectWithSingleChild(obj, result = {}) {
 }
 
 function elementTransformer(obj) {
+  if (!obj?.content) {
+    return obj;
+  }
   if (typeof obj.content === 'string') {
     return obj;
   }
@@ -117,7 +118,7 @@ function elementTransformer(obj) {
 }
 
 // Recursive function to parse each element
-function parseElement(element) {
+async function parseElement(element) {
   const children = element.children;
   let result = {
     classType: getGdprClass(element.className, element),
@@ -129,15 +130,15 @@ function parseElement(element) {
     result.content = element.textContent.trim();
   }
 
-  Array.from(children).forEach((child) => {
+  for (const child of Array.from(children)) {
     if (ignoreTags.includes(child.tagName)) {
-      return;
+      continue;
     }
     const isLeaf =
       ['SPAN', 'TD'].includes(child.tagName) ||
       (['P'].includes(child.tagName) && child.children.length === 0);
 
-    const id = uuid();
+    const id = await (await uuidV4Generator.next()).value;
     if (isLeaf) {
       const childClassType =
         getGdprClass(element.id, element) ?? getGdprClass(element.className, element);
@@ -151,15 +152,15 @@ function parseElement(element) {
     } else {
       result.content[id] = {
         classType: getGdprClass(child.id, child) ?? getGdprClass(child.className, child),
-        content: parseElement(child),
+        content: await parseElement(child),
       };
     }
-  });
+  }
 
   return result;
 }
 
-function transverseNode(node) {
+async function transverseNode(node) {
   const classType = getGdprClass(node.className, node);
 
   while (shouldPopFromStack(classType)) {
@@ -167,9 +168,9 @@ function transverseNode(node) {
   }
 
   const lastElement = readingStack[readingStack.length - 1];
-  const parsedElement = elementTransformer(parseElement(node));
+  const id = await (await uuidV4Generator.next()).value;
+  const parsedElement = elementTransformer(await parseElement(node));
 
-  const id = uuid();
   if (classType in gdprClassesPrecedence) {
     readingStack.push({ id, classType, parsedElement });
   }
@@ -179,17 +180,16 @@ function transverseNode(node) {
       lastElement.parsedElement.content[id] = parsedElement;
     } else {
       lastElement.parsedElement.content = {
-        [uuid()]: { ...lastElement.parsedElement },
+        [await (await uuidV4Generator.next()).value]: { ...lastElement.parsedElement },
         [id]: parsedElement,
       };
     }
-    // jsonOutput[lastElement.id] ??= lastElement.parsedElement;
   } else {
     jsonOutput[id] ??= parsedElement;
   }
 }
 
-function main() {
+async function main() {
   const gdprHtml = fs.readFileSync(
     path.resolve(__dirname, '../../raw-data/gdpr-eu-pt.html'),
     'utf8'
@@ -197,14 +197,16 @@ function main() {
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
 
   const htmlNodes = Array.from(dom.window.document.body.children);
-  htmlNodes.forEach(transverseNode);
+  for (const node of htmlNodes) {
+    await transverseNode(node);
+  }
   // output the JSON to a file
   fs.writeFileSync(
     path.resolve(__dirname, '../../datasets/gdpr-eu-pt.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
-
-  console.log('JSON file generated successfully ✅');
 }
 
-main();
+main().then(() => {
+  console.log('JSON file generated successfully ✅');
+});
