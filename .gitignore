@@ -19,5 +19,5 @@ built
 
 .vscode
 .DS_Store
-
+.venv
 *.pdf
