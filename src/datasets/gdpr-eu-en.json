@@ -417,66 +417,85 @@
                   "(f)",
                   "processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child."
                 ]
+              },
+              "202f8513-0881-4941-a362-d53388a53730": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "Point (f) of the first subparagraph shall not apply to processing\n        carried out by public authorities in the performance of their tasks."
+                ]
               }
             }
           },
-          "202f8513-0881-4941-a362-d53388a53730": {
-            "classType": "POINT",
-            "content": "2.Member States may maintain or introduce more specific provisions to adapt the application of the rules of this Regulation with regard to processing for compliance with points(c) and(e) of paragraph 1 by determining more precisely specific requirements for the processing and other measures to ensure lawful and fair processing including for other specific processing situations as provided for in Chapter IX."
-          },
           "1ae9d924-8746-4d39-8196-52f9998c2404": {
             "classType": "POINT",
-            "content": "The purpose of the processing shall be determined in that legal basis\n        or, as regards the processing referred to in point (e) of paragraph 1,\n        shall be necessary for the performance of a task carried out in the\n        public interest or in the exercise of official authority vested in the\n        controller. That legal basis may contain specific provisions to adapt\n        the application of rules of this Regulation, inter alia: the general\n        conditions governing the lawfulness of processing by the controller; the\n        types of data which are subject to the processing; the data subjects\n        concerned; the entities to, and the purposes for which, the personal\n        data may be disclosed; the purpose limitation; storage periods; and\n        processing operations and processing procedures, including measures to\n        ensure lawful and fair processing such as those for other specific\n        processing situations as provided for in Chapter IX. The Union or the\n        MemberState law shall meet an objective of public interest and be\n        proportionate to the legitimate aim pursued."
+            "content": "2.Member States may maintain or introduce more specific provisions to adapt the application of the rules of this Regulation with regard to processing for compliance with points(c) and(e) of paragraph 1 by determining more precisely specific requirements for the processing and other measures to ensure lawful and fair processing including for other specific processing situations as provided for in Chapter IX."
           },
           "e9be3c24-7553-4a21-842d-ebc8b4a9d147": {
             "classType": "POINT",
             "content": {
               "8e06ee6c-5f74-4286-9d8d-9efeadb9f2d3": {
                 "classType": "POINT",
-                "content": "4.Where the processing for a purpose other than that for which the\n        personal data have been collected is not based on the data subject's\n        consent or on a Union or MemberState law which constitutes a necessary\n        and proportionate measure in a democratic society to safeguard the\n        objectives referred to in Article 23(1), the controller shall, in order\n        to ascertain whether processing for another purpose is compatible with\n        the purpose for which the personal data are initially collected, take\n        into account, inter alia:"
+                "content": "3.The basis for the processing referred to in point (c) and (e) of\n        paragraph1 shall be laid down by:"
               },
               "d4d87f9d-83b5-4b7f-abe5-59a011b6bd01": {
+                "classType": "SUBPOINT",
+                "content": ["(a)", "Union law; or"]
+              },
+              "fcf7d7aa-af3f-4d5a-a3b5-bdc9458c226b": {
+                "classType": "SUBPOINT",
+                "content": ["(b)", "Member State law to which the controller is subject."]
+              },
+              "38a4e392-a0df-4ae3-bc21-e054b29e5223": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "The purpose of the processing shall be determined in that legal basis\n        or, as regards the processing referred to in point (e) of paragraph 1,\n        shall be necessary for the performance of a task carried out in the\n        public interest or in the exercise of official authority vested in the\n        controller. That legal basis may contain specific provisions to adapt\n        the application of rules of this Regulation, inter alia: the general\n        conditions governing the lawfulness of processing by the controller; the\n        types of data which are subject to the processing; the data subjects\n        concerned; the entities to, and the purposes for which, the personal\n        data may be disclosed; the purpose limitation; storage periods; and\n        processing operations and processing procedures, including measures to\n        ensure lawful and fair processing such as those for other specific\n        processing situations as provided for in Chapter IX. The Union or the\n        MemberState law shall meet an objective of public interest and be\n        proportionate to the legitimate aim pursued."
+                ]
+              }
+            }
+          },
+          "bebfe9a9-02ed-4900-869e-d26109e98be7": {
+            "classType": "POINT",
+            "content": {
+              "20ae0096-e232-4f43-bfc5-2cdfe5916a6d": {
+                "classType": "POINT",
+                "content": "4.Where the processing for a purpose other than that for which the\n        personal data have been collected is not based on the data subject's\n        consent or on a Union or MemberState law which constitutes a necessary\n        and proportionate measure in a democratic society to safeguard the\n        objectives referred to in Article 23(1), the controller shall, in order\n        to ascertain whether processing for another purpose is compatible with\n        the purpose for which the personal data are initially collected, take\n        into account, inter alia:"
+              },
+              "3a245d9a-0c73-4183-beb6-3e687bcba34d": {
                 "classType": "SUBPOINT",
                 "content": [
                   "(a)",
                   "any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;"
                 ]
               },
-              "fcf7d7aa-af3f-4d5a-a3b5-bdc9458c226b": {
+              "0a0f997f-3542-4bc3-8a4b-e026c1ea9584": {
                 "classType": "SUBPOINT",
                 "content": [
                   "(b)",
                   "the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;"
                 ]
-              }
-            }
-          },
-          "38a4e392-a0df-4ae3-bc21-e054b29e5223": {},
-          "bebfe9a9-02ed-4900-869e-d26109e98be7": {
-            "content": {
-              "20ae0096-e232-4f43-bfc5-2cdfe5916a6d": {
-                "classType": "TITLE",
-                "content": "Lawfulness of processing"
-              },
-              "3a245d9a-0c73-4183-beb6-3e687bcba34d": {
-                "classType": "TITLE",
-                "content": "Lawfulness of processing"
-              },
-              "0a0f997f-3542-4bc3-8a4b-e026c1ea9584": {
-                "classType": "TITLE",
-                "content": "Lawfulness of processing"
               },
               "7519b0cb-d663-4c8c-8a42-30568b1378fa": {
-                "classType": "TITLE",
-                "content": "Lawfulness of processing"
+                "classType": "SUBPOINT",
+                "content": [
+                  "(c)",
+                  "the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;"
+                ]
               },
               "fe79d12d-56b6-4572-a443-78d64eba8efd": {
-                "classType": "TITLE",
-                "content": "Lawfulness of processing"
+                "classType": "SUBPOINT",
+                "content": [
+                  "(d)",
+                  "the possible consequences of the intended further processing for data subjects;"
+                ]
               },
               "d2d42b92-61fe-4035-9da8-c7603b93459a": {
-                "classType": "TITLE",
-                "content": "Lawfulness of processing"
+                "classType": "SUBPOINT",
+                "content": [
+                  "(e)",
+                  "the existence of appropriate safeguards, which may include encryption or pseudonymisation."
+                ]
               }
             }
           }
@@ -525,8 +544,8 @@
           "af869e4a-60dc-4842-9215-026c6c6fd042": {
             "classType": "POINT",
             "content": [
-              "MemberStates may provide by law for a lower age for those purposes\n        provided that such lower age is not below 13 years.",
-              "1.Where point (a) of Article 6(1) applies, in relation to the offer of\n        information society services directly to a child, the processing of the\n        personal data of a child shall be lawful where the child is at least 16\n        years old. Where the child is below the age of 16 years, such processing\n        shall be lawful only if and to the extent that consent is given or\n        authorised by the holder of parental responsibility over the child."
+              "",
+              "MemberStates may provide by law for a lower age for those purposes\n        provided that such lower age is not below 13 years."
             ]
           },
           "43ae1321-29fe-4cf1-a92e-b6f5bbe634d3": {
@@ -760,22 +779,28 @@
                   "1095dd54-cdaf-4748-9ea9-9c6b4bf63e6d": {
                     "classType": "SUBPOINT",
                     "content": ["(b)", "refuse to act on the request."]
+                  },
+                  "d1a9611b-116c-4246-8833-5d3d18b8ce96": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "",
+                      "The controller shall bear the burden of demonstrating the manifestly\n          unfounded or excessive character of the request."
+                    ]
                   }
                 }
               },
-              "d1a9611b-116c-4246-8833-5d3d18b8ce96": {
+              "2f36d11d-9df4-47f7-9160-20c4739aaf7c": {
                 "classType": "POINT",
                 "content": "6.Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject."
               },
-              "2f36d11d-9df4-47f7-9160-20c4739aaf7c": {
+              "7b7455f2-f391-4f4d-be22-da7fdc77d429": {
                 "classType": "POINT",
                 "content": "7.The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing. Where the icons are presented electronically they shall be machine-readable."
               },
-              "7b7455f2-f391-4f4d-be22-da7fdc77d429": {
+              "a7edb561-dd1b-4184-910f-54baa785693e": {
                 "classType": "POINT",
                 "content": "8.The Commission shall be empowered to adopt delegated acts in accordance with Article92 for the purpose of determining the information to be presented by the icons and the procedures for providing standardised icons."
-              },
-              "a7edb561-dd1b-4184-910f-54baa785693e": {}
+              }
             }
           }
         }
@@ -1953,38 +1978,44 @@
                       "(h)",
                       "makes available to the controller all information necessary to demonstrate compliance with the obligations laid down in this Article and allow for and contribute to audits, including inspections, conducted by the controller or another auditor mandated by the controller."
                     ]
+                  },
+                  "99510198-c3ff-4bb3-aa9b-67b1ce168b31": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "",
+                      "With regard to point(h) of the first subparagraph, the processor shall\n          immediately inform the controller if, in its opinion, an instruction\n          infringes this Regulation or other Union or MemberState data\n          protection provisions."
+                    ]
                   }
                 }
               },
-              "99510198-c3ff-4bb3-aa9b-67b1ce168b31": {
+              "365c30f4-d560-46c6-919d-1017f671a68a": {
                 "classType": "POINT",
                 "content": "4.Where a processor engages another processor for carrying out specific processing activities on behalf of the controller, the same data protection obligations as set out in the contract or other legal act between the controller and the processor as referred to in paragraph 3 shall be imposed on that other processor by way of a contract or other legal act under Union or Member State law, in particular providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that the processing will meet the requirements of this Regulation. Where that other processor fails to fulfil its data protection obligations, the initial processor shall remain fully liable to the controller for the performance of that other processor's obligations."
               },
-              "365c30f4-d560-46c6-919d-1017f671a68a": {
+              "c7d6408d-3cac-4775-a894-95e4da475271": {
                 "classType": "POINT",
                 "content": "5.Adherence of a processor to an approved code of conduct as referred to in Article40 or an approved certification mechanism as referred to in Article42 may be used as an element by which to demonstrate sufficient guarantees as referred to in paragraphs1 and4 of thisArticle."
               },
-              "c7d6408d-3cac-4775-a894-95e4da475271": {
+              "2a305f30-f28d-4e81-b3dc-4c91d415f834": {
                 "classType": "POINT",
                 "content": "6.Without prejudice to an individual contract between the controller and the processor, the contract or the other legal act referred to in paragraphs 3 and 4 of this Article may be based, in whole or in part, on standard contractual clauses referred to in paragraphs7 and8 of this Article, including when they are part of a certification granted to the controller or processor pursuant to Articles 42 and 43."
               },
-              "2a305f30-f28d-4e81-b3dc-4c91d415f834": {
+              "2f922681-4c9f-4d87-824c-7dcffc1acb91": {
                 "classType": "POINT",
                 "content": "7.The Commission may lay down standard contractual clauses for the matters referred to in paragraph 3 and 4 of this Article and in accordance with the examination procedure referred to in Article 93(2)."
               },
-              "2f922681-4c9f-4d87-824c-7dcffc1acb91": {
+              "69338a53-0341-4d31-8727-2da01d647ce4": {
                 "classType": "POINT",
                 "content": "8.A supervisory authority may adopt standard contractual clauses for the matters referred to in paragraph 3 and 4 of this Article and in accordance with the consistency mechanism referred to in Article63."
               },
-              "69338a53-0341-4d31-8727-2da01d647ce4": {
+              "4f145d07-5726-4551-988e-bd6268bad473": {
                 "classType": "POINT",
                 "content": "9.The contract or the other legal act referred to in paragraphs 3 and 4 shall be in writing, including in electronic form."
               },
-              "4f145d07-5726-4551-988e-bd6268bad473": {
+              "b494ff93-caab-4754-9050-32859e460662": {
                 "classType": "POINT",
                 "content": "10.Without prejudice to Articles 82, 83 and 84, if a processor infringes this Regulation by determining the purposes and means of processing, the processor shall be considered to be a controller in respect of that processing."
-              },
-              "b494ff93-caab-4754-9050-32859e460662": {}
+              }
             }
           },
           "a3da1b70-dd2d-4cd6-8b6a-563fdfba1d80": {
@@ -3185,8 +3216,8 @@
           "7c336387-e785-4a25-a863-aa90fbbce818": {
             "classType": "POINT",
             "content": [
-              "On duly justified imperative grounds of urgency, the Commission shall\n        adopt immediately applicable implementing acts in accordance with the\n        procedure referred to in Article93(3).",
-              "5.The Commission shall, where available information reveals, in\n        particular following the review referred to in paragraph 3 of this\n        Article, that a third country, a territory or one or more specified\n        sectors within a third country, or an international organisation no\n        longer ensures an adequate level of protection within the meaning of\n        paragraph2 of this Article, to the extent necessary, repeal, amend or\n        suspend the decision referred to in paragraph3 of this Article by means\n        of implementing acts without retro-active effect. Those implementing\n        acts shall be adopted in accordance with the examination procedure\n        referred to in Article93(2)."
+              "",
+              "On duly justified imperative grounds of urgency, the Commission shall\n        adopt immediately applicable implementing acts in accordance with the\n        procedure referred to in Article93(3)."
             ]
           },
           "af7c0ceb-d467-47fe-9213-9f00a5e39114": {
@@ -3532,30 +3563,36 @@
                   "(g)",
                   "the transfer is made from a register which according to Union or Member State law is intended to provide information to the public and which is open to consultation either by the public in general or by any person who can demonstrate a legitimate interest, but only to the extent that the conditions laid down by Union or MemberState law for consultation are fulfilled in the particular case."
                 ]
+              },
+              "d7386acf-1d3a-4191-9215-1727d391a2fc": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "Where a transfer could not be based on a provision in Article 45 or 46,\n        including the provisions on binding corporate rules, and none of the\n        derogations for a specific situation referred to in the first\n        subparagraph of this paragraph is applicable, a transfer to a third\n        country or an international organisation may take place only if the\n        transfer is not repetitive, concerns only a limited number of data\n        subjects, is necessary for the purposes of compelling legitimate\n        interests pursued by the controller which are not overridden by the\n        interests or rights and freedoms of the data subject, and the controller\n        has assessed all the circumstances surrounding the data transfer and has\n        on the basis of that assessment provided suitable safeguards with regard\n        to the protection of personal data. The controller shall inform the\n        supervisory authority of the transfer. The controller shall, in addition\n        to providing the information referred to in Articles13 and 14, inform\n        the data subject of the transfer and on the compelling legitimate\n        interests pursued."
+                ]
               }
             }
           },
-          "d7386acf-1d3a-4191-9215-1727d391a2fc": {
+          "e1a21531-3a17-4658-ba12-646d62dce703": {
             "classType": "POINT",
             "content": "2.A transfer pursuant to point (g) of the first subparagraph of paragraph 1 shall not involve the entirety of the personal data or entire categories of the personal data contained in the register. Where the register is intended for consultation by persons having a legitimate interest, the transfer shall be made only at the request of those persons or if they are to be the recipients."
           },
-          "e1a21531-3a17-4658-ba12-646d62dce703": {
+          "8e08b2c2-ca06-4250-a3d0-ffb4d265a3b1": {
             "classType": "POINT",
             "content": "3.Points (a), (b) and (c) of the first subparagraph of paragraph 1 and the second subparagraph thereof shall not apply to activities carried out by public authorities in the exercise of their public powers."
           },
-          "8e08b2c2-ca06-4250-a3d0-ffb4d265a3b1": {
+          "10f58d4f-fdff-4690-a1ca-64399ca0cd71": {
             "classType": "POINT",
             "content": "4.The public interest referred to in point (d) of the first subparagraph of paragraph 1 shall be recognised in Union law or in the law of the Member State to which the controller is subject."
           },
-          "10f58d4f-fdff-4690-a1ca-64399ca0cd71": {
+          "77c6ad65-8f20-4d00-8da4-c2d7950f8eac": {
             "classType": "POINT",
             "content": "5.In the absence of an adequacy decision, Union or Member State law may, for important reasons of public interest, expressly set limits to the transfer of specific categories of personal data to a third country or an international organisation. Member States shall notify such provisions to the Commission."
           },
-          "77c6ad65-8f20-4d00-8da4-c2d7950f8eac": {
+          "e0deba31-a47a-4ebd-ac36-be2947047d41": {
             "classType": "POINT",
             "content": "6.The controller or processor shall document the assessment as well as the suitable safeguards referred to in the second subparagraph of paragraph1 of this Article in the records referred to in Article 30."
-          },
-          "e0deba31-a47a-4ebd-ac36-be2947047d41": {}
+          }
         }
       },
       "6161b802-9b18-4239-8c06-707c322d670d": {

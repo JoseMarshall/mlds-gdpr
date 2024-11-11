@@ -44,12 +44,17 @@ const classTransformerHandlers = {
     return content;
   },
 
-  [gdprClasses.SUBPOINT]: (content) =>
-    typeof content === 'object' && !Array.isArray(content)
+  [gdprClasses.SUBPOINT]: (content) => {
+    if (typeof content === 'string') {
+      return ['', content];
+    }
+
+    return typeof content === 'object' && !Array.isArray(content)
       ? Object.values(content)
           .map((x) => x.content ?? x)
           .sort((a, b) => (a.length >= b.length ? 1 : -1))
-      : content,
+      : content;
+  },
 };
 
 function getGdprClass(id, content, parent) {
@@ -63,9 +68,9 @@ function getGdprClass(id, content, parent) {
   if (gdprClassesIdRegex.POINT.test(parent.id)) {
     return typeof content === 'object' && Object.keys(content).length === 2
       ? gdprClasses.SUBPOINT
-      : typeof content === 'string'
+      : typeof content === 'string' && /.*\d.*/.test(content.trim().slice(0, 5))
         ? gdprClasses.POINT
-        : null;
+        : gdprClasses.SUBPOINT;
   } else if (gdprClassesIdRegex.ARTICLE.test(parent.id)) {
     if (typeof content === 'object' && Object.keys(content).length === 2) {
       return gdprClasses.POINT;
@@ -88,9 +93,6 @@ function getGdprClass(id, content, parent) {
 }
 
 function contentTransformer({ content, classType }) {
-  if (typeof content === 'string') {
-    return content;
-  }
   return classTransformerHandlers[classType]?.(content) ?? content;
 }
 

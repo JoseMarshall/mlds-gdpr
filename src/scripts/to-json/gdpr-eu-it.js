@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
-const { uuidV4Generator } = require('./common');
+const { uuidV4Generator, subPointTransformer } = require('./common');
 
 const gdprClasses = {
   CHAPTER: 'CHAPTER',
@@ -38,45 +38,41 @@ const gdprClassesPrecedence = {
 };
 
 const classTransformerHandlers = {
-  [gdprClasses.SUBPOINT]: (obj) => {
-    if (typeof obj !== 'object' || Array.isArray(obj)) {
-      return obj;
-    }
-    const newObj = flatObjectWithSingleChild(obj);
-    const values = Object.values(newObj.content);
-
-    if (
-      values.length === 2 &&
-      typeof values[0].content === 'string' &&
-      typeof values[1].content === 'string'
-    ) {
-      return {
-        classType: newObj.classType,
-        content: values.map((x) => x.content).sort((a, b) => (a.length >= b.length ? 1 : -1)),
-      };
-    }
-    return newObj;
-  },
+  [gdprClasses.SUBPOINT]: subPointTransformer,
 };
 
 function getGdprClass(className, node) {
+  if (node.classType && [gdprClasses.SUBPOINT].includes(node.classType)) {
+    return node.classType;
+  }
   let foundClassType = Object.entries(gdprClassesRegex).find(([_, regex]) => regex.test(className));
+  const lastElement = readingStack[readingStack.length - 1];
 
   if (foundClassType) {
     if (
+      foundClassType[0] === gdprClasses.POINT &&
+      lastElement?.classType === gdprClasses.SUBPOINT &&
+      !node?.textContent
+        ?.trim()
+        .slice(0, 5)
+        .match(/.*\d.*/)
+    ) {
+      return gdprClasses.SUBPOINT;
+    } else if (
       foundClassType[0] === gdprClasses.CHAPTER &&
       node?.textContent?.trim().match(/^Sezione \d+$/)
     ) {
       return gdprClasses.SECTION;
     }
     return foundClassType[0];
-  }
+  } else if (
 
   /**
    * Particular cases
    */
-  const lastElement = readingStack[readingStack.length - 1];
-  if ([gdprClasses.POINT, gdprClasses.SUBPOINT].includes(lastElement?.classType) && !className) {
+    [gdprClasses.POINT, gdprClasses.SUBPOINT].includes(lastElement?.classType) &&
+    !className
+  ) {
     return gdprClasses.SUBPOINT;
   }
 
@@ -91,26 +87,11 @@ function shouldPopFromStack(classType) {
   return gdprClassesPrecedence[classType] <= gdprClassesPrecedence[lastElement.classType];
 }
 
-function flatObjectWithSingleChild(obj, result = {}) {
-  if (typeof obj === 'object') {
-    // Check if the current value is a string
-    const contentKeys = 'content' in obj ? Object.keys(obj.content) : [];
-    if (contentKeys.length > 1 && !Object.keys(obj.content).includes('content')) {
-      result.content = obj.content;
-      result.classType = obj.classType;
-    } else {
-      const keys = Object.keys(obj).filter((key) => key !== 'classType');
-      flatObjectWithSingleChild(obj.content ?? obj[keys[0]], result);
-    }
-  }
-
-  return result;
-}
-
 function elementTransformer(obj) {
-  if (typeof obj.content === 'string') {
+  if (!obj?.content) {
     return obj;
   }
+
   return classTransformerHandlers[obj.classType]?.(obj) ?? obj;
 }
 
@@ -165,7 +146,7 @@ async function transverseNode(node) {
     return;
   }
   const classType = getGdprClass(node.className, node);
-
+  node.classType = classType;
   while (shouldPopFromStack(classType)) {
     readingStack.pop();
   }

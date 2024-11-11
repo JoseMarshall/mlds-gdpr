@@ -495,12 +495,15 @@
                   "f)",
                   "O tratamento for necessário para efeito dos interesses legítimos prosseguidos pelo\n          responsável pelo tratamento ou por terceiros, exceto se prevalecerem os interesses ou\n          direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais, em\n          especial se o titular for uma criança."
                 ]
+              },
+              "202f8513-0881-4941-a362-d53388a53730": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "O primeiro parágrafo, alínea f), não se aplica ao tratamento de dados efetuado por autoridades\n  públicas na prossecução das suas atribuições por via eletrónica."
+                ]
               }
             }
-          },
-          "202f8513-0881-4941-a362-d53388a53730": {
-            "classType": "POINT",
-            "content": "O primeiro parágrafo, alínea f), não se aplica ao tratamento de dados efetuado por autoridades\n  públicas na prossecução das suas atribuições por via eletrónica."
           },
           "1ae9d924-8746-4d39-8196-52f9998c2404": {
             "classType": "POINT",
@@ -526,12 +529,15 @@
                   "b)",
                   "Pelo direito do Estado-Membro ao qual o responsável pelo tratamento está sujeito."
                 ]
+              },
+              "38a4e392-a0df-4ae3-bc21-e054b29e5223": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "A finalidade do tratamento é determinada com esse fundamento jurídico ou, no que respeita ao\n  tratamento referido no n.o 1, alínea e), deve ser necessária ao\n  exercício de funções de interesse público ou ao exercício da autoridade pública de que está\n  investido o responsável pelo tratamento. Esse fundamento jurídico pode prever disposições\n  específicas para adaptar a aplicação das regras do presente regulamento, nomeadamente: as\n  condições gerais de licitude do tratamento pelo responsável pelo seu tratamento; os tipos de dados\n  objeto de tratamento; os titulares dos dados em questão; as entidades a que os dados pessoais\n  poderão ser comunicados e para que efeitos; os limites a que as finalidades do tratamento devem\n  obedecer; os prazos de conservação; e as operações e procedimentos de tratamento, incluindo as\n  medidas destinadas a garantir a legalidade e lealdade do tratamento, como as medidas relativas a\n  outras situações específicas de tratamento em conformidade com o capítulo IX. O direito da União\n  ou do Estado-Membro deve responder a um objetivo de interesse público e ser proporcional ao\n  objetivo legítimo prosseguido."
+                ]
               }
             }
-          },
-          "38a4e392-a0df-4ae3-bc21-e054b29e5223": {
-            "classType": "POINT",
-            "content": "A finalidade do tratamento é determinada com esse fundamento jurídico ou, no que respeita ao\n  tratamento referido no n.o 1, alínea e), deve ser necessária ao\n  exercício de funções de interesse público ou ao exercício da autoridade pública de que está\n  investido o responsável pelo tratamento. Esse fundamento jurídico pode prever disposições\n  específicas para adaptar a aplicação das regras do presente regulamento, nomeadamente: as\n  condições gerais de licitude do tratamento pelo responsável pelo seu tratamento; os tipos de dados\n  objeto de tratamento; os titulares dos dados em questão; as entidades a que os dados pessoais\n  poderão ser comunicados e para que efeitos; os limites a que as finalidades do tratamento devem\n  obedecer; os prazos de conservação; e as operações e procedimentos de tratamento, incluindo as\n  medidas destinadas a garantir a legalidade e lealdade do tratamento, como as medidas relativas a\n  outras situações específicas de tratamento em conformidade com o capítulo IX. O direito da União\n  ou do Estado-Membro deve responder a um objetivo de interesse público e ser proporcional ao\n  objetivo legítimo prosseguido."
           },
           "bebfe9a9-02ed-4900-869e-d26109e98be7": {
             "classType": "POINT",
@@ -860,12 +866,15 @@
                       "b)",
                       "Recusar-se a dar seguimento ao pedido."
                     ]
+                  },
+                  "d1a9611b-116c-4246-8833-5d3d18b8ce96": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "",
+                      "Cabe ao responsável pelo tratamento demonstrar o caráter manifestamente infundado ou excessivo do\n  pedido."
+                    ]
                   }
                 }
-              },
-              "d1a9611b-116c-4246-8833-5d3d18b8ce96": {
-                "classType": "POINT",
-                "content": "Cabe ao responsável pelo tratamento demonstrar o caráter manifestamente infundado ou excessivo do\n  pedido."
               },
               "2f36d11d-9df4-47f7-9160-20c4739aaf7c": {
                 "classType": "POINT",
@@ -2104,12 +2113,15 @@
                       "h)",
                       "Disponibiliza ao responsável pelo tratamento todas as informações necessárias para\n          demonstrar o cumprimento das obrigações previstas no presente artigo e facilita e\n          contribui para as auditorias, inclusive as inspeções, conduzidas pelo responsável pelo\n          tratamento ou por outro auditor por este mandatado."
                     ]
+                  },
+                  "99510198-c3ff-4bb3-aa9b-67b1ce168b31": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "",
+                      "No que diz respeito ao primeiro parágrafo, alínea h), o subcontratante informa imediatamente o\n  responsável pelo tratamento se, no seu entender, alguma instrução violar o presente regulamento ou\n  outras disposições do direito da União ou dos Estados-Membros em matéria de proteção de dados."
+                    ]
                   }
                 }
-              },
-              "99510198-c3ff-4bb3-aa9b-67b1ce168b31": {
-                "classType": "POINT",
-                "content": "No que diz respeito ao primeiro parágrafo, alínea h), o subcontratante informa imediatamente o\n  responsável pelo tratamento se, no seu entender, alguma instrução violar o presente regulamento ou\n  outras disposições do direito da União ou dos Estados-Membros em matéria de proteção de dados."
               },
               "365c30f4-d560-46c6-919d-1017f671a68a": {
                 "classType": "POINT",
@@ -3725,12 +3737,15 @@
                   "g)",
                   "A transferência for realizada a partir de um registo que, nos termos do direito da União\n          ou do Estado-Membro, se destine a informar o público e se encontre aberto à consulta do\n          público em geral ou de qualquer pessoa que possa provar nela ter um interesse legítimo,\n          mas apenas na medida em que as condições de consulta estabelecidas no direito da União ou\n          de um Estado-Membro se encontrem preenchidas nesse caso concreto."
                 ]
+              },
+              "d7386acf-1d3a-4191-9215-1727d391a2fc": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "Quando uma transferência não puder basear-se no disposto no artigo 45.o\n  ou 46.o, incluindo nas regras vinculativas aplicáveis às empresas, e\n  não for aplicável nenhuma das derrogações previstas para as situações específicas a que se refere\n  o primeiro parágrafo do presente número, a transferência para um país terceiro ou uma organização\n  internacional só pode ser efetuada se não for repetitiva, apenas disser respeito a um número\n  limitado de titulares dos dados, for necessária para efeitos dos interesses legítimos visados pelo\n  responsável pelo seu tratamento, desde que a tais interesses não se sobreponham os interesses ou\n  os direitos e liberdades do titular dos dados, e o responsável pelo tratamento tiver ponderado\n  todas as circunstâncias relativas à transferência de dados e, com base nessa avaliação, tiver\n  apresentado garantias adequadas no que respeita à proteção de dados pessoais. O responsável pelo\n  tratamento informa da transferência a autoridade de controlo. Para além de fornecer a informação\n  referida nos artigos 13.o e 14.o, o\n  responsável pelo tratamento presta informações ao titular dos dados sobre a transferência e os\n  interesses legítimos visados."
+                ]
               }
             }
-          },
-          "d7386acf-1d3a-4191-9215-1727d391a2fc": {
-            "classType": "POINT",
-            "content": "Quando uma transferência não puder basear-se no disposto no artigo 45.o\n  ou 46.o, incluindo nas regras vinculativas aplicáveis às empresas, e\n  não for aplicável nenhuma das derrogações previstas para as situações específicas a que se refere\n  o primeiro parágrafo do presente número, a transferência para um país terceiro ou uma organização\n  internacional só pode ser efetuada se não for repetitiva, apenas disser respeito a um número\n  limitado de titulares dos dados, for necessária para efeitos dos interesses legítimos visados pelo\n  responsável pelo seu tratamento, desde que a tais interesses não se sobreponham os interesses ou\n  os direitos e liberdades do titular dos dados, e o responsável pelo tratamento tiver ponderado\n  todas as circunstâncias relativas à transferência de dados e, com base nessa avaliação, tiver\n  apresentado garantias adequadas no que respeita à proteção de dados pessoais. O responsável pelo\n  tratamento informa da transferência a autoridade de controlo. Para além de fornecer a informação\n  referida nos artigos 13.o e 14.o, o\n  responsável pelo tratamento presta informações ao titular dos dados sobre a transferência e os\n  interesses legítimos visados."
           },
           "e1a21531-3a17-4658-ba12-646d62dce703": {
             "classType": "POINT",

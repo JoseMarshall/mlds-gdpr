@@ -495,12 +495,15 @@
                   "f)",
                   "il trattamento è necessario per il perseguimento del legittimo interesse del titolare\n              del trattamento o di terzi, a condizione che non prevalgano gli interessi o i diritti\n              e le libertà fondamentali dell'interessato che richiedono la protezione dei dati\n              personali, in particolare se l'interessato è un minore."
                 ]
+              },
+              "7f686407-3a75-4a14-ac33-41f9966f7a1f": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "La lettera f) del primo comma non si applica al trattamento di dati effettuato dalle autorità\n      pubbliche nell'esecuzione dei loro compiti."
+                ]
               }
             }
-          },
-          "7f686407-3a75-4a14-ac33-41f9966f7a1f": {
-            "classType": "POINT",
-            "content": "La lettera f) del primo comma non si applica al trattamento di dati effettuato dalle autorità\n      pubbliche nell'esecuzione dei loro compiti."
           },
           "258bd2b5-91d4-4b95-9321-19059760152b": {
             "classType": "POINT",
@@ -526,12 +529,15 @@
                   "b)",
                   "dal diritto dello Stato membro cui è soggetto il titolare del trattamento."
                 ]
+              },
+              "a32a2605-49ce-43be-9fae-708d5b5b35bb": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "La finalità del trattamento è determinata in tale base giuridica o, per quanto riguarda il\n      trattamento di cui al paragrafo 1, lettera e), è necessaria per l'esecuzione di un compito\n      svolto nel pubblico interesse o connesso all'esercizio di pubblici poteri di cui è investito\n      il titolare del trattamento. Tale base giuridica potrebbe contenere disposizioni specifiche\n      per adeguare l'applicazione delle norme del presente regolamento, tra cui: le condizioni\n      generali relative alla liceità del trattamento da parte del titolare del trattamento; le\n      tipologie di dati oggetto del trattamento; gli interessati; i soggetti cui possono essere\n      comunicati i dati personali e le finalità per cui sono comunicati; le limitazioni della\n      finalità, i periodi di conservazione e le operazioni e procedure di trattamento, comprese le\n      misure atte a garantire un trattamento lecito e corretto, quali quelle per altre specifiche\n      situazioni di trattamento di cui al capo IX. Il diritto dell'Unione o degli Stati membri\n      persegue un obiettivo di interesse pubblico ed è proporzionato all'obiettivo legittimo\n      perseguito."
+                ]
               }
             }
-          },
-          "a32a2605-49ce-43be-9fae-708d5b5b35bb": {
-            "classType": "POINT",
-            "content": "La finalità del trattamento è determinata in tale base giuridica o, per quanto riguarda il\n      trattamento di cui al paragrafo 1, lettera e), è necessaria per l'esecuzione di un compito\n      svolto nel pubblico interesse o connesso all'esercizio di pubblici poteri di cui è investito\n      il titolare del trattamento. Tale base giuridica potrebbe contenere disposizioni specifiche\n      per adeguare l'applicazione delle norme del presente regolamento, tra cui: le condizioni\n      generali relative alla liceità del trattamento da parte del titolare del trattamento; le\n      tipologie di dati oggetto del trattamento; gli interessati; i soggetti cui possono essere\n      comunicati i dati personali e le finalità per cui sono comunicati; le limitazioni della\n      finalità, i periodi di conservazione e le operazioni e procedure di trattamento, comprese le\n      misure atte a garantire un trattamento lecito e corretto, quali quelle per altre specifiche\n      situazioni di trattamento di cui al capo IX. Il diritto dell'Unione o degli Stati membri\n      persegue un obiettivo di interesse pubblico ed è proporzionato all'obiettivo legittimo\n      perseguito."
           },
           "3cbdbb86-18da-42c6-937b-d5574ee88c61": {
             "classType": "POINT",
@@ -860,12 +866,15 @@
                       "b)",
                       "rifiutare di soddisfare la richiesta."
                     ]
+                  },
+                  "28ba321f-674b-4434-8019-01eb85118a66": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "",
+                      "Incombe al titolare del trattamento l'onere di dimostrare il carattere manifestamente\n      infondato o eccessivo della richiesta."
+                    ]
                   }
                 }
-              },
-              "28ba321f-674b-4434-8019-01eb85118a66": {
-                "classType": "POINT",
-                "content": "Incombe al titolare del trattamento l'onere di dimostrare il carattere manifestamente\n      infondato o eccessivo della richiesta."
               },
               "9e713c7b-b75d-4d0d-8382-294869170524": {
                 "classType": "POINT",
@@ -2104,12 +2113,15 @@
                       "h)",
                       "metta a disposizione del titolare del trattamento tutte le informazioni necessarie per\n              dimostrare il rispetto degli obblighi di cui al presente articolo e consenta e\n              contribuisca alle attività di revisione, comprese le ispezioni, realizzati dal\n              titolare del trattamento o da un altro soggetto da questi incaricato."
                     ]
+                  },
+                  "fe7b2d51-827f-4d3c-904c-86126ce3e9e8": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "",
+                      "Con riguardo alla lettera h) del primo comma, il responsabile del trattamento informa\n      immediatamente il titolare del trattamento qualora, a suo parere, un'istruzione violi il\n      presente regolamento o altre disposizioni, nazionali o dell'Unione, relative alla protezione\n      dei dati."
+                    ]
                   }
                 }
-              },
-              "fe7b2d51-827f-4d3c-904c-86126ce3e9e8": {
-                "classType": "POINT",
-                "content": "Con riguardo alla lettera h) del primo comma, il responsabile del trattamento informa\n      immediatamente il titolare del trattamento qualora, a suo parere, un'istruzione violi il\n      presente regolamento o altre disposizioni, nazionali o dell'Unione, relative alla protezione\n      dei dati."
               },
               "599a8d5b-6d07-49b0-80b1-b58a141809b9": {
                 "classType": "POINT",
@@ -3725,12 +3737,15 @@
                   "g)",
                   "il trasferimento sia effettuato a partire da un registro che, a norma del diritto\n              dell'Unione o degli Stati membri, mira a fornire informazioni al pubblico e può esser\n              consultato tanto dal pubblico in generale quanto da chiunque sia in grado di\n              dimostrare un legittimo interesse, solo a condizione che sussistano i requisiti per la\n              consultazione previsti dal diritto dell'Unione o degli Stati membri."
                 ]
+              },
+              "a2aeb3e5-bb45-4f0e-a8d6-7441c9f7a4a9": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "",
+                  "Se non è possibile basare il trasferimento su una disposizione dell'articolo45 o46, comprese\n      le disposizioni sulle norme vincolanti d'impresa, e nessuna delle deroghe in specifiche\n      situazioni a norma del primo comma del presente paragrafo è applicabile, il trasferimento\n      verso un paese terzo o un'organizzazione internazionale sia ammesso soltanto se non è\n      ripetitivo, riguarda un numero limitato di interessati, è necessario per il perseguimento\n      degli interessi legittimi cogenti del titolare del trattamento, su cui non prevalgano gli\n      interessi o i diritti e le libertà dell'interessato, e qualora il titolare e del trattamento\n      abbia valutato tutte le circostanze relative al trasferimento e sulla base di tale valutazione\n      abbia fornito garanzie adeguate relativamente alla protezione dei dati personali. Il titolare\n      del trattamento informa del trasferimento l'autorità di controllo. In aggiunta alla fornitura\n      di informazioni di cui agli articoli13 e 14, il titolare del trattamento informa l'interessato\n      del trasferimento e degli interessi legittimi cogenti perseguiti."
+                ]
               }
             }
-          },
-          "a2aeb3e5-bb45-4f0e-a8d6-7441c9f7a4a9": {
-            "classType": "POINT",
-            "content": "Se non è possibile basare il trasferimento su una disposizione dell'articolo45 o46, comprese\n      le disposizioni sulle norme vincolanti d'impresa, e nessuna delle deroghe in specifiche\n      situazioni a norma del primo comma del presente paragrafo è applicabile, il trasferimento\n      verso un paese terzo o un'organizzazione internazionale sia ammesso soltanto se non è\n      ripetitivo, riguarda un numero limitato di interessati, è necessario per il perseguimento\n      degli interessi legittimi cogenti del titolare del trattamento, su cui non prevalgano gli\n      interessi o i diritti e le libertà dell'interessato, e qualora il titolare e del trattamento\n      abbia valutato tutte le circostanze relative al trasferimento e sulla base di tale valutazione\n      abbia fornito garanzie adeguate relativamente alla protezione dei dati personali. Il titolare\n      del trattamento informa del trasferimento l'autorità di controllo. In aggiunta alla fornitura\n      di informazioni di cui agli articoli13 e 14, il titolare del trattamento informa l'interessato\n      del trasferimento e degli interessi legittimi cogenti perseguiti."
           },
           "00250754-11b5-43b1-8195-121ede8d26ee": {
             "classType": "POINT",
