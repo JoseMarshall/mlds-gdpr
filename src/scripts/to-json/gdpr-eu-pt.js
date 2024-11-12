@@ -166,7 +166,7 @@ async function transverseNode(node) {
   }
 }
 
-async function main() {
+module.exports = async function () {
   const gdprHtml = fs.readFileSync(
     path.resolve(__dirname, '../../raw-data/gdpr-eu-pt.html'),
     'utf8'
@@ -182,8 +182,6 @@ async function main() {
     path.resolve(__dirname, '../../datasets/gdpr-eu-pt.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
-}
 
-main().then(() => {
-  console.log('JSON file generated successfully ✅');
-});
+  return 'gdpr-eu-pt.json Created Successfully ✅';
+};

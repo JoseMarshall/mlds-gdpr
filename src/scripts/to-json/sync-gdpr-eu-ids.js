@@ -60,9 +60,13 @@ function getLiteralValue(obj) {
   return result;
 }
 
-const gdprEuEnSync = syncGdprEuEn(gdprEuPt, gdprEuEn);
+module.exports = function () {
+  const gdprEuEnSync = syncGdprEuEn(gdprEuPt, gdprEuEn);
 
-fs.writeFileSync(
-  path.resolve(__dirname, '../../datasets/gdpr-eu-en.json'),
-  JSON.stringify(gdprEuEnSync, null, 2)
-);
+  fs.writeFileSync(
+    path.resolve(__dirname, '../../datasets/gdpr-eu-en.json'),
+    JSON.stringify(gdprEuEnSync, null, 2)
+  );
+
+  return 'gdpr-eu ids Synced Successfully ✅';
+};

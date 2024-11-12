@@ -66,10 +66,9 @@ function getGdprClass(className, node) {
     }
     return foundClassType[0];
   } else if (
-
-  /**
-   * Particular cases
-   */
+    /**
+     * Particular cases
+     */
     [gdprClasses.POINT, gdprClasses.SUBPOINT].includes(lastElement?.classType) &&
     !className
   ) {
@@ -173,7 +172,7 @@ async function transverseNode(node) {
   }
 }
 
-async function main() {
+module.exports = async function () {
   const gdprHtml = fs.readFileSync(
     path.resolve(__dirname, '../../raw-data/gdpr-eu-it.html'),
     'utf8'
@@ -189,8 +188,6 @@ async function main() {
     path.resolve(__dirname, '../../datasets/gdpr-eu-it.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
-}
 
-main().then(() => {
-  console.log('JSON file generated successfully ✅');
-});
+  return 'gdpr-eu-it.json Created Successfully ✅';
+};

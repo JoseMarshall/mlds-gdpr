@@ -3,7 +3,8 @@ const path = require('path');
 const { JSDOM } = require('jsdom');
 
 const { uuidV4Generator } = require('./common');
-
+//"On duly justified imperative grounds of urgency, the Commission sha
+// MemberStates may provide by law for a lower age for those purposes
 const gdprClasses = {
   CHAPTER: 'CHAPTER',
   SECTION: 'SECTION',
@@ -16,6 +17,7 @@ const gdprClasses = {
   TITLE_ID: 'TITLE_ID',
 };
 
+let lastReadClass = null;
 const gdprClassesIdRegex = {
   CHAPTER: /^cpt_([IVX]+)$/,
   SECTION: /^cpt_([IVX]+).sct_[0-9]+$/,
@@ -68,9 +70,11 @@ function getGdprClass(id, content, parent) {
   if (gdprClassesIdRegex.POINT.test(parent.id)) {
     return typeof content === 'object' && Object.keys(content).length === 2
       ? gdprClasses.SUBPOINT
-      : typeof content === 'string' && /.*\d.*/.test(content.trim().slice(0, 5))
-        ? gdprClasses.POINT
-        : gdprClasses.SUBPOINT;
+      : typeof content === 'string' &&
+          lastReadClass === gdprClasses.SUBPOINT &&
+          !/.*\d.*/.test(content.trim().slice(0, 5))
+        ? gdprClasses.SUBPOINT
+        : gdprClasses.POINT;
   } else if (gdprClassesIdRegex.ARTICLE.test(parent.id)) {
     if (typeof content === 'object' && Object.keys(content).length === 2) {
       return gdprClasses.POINT;
@@ -135,6 +139,7 @@ async function parseElement(element) {
       element
     );
     result.content[id].content = contentTransformer(result.content[id]);
+    lastReadClass = result.content[id].classType;
   }
 
   return flatObjectWithSingleChild(result.content);
@@ -160,7 +165,7 @@ async function parseHtmlToJson(document) {
   return result;
 }
 
-async function main() {
+module.exports = async function () {
   const gdprHtml = fs.readFileSync(
     path.resolve(__dirname, '../../raw-data/gdpr-eu-en.html'),
     'utf8'
@@ -173,8 +178,6 @@ async function main() {
     path.resolve(__dirname, '../../datasets/gdpr-eu-en.json'),
     JSON.stringify(jsonOutput, null, 2)
   );
-}
 
-main().then(() => {
-  console.log('JSON file generated successfully ✅');
-});
+  return 'gdpr-eu-en.json Created Successfully ✅';
+};
