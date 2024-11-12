@@ -9,7 +9,7 @@ async function main() {
     makeGdprEuPtJson(),
     makeGdprEuItJson(),
     makeGdprEuDeJson(),
-    makeGdprEuEnJson(),
+    // makeGdprEuEnJson(),
   ]);
 
   // Sync the Ids

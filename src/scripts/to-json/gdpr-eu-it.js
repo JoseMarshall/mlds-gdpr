@@ -60,7 +60,7 @@ function getGdprClass(className, node) {
       return gdprClasses.SUBPOINT;
     } else if (
       foundClassType[0] === gdprClasses.CHAPTER &&
-      node?.textContent?.trim().match(/^Sezione \d+$/)
+      node?.textContent?.trim().match(/^Sezione\s*\d+$/)
     ) {
       return gdprClasses.SECTION;
     }

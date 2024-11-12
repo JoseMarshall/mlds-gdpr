@@ -3,8 +3,10 @@ const path = require('path');
 const { JSDOM } = require('jsdom');
 
 const { uuidV4Generator } = require('./common');
-//"On duly justified imperative grounds of urgency, the Commission sha
-// MemberStates may provide by law for a lower age for those purposes
+// DOUBLE CHECK THIS
+//cpt_5.art_45"On duly justified imperative grounds of urgency, the Commission sha
+//ctp_2.art_8 MemberStates may provide by law for a lower age for those purposes
+
 const gdprClasses = {
   CHAPTER: 'CHAPTER',
   SECTION: 'SECTION',
