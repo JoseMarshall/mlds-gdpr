@@ -21,7 +21,21 @@ ELI = Namespace("http://data.europa.eu/eli/ontology#")
 #                          gdpr:article1-de .
 
 
-def handle_article(graph, node, node_uri, parent_uri, locale, other_locales):
+def handle_article(
+    graph,
+    node,
+    node_uri: URIRef,
+    parent_uri: URIRef,
+    locale: str,
+    other_locales: list[str],
+):
+    last_key_cmp = node_uri.split(".")[-2:]
+    if (
+        last_key_cmp.__len__() == 2
+        and (last_key_cmp[0] + "-" + locale) == last_key_cmp[1]
+    ):
+        return
+
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
     graph.add((node_uri, RDF.type, GDPR.Article))
     graph.add(
@@ -55,7 +69,7 @@ def handle_article(graph, node, node_uri, parent_uri, locale, other_locales):
         if point["classType"] == "POINT":
             point_uri = URIRef(GDPR + key + "-" + locale)
             handle_point(graph, point, point_uri, node_uri, locale, other_locales)
-        elif point["classType"] == "TITLE_ID":
+        elif point["classType"] == "TITLE_ID" or point["classType"] == "ARTICLE":
             number = extract_all_numbers(point["content"])
             graph.add((node_uri, ELI.number, Literal(number)))
             graph.add(

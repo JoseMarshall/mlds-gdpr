@@ -23,7 +23,21 @@ ELI = Namespace("http://data.europa.eu/eli/ontology#")
 #                          gdpr:subpoint1-de .
 
 
-def handle_subpoint(graph, node, node_uri, parent_uri, locale, other_locales):
+def handle_subpoint(
+    graph,
+    node,
+    node_uri: URIRef,
+    parent_uri: URIRef,
+    locale: str,
+    other_locales: list[str],
+):
+    last_key_cmp = node_uri.split(".")[-2:]
+    if (
+        last_key_cmp.__len__() == 2
+        and (last_key_cmp[0] + "-" + locale) == last_key_cmp[1]
+    ):
+        return
+
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
     graph.add((node_uri, RDF.type, GDPR.SubPoint))
     graph.add((node_uri, ELI.number, Literal(node["content"][0])))

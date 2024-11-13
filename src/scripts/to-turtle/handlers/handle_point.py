@@ -24,7 +24,12 @@ ELI = Namespace("http://data.europa.eu/eli/ontology#")
 #                          gdpr:point1-de .
 
 
-def add_description(graph, node, node_uri, parent_uri):
+def add_description(
+    graph,
+    node,
+    node_uri: URIRef,
+    parent_uri: URIRef,
+):
     graph.add((node_uri, ELI.description, Literal(node["content"])))
     # get the number from the beginning of the string using regex
 
@@ -40,7 +45,21 @@ def add_description(graph, node, node_uri, parent_uri):
         )
 
 
-def handle_point(graph, node, node_uri, parent_uri, locale, other_locales):
+def handle_point(
+    graph,
+    node,
+    node_uri: URIRef,
+    parent_uri: URIRef,
+    locale: str,
+    other_locales: list[str],
+):
+    last_key_cmp = node_uri.split(".")[-2:]
+    if (
+        last_key_cmp.__len__() == 2
+        and (last_key_cmp[0] + "-" + locale) == last_key_cmp[1]
+    ):
+        return
+
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
     graph.add((node_uri, RDF.type, GDPR.Point))
     graph.add(

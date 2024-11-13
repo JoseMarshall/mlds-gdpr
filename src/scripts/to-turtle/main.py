@@ -42,14 +42,14 @@ graph.add((Point, RDFS.label, Literal("Point")))
 graph.add((SubPoint, RDFS.label, Literal("SubPoint")))
 
 locales = [
-    "en",
-    "pt",
-    "it",
-    "de",
+    "eu-en",
+    "eu-pt",
+    "eu-it",
+    "eu-de",
 ]
 
 for locale in locales:
-    with open(make_path(f"src/datasets/gdpr-eu-{locale}.json"), "r") as f:
+    with open(make_path(f"src/datasets/gdpr-{locale}.json"), "r") as f:
         data = json.load(f)
 
     # Start the recursive function

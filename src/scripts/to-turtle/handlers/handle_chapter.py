@@ -27,7 +27,10 @@ ELI = Namespace("http://data.europa.eu/eli/ontology#")
 #                          gdpr:chapterI-de .
 
 
-def handle_chapter(graph, node, node_uri, locale, other_locales):
+def handle_chapter(
+    graph, node, node_uri: URIRef, locale: str, other_locales: list[str]
+):
+
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
     graph.add((node_uri, RDF.type, GDPR.Chapter))
     graph.add(
@@ -45,6 +48,7 @@ def handle_chapter(graph, node, node_uri, locale, other_locales):
         graph.add((node_uri, ELI.has_translation, node_translated_uri))
 
     for key, value in node["content"].items():
+        # print(key, value, "\n\n")
         if value["classType"] == "ARTICLE":
             article_uri = URIRef(GDPR + key + "-" + locale)
             handle_article(graph, value, article_uri, node_uri, locale, other_locales)
