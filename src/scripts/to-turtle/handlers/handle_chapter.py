@@ -32,7 +32,8 @@ def handle_chapter(
 ):
 
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
-    graph.add((node_uri, RDF.type, GDPR.Chapter))
+    graph.add((node_uri, ELI.realizes, GDPR.Chapter))
+    graph.add((GDPR.Chapter, ELI.is_realized_by, node_uri))
     graph.add(
         (
             node_uri,

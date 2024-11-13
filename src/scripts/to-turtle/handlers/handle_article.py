@@ -37,7 +37,8 @@ def handle_article(
         return
 
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
-    graph.add((node_uri, RDF.type, GDPR.Article))
+    graph.add((node_uri, ELI.realizes, GDPR.Article))
+    graph.add((GDPR.Article, ELI.is_realized_by, node_uri))
     graph.add(
         (
             node_uri,

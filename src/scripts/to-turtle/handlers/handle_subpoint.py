@@ -39,7 +39,8 @@ def handle_subpoint(
         return
 
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
-    graph.add((node_uri, RDF.type, GDPR.SubPoint))
+    graph.add((node_uri, ELI.realizes, GDPR.SubPoint))
+    graph.add((GDPR.SubPoint, ELI.is_realized_by, node_uri))
     graph.add((node_uri, ELI.number, Literal(node["content"][0])))
     graph.add((node_uri, ELI.description, Literal(node["content"][1])))
 

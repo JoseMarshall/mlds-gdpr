@@ -38,7 +38,8 @@ def handle_section(
         return
 
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
-    graph.add((node_uri, RDF.type, GDPR.Section))
+    graph.add((node_uri, ELI.realizes, GDPR.Section))
+    graph.add((GDPR.Section, ELI.is_realized_by, node_uri))
     graph.add(
         (
             node_uri,

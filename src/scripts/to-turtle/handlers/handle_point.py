@@ -61,7 +61,8 @@ def handle_point(
         return
 
     graph.add((node_uri, RDF.type, ELI.LegalResourceSubdivision))
-    graph.add((node_uri, RDF.type, GDPR.Point))
+    graph.add((node_uri, ELI.realizes, GDPR.Point))
+    graph.add((GDPR.Point, ELI.is_realized_by, node_uri))
     graph.add(
         (
             node_uri,
