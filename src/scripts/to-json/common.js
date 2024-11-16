@@ -81,4 +81,5 @@ module.exports = {
   uuidV4Generator: idAsyncGenerator(),
   subPointTransformer,
   deepCompare,
+  flatObjectWithSingleChild,
 };

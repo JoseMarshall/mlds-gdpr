@@ -15,12 +15,15 @@ const gdprClasses = {
   TITLE_ID: 'TITLE_ID',
 };
 
-const gdprClassesRegex = {
-  CHAPTER: /^CAPÍTULO ([IVX]+)$/,
-  SECTION: /^SECÇÃO ([IVX]+)$/,
-  ARTICLE: /^Artigo \d+\.º$/,
-  POINT: /^\d+ \- .+/,
-  SUBPOINT: /^\w{1}\) .+/,
+const gdprClassesRegexText = {
+  CHAPTER: /^CAPÍTULO\s*([IVX]+)$/,
+  SECTION: /^SECÇÃO\s*([IVX]+)$/,
+  ARTICLE: /^Artigo\s*\d+\.º$/,
+  POINT: /^(\d+)/,
+};
+
+const gdprClassesRegexClass = {
+  SUBPOINT: /paragraph-normal-text/,
 
   // For Id annotation
   TITLE: /^paragraph-bold-center-14px$/,
@@ -38,42 +41,47 @@ const gdprClassesPrecedence = {
   [gdprClasses.SUBPOINT]: 4,
 };
 
-const classTransformerHandlers = {
-  [gdprClasses.SUBPOINT]: (obj) => {
-    if (typeof obj !== 'object' || Array.isArray(obj)) {
-      return obj;
-    }
-    const newObj = flatObjectWithSingleChild(obj);
-    const values = Object.values(newObj.content);
+function subPointTransformer(obj) {
+  if (typeof obj !== 'object' || Array.isArray(obj)) {
+    return obj;
+  }
 
-    if (
-      values.length === 2 &&
-      typeof values[0].content === 'string' &&
-      typeof values[1].content === 'string'
-    ) {
-      return {
-        classType: newObj.classType,
-        content: values.map((x) => x.content).sort((a, b) => (a.length >= b.length ? 1 : -1)),
-      };
-    }
-    return newObj;
-  },
+  const [number, ...description] = obj.content.split(' ');
+
+  return {
+    classType: obj.classType,
+    content: [number, description.join(' ')],
+  };
+}
+
+const classTransformerHandlers = {
+  [gdprClasses.SUBPOINT]: subPointTransformer,
 };
 
 function getGdprClass(className, node) {
-  let foundClassType = Object.entries(gdprClassesRegex).find(([_, regex]) =>
+  if (node.classType) {
+    return node.classType;
+  }
+
+  let foundClassType = Object.entries(gdprClassesRegexText).find(([_, regex]) =>
     regex.test(node?.textContent?.trim())
   );
 
+  foundClassType ??= Object.entries(gdprClassesRegexClass).find(([_, regex]) =>
+    regex.test(className)
+  );
+
+  const lastElement = readingStack[readingStack.length - 1];
+
   if (foundClassType) {
-    if (gdprClassesRegex.TITLE.test(className)) {
-      return gdprClasses.TITLE;
-    } else if (gdprClassesRegex.TITLE_ID.test(className)) {
-      return gdprClasses.TITLE_ID;
+    if (
+      foundClassType[0] === gdprClasses.SUBPOINT &&
+      lastElement?.classType === gdprClasses.ARTICLE
+    ) {
+      return gdprClasses.POINT;
     }
     return foundClassType[0];
   }
-
   return null;
 }
 
@@ -85,70 +93,24 @@ function shouldPopFromStack(classType) {
   return gdprClassesPrecedence[classType] <= gdprClassesPrecedence[lastElement.classType];
 }
 
-function flatObjectWithSingleChild(obj, result = {}) {
-  if (typeof obj === 'object') {
-    // Check if the current value is a string
-    const contentKeys = 'content' in obj ? Object.keys(obj.content) : [];
-    if (contentKeys.length > 1 && !Object.keys(obj.content).includes('content')) {
-      result.content = obj.content;
-      result.classType = obj.classType;
-    } else {
-      const keys = Object.keys(obj).filter((key) => key !== 'classType');
-      flatObjectWithSingleChild(obj.content ?? obj[keys[0]], result);
-    }
-  }
-
-  return result;
-}
-
 function elementTransformer(obj) {
-  if (typeof obj.content === 'string') {
+  if (!obj?.content) {
     return obj;
   }
-  return obj; // classTransformerHandlers[obj.classType]?.(obj) ?? obj;
+  return classTransformerHandlers[obj.classType]?.(obj) ?? obj;
 }
 
 // Recursive function to parse each element
 async function parseElement(element) {
-  const children = element.children;
-  let result = {
+  return {
     classType: getGdprClass(element.className, element),
-    content: {},
+    content: element.textContent.trim(),
   };
-
-  if (!children || children.length === 0 || element.className === 'paragraph-normal-text') {
-    result.content = element.textContent.trim();
-  }
-
-  for (const child of Array.from(children)) {
-    const isLeaf =
-      ['SPAN', 'TD'].includes(child.tagName) ||
-      (['P'].includes(child.tagName) && child.children.length === 0);
-
-    const id = await (await uuidV4Generator.next()).value;
-    if (isLeaf) {
-      const childClassType = getGdprClass(child.className, child);
-      result.content[id] = {
-        classType: childClassType,
-        content:
-          childClassType === gdprClasses.TITLE_ID && result.classType === gdprClasses.ARTICLE
-            ? element.textContent.trim()
-            : child.textContent.trim(),
-      };
-    } else {
-      result.content[id] = {
-        classType: getGdprClass(child.className, child),
-        content: await parseElement(child),
-      };
-    }
-  }
-
-  return result;
 }
 
 async function transverseNode(node) {
   const classType = getGdprClass(node.className, node);
-
+  node.classType = classType;
   while (shouldPopFromStack(classType)) {
     readingStack.pop();
   }
@@ -175,6 +137,163 @@ async function transverseNode(node) {
   }
 }
 
+function isObJectAndNotArray(value) {
+  return typeof value === 'object' && !Array.isArray(value);
+}
+
+function getValue(gdprEnPartial, key, keyIndex) {
+  const values = Object.values(gdprEnPartial);
+  const value = ['content', 'classType'].includes(key)
+    ? (gdprEnPartial[key] ?? values[keyIndex])
+    : values[keyIndex];
+  return isObJectAndNotArray(value) ? value : gdprEnPartial;
+}
+
+function getLiteralValue(obj) {
+  let result = null;
+
+  function findContent(node) {
+    // If 'node' is an object, check for 'content' property and go deeper if it exists
+    if (isObJectAndNotArray(node)) {
+      if (node.hasOwnProperty('content')) {
+        findContent(node.content); // Recurse into 'content'
+      } else {
+        // If no 'content' key, look through all properties for nested objects
+        for (let key in node) {
+          if (node.hasOwnProperty(key)) {
+            findContent(node[key]);
+          }
+        }
+      }
+    } else {
+      return (result = node);
+    }
+  }
+
+  findContent(obj);
+  return result;
+}
+
+function makeHumanReadableIds(gdpr, gdprCopy, parentKey = '') {
+  const result = {};
+
+  const keys = Object.keys(gdpr);
+  let index = 0;
+  for (const key of keys) {
+    if (isObJectAndNotArray(gdpr[key])) {
+      const builtKey = buildId(gdpr[key], index);
+      const newKey = builtKey ? `${parentKey ? `${parentKey}.${builtKey}` : builtKey}` : key;
+
+      result[newKey] = makeHumanReadableIds(
+        gdpr[key],
+        getValue(gdprCopy, key, index),
+        builtKey ? newKey : parentKey
+      );
+    } else {
+      result[key] = getLiteralValue(gdprCopy[key]);
+    }
+    index++;
+  }
+
+  return result;
+}
+
+function buildId(obj) {
+  if (!obj) {
+    return null;
+  }
+  const classType = obj.classType;
+
+  const prefix = {
+    [gdprClasses.CHAPTER]: 'cpt_',
+    [gdprClasses.SECTION]: 'sct_',
+    [gdprClasses.ARTICLE]: 'art_',
+    [gdprClasses.POINT]: 'pt_',
+    [gdprClasses.SUBPOINT]: 'spt_',
+  };
+  const numberExtractors = {
+    [gdprClasses.CHAPTER]: (content) => {
+      const match = content.match(/ ([IVXLCDM]+)$/);
+      return match ? roman2Arabic(match[1].trim()) : null;
+    },
+    [gdprClasses.SECTION]: (content) => {
+      const match = content.match(/ (\d+)$/);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.ARTICLE]: (content) => {
+      const match = content.match(/ (\d+)\./);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.POINT]: (content) => {
+      const match = content.slice(0, 5).match(/(\d+)/);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.SUBPOINT]: (content) => {
+      const match = content.match(/([\d\w]+)/);
+      return match ? match[1].trim() : null;
+    },
+  };
+
+  function roman2Arabic(roman) {
+    // Define a mapping of Roman numerals to their Arabic values
+    const romanToArabic = {
+      I: 1,
+      V: 5,
+      X: 10,
+      L: 50,
+      C: 100,
+      D: 500,
+      M: 1000,
+    };
+
+    // Initialize the result to zero
+    let result = 0;
+
+    // Traverse the Roman numeral string
+    for (let i = 0; i < roman.length; i++) {
+      const current = romanToArabic[roman[i]];
+      const next = romanToArabic[roman[i + 1]];
+
+      // Check if the current numeral is less than the next numeral
+      if (next && current < next) {
+        // Subtract if the current numeral is less than the next
+        result -= current;
+      } else {
+        // Otherwise, add the current numeral
+        result += current;
+      }
+    }
+
+    return result;
+  }
+
+  function build(content) {
+    const extractedNumber = numberExtractors[classType](content);
+    return extractedNumber ? prefix[classType] + extractedNumber : null;
+  }
+
+  if ([gdprClasses.CHAPTER, gdprClasses.SECTION, gdprClasses.ARTICLE].includes(classType)) {
+    // Try to get the number from the content
+    for (const iterator of Object.values(obj.content).filter(
+      (value) => value.classType === 'TITLE_ID' || value.classType === classType
+    )) {
+      return build(iterator.content);
+    }
+  } else if (gdprClasses.POINT === classType) {
+    if (typeof obj.content === 'string') {
+      return build(obj.content);
+    } else {
+      const points = Object.values(obj.content).filter(
+        (value) => value.classType === gdprClasses.POINT
+      );
+      return build(points[0].content);
+    }
+  } else if (gdprClasses.SUBPOINT === classType) {
+    return build(obj.content[0]);
+  }
+  return null;
+}
+
 async function main() {
   const gdprHtml = fs.readFileSync(path.resolve(__dirname, '../../raw-data/gdpr-pt.html'), 'utf8');
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
@@ -184,10 +303,13 @@ async function main() {
   for (const node of htmlNodes) {
     await transverseNode(node);
   }
+
+  const gdprWithReadableId = makeHumanReadableIds(jsonOutput, Object.assign({}, jsonOutput));
+
   // output the JSON to a file
   fs.writeFileSync(
     path.resolve(__dirname, '../../datasets/gdpr-pt.json'),
-    JSON.stringify(jsonOutput, null, 2)
+    JSON.stringify(gdprWithReadableId, null, 2)
   );
 }
 
