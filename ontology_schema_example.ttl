@@ -1,0 +1,94 @@
+@prefix schema: <http://schema.org/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#>  .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>  .
+@prefix owl: <http://www.w3.org/2002/07/owl#>  .
+@prefix gdpr: <http://example.org/gdpr#> .
+@prefix rgdpr: <http://example.org/rgdpr#> .
+
+## GENERAL STRUCTURE GDPR ##
+
+gdpr:GDPR a eli:LegalResource ;
+    eli:has_part gdpr:Chapter;
+    eli:is_realized_by rgdpr:gdpr_eu_en .
+
+gdpr:Chapter a eli:LegalResourceSubdivision ;
+    eli:is_part_of gdpr:GDPR ;
+    eli:has_part gdpr:Article .
+
+gdpr:Article a eli:LegalResourceSubdivision ;
+    eli:is_part_of gdpr:Chapter ;
+    eli:has_part gdpr:Point .
+
+gdpr:Subpoint a eli:LegalResourceSubdivision ;
+    eli:is_part_of gdpr:Article ;
+    eli:has_part gdpr:Subpoint .
+
+## ONE LEVEL DOWN ##
+
+gdpr:article_92 a gdpr:Article ;
+    eli:is_part_of gdpr:chapter_10 ;
+    eli:has_part gdpr:article_92.pt_1,
+        gdpr:article_92.pt_2,
+        gdpr:article_92.pt_3,
+        gdpr:article_92.pt_4 ;
+    eli:is_realized_by rgdpr:art_92 .
+            
+gdpr:article_92_point_4 a gdpr:Point ;
+    eli:is_part_of gdpr:article_92 ;
+    eli:is_realized_by rgdpr:art_92.pt_4 .
+    
+gdpr:article_6_point_1_f a gdpr:SubPoint ;
+    eli:is_part_of gdpr:article_6_point_1 ;
+    eli:is_realized_by rgdpr:art_6.pt_1.f .
+
+## CONCRETE REALIZATION - USE OF rGDPR ##
+
+rgdpr:gdpr_eu_en a eli:LegalExpression ;
+    eli:realizes gdpr:GDPR;
+    eli:language "en" ;
+    eli:title "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)" ;
+    eli:title_alternative "GDPR" ;
+    eli:has_translation rgdpr:gdpr_eu_it,
+        rgdpr:gdpr_eu_pt,
+        rgdpr:gdpr_eu_de .
+
+rgdpr:cpt_10 a eli:LegalExpression ;
+    eli:realizes gdpr:chapter_10;
+    eli:is_part_of rgdpr:gdpr_eu_en ;
+    eli:has_part rgdpr:art_92 ,
+        rgdpr:art_93 ;
+    eli:language "en" ;
+    eli:has_translation rgdpr:cpt_10_de,
+        rgdpr:cpt_10_it,
+        rgdpr:cpt_10_pt ;
+    eli:title "Delegated acts and implementing acts" .
+
+rgdpr:art_92 a eli:LegalExpression ;
+    eli:realizes gdpr:article_92 ;
+    eli:is_part_of rgdpr:chapter_10 ;
+    eli:language "en" ;
+    eli:has_translation rgdpr:art_92_de,
+        rgdpr:art_92_it,
+        rgdpr:art_92_pt ;
+    eli:title "Exercise of the delegation" .
+
+rgdpr:art_92.pt_4 a eli:LegalExpression ;
+    eli:realizes gdpr:article_92.pt_4 ;
+    eli:language "en" ;
+    eli:has_translation rgdpr:art_92.pt_4_de,
+        rgdpr:art_92.pt_4_it,
+        rgdpr:art_92.pt_4_pt .
+
+rgdpr:art_6.pt_1.f a eli:LegalExpression ;
+    eli:description """Point (f) of the first subparagraph shall not apply to processing
+        carried out by public authorities in the performance of their tasks.""" ;
+    eli:has_translation <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-de>,
+        <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-it>,
+        <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-pt> ;
+    eli:is_translation_of <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-de>,
+        <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-it>,
+        <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-pt> ;
+    eli:realizes gdpr:article_6_point_1_f ;
+    eli:title_alternative "Article 6-1-f" .
+
+    ## TODO: CLARIFY TRANSITIVITY OF REALIZATION ##
