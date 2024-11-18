@@ -10,7 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["wsdl", "gdpr", "multilingual", "linked", "data", "system", "legal", "compliance", "law"],
+  "keywords": [
+    "wsdl",
+    "gdpr",
+    "multilingual",
+    "linked",
+    "data",
+    "system",
+    "legal",
+    "compliance",
+    "law"
+  ],
   "engines": {
     "node": ">=20.16.0",
     "npm": ">=10.8.1"
@@ -19,6 +29,8 @@
   "license": "ISC",
   "dependencies": {
     "jsdom": "^25.0.1",
+    "pdfjs-dist": "^4.8.69",
+    "puppeteer": "^23.8.0",
     "uuid": "^11.0.2"
   },
   "devDependencies": {

@@ -18,8 +18,7 @@
     "paths": {
       "@/datasets/*": ["datasets/*"],
       "@/scripts/*": ["scripts/*"],
-      "@/raw-data/*": ["raw-data/*"],
-      
+      "@/raw-data/*": ["raw-data/*"]
     } /* Specify a set of entries that re-map imports to additional lookup locations. */,
     "resolveJsonModule": true /* Enable importing .json files. */,
 
@@ -37,5 +36,12 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "exclude": ["node_modules", ".vscode", "**/*.test.ts", "**/*.spec.ts"],
-  "include": ["**/*.ts", "**/*.js", "package.json", "package-lock.json"]
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "package.json",
+    "package-lock.json",
+    "src/scripts/to-json/gdpr-de-web-scrapping.mjs",
+    "src/scripts/to-json/gdpr-de.mjs"
+  ]
 }
