@@ -77,9 +77,43 @@ function deepCompare(obj1, obj2, path = '') {
   return differences;
 }
 
+function roman2Arabic(roman) {
+  // Define a mapping of Roman numerals to their Arabic values
+  const romanToArabic = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+
+  // Initialize the result to zero
+  let result = 0;
+
+  // Traverse the Roman numeral string
+  for (let i = 0; i < roman.length; i++) {
+    const current = romanToArabic[roman[i]];
+    const next = romanToArabic[roman[i + 1]];
+
+    // Check if the current numeral is less than the next numeral
+    if (next && current < next) {
+      // Subtract if the current numeral is less than the next
+      result -= current;
+    } else {
+      // Otherwise, add the current numeral
+      result += current;
+    }
+  }
+
+  return result;
+}
+
 module.exports = {
   uuidV4Generator: idAsyncGenerator(),
   subPointTransformer,
   deepCompare,
+  roman2Arabic,
   flatObjectWithSingleChild,
 };
