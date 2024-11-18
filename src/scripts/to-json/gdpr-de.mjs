@@ -125,6 +125,141 @@ async function transverseNode(node) {
   }
 }
 
+function isObJectAndNotArray(value) {
+  return typeof value === 'object' && !Array.isArray(value);
+}
+
+function getValue(gdprEnPartial, key, keyIndex) {
+  const values = Object.values(gdprEnPartial);
+  const value = ['content', 'classType'].includes(key)
+    ? (gdprEnPartial[key] ?? values[keyIndex])
+    : values[keyIndex];
+  return isObJectAndNotArray(value) ? value : gdprEnPartial;
+}
+
+function getLiteralValue(obj) {
+  let result = null;
+
+  function findContent(node) {
+    // If 'node' is an object, check for 'content' property and go deeper if it exists
+    if (isObJectAndNotArray(node)) {
+      if (node.hasOwnProperty('content')) {
+        findContent(node.content); // Recurse into 'content'
+      } else {
+        // If no 'content' key, look through all properties for nested objects
+        for (let key in node) {
+          if (node.hasOwnProperty(key)) {
+            findContent(node[key]);
+          }
+        }
+      }
+    } else {
+      return (result = node);
+    }
+  }
+
+  findContent(obj);
+  return result;
+}
+
+function buildId(obj) {
+  if (!obj) {
+    return null;
+  }
+  const classType = obj.classType;
+
+  const prefix = {
+    [gdprClasses.PART]: 'p_',
+    [gdprClasses.CHAPTER]: 'cpt_',
+    [gdprClasses.SECTION]: 'sct_',
+    [gdprClasses.ARTICLE]: 'art_',
+    [gdprClasses.POINT]: 'pt_',
+    [gdprClasses.SUBPOINT]: 'spt_',
+    [gdprClasses.SUBSUBPOINT]: 'sspt_',
+  };
+  const numberExtractors = {
+    [gdprClasses.PART]: (obj) => {
+      const match = obj.content.match(/^Teil (\d+)/);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.CHAPTER]: (obj) => {
+      const match = obj.content.match(/ (\d+)$/);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.SECTION]: (obj) => {
+      const match = obj.content.match(/ (\d+)$/);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.ARTICLE]: (obj) => {
+      const match = obj.content.match(/ (\d+)$/);
+      return match ? match[1].trim() : null;
+    },
+    [gdprClasses.POINT]: (obj) => {
+      return obj.number;
+    },
+    [gdprClasses.SUBPOINT]: (obj) => {
+      return obj.number;
+    },
+    [gdprClasses.SUBSUBPOINT]: (obj) => {
+      return obj.number.match(/(\w+)/)[1];
+    },
+  };
+
+  function build(obj) {
+    const extractedNumber = numberExtractors[classType](obj);
+    return extractedNumber ? prefix[classType] + extractedNumber : null;
+  }
+
+  if (gdprClasses.PART === classType) {
+    const iterator = Object.values(obj.content).find((value) => value.classType === 'PART');
+    // console.log(iterator);
+    return build(iterator ?? obj);
+  } else if ([gdprClasses.CHAPTER, gdprClasses.SECTION, gdprClasses.ARTICLE].includes(classType)) {
+    // Try to get the number from the content
+    const iterator = Object.values(obj.content).find((value) => value.classType === 'TITLE_ID');
+    return build(iterator);
+  } else if (gdprClasses.POINT === classType) {
+    if (typeof obj.content === 'string') {
+      return build(obj);
+    } else {
+      const points = Object.values(obj.content).filter(
+        (value) => value.classType === gdprClasses.POINT
+      );
+      return build(points[0]);
+    }
+  } else if ([gdprClasses.SUBPOINT, gdprClasses.SUBSUBPOINT].includes(classType)) {
+    return build(obj);
+  }
+  return null;
+}
+
+function makeHumanReadableIds(gdpr, gdprCopy, parentKey = '') {
+  const result = {};
+
+  const keys = Object.keys(gdpr);
+  let index = 0;
+  for (const key of keys) {
+    if (isObJectAndNotArray(gdpr[key])) {
+      const builtKey = buildId(gdpr[key], index);
+      let newKey = builtKey ? `${parentKey ? `${parentKey}.${builtKey}` : builtKey}` : key;
+      const [secondLast, last] = newKey.split('.').slice(-2);
+      if (secondLast === last) {
+        newKey = secondLast;
+      }
+      result[newKey] = makeHumanReadableIds(
+        gdpr[key],
+        getValue(gdprCopy, key, index),
+        builtKey ? newKey : parentKey
+      );
+    } else {
+      result[key] = getLiteralValue(gdprCopy[key]);
+    }
+    index++;
+  }
+
+  return result;
+}
+
 async function main() {
   const gdprHtml = readFileSync(resolve('src/raw-data/gdpr-de.html'), 'utf8');
   const dom = new JSDOM('<!DOCTYPE html>' + gdprHtml);
@@ -144,8 +279,10 @@ async function main() {
   for (const node of htmlNodes) {
     await transverseNode(node);
   }
+  const gdprWithReadableId = makeHumanReadableIds(jsonOutput, Object.assign({}, jsonOutput));
+
   // output the JSON to a file
-  writeFileSync(resolve('src/datasets/gdpr-de.json'), JSON.stringify(jsonOutput, null, 2));
+  writeFileSync(resolve('src/datasets/gdpr-de.json'), JSON.stringify(gdprWithReadableId, null, 2));
 
   return 'gdpr-de.json Created Successfully ✅';
 }
