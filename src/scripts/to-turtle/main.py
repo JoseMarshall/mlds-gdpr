@@ -1,7 +1,7 @@
 import json
 import rdflib
 from rdflib import URIRef, Literal, Namespace
-from rdflib.namespace import RDF, DCTERMS, RDFS
+from rdflib.namespace import RDF, RDFS
 from file import make_path
 from handlers.handle_chapter import handle_chapter
 
@@ -11,10 +11,11 @@ graph = rdflib.Graph()
 
 # Define namespaces
 GDPR = Namespace("http://example.org/gdpr#")
+RGDPR = Namespace("http://example.org/rgdpr#")
 ELI = Namespace("http://data.europa.eu/eli/ontology#")
 graph.bind("gdpr", GDPR)
+graph.bind("rgdpr", RGDPR)
 graph.bind("eli", ELI)
-graph.bind("dct", DCTERMS)
 
 # Define classes (types)
 _GDPR = GDPR._GDPR
@@ -41,6 +42,13 @@ graph.add((Article, RDFS.label, Literal("Article")))
 graph.add((Point, RDFS.label, Literal("Point")))
 graph.add((SubPoint, RDFS.label, Literal("SubPoint")))
 
+# # GENERAL STRUCTURE GDPR
+# graph.add((_GDPR, ELI.has_part, Chapter))
+# graph.add((_GDPR, ELI.is_realized_by, ))
+
+# # CONCRETE REALIZATION - USE OF rGDPR
+# graph.add((RGDPR.s, ELI.is_realized_by, Chapter))
+
 locales = [
     "eu-en",
     "eu-pt",
@@ -56,7 +64,18 @@ for locale in locales:
     for key, node in data.items():
         chapter_uri = URIRef(GDPR + key + "-" + locale)
         other_locales = [l for l in locales if l != locale]
-        handle_chapter(graph, node, chapter_uri, locale, other_locales)
+        handle_chapter(
+            graph,
+            node,
+            chapter_uri,
+            locale,
+            other_locales,
+            {
+                "RGDPR": RGDPR,
+                "GDPR": GDPR,
+                "ELI": ELI,
+            },
+        )
 
 # Serialize the RDF graph in Turtle format
 graph.serialize(
