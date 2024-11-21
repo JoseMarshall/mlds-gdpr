@@ -19,9 +19,12 @@ gdpr:Article a eli:LegalResourceSubdivision ;
     eli:is_part_of gdpr:Chapter ;
     eli:has_part gdpr:Point .
 
-gdpr:Subpoint a eli:LegalResourceSubdivision ;
+gdpr:Point a eli:LegalResourceSubdivision ;
     eli:is_part_of gdpr:Article ;
     eli:has_part gdpr:Subpoint .
+
+gdpr:Subpoint a eli:LegalResourceSubdivision ;
+    eli:is_part_of gdpr:Point .
 
 ## ONE LEVEL DOWN ##
 
