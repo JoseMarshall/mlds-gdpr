@@ -1,22 +1,6 @@
 from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF
-
-# gdpr:article12-5-b a eli:LegalResourceSubdivision,
-#         GDPRtEXT:SubPoint ;
-#     eli:description "refuse to act on the request."^^xsd:string ;
-#     eli:is_part_of gdpr:GDPR,
-#         gdpr:article12,
-#         gdpr:article12-5,
-#         gdpr:chapterIII,
-#         gdpr:chapterIII-1 ;
-#     eli:number "b"^^xsd:string ;
-#     eli:title_alternative "Article12(5)(b)"^^xsd:string ;
-#     eli:is_translation_of gdpr:subpoint1-pt,
-#                           gdpr:subpoint1-fr,
-#                           gdpr:subpoint1-de ;
-#     eli:has_translation gdpr:subpoint1-pt,
-#                          gdpr:subpoint1-fr,
-#                          gdpr:subpoint1-de .
+from util import extract_node_id
 
 
 def handle_subpoint(
@@ -31,32 +15,35 @@ def handle_subpoint(
     last_key_cmp = node_uri.split(".")[-2:]
     if (
         last_key_cmp.__len__() == 2
-        and (last_key_cmp[0] + "-" + locale) == last_key_cmp[1]
+        and (last_key_cmp[0] + "_" + locale) == last_key_cmp[1]
     ):
         return
 
-    graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalResourceSubdivision))
+    graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalExpression))
     graph.add(
         (
             node_uri,
             custom_namespaces["ELI"].realizes,
-            custom_namespaces["GDPR"].SubPoint,
+            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
         )
     )
     graph.add(
         (
-            custom_namespaces["GDPR"].SubPoint,
-            custom_namespaces["ELI"].is_realized_by,
             node_uri,
+            custom_namespaces["ELI"].is_part_of,
+            parent_uri,
         )
     )
-    graph.add((node_uri, custom_namespaces["ELI"].number, Literal(node["content"][0])))
     graph.add(
-        (node_uri, custom_namespaces["ELI"].description, Literal(node["content"][1]))
+        (
+            node_uri,
+            custom_namespaces["ELI"].description,
+            Literal(node["content"][1]),
+        )
     )
 
     for l in other_locales:
-        node_translated_uri = URIRef(node_uri.removesuffix(f"-{locale}") + "-" + l)
+        node_translated_uri = URIRef(node_uri.removesuffix(f"_{locale}") + "_" + l)
         graph.add(
             (node_uri, custom_namespaces["ELI"].is_translation_of, node_translated_uri)
         )
@@ -74,22 +61,3 @@ def handle_subpoint(
                 Literal(parent_title_alternative + "-" + node["content"][0]),
             )
         )
-    graph.add(
-        (
-            node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
-    graph.add(
-        (
-            parent_uri,
-            custom_namespaces["ELI"].has_part,
-            node_uri,
-        )
-    )
-
-    # add all is_part_of from the parent
-    for is_part_of in graph.objects(parent_uri, custom_namespaces["ELI"].is_part_of):
-        graph.add((node_uri, custom_namespaces["ELI"].is_part_of, is_part_of))
-        graph.add((is_part_of, custom_namespaces["ELI"].has_part, node_uri))

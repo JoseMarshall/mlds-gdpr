@@ -6,21 +6,7 @@ from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF
 from handle_article import handle_article
 from handle_section import handle_section
-from util import extract_romans, deep_extract_literal
-
-
-# gdpr:chapterI a eli:LegalResourceSubdivision,
-#         GDPRtEXT:Chapter ;
-#     eli:is_part_of gdpr:GDPR ;
-#     eli:number "I"^^xsd:string ;
-#     eli:title "General provisions"^^xsd:string ;
-#     eli:title_alternative "Chapter I"^^xsd:string ;
-#     eli:is_translation_of gdpr:chapterI-pt,
-#                           gdpr:chapterI-fr,
-#                           gdpr:chapterI-de ;
-#     eli:has_translation gdpr:chapterI-pt,
-#                          gdpr:chapterI-fr,
-#                          gdpr:chapterI-de .
+from util import extract_romans, deep_extract_literal, extract_node_id
 
 
 def handle_chapter(
@@ -32,26 +18,20 @@ def handle_chapter(
     custom_namespaces: dict[str, Namespace],
 ):
 
-    graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalResourceSubdivision))
-    graph.add(
-        (node_uri, custom_namespaces["ELI"].realizes, custom_namespaces["GDPR"].Chapter)
-    )
-    graph.add(
-        (
-            custom_namespaces["GDPR"].Chapter,
-            custom_namespaces["ELI"].is_realized_by,
-            node_uri,
-        )
-    )
+    graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalExpression))
     graph.add(
         (
             node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            custom_namespaces["GDPR"]._GDPR,
+            custom_namespaces["ELI"].realizes,
+            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
         )
     )
+    graph.add(
+        (node_uri, custom_namespaces["ELI"].language, Literal(locale.split("_")[1]))
+    )
+
     for l in other_locales:
-        node_translated_uri = URIRef(node_uri.removesuffix(f"-{locale}") + "-" + l)
+        node_translated_uri = URIRef(node_uri.removesuffix(f"_{locale}") + "_" + l)
         graph.add(
             (node_uri, custom_namespaces["ELI"].is_translation_of, node_translated_uri)
         )
@@ -60,9 +40,15 @@ def handle_chapter(
         )
 
     for key, value in node["content"].items():
-        # print(key, value, "\n\n")
         if value["classType"] == "ARTICLE":
-            article_uri = URIRef(custom_namespaces["GDPR"] + key + "-" + locale)
+            article_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
+            graph.add(
+                (
+                    node_uri,
+                    custom_namespaces["ELI"].has_part,
+                    article_uri,
+                )
+            )
             handle_article(
                 graph,
                 value,
@@ -74,7 +60,14 @@ def handle_chapter(
             )
 
         elif value["classType"] == "SECTION":
-            section_uri = URIRef(custom_namespaces["GDPR"] + key + "-" + locale)
+            section_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
+            graph.add(
+                (
+                    node_uri,
+                    custom_namespaces["ELI"].has_part,
+                    section_uri,
+                )
+            )
             handle_section(
                 graph,
                 value,

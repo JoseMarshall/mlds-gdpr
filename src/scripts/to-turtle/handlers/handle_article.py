@@ -1,21 +1,7 @@
 from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF
 from handle_point import handle_point
-from util import extract_all_numbers
-
-
-# gdpr:article10 a eli:LegalResourceSubdivision,
-#         GDPRtEXT:Article ;
-#     eli:is_part_of gdpr:GDPR,
-#         gdpr:chapterII ;
-#     eli:number "10"^^xsd:string ;
-#     eli:title_alternative "Article 10"^^xsd:string ;
-#     eli:is_translation_of gdpr:article1-pt,
-#                           gdpr:article1-fr,
-#                           gdpr:article1-de ;
-#     eli:has_translation gdpr:article1-pt,
-#                          gdpr:article1-fr,
-#                          gdpr:article1-de .
+from util import extract_all_numbers, extract_node_id, deep_extract_literal
 
 
 def handle_article(
@@ -30,19 +16,16 @@ def handle_article(
     last_key_cmp = node_uri.split(".")[-2:]
     if (
         last_key_cmp.__len__() == 2
-        and (last_key_cmp[0] + "-" + locale) == last_key_cmp[1]
+        and (last_key_cmp[0] + "_" + locale) == last_key_cmp[1]
     ):
         return
 
-    graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalResourceSubdivision))
-    graph.add(
-        (node_uri, custom_namespaces["ELI"].realizes, custom_namespaces["GDPR"].Article)
-    )
+    graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalExpression))
     graph.add(
         (
-            custom_namespaces["GDPR"].Article,
-            custom_namespaces["ELI"].is_realized_by,
             node_uri,
+            custom_namespaces["ELI"].realizes,
+            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
         )
     )
     graph.add(
@@ -52,16 +35,9 @@ def handle_article(
             parent_uri,
         )
     )
-    graph.add(
-        (
-            parent_uri,
-            custom_namespaces["ELI"].has_part,
-            node_uri,
-        )
-    )
 
     for l in other_locales:
-        node_translated_uri = URIRef(node_uri.removesuffix(f"-{locale}") + "-" + l)
+        node_translated_uri = URIRef(node_uri.removesuffix(f"_{locale}") + "_" + l)
         graph.add(
             (node_uri, custom_namespaces["ELI"].is_translation_of, node_translated_uri)
         )
@@ -69,14 +45,16 @@ def handle_article(
             (node_uri, custom_namespaces["ELI"].has_translation, node_translated_uri)
         )
 
-    # add all is_part_of from the parent
-    for is_part_of in graph.objects(parent_uri, custom_namespaces["ELI"].is_part_of):
-        graph.add((node_uri, custom_namespaces["ELI"].is_part_of, is_part_of))
-        graph.add((is_part_of, custom_namespaces["ELI"].has_part, node_uri))
-
     for key, point in node["content"].items():
         if point["classType"] == "POINT":
-            point_uri = URIRef(custom_namespaces["GDPR"] + key + "-" + locale)
+            point_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
+            graph.add(
+                (
+                    node_uri,
+                    custom_namespaces["ELI"].has_part,
+                    point_uri,
+                )
+            )
             handle_point(
                 graph,
                 point,
@@ -93,7 +71,7 @@ def handle_article(
                 (
                     node_uri,
                     custom_namespaces["ELI"].title_alternative,
-                    Literal(point["content"]),
+                    Literal(deep_extract_literal(point["content"])),
                 )
             )
         elif point["classType"] == "TITLE":
@@ -101,6 +79,6 @@ def handle_article(
                 (
                     node_uri,
                     custom_namespaces["ELI"].description,
-                    Literal(node["content"]),
+                    Literal(deep_extract_literal(point["content"])),
                 )
             )
