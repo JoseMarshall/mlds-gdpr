@@ -395,17 +395,11 @@
               },
               "cpt_3.art_12.pt_2.spt_a": {
                 "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "O Estado;"
-                ]
+                "content": ["a)", "O Estado;"]
               },
               "cpt_3.art_12.pt_2.spt_b": {
                 "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "As regiões autónomas;"
-                ]
+                "content": ["b)", "As regiões autónomas;"]
               },
               "cpt_3.art_12.pt_2.spt_c": {
                 "classType": "SUBPOINT",
@@ -423,10 +417,7 @@
               },
               "cpt_3.art_12.pt_2.spt_e": {
                 "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Os institutos públicos;"
-                ]
+                "content": ["e)", "Os institutos públicos;"]
               },
               "cpt_3.art_12.pt_2.spt_f": {
                 "classType": "SUBPOINT",
@@ -444,10 +435,7 @@
               },
               "cpt_3.art_12.pt_2.spt_h": {
                 "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "As associações públicas."
-                ]
+                "content": ["h)", "As associações públicas."]
               }
             }
           },
@@ -1066,17 +1054,11 @@
               },
               "cpt_6.art_29.pt_7.spt_b": {
                 "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Requisitos de autenticação prévia de quem acede;"
-                ]
+                "content": ["b)", "Requisitos de autenticação prévia de quem acede;"]
               },
               "cpt_6.art_29.pt_7.spt_c": {
                 "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Registo eletrónico dos acessos e dos dados acedidos."
-                ]
+                "content": ["c)", "Registo eletrónico dos acessos e dos dados acedidos."]
               }
             }
           }
@@ -1149,7 +1131,7 @@
         "classType": "TITLE",
         "content": "Tutela administrativa e jurisdicional"
       },
-      "b9a2ecf1-1803-4833-a593-76dfb11e10b8": {
+      "cpt_7.sct_1": {
         "classType": "SECTION",
         "content": {
           "6288a3b5-d7cd-4275-ae1b-7c811a7b9b42": {
@@ -1160,7 +1142,7 @@
             "classType": "TITLE",
             "content": "Disposições gerais"
           },
-          "cpt_7.art_32": {
+          "cpt_7.sct_1.art_32": {
             "classType": "ARTICLE",
             "content": {
               "bbfbb1a0-97a7-47a0-bba2-12690eaf31a7": {
@@ -1177,7 +1159,7 @@
               }
             }
           },
-          "cpt_7.art_33": {
+          "cpt_7.sct_1.art_33": {
             "classType": "ARTICLE",
             "content": {
               "da6a88d9-f766-46cb-a9c8-a5bcac01f9bc": {
@@ -1188,21 +1170,21 @@
                 "classType": "TITLE",
                 "content": "Responsabilidade civil"
               },
-              "cpt_7.art_33.pt_1": {
+              "cpt_7.sct_1.art_33.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Qualquer pessoa que tenha sofrido um dano devido ao tratamento ilícito de dados ou a qualquer\n  outro ato que viole disposições do RGPD ou da lei nacional em matéria de proteção de dados\n  pessoais, tem o direito de obter do responsável ou subcontratante a reparação pelo dano sofrido."
               },
-              "cpt_7.art_33.pt_2": {
+              "cpt_7.sct_1.art_33.pt_2": {
                 "classType": "POINT",
                 "content": "2 - O responsável pelo tratamento e o subcontratante não incorrem em responsabilidade civil se\n  provarem que o facto que causou o dano não lhes é imputável."
               },
-              "cpt_7.art_33.pt_3": {
+              "cpt_7.sct_1.art_33.pt_3": {
                 "classType": "POINT",
                 "content": "3 - À responsabilidade do Estado e demais pessoas coletivas públicas é aplicável o regime previsto\n  na\n  Lei n.º 67/2007, de 31 de dezembro, alterado pela\n  Lei n.º 31/2008, de 17 de julho."
               }
             }
           },
-          "cpt_7.art_34": {
+          "cpt_7.sct_1.art_34": {
             "classType": "ARTICLE",
             "content": {
               "7f686407-3a75-4a14-ac33-41f9966f7a1f": {
@@ -1213,25 +1195,25 @@
                 "classType": "TITLE",
                 "content": "Tutela jurisdicional"
               },
-              "cpt_7.art_34.pt_1": {
+              "cpt_7.sct_1.art_34.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Qualquer pessoa, de acordo com as regras gerais de legitimidade processual, pode propor ações\n  contra as decisões, nomeadamente de natureza contraordenacional, e omissões da CNPD, bem como\n  ações de responsabilidade civil pelos danos que tais atos ou omissões possam ter causado."
               },
-              "cpt_7.art_34.pt_2": {
+              "cpt_7.sct_1.art_34.pt_2": {
                 "classType": "POINT",
                 "content": "2 - As ações propostas contra a CNPD são da competência dos tribunais administrativos."
               },
-              "cpt_7.art_34.pt_3": {
+              "cpt_7.sct_1.art_34.pt_3": {
                 "classType": "POINT",
                 "content": "3 - O titular dos dados pode propor ações contra o responsável pelo tratamento ou o\n  subcontratante, incluindo ações de responsabilidade civil."
               },
-              "cpt_7.art_34.pt_4": {
+              "cpt_7.sct_1.art_34.pt_4": {
                 "classType": "POINT",
                 "content": "4 - As ações intentadas contra o responsável pelo tratamento ou um subcontratante são propostas\n  nos tribunais nacionais se o responsável ou subcontratante tiver estabelecimento em território\n  nacional ou se o titular dos dados aqui residir habitualmente."
               }
             }
           },
-          "cpt_7.art_35": {
+          "cpt_7.sct_1.art_35": {
             "classType": "ARTICLE",
             "content": {
               "1ae9d924-8746-4d39-8196-52f9998c2404": {
@@ -1248,7 +1230,7 @@
               }
             }
           },
-          "cpt_7.art_36": {
+          "cpt_7.sct_1.art_36": {
             "classType": "ARTICLE",
             "content": {
               "d4d87f9d-83b5-4b7f-abe5-59a011b6bd01": {
@@ -1267,7 +1249,7 @@
           }
         }
       },
-      "07e2a817-cf0d-439f-a347-74e3a10c6b49": {
+      "cpt_7.sct_2": {
         "classType": "SECTION",
         "content": {
           "3cbdbb86-18da-42c6-937b-d5574ee88c61": {
@@ -1278,7 +1260,7 @@
             "classType": "TITLE",
             "content": "Contraordenações"
           },
-          "cpt_7.art_37": {
+          "cpt_7.sct_2.art_37": {
             "classType": "ARTICLE",
             "content": {
               "64488e64-5c77-4f84-9cc7-30e6247b747f": {
@@ -1289,105 +1271,105 @@
                 "classType": "TITLE",
                 "content": "Contraordenações muito graves"
               },
-              "cpt_7.art_37.pt_1": {
+              "cpt_7.sct_2.art_37.pt_1": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_37.pt_1.pt_1": {
+                  "cpt_7.sct_2.art_37.pt_1.pt_1": {
                     "classType": "POINT",
                     "content": "1 - Constituem contraordenações muito graves:"
                   },
-                  "cpt_7.art_37.pt_1.spt_a": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "Os tratamentos de dados pessoais com inobservância dolosa dos princípios consagrados no artigo\n  5.º do RGDP;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_b": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
                       "Os tratamentos de dados pessoais que não tenham por base o consentimento ou outra condição de\n  legitimidade, nos termos do artigo 6.º do RGPD ou de norma nacional;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_c": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
                       "c)",
                       "O incumprimento das regras relativas à prestação do consentimento previstas no artigo 7.º do\n  RGPD;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_d": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_d": {
                     "classType": "SUBPOINT",
                     "content": [
                       "d)",
                       "Os tratamentos de dados pessoais previstos no n.º 1 do artigo 9.º do RGPD sem que se verifique\n  uma das circunstâncias previstas no n.º 2 do mesmo artigo;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_e": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_e": {
                     "classType": "SUBPOINT",
                     "content": [
                       "e)",
                       "Os tratamentos de dados pessoais previstos no artigo 10.º do RGPD que contrariem as regras aí\n  previstas;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_f": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_f": {
                     "classType": "SUBPOINT",
                     "content": [
                       "f)",
                       "A exigência do pagamento de uma quantia em dinheiro fora dos casos previstos no n.º 5 do artigo\n  12.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_g": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_g": {
                     "classType": "SUBPOINT",
                     "content": [
                       "g)",
                       "A exigência do pagamento de uma quantia em dinheiro, nos casos previstos no n.º 5 do artigo\n  12.º do RGPD, que exceda os custos necessários para satisfazer o direito do titular dos dados;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_h": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_h": {
                     "classType": "SUBPOINT",
                     "content": [
                       "h)",
                       "A não prestação de informação relevante nos termos dos artigos 13.º e 14.º do RGPD, o que\n  ocorre nas seguintes circunstâncias:"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_i": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_i": {
                     "classType": "SUBPOINT",
                     "content": [
                       "i)",
                       "Não permitir, não assegurar ou dificultar o exercício dos direitos previstos nos artigos 15.º a\n  22.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_ii": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_ii": {
                     "classType": "SUBPOINT",
                     "content": [
                       "ii)",
                       "Omissão de informação acerca dos destinatários ou categorias de destinatários dos dados\n  pessoais;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_iii": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_iii": {
                     "classType": "SUBPOINT",
                     "content": [
                       "iii)",
                       "Omissão de informação acerca do direito de retirar o consentimento nos casos previstos na\n  alínea a) do n.º 1 do artigo 6.º e na alínea a) do n.º 2 do artigo 9.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_j": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_j": {
                     "classType": "SUBPOINT",
                     "content": [
                       "j)",
                       "A transferência internacional de dados pessoais em violação do disposto nos artigos 44.º a 49.º\n  do RGPD;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_k": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_k": {
                     "classType": "SUBPOINT",
                     "content": [
                       "k)",
                       "O incumprimento das decisões da autoridade de controlo previstas no n.º 2 do artigo 58.º do\n  RGPD, ou recusa da colaboração que lhe seja exigida pela CNPD, no exercício dos seus poderes;"
                     ]
                   },
-                  "cpt_7.art_37.pt_1.spt_l": {
+                  "cpt_7.sct_2.art_37.pt_1.spt_l": {
                     "classType": "SUBPOINT",
                     "content": [
                       "l)",
@@ -1396,28 +1378,28 @@
                   }
                 }
               },
-              "cpt_7.art_37.pt_2": {
+              "cpt_7.sct_2.art_37.pt_2": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_37.pt_2.pt_2": {
+                  "cpt_7.sct_2.art_37.pt_2.pt_2": {
                     "classType": "POINT",
                     "content": "2 - As contraordenações referidas no número anterior são punidas com coima:"
                   },
-                  "cpt_7.art_37.pt_2.spt_a": {
+                  "cpt_7.sct_2.art_37.pt_2.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "De 5000 (euro) a 20 000 000 (euro) ou 4 % do volume de negócios anual, a nível mundial,\n  conforme o que for mais elevado, tratando-se de grande empresa;"
                     ]
                   },
-                  "cpt_7.art_37.pt_2.spt_b": {
+                  "cpt_7.sct_2.art_37.pt_2.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
                       "De 2000 (euro) a 2 000 000 (euro) ou 4 % do volume de negócios anual, a nível mundial, conforme\n  o que for mais elevado, tratando-se de PME;"
                     ]
                   },
-                  "cpt_7.art_37.pt_2.spt_c": {
+                  "cpt_7.sct_2.art_37.pt_2.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
                       "c)",
@@ -1428,7 +1410,7 @@
               }
             }
           },
-          "cpt_7.art_38": {
+          "cpt_7.sct_2.art_38": {
             "classType": "ARTICLE",
             "content": {
               "fe79d12d-56b6-4572-a443-78d64eba8efd": {
@@ -1439,184 +1421,163 @@
                 "classType": "TITLE",
                 "content": "Contraordenações graves"
               },
-              "cpt_7.art_38.pt_1": {
+              "cpt_7.sct_2.art_38.pt_1": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_38.pt_1.pt_1": {
+                  "cpt_7.sct_2.art_38.pt_1.pt_1": {
                     "classType": "POINT",
                     "content": "1 - Constituem contraordenações graves:"
                   },
-                  "cpt_7.art_38.pt_1.spt_a": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "a)",
-                      "A violação do disposto no artigo 8.º do RGPD;"
-                    ]
+                    "content": ["a)", "A violação do disposto no artigo 8.º do RGPD;"]
                   },
-                  "cpt_7.art_38.pt_1.spt_b": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
                       "A não prestação da restante informação prevista nos artigos 13.º e 14.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_c": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_c": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "c)",
-                      "A violação do disposto nos artigos 24.º e 25.º do RGPD;"
-                    ]
+                    "content": ["c)", "A violação do disposto nos artigos 24.º e 25.º do RGPD;"]
                   },
-                  "cpt_7.art_38.pt_1.spt_d": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_d": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "d)",
-                      "A violação das obrigações previstas no artigo 26.º do RGPD;"
-                    ]
+                    "content": ["d)", "A violação das obrigações previstas no artigo 26.º do RGPD;"]
                   },
-                  "cpt_7.art_38.pt_1.spt_e": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_e": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "e)",
-                      "A violação do disposto no artigo 27.º do RGPD;"
-                    ]
+                    "content": ["e)", "A violação do disposto no artigo 27.º do RGPD;"]
                   },
-                  "cpt_7.art_38.pt_1.spt_f": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_f": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "f)",
-                      "A violação das obrigações previstas no artigo 28.º do RGPD;"
-                    ]
+                    "content": ["f)", "A violação das obrigações previstas no artigo 28.º do RGPD;"]
                   },
-                  "cpt_7.art_38.pt_1.spt_g": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_g": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "g)",
-                      "A violação do disposto no artigo 29.º do RGPD;"
-                    ]
+                    "content": ["g)", "A violação do disposto no artigo 29.º do RGPD;"]
                   },
-                  "cpt_7.art_38.pt_1.spt_h": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_h": {
                     "classType": "SUBPOINT",
                     "content": [
                       "h)",
                       "A ausência de registo dos tratamentos de dados pessoais em violação do disposto no artigo 30.º\n  do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_i": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_i": {
                     "classType": "SUBPOINT",
                     "content": [
                       "i)",
                       "A violação das regras de segurança previstas no artigo 32.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_j": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_j": {
                     "classType": "SUBPOINT",
                     "content": [
                       "j)",
                       "O incumprimento dos deveres previstos no artigo 33.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_k": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_k": {
                     "classType": "SUBPOINT",
                     "content": [
                       "k)",
                       "O incumprimento do dever de informar o titular dos dados pessoais nas situações previstas no\n  artigo 34.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_l": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_l": {
                     "classType": "SUBPOINT",
                     "content": [
                       "l)",
                       "O incumprimento da obrigação de realizar avaliações de impacto nos casos previstos no artigo\n  35.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_m": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_m": {
                     "classType": "SUBPOINT",
                     "content": [
                       "m)",
                       "O incumprimento da obrigação de consultar a autoridade de controlo previamente à realização de\n  operações de tratamento de dados nos casos previstos no artigo 36.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_n": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_n": {
                     "classType": "SUBPOINT",
                     "content": [
                       "n)",
                       "O incumprimento dos deveres previstos no artigo 37.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_o": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_o": {
                     "classType": "SUBPOINT",
                     "content": [
                       "o)",
                       "A violação do disposto no artigo 38.º do RGPD, nomeadamente no que respeita às garantias de\n  independência do encarregado de proteção de dados;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_p": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_p": {
                     "classType": "SUBPOINT",
                     "content": [
                       "p)",
                       "O incumprimento dos deveres previstos no artigo 39.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_q": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_q": {
                     "classType": "SUBPOINT",
                     "content": [
                       "q)",
                       "A prática de atos de supervisão de códigos de conduta por organismos não acreditados pela\n  autoridade de controlo nos termos do artigo 41.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_r": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_r": {
                     "classType": "SUBPOINT",
                     "content": [
                       "r)",
                       "O incumprimento, por parte dos organismos de supervisão de códigos de conduta, do previsto no\n  n.º 4 do artigo 41.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_s": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_s": {
                     "classType": "SUBPOINT",
                     "content": [
                       "s)",
                       "A utilização de selos ou marcas de proteção de dados que não tinham sido emitidos por\n  organismos de certificação devidamente acreditados nos termos dos artigos 42.º e 43.º do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_t": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_t": {
                     "classType": "SUBPOINT",
                     "content": [
                       "t)",
                       "O incumprimento, por parte dos organismos de certificação, dos deveres previstos no artigo 43.º\n  do RGPD;"
                     ]
                   },
-                  "cpt_7.art_38.pt_1.spt_u": {
+                  "cpt_7.sct_2.art_38.pt_1.spt_u": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "u)",
-                      "A violação do disposto no artigo 19.º da presente lei."
-                    ]
+                    "content": ["u)", "A violação do disposto no artigo 19.º da presente lei."]
                   }
                 }
               },
-              "cpt_7.art_38.pt_2": {
+              "cpt_7.sct_2.art_38.pt_2": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_38.pt_2.pt_2": {
+                  "cpt_7.sct_2.art_38.pt_2.pt_2": {
                     "classType": "POINT",
                     "content": "2 - As contraordenações referidas no número anterior são punidas com coima de:"
                   },
-                  "cpt_7.art_38.pt_2.spt_a": {
+                  "cpt_7.sct_2.art_38.pt_2.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "De 2500 (euro) a 10 000 000 (euro) ou 2 % do volume de negócios anual, a nível mundial,\n  conforme o que for mais elevado, tratando-se de grande empresa;"
                     ]
                   },
-                  "cpt_7.art_38.pt_2.spt_b": {
+                  "cpt_7.sct_2.art_38.pt_2.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
                       "De 1000 (euro) a 1 000 000 (euro) ou 2 % do volume de negócios anual, a nível mundial, conforme\n  o que for mais elevado, tratando-se de PME;"
                     ]
                   },
-                  "cpt_7.art_38.pt_2.spt_c": {
+                  "cpt_7.sct_2.art_38.pt_2.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
                       "c)",
@@ -1627,7 +1588,7 @@
               }
             }
           },
-          "cpt_7.art_39": {
+          "cpt_7.sct_2.art_39": {
             "classType": "ARTICLE",
             "content": {
               "b2c57231-ea55-4722-a0c9-0ff107b4f9e4": {
@@ -1638,28 +1599,25 @@
                 "classType": "TITLE",
                 "content": "Determinação da medida da coima"
               },
-              "cpt_7.art_39.pt_1": {
+              "cpt_7.sct_2.art_39.pt_1": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_39.pt_1.pt_1": {
+                  "cpt_7.sct_2.art_39.pt_1.pt_1": {
                     "classType": "POINT",
                     "content": "1 - Na determinação da medida da coima, a CNPD tem em conta, para além dos critérios estabelecidos\n  no n.º 2 do artigo 83.º do RGPD:"
                   },
-                  "cpt_7.art_39.pt_1.spt_a": {
+                  "cpt_7.sct_2.art_39.pt_1.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "A situação económica do agente, no caso de pessoa singular, ou o volume de negócios e o balanço\n  anual, no caso de pessoa coletiva;"
                     ]
                   },
-                  "cpt_7.art_39.pt_1.spt_b": {
+                  "cpt_7.sct_2.art_39.pt_1.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "b)",
-                      "O caráter continuado da infração;"
-                    ]
+                    "content": ["b)", "O caráter continuado da infração;"]
                   },
-                  "cpt_7.art_39.pt_1.spt_c": {
+                  "cpt_7.sct_2.art_39.pt_1.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
                       "c)",
@@ -1668,17 +1626,17 @@
                   }
                 }
               },
-              "cpt_7.art_39.pt_2": {
+              "cpt_7.sct_2.art_39.pt_2": {
                 "classType": "POINT",
                 "content": "2 - Para efeitos da aplicação do disposto nos artigos anteriores, os conceitos de pequenas e\n  médias empresas (PME) e grande empresa são os definidos na\n  Recomendação n.º 2003/361/CE, da Comissão Europeia, de 6 de maio de 2003."
               },
-              "cpt_7.art_39.pt_3": {
+              "cpt_7.sct_2.art_39.pt_3": {
                 "classType": "POINT",
                 "content": "3 - Exceto em caso de dolo, a instauração de processo de contraordenação depende de prévia\n  advertência do agente, por parte da CNPD, para cumprimento da obrigação omitida ou reintegração da\n  proibição violada em prazo razoável."
               }
             }
           },
-          "cpt_7.art_40": {
+          "cpt_7.sct_2.art_40": {
             "classType": "ARTICLE",
             "content": {
               "48fad3ec-8da1-4102-97f3-3dbb620d9e57": {
@@ -1696,25 +1654,19 @@
                     "classType": "POINT",
                     "content": "O procedimento por contraordenação extingue-se por efeito da prescrição logo que sobre a prática\n  da contraordenação hajam decorrido os seguintes prazos:"
                   },
-                  "cpt_7.art_40.spt_a": {
+                  "cpt_7.sct_2.art_40.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "a)",
-                      "Três anos, quando se trate de contraordenação muito grave;"
-                    ]
+                    "content": ["a)", "Três anos, quando se trate de contraordenação muito grave;"]
                   },
-                  "cpt_7.art_40.spt_b": {
+                  "cpt_7.sct_2.art_40.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "b)",
-                      "Dois anos, quando se trate de contraordenação grave."
-                    ]
+                    "content": ["b)", "Dois anos, quando se trate de contraordenação grave."]
                   }
                 }
               }
             }
           },
-          "cpt_7.art_41": {
+          "cpt_7.sct_2.art_41": {
             "classType": "ARTICLE",
             "content": {
               "e793d290-5935-4063-a374-d67f872f311b": {
@@ -1732,14 +1684,14 @@
                     "classType": "POINT",
                     "content": "As coimas previstas na presente lei prescrevem nos seguintes prazos:"
                   },
-                  "cpt_7.art_41.spt_a": {
+                  "cpt_7.sct_2.art_41.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "Três anos, no caso de coimas de montante superior a 100 000 (euro);"
                     ]
                   },
-                  "cpt_7.art_41.spt_b": {
+                  "cpt_7.sct_2.art_41.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
@@ -1750,7 +1702,7 @@
               }
             }
           },
-          "cpt_7.art_42": {
+          "cpt_7.sct_2.art_42": {
             "classType": "ARTICLE",
             "content": {
               "bad03653-2d97-4032-bf36-451e715c30aa": {
@@ -1767,7 +1719,7 @@
               }
             }
           },
-          "cpt_7.art_43": {
+          "cpt_7.sct_2.art_43": {
             "classType": "ARTICLE",
             "content": {
               "a0e98afe-cf23-4c5a-a99b-58725da6a82a": {
@@ -1784,7 +1736,7 @@
               }
             }
           },
-          "cpt_7.art_44": {
+          "cpt_7.sct_2.art_44": {
             "classType": "ARTICLE",
             "content": {
               "b0162e04-a574-4372-899f-b807291ac259": {
@@ -1795,21 +1747,21 @@
                 "classType": "TITLE",
                 "content": "Âmbito de aplicação das contraordenações"
               },
-              "cpt_7.art_44.pt_1": {
+              "cpt_7.sct_2.art_44.pt_1": {
                 "classType": "POINT",
                 "content": "1 - As coimas previstas no RGPD e na presente lei aplicam-se de igual modo às entidades públicas e\n  privadas."
               },
-              "cpt_7.art_44.pt_2": {
+              "cpt_7.sct_2.art_44.pt_2": {
                 "classType": "POINT",
                 "content": "2 - Nos termos do disposto no n.º 7 do artigo 83.º do RGPD, as entidades públicas, mediante pedido\n  devidamente fundamentado, podem solicitar à CNPD a dispensa da aplicação de coimas durante o prazo\n  de três anos a contar da entrada em vigor da presente lei."
               },
-              "cpt_7.art_44.pt_3": {
+              "cpt_7.sct_2.art_44.pt_3": {
                 "classType": "POINT",
                 "content": "3 - As entidades públicas estão sujeitas aos poderes de correção da CNPD, tal como previstos no\n  RGPD e na presente lei, com exceção da aplicação de coimas nos termos definidos no número\n  anterior."
               }
             }
           },
-          "cpt_7.art_45": {
+          "cpt_7.sct_2.art_45": {
             "classType": "ARTICLE",
             "content": {
               "f53c178f-9a22-4b82-b655-b395e265e26d": {
@@ -1828,7 +1780,7 @@
           }
         }
       },
-      "0e840a0b-72fc-4c0c-b71f-13836f59efc6": {
+      "cpt_7.sct_3": {
         "classType": "SECTION",
         "content": {
           "1ecdeb32-a198-4a2e-a8b4-2146491af985": {
@@ -1839,7 +1791,7 @@
             "classType": "TITLE",
             "content": "Crimes"
           },
-          "cpt_7.art_46": {
+          "cpt_7.sct_3.art_46": {
             "classType": "ARTICLE",
             "content": {
               "4224849a-ed45-4532-8de6-19613b49bcbe": {
@@ -1850,17 +1802,17 @@
                 "classType": "TITLE",
                 "content": "Utilização de dados de forma incompatível com a finalidade da recolha"
               },
-              "cpt_7.art_46.pt_1": {
+              "cpt_7.sct_3.art_46.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem utilizar dados pessoais de forma incompatível com a finalidade determinante da recolha é\n  punido com pena de prisão até um ano ou com pena de multa até 120 dias."
               },
-              "cpt_7.art_46.pt_2": {
+              "cpt_7.sct_3.art_46.pt_2": {
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites quando se tratar dos dados pessoais a que se\n  referem os artigos 9.º e 10.º do RGPD."
               }
             }
           },
-          "cpt_7.art_47": {
+          "cpt_7.sct_3.art_47": {
             "classType": "ARTICLE",
             "content": {
               "473ea7eb-5a22-4014-97a3-e35f3779f0ff": {
@@ -1871,29 +1823,29 @@
                 "classType": "TITLE",
                 "content": "Acesso indevido"
               },
-              "cpt_7.art_47.pt_1": {
+              "cpt_7.sct_3.art_47.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem, sem a devida autorização ou justificação, aceder, por qualquer modo, a dados pessoais é\n  punido com pena de prisão até 1 ano ou com pena de multa até 120 dias."
               },
-              "cpt_7.art_47.pt_2": {
+              "cpt_7.sct_3.art_47.pt_2": {
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites quando se tratar dos dados pessoais a que se\n  referem os artigos 9.º e 10.º do RGPD."
               },
-              "cpt_7.art_47.pt_3": {
+              "cpt_7.sct_3.art_47.pt_3": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_47.pt_3.pt_3": {
+                  "cpt_7.sct_3.art_47.pt_3.pt_3": {
                     "classType": "POINT",
                     "content": "3 - A pena é também agravada para o dobro nos seus limites quando o acesso:"
                   },
-                  "cpt_7.art_47.pt_3.spt_a": {
+                  "cpt_7.sct_3.art_47.pt_3.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "For conseguido através de violação de regras técnicas de segurança; ou"
                     ]
                   },
-                  "cpt_7.art_47.pt_3.spt_b": {
+                  "cpt_7.sct_3.art_47.pt_3.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
@@ -1904,7 +1856,7 @@
               }
             }
           },
-          "cpt_7.art_48": {
+          "cpt_7.sct_3.art_48": {
             "classType": "ARTICLE",
             "content": {
               "ee69ed0c-43bd-4db5-ba88-a8cf938014e7": {
@@ -1915,29 +1867,29 @@
                 "classType": "TITLE",
                 "content": "Desvio de dados"
               },
-              "cpt_7.art_48.pt_1": {
+              "cpt_7.sct_3.art_48.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem copiar, subtrair, ceder ou transferir, a título oneroso ou gratuito, dados pessoais sem\n  previsão legal ou consentimento, independentemente da finalidade prosseguida, é punido com pena de\n  prisão até 1 ano ou com pena de multa até 120 dias."
               },
-              "cpt_7.art_48.pt_2": {
+              "cpt_7.sct_3.art_48.pt_2": {
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites quando se tratar dos dados pessoais a que se\n  referem os artigos 9.º e 10.º do RGPD."
               },
-              "cpt_7.art_48.pt_3": {
+              "cpt_7.sct_3.art_48.pt_3": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_48.pt_3.pt_3": {
+                  "cpt_7.sct_3.art_48.pt_3.pt_3": {
                     "classType": "POINT",
                     "content": "3 - A pena é também agravada para o dobro nos seus limites quando o acesso:"
                   },
-                  "cpt_7.art_48.pt_3.spt_a": {
+                  "cpt_7.sct_3.art_48.pt_3.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "For conseguido através de violação de regras técnicas de segurança; ou"
                     ]
                   },
-                  "cpt_7.art_48.pt_3.spt_b": {
+                  "cpt_7.sct_3.art_48.pt_3.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
@@ -1948,7 +1900,7 @@
               }
             }
           },
-          "cpt_7.art_49": {
+          "cpt_7.sct_3.art_49": {
             "classType": "ARTICLE",
             "content": {
               "6933d6d4-26fb-4f63-8bea-26c9a963989f": {
@@ -1959,29 +1911,26 @@
                 "classType": "TITLE",
                 "content": "Viciação ou destruição de dados"
               },
-              "cpt_7.art_49.pt_1": {
+              "cpt_7.sct_3.art_49.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem, sem a devida autorização ou justificação, apagar, destruir, danificar, ocultar, suprimir\n  ou modificar dados pessoais, tornando-os inutilizáveis ou afetando o seu potencial de utilização,\n  é punido com pena de prisão até 2 anos ou com pena de multa até 240 dias."
               },
-              "cpt_7.art_49.pt_2": {
+              "cpt_7.sct_3.art_49.pt_2": {
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites se o dano produzido for particularmente grave."
               },
-              "cpt_7.art_49.pt_3": {
+              "cpt_7.sct_3.art_49.pt_3": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_49.pt_3.pt_3": {
+                  "cpt_7.sct_3.art_49.pt_3.pt_3": {
                     "classType": "POINT",
                     "content": "3 - Nas situações previstas nos números anteriores, se o agente atuar com negligência é punido com\n  pena de prisão:"
                   },
-                  "cpt_7.art_49.pt_3.spt_a": {
+                  "cpt_7.sct_3.art_49.pt_3.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "a)",
-                      "Até 1 ano ou multa até 120 dias, no caso previsto no n.º 1;"
-                    ]
+                    "content": ["a)", "Até 1 ano ou multa até 120 dias, no caso previsto no n.º 1;"]
                   },
-                  "cpt_7.art_49.pt_3.spt_b": {
+                  "cpt_7.sct_3.art_49.pt_3.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
@@ -1992,7 +1941,7 @@
               }
             }
           },
-          "cpt_7.art_50": {
+          "cpt_7.sct_3.art_50": {
             "classType": "ARTICLE",
             "content": {
               "9e713c7b-b75d-4d0d-8382-294869170524": {
@@ -2003,17 +1952,17 @@
                 "classType": "TITLE",
                 "content": "Inserção de dados falsos"
               },
-              "cpt_7.art_50.pt_1": {
+              "cpt_7.sct_3.art_50.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem inserir ou facilitar a inserção de dados pessoais falsos, com a intenção de obter\n  vantagem indevida para si ou para terceiro, ou para causar prejuízo, é punido com pena de prisão\n  até 2 anos ou com pena de multa até 240 dias."
               },
-              "cpt_7.art_50.pt_2": {
+              "cpt_7.sct_3.art_50.pt_2": {
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites se da inserção referida no número anterior\n  resultar um prejuízo efetivo."
               }
             }
           },
-          "cpt_7.art_51": {
+          "cpt_7.sct_3.art_51": {
             "classType": "ARTICLE",
             "content": {
               "d80ca225-b0fe-4f4e-9447-b7a943f49da3": {
@@ -2024,39 +1973,36 @@
                 "classType": "TITLE",
                 "content": "Violação do dever de sigilo"
               },
-              "cpt_7.art_51.pt_1": {
+              "cpt_7.sct_3.art_51.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem, obrigado a sigilo profissional nos termos da lei, sem justa causa e sem o devido\n  consentimento, revelar ou divulgar no todo ou em parte dados pessoais é punido com pena de prisão\n  até 1 ano ou com pena de multa até 120 dias."
               },
-              "cpt_7.art_51.pt_2": {
+              "cpt_7.sct_3.art_51.pt_2": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_51.pt_2.pt_2": {
+                  "cpt_7.sct_3.art_51.pt_2.pt_2": {
                     "classType": "POINT",
                     "content": "2 - A pena é agravada para o dobro nos seus limites se o agente:"
                   },
-                  "cpt_7.art_51.pt_2.spt_a": {
+                  "cpt_7.sct_3.art_51.pt_2.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "For trabalhador em funções públicas ou equiparado, nos termos da lei penal;"
                     ]
                   },
-                  "cpt_7.art_51.pt_2.spt_b": {
+                  "cpt_7.sct_3.art_51.pt_2.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": [
-                      "b)",
-                      "For encarregado de proteção de dados;"
-                    ]
+                    "content": ["b)", "For encarregado de proteção de dados;"]
                   },
-                  "cpt_7.art_51.pt_2.spt_c": {
+                  "cpt_7.sct_3.art_51.pt_2.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
                       "c)",
                       "For determinado pela intenção de obter qualquer vantagem patrimonial ou outro benefício\n  ilegítimo;"
                     ]
                   },
-                  "cpt_7.art_51.pt_2.spt_d": {
+                  "cpt_7.sct_3.art_51.pt_2.spt_d": {
                     "classType": "SUBPOINT",
                     "content": [
                       "d)",
@@ -2065,13 +2011,13 @@
                   }
                 }
               },
-              "cpt_7.art_51.pt_3": {
+              "cpt_7.sct_3.art_51.pt_3": {
                 "classType": "POINT",
                 "content": "3 - A negligência é punível com pena de prisão até 6 meses ou com pena de multa até 60 dias."
               }
             }
           },
-          "cpt_7.art_52": {
+          "cpt_7.sct_3.art_52": {
             "classType": "ARTICLE",
             "content": {
               "80e99b38-11c0-43bb-97fb-d09dca321a45": {
@@ -2082,32 +2028,32 @@
                 "classType": "TITLE",
                 "content": "Desobediência"
               },
-              "cpt_7.art_52.pt_1": {
+              "cpt_7.sct_3.art_52.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Quem não cumprir as obrigações previstas no RGPD e na presente lei, depois de ultrapassado o\n  prazo que tiver sido fixado pela CNPD para o respetivo cumprimento, é punido com pena de prisão\n  até 1 ano ou com pena de multa até 120 dias."
               },
-              "cpt_7.art_52.pt_2": {
+              "cpt_7.sct_3.art_52.pt_2": {
                 "classType": "POINT",
                 "content": {
-                  "cpt_7.art_52.pt_2.pt_2": {
+                  "cpt_7.sct_3.art_52.pt_2.pt_2": {
                     "classType": "POINT",
                     "content": "2 - A pena é agravada para o dobro nos seus limites se, depois de notificado para o efeito, o\n  agente:"
                   },
-                  "cpt_7.art_52.pt_2.spt_a": {
+                  "cpt_7.sct_3.art_52.pt_2.spt_a": {
                     "classType": "SUBPOINT",
                     "content": [
                       "a)",
                       "Não interromper, cessar ou bloquear o tratamento ilícito de dados;"
                     ]
                   },
-                  "cpt_7.art_52.pt_2.spt_b": {
+                  "cpt_7.sct_3.art_52.pt_2.spt_b": {
                     "classType": "SUBPOINT",
                     "content": [
                       "b)",
                       "Não proceder ao apagamento ou destruição dos dados quando legalmente exigível, ou findo o prazo\n  de conservação fixado nos termos da presente lei; ou"
                     ]
                   },
-                  "cpt_7.art_52.pt_2.spt_c": {
+                  "cpt_7.sct_3.art_52.pt_2.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
                       "c)",
@@ -2118,7 +2064,7 @@
               }
             }
           },
-          "cpt_7.art_53": {
+          "cpt_7.sct_3.art_53": {
             "classType": "ARTICLE",
             "content": {
               "252e3bbe-d9f3-4a56-b89a-6b1228835442": {
@@ -2135,7 +2081,7 @@
               }
             }
           },
-          "cpt_7.art_54": {
+          "cpt_7.sct_3.art_54": {
             "classType": "ARTICLE",
             "content": {
               "6ee30270-63b7-4ff3-b2f1-5ec506dc8da4": {
@@ -2154,7 +2100,7 @@
           }
         }
       },
-      "0636a244-15a6-43db-af65-b887882e71f6": {
+      "cpt_7.sct_4": {
         "classType": "SECTION",
         "content": {
           "d86959ec-4120-4646-b250-b7426d298d6b": {
@@ -2165,7 +2111,7 @@
             "classType": "TITLE",
             "content": "Disposições comuns"
           },
-          "cpt_7.art_55": {
+          "cpt_7.sct_4.art_55": {
             "classType": "ARTICLE",
             "content": {
               "66ee0ca0-b7f2-4c32-80c3-da5341ee2288": {
@@ -2176,17 +2122,17 @@
                 "classType": "TITLE",
                 "content": "Concurso de infrações"
               },
-              "cpt_7.art_55.pt_1": {
+              "cpt_7.sct_4.art_55.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Se o mesmo facto constituir simultaneamente crime e contraordenação, o agente é sempre punido\n  a título de crime."
               },
-              "cpt_7.art_55.pt_2": {
+              "cpt_7.sct_4.art_55.pt_2": {
                 "classType": "POINT",
                 "content": "2 - Quando se verifique concurso de crime e contraordenação, ou quando, pelo mesmo facto, uma\n  pessoa deva responder a título de crime e outra a título de contraordenação, o processamento da\n  contraordenação cabe às autoridades competentes para o processo criminal, nos termos do regime\n  geral do ilícito de mera ordenação social."
               }
             }
           },
-          "cpt_7.art_56": {
+          "cpt_7.sct_4.art_56": {
             "classType": "ARTICLE",
             "content": {
               "f50a3e41-9c4c-4c39-96a9-d050b4834e0f": {
@@ -2197,11 +2143,11 @@
                 "classType": "TITLE",
                 "content": "Sanções acessórias"
               },
-              "cpt_7.art_56.pt_1": {
+              "cpt_7.sct_4.art_56.pt_1": {
                 "classType": "POINT",
                 "content": "1 - Conjuntamente com as sanções aplicadas pode ser ordenada, acessoriamente, a proibição\n  temporária ou definitiva do tratamento, o bloqueio, o apagamento ou a destruição total ou parcial\n  dos dados."
               },
-              "cpt_7.art_56.pt_2": {
+              "cpt_7.sct_4.art_56.pt_2": {
                 "classType": "POINT",
                 "content": "2 - Tratando-se de crimes, ou de coimas de montante superior a 100 000 (euro), pode acessoriamente\n  ser determinada a publicidade da condenação, por meio de extrato contendo a identificação do\n  agente, os elementos da infração e as sanções aplicadas, no Portal do Cidadão, por período não\n  inferior a 90 dias."
               }

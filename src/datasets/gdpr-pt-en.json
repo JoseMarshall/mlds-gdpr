@@ -1,0 +1,2283 @@
+{
+  "cpt_1": {
+    "classType": "CHAPTER",
+    "content": {
+      "ff6cdbcb-4210-417c-847d-f19190bd9b6e": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER I"
+      },
+      "7f70326e-f48c-40b4-a0ca-ea5bcfdabfbd": {
+        "classType": "TITLE",
+        "content": "General provisions"
+      },
+      "cpt_1.art_1": {
+        "classType": "ARTICLE",
+        "content": {
+          "45fa3878-0ace-4b65-872d-b2bdae4a66b7": {
+            "classType": "ARTICLE",
+            "content": "Article 1"
+          },
+          "6f05dae1-6925-499b-b2d6-1be6fded86a8": {
+            "classType": "TITLE",
+            "content": "Object"
+          },
+          "d29b5a45-00f3-47e6-ad59-ef77d5f734e8": {
+            "classType": "POINT",
+            "content": "This law ensures the implementation, in the internal legal order, of Regulation (EU)\n  2016/679\n  of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the\n  individuals with regard to the processing of personal data and on the free movement of such data,\n  hereinafter referred to as the General Data Protection Regulation (GDPR)."
+          }
+        }
+      },
+      "cpt_1.art_2": {
+        "classType": "ARTICLE",
+        "content": {
+          "f22ce86c-6ce2-4497-b686-da030eb11ee8": {
+            "classType": "ARTICLE",
+            "content": "Article 2"
+          },
+          "4efcf462-1944-4921-aa31-fb7d06ae4338": {
+            "classType": "TITLE",
+            "content": "Scope of application"
+          },
+          "cpt_1.art_2.pt_1": {
+            "classType": "POINT",
+            "content": "1 - This law applies to the processing of personal data carried out on national territory,\n  regardless of the public or private nature of the controller or the\n  processor, even if the processing of personal data is carried out in compliance with legal\n  legal obligations or in the pursuit of public interest missions, and all the exclusions provided for in\n  exclusions provided for in Article 2 of the GDPR."
+          },
+          "cpt_1.art_2.pt_2": {
+            "classType": "POINT",
+            "content": {
+              "cpt_1.art_2.pt_2.pt_2": {
+                "classType": "POINT",
+                "content": "2 - This law also applies to the processing of personal data carried out outside national territory when\n  national territory when:"
+              },
+              "cpt_1.art_2.pt_2.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "are carried out in the context of the activity of an establishment located in national territory; or"
+                ]
+              },
+              "cpt_1.art_2.pt_2.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Affect data subjects who are in national territory, when the processing activities are subject to the provisions of\n  activities are subject to the provisions of Article 3(2) of the GDPR; or"
+                ]
+              },
+              "cpt_1.art_2.pt_2.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Affect data registered at consular offices held by Portuguese nationals resident abroad\n  resident abroad."
+                ]
+              }
+            }
+          },
+          "cpt_1.art_2.pt_3": {
+            "classType": "POINT",
+            "content": "3 - This law shall not apply to personal data files created and maintained under the responsibility of the\n  responsibility of the Portuguese Republic's Information System, which is governed by\n  under the terms of the law."
+          }
+        }
+      }
+    }
+  },
+  "cpt_2": {
+    "classType": "CHAPTER",
+    "content": {
+      "c7c6fe1d-3cd7-4055-9d7b-4c8f3223c27c": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER II"
+      },
+      "343aa200-db2d-4e7c-98b2-9b091e73a5b7": {
+        "classType": "TITLE",
+        "content": "National Data Protection Commission"
+      },
+      "cpt_2.art_3": {
+        "classType": "ARTICLE",
+        "content": {
+          "3afb9a2b-6ebc-4927-8a7f-ee0269ce3719": {
+            "classType": "ARTICLE",
+            "content": "Article 3"
+          },
+          "40e1bc9c-9f10-4c5a-a71e-626556c5f72a": {
+            "classType": "TITLE",
+            "content": "National supervisory authority"
+          },
+          "98280d65-c083-46a1-aaa4-a6582baff64a": {
+            "classType": "POINT",
+            "content": "The National Data Protection Commission (CNPD) is the national supervisory authority for the purposes of the GDPR and this law.\n  of the GDPR and this law."
+          }
+        }
+      },
+      "cpt_2.art_4": {
+        "classType": "ARTICLE",
+        "content": {
+          "66d595cc-a2b8-4407-afcd-99895035a555": {
+            "classType": "ARTICLE",
+            "content": "Article 4"
+          },
+          "780e813d-74e8-4715-8979-6da0a5f4abe2": {
+            "classType": "TITLE",
+            "content": "Nature and independence"
+          },
+          "cpt_2.art_4.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The CNPD is an independent administrative body with legal personality under public law and powers of\n  authority, endowed with administrative and financial autonomy, which operates\n  Assembly of the Republic."
+          },
+          "cpt_2.art_4.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The CNPD monitors and supervises compliance with the GDPR and this law, as well as other legal and regulatory\n  legal and regulatory provisions on the protection of personal data, in order to defend the\n  rights, freedoms and guarantees of natural persons in the processing of personal data.\n  processing."
+          },
+          "cpt_2.art_4.pt_3": {
+            "classType": "POINT",
+            "content": "3 - The CNPD shall act independently in the pursuit of its duties and in the exercise of its powers under this law.\n  assigned to it by this law."
+          },
+          "cpt_2.art_4.pt_4": {
+            "classType": "POINT",
+            "content": "4 - The members of the CNPD are subject to the incompatibility regime established for senior public office holders.\n  holders of high public office, and may not, during their term of office, carry out any other\n  activity, paid or unpaid, with the exception of teaching in higher education and research.\n  research."
+          }
+        }
+      },
+      "cpt_2.art_5": {
+        "classType": "ARTICLE",
+        "content": {
+          "4a980174-cce5-4293-8b5c-6f3bf8e41ad1": {
+            "classType": "ARTICLE",
+            "content": "Article 5"
+          },
+          "cc9752aa-241f-4dc6-b13e-2cc7526b714f": {
+            "classType": "TITLE",
+            "content": "Composition and operation"
+          },
+          "84818e53-4e00-4e64-8f33-142fa1f5676b": {
+            "classType": "POINT",
+            "content": "The composition, method of appointment and remuneration status of the members of the CNPD, as well as the\n  staff, shall be approved by law of the Assembly of the Republic."
+          }
+        }
+      },
+      "cpt_2.art_6": {
+        "classType": "ARTICLE",
+        "content": {
+          "f17aa652-abee-4f5a-8e21-5064a493df3f": {
+            "classType": "ARTICLE",
+            "content": "Article 6"
+          },
+          "1422ed9c-e896-4e25-b71c-13b450b8c5c6": {
+            "classType": "TITLE",
+            "content": "Duties and powers"
+          },
+          "cpt_2.art_6.pt_1": {
+            "classType": "POINT",
+            "content": {
+              "cpt_2.art_6.pt_1.pt_1": {
+                "classType": "POINT",
+                "content": "1 - In addition to the provisions of Article 57 of the GDPR, the CNPD has the following duties:"
+              },
+              "cpt_2.art_6.pt_1.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "To give a non-binding opinion on legislative and regulatory measures\n  on the protection of personal data, as well as on legal instruments being prepared by European or international\n  European or international institutions on the same subject;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Monitor compliance with the provisions of the GDPR and other legal and regulatory\n  protection of personal data and the rights, freedoms and guarantees of data subjects, and to\n  rights, freedoms and guarantees of data subjects, and to correct and sanction non-compliance;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Provide a list of processing operations subject to a data protection impact assessment, under the terms of\n  protection impact assessment, in accordance with Article 35(4) of the GDPR, also defining criteria that make it possible to\n  the notion of high risk provided for in that article;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_d": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "d)",
+                  "Draw up and submit to the European Data Protection Board, as provided for in the GDPR, draft\n  criteria for the accreditation of code of conduct monitoring bodies and certification bodies, pursuant to\n  certification bodies, under the terms of Articles 41 and 43 of the GDPR, and ensure the subsequent\n  publication of the criteria, should they be approved;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_e": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "e)",
+                  "Cooperate with the Portuguese Accreditation Institute, I. P. (IPAC, I. P.), regarding the\n  application of the provisions of article 14 of this law, as well as in the definition of additional\n  additional accreditation requirements, with a view to safeguarding consistency in the application of the GDPR;"
+                ]
+              }
+            }
+          },
+          "cpt_2.art_6.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The CNPD exercises the powers provided for in Article 58 of the GDPR."
+          }
+        }
+      },
+      "cpt_2.art_7": {
+        "classType": "ARTICLE",
+        "content": {
+          "9750affd-5d90-49b9-9d95-8d0fa50ac8f4": {
+            "classType": "ARTICLE",
+            "content": "Article 7"
+          },
+          "5426fae4-1fc8-4ef8-a4c1-4b9be84d707a": {
+            "classType": "TITLE",
+            "content": "Prior impact assessments"
+          },
+          "cpt_2.art_7.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Pursuant to Article 35(5) of the GDPR, the CNPD publishes a list of the types of data processing\n  the prior impact assessment of which is not mandatory."
+          },
+          "cpt_2.art_7.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The provisions of the previous paragraph shall not prevent controllers from carrying out a\n  prior impact assessment on their own initiative."
+          },
+          "cpt_2.art_7.pt_3": {
+            "classType": "POINT",
+            "content": "3 - The lists referred to in Article 35(4) and (5) of the GDPR shall be published on the CNPD's website.\n  website."
+          }
+        }
+      },
+      "cpt_2.art_8": {
+        "classType": "ARTICLE",
+        "content": {
+          "f150718c-afb3-4119-86b9-019f1f0bb12a": {
+            "classType": "ARTICLE",
+            "content": "Article 8"
+          },
+          "252bfe0e-6c33-4a2b-af41-3014ff1bda67": {
+            "classType": "TITLE",
+            "content": "Duty to cooperate"
+          },
+          "cpt_2.art_8.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Public and private entities must cooperate with the CNPD, providing it with all the\n  information requested by the CNPD in the exercise of its powers and duties.\n  powers."
+          },
+          "cpt_2.art_8.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The duty to cooperate shall be ensured, in particular, when the CNPD needs to\n  exercise of its functions, to examine the computer system and personal data files, as well as all\n  data files, as well as all documentation relating to the processing and transmission of personal data."
+          },
+          "cpt_2.art_8.pt_3": {
+            "classType": "POINT",
+            "content": "3 - The members of the CNPD, as well as their employees, service providers or persons they\n  are bound by the duty of professional secrecy, in particular with regard to personal data, professional secrecy\n  confidential information to which they have access in the course of their duties.\n  have access to in the course of their duties."
+          },
+          "cpt_2.art_8.pt_4": {
+            "classType": "POINT",
+            "content": "4 - The duty of secrecy continues after the end of the respective functions."
+          },
+          "cpt_2.art_8.pt_5": {
+            "classType": "POINT",
+            "content": "5 - The duty to cooperate provided for in the preceding paragraphs, as well as the supervisory powers of the\n  CNPD, are without prejudice to the duty of secrecy to which the controller is obliged under\n  law or international standards."
+          }
+        }
+      }
+    }
+  },
+  "cpt_3": {
+    "classType": "CHAPTER",
+    "content": {
+      "290ec92a-9ad6-4e5b-8507-958f1b9cd219": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER III"
+      },
+      "3d267b64-7fc5-47a9-a428-39c21a3e45a8": {
+        "classType": "TITLE",
+        "content": "Data protection officer"
+      },
+      "cpt_3.art_9": {
+        "classType": "ARTICLE",
+        "content": {
+          "b924d43f-6701-4db9-97f9-9060401d4553": {
+            "classType": "ARTICLE",
+            "content": "Article 9"
+          },
+          "e475018e-203e-494f-a8bf-5d6a281252f0": {
+            "classType": "TITLE",
+            "content": "General layout"
+          },
+          "cpt_3.art_9.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The Data Protection Officer is appointed on the basis of the requirements set out in Article 37(5) of the GDPR.\n  Article 37(5) of the GDPR and does not require professional certification for this purpose."
+          },
+          "cpt_3.art_9.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Regardless of the nature of their legal relationship, the data protection officer\n  perform their duties with technical autonomy vis-à-vis the controller or\n  processor."
+          }
+        }
+      },
+      "cpt_3.art_10": {
+        "classType": "ARTICLE",
+        "content": {
+          "b871549e-b3d5-4ab0-9b81-fcc72b1272e8": {
+            "classType": "ARTICLE",
+            "content": "Article 10"
+          },
+          "927a1555-28dd-45b1-b5d7-dfb4174a70d8": {
+            "classType": "TITLE",
+            "content": "Duty of secrecy and confidentiality"
+          },
+          "cpt_3.art_10.pt_1": {
+            "classType": "POINT",
+            "content": "1 - In accordance with the provisions of Article 38(5) of the GDPR, the Data Protection Officer\n  shall be bound by a duty of professional secrecy in all matters relating to the exercise of those\n  functions, which shall continue after the termination of the functions which gave rise to them."
+          },
+          "cpt_3.art_10.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The data protection officer, as well as the data controllers,\n  including subcontractors, and all persons involved in any data processing operation\n  processing operation, are bound by a duty of confidentiality in addition to the duties of\n  professional secrecy laid down by law."
+          }
+        }
+      },
+      "cpt_3.art_11": {
+        "classType": "ARTICLE",
+        "content": {
+          "2d528cd7-b39c-4dc1-81d6-a608e158d05c": {
+            "classType": "ARTICLE",
+            "content": "Article 11"
+          },
+          "bce712f4-14dd-4ecc-a9f1-0928861e5abe": {
+            "classType": "TITLE",
+            "content": "Duties of the Data Protection Officer"
+          },
+          "b1bd1309-ca20-4525-95ac-17bbf4200d57": {
+            "classType": "POINT",
+            "content": {
+              "d2b5e363-6195-4c3a-a639-9ebcff32f537": {
+                "classType": "POINT",
+                "content": "In addition to the provisions of Articles 37 to 39 of the GDPR, the duties of the Data Protection Officer include\n  data protection officer:"
+              },
+              "cpt_3.art_11.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Ensure that audits are carried out, both periodically and unscheduled;"
+                ]
+              },
+              "cpt_3.art_11.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Make users aware of the importance of detecting security incidents in good time\n  and the need to inform the security officer immediately;"
+                ]
+              },
+              "cpt_3.art_11.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Ensure relations with data subjects in matters covered by the GDPR and national\n  national data protection legislation."
+                ]
+              }
+            }
+          }
+        }
+      },
+      "cpt_3.art_12": {
+        "classType": "ARTICLE",
+        "content": {
+          "497ba593-465a-4ce0-a6eb-69ade7e7e380": {
+            "classType": "ARTICLE",
+            "content": "Article 12"
+          },
+          "53ed4254-3166-4aeb-a9b6-498fc96dfaa8": {
+            "classType": "TITLE",
+            "content": "Data protection officers in public entities"
+          },
+          "cpt_3.art_12.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Under the terms of Article 37(1)(a) of the GDPR, it is mandatory to appoint\n  data protection officers in public bodies, in accordance with the provisions of the following paragraphs.\n  below."
+          },
+          "cpt_3.art_12.pt_2": {
+            "classType": "POINT",
+            "content": {
+              "cpt_3.art_12.pt_2.pt_2": {
+                "classType": "POINT",
+                "content": "2 - For the purposes of the previous paragraph, public entities are defined as:"
+              },
+              "cpt_3.art_12.pt_2.spt_a": {
+                "classType": "SUBPOINT",
+                "content": ["a)", "The State;"]
+              },
+              "cpt_3.art_12.pt_2.spt_b": {
+                "classType": "SUBPOINT",
+                "content": ["b)", "The autonomous regions;"]
+              },
+              "cpt_3.art_12.pt_2.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Local authorities and supranational entities provided for by law;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_d": {
+                "classType": "SUBPOINT",
+                "content": ["d)", "The independent administrative bodies and the Bank of Portugal;"]
+              },
+              "cpt_3.art_12.pt_2.spt_e": {
+                "classType": "SUBPOINT",
+                "content": ["e)", "Public institutes;"]
+              },
+              "cpt_3.art_12.pt_2.spt_f": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "f)",
+                  "Public higher education institutions, regardless of their nature;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_g": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "g)",
+                  "Companies in the state business sector and the regional and local business sectors;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_h": {
+                "classType": "SUBPOINT",
+                "content": ["h)", "Public associations."]
+              }
+            }
+          },
+          "cpt_3.art_12.pt_3": {
+            "classType": "POINT",
+            "content": {
+              "cpt_3.art_12.pt_3.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Regardless of who is responsible for processing, there is at least one data protection officer\n  protection officer:"
+              },
+              "cpt_3.art_12.pt_3.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "For each ministry or government area, in the case of the State, being appointed by the respective\n  minister, with the right to delegate to any secretary of state who assists him;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "For each regional secretariat, in the case of the autonomous regions, being designated by the respective\n  regional secretary, with the right to delegate to a 1st degree senior manager;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "For each municipality, being appointed by the municipal council, with the power to delegate to the\n  president and sub-delegation to any councillor;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_d": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "d)",
+                  "In parishes where this is justified, namely those with more than 750 inhabitants,\n  being appointed by the parish council, with the power to delegate to the president;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_e": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "e)",
+                  "By each entity, in the case of the other entities referred to in the previous paragraph, being designated by\n  by the respective executive, administrative or management body, with the power to delegate to the\n  chairman."
+                ]
+              }
+            }
+          },
+          "cpt_3.art_12.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Pursuant to Article 37(3) of the GDPR, the same Data Protection Officer may be appointed for several\n  for several ministries or government areas, regional secretariats, local authorities or other public\n  or other public legal persons."
+          },
+          "cpt_3.art_12.pt_5": {
+            "classType": "POINT",
+            "content": "5 - It is up to each entity to appoint a data protection officer, and it is not compulsory for them to\n  exercise of functions on an exclusive basis."
+          },
+          "cpt_3.art_12.pt_6": {
+            "classType": "POINT",
+            "content": "6 - The data protection officer of a public body with regulatory or supervisory powers may not\n  control may not carry out these functions simultaneously in an entity subject to the control, or\n  within the regulatory perimeter of that entity."
+          }
+        }
+      },
+      "cpt_3.art_13": {
+        "classType": "ARTICLE",
+        "content": {
+          "c302abba-933a-4776-9678-5d006fbff895": {
+            "classType": "ARTICLE",
+            "content": "Article 13"
+          },
+          "9f45c5ba-655b-486d-b1f4-a7c4788e382f": {
+            "classType": "TITLE",
+            "content": "Data protection officers in private entities"
+          },
+          "9aeb4eb4-30f4-43c0-a302-e90ca8db6206": {
+            "classType": "POINT",
+            "content": {
+              "9c4bcbd6-1fa1-424e-93c8-a1530c3cea5f": {
+                "classType": "POINT",
+                "content": "The controller and the processor designate a data protection officer\n  whenever the private activity carried out primarily involves:"
+              },
+              "cpt_3.art_13.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "(a)",
+                  "processing operations which, by virtue of their nature, scope and/or purpose, require regular and systematic\n  regular and systematic monitoring of data subjects on a large scale; or"
+                ]
+              },
+              "cpt_3.art_13.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Large-scale processing operations of special categories of data pursuant to Article\n  9 of the GDPR, or of personal data relating to criminal convictions and misdemeanors pursuant to\n  Article 10 of the GDPR."
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "cpt_4": {
+    "classType": "CHAPTER",
+    "content": {
+      "1e6463ac-14f8-4c0c-85e0-2677b53ce337": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER IV"
+      },
+      "b7421372-9dbc-472a-87ae-d39ced1f9bc3": {
+        "classType": "TITLE",
+        "content": "Accreditation, certification and codes of conduct"
+      },
+      "cpt_4.art_14": {
+        "classType": "ARTICLE",
+        "content": {
+          "7ee19c59-a3ec-4fb7-9af9-5d0f2de626d7": {
+            "classType": "ARTICLE",
+            "content": "Article 14"
+          },
+          "2efa7ab9-a0ff-4b25-87f7-0d87df80adbb": {
+            "classType": "TITLE",
+            "content": "Accreditation and certification"
+          },
+          "cpt_4.art_14.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Pursuant to Article 43(1)(b) of the GDPR, the competent authority for the\n  data protection certification bodies is IPAC, I. P."
+          },
+          "cpt_4.art_14.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The accreditation act issued by IPAC, I. P., must take into account the requirements\n  in the GDPR, as well as the additional requirements established by the CNPD."
+          },
+          "cpt_4.art_14.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Certification, as well as the issuing of data protection seals and marks, shall be carried out by\n  certification bodies accredited under the terms of paragraph 1, in order to attest that the procedures implemented\n  procedures implemented comply with the provisions of the GDPR and this law."
+          }
+        }
+      },
+      "cpt_4.art_15": {
+        "classType": "ARTICLE",
+        "content": {
+          "d56c97a1-566d-48a7-ae78-f1881f02602a": {
+            "classType": "ARTICLE",
+            "content": "Article 15"
+          },
+          "9a7941eb-31da-46ac-b188-583098db4f47": {
+            "classType": "TITLE",
+            "content": "Codes of conduct"
+          },
+          "cpt_4.art_15.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The CNPD is responsible for encouraging the drafting of codes of conduct that regulate specific activities\n  activities, which must take into account the specific needs of micro, small and\n  medium-sized enterprises."
+          },
+          "cpt_4.art_15.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The processing of personal data by the State's direct and indirect administration is the subject of\n  codes of conduct."
+          }
+        }
+      }
+    }
+  },
+  "cpt_5": {
+    "classType": "CHAPTER",
+    "content": {
+      "924a2418-0500-4a1f-a50a-3e31bd2c5582": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER V"
+      },
+      "c387d929-eb1e-4cf0-929c-3b2966228785": {
+        "classType": "TITLE",
+        "content": "Special provisions"
+      },
+      "cpt_5.art_16": {
+        "classType": "ARTICLE",
+        "content": {
+          "7f7bd0d0-569a-4b16-83ae-3bca8a3d9fad": {
+            "classType": "ARTICLE",
+            "content": "Article 16"
+          },
+          "2d4faec4-1398-4819-97d3-bf55be6667ca": {
+            "classType": "TITLE",
+            "content": "Consent of minors"
+          },
+          "cpt_5.art_16.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Pursuant to Article 8 of the GDPR, the personal data of children may only be processed on the basis of\n  processing on the basis of the consent provided for in Article 6(1)(a) of the GDPR and\n  relating to the direct provision of information society services when they have already\n  13 years of age."
+          },
+          "cpt_5.art_16.pt_2": {
+            "classType": "POINT",
+            "content": "2 - If the child is under the age of 13, processing is only lawful if consent is\n  given by the child's legal representatives, preferably by means of secure authentication."
+          }
+        }
+      },
+      "cpt_5.art_17": {
+        "classType": "ARTICLE",
+        "content": {
+          "a16c77ba-485e-438a-a63d-24ee8f41feeb": {
+            "classType": "ARTICLE",
+            "content": "Article 17"
+          },
+          "3b20a5cb-5907-40d6-9a49-2aedb0dd66f1": {
+            "classType": "TITLE",
+            "content": "Protection of personal data of deceased persons"
+          },
+          "cpt_5.art_17.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The personal data of deceased persons are protected under the terms of the GDPR and this law\n  when they fall within the special categories of personal data referred to in Article\n  9 of the GDPR, or when they relate to privacy, image or data relating to communications, except for\n  communications, except in the cases provided for in paragraph 2 of the same article."
+          },
+          "cpt_5.art_17.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The rights provided for in the GDPR relating to the personal data of deceased persons, covered by the previous\n  paragraph above, namely the rights of access, rectification and erasure, shall be exercised by\n  who the deceased person has designated for this purpose or, failing that, by their heirs."
+          },
+          "cpt_5.art_17.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Data subjects may also, under the applicable legal terms, leave it determined that it is\n  impossibility of exercising the rights referred to in the previous paragraph after their death."
+          }
+        }
+      },
+      "cpt_5.art_18": {
+        "classType": "ARTICLE",
+        "content": {
+          "317fdca5-bb7c-4842-8529-e2ffedb99f49": {
+            "classType": "ARTICLE",
+            "content": "Article 18"
+          },
+          "46720ad7-54f5-453a-b25f-1d53565eeafa": {
+            "classType": "TITLE",
+            "content": "Data portability and interoperability"
+          },
+          "cpt_5.art_18.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The right to data portability provided for in Article 20 of the GDPR covers only the data\n  provided by the respective owners."
+          },
+          "cpt_5.art_18.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Data portability should, whenever possible, take place in an open format."
+          },
+          "cpt_5.art_18.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Within the scope of the Public Administration, whenever the interoperability of data is not\n  technically possible, the data subject has the right to demand that the data be\n  in an open digital format, in accordance with the National Digital Interoperability\n  in force."
+          }
+        }
+      },
+      "cpt_5.art_19": {
+        "classType": "ARTICLE",
+        "content": {
+          "134a67b1-37d7-4425-ab9b-7c142f80f416": {
+            "classType": "ARTICLE",
+            "content": "Article 19"
+          },
+          "05fcaa9f-9dec-42d6-a747-1222201e967f": {
+            "classType": "TITLE",
+            "content": "Video surveillance"
+          },
+          "cpt_5.art_19.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Without prejudice to specific legal provisions requiring their use, namely\n  for reasons of public safety, video surveillance systems whose purpose is the protection of people and property\n  people and property ensure the requirements set out in article 31 of\n  Law no. 34/2013, of May 16, with the limits defined in the following paragraph."
+          },
+          "cpt_5.art_19.pt_2": {
+            "classType": "POINT",
+            "content": {
+              "cpt_5.art_19.pt_2.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The cameras may not focus on:"
+              },
+              "cpt_5.art_19.pt_2.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Public roads, adjoining properties or other locations that are not the exclusive domain of the\n  responsible, except for what is strictly necessary to cover access to the property;"
+                ]
+              },
+              "cpt_5.art_19.pt_2.spt_b": {
+                "classType": "SUBPOINT",
+                "content": ["b)", "The code entry area of ATMs or other payment terminals;"]
+              },
+              "cpt_5.art_19.pt_2.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "The interior of areas reserved for customers or users where privacy must be respected,\n  such as toilets, waiting areas and fitting rooms;"
+                ]
+              },
+              "cpt_5.art_19.pt_2.spt_d": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "d)",
+                  "The interior of areas reserved for workers, namely dining areas, changing rooms,\n  gyms, sanitary facilities and areas exclusively for resting."
+                ]
+              }
+            }
+          },
+          "cpt_5.art_19.pt_3": {
+            "classType": "POINT",
+            "content": "3 - In educational establishments, video surveillance cameras may only cover the\n  external perimeters and access points, as well as spaces whose property and equipment require special protection, such as laboratories or computer rooms.\n  special protection, such as laboratories or computer rooms."
+          },
+          "cpt_5.art_19.pt_4": {
+            "classType": "POINT",
+            "content": "4 - In cases where video surveillance is allowed, sound recording is prohibited, except during the period in which the\n  the premises under surveillance are closed or with prior authorization from the CNPD."
+          }
+        }
+      },
+      "cpt_5.art_20": {
+        "classType": "ARTICLE",
+        "content": {
+          "e53890e3-496a-4c4e-8b39-81a0344e1b4d": {
+            "classType": "ARTICLE",
+            "content": "Article 20"
+          },
+          "e4ac6331-04ad-4d00-99e9-a3a84abc6f13": {
+            "classType": "TITLE",
+            "content": "Duty of secrecy"
+          },
+          "cpt_5.art_20.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The rights of information and access to personal data provided for in Articles 13 to 15 of the GDPR may not be exercised where the law requires the controller or the data subject to comply with the law.\n  GDPR may not be exercised where the law imposes a duty of secrecy on the controller or processor.\n  processor a duty of secrecy which is enforceable against the data subject himself."
+          },
+          "cpt_5.art_20.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The data subject may request the CNPD to issue an opinion as to the enforceability of the duty of secrecy.\n  of secrecy, without prejudice to the provisions of Chapter VII."
+          }
+        }
+      },
+      "cpt_5.art_21": {
+        "classType": "ARTICLE",
+        "content": {
+          "556b3e02-18e4-45e5-9606-0592df9d880b": {
+            "classType": "ARTICLE",
+            "content": "Article 21"
+          },
+          "e30bf091-16dd-4541-a7d2-d4f7cd992a89": {
+            "classType": "TITLE",
+            "content": "Personal data retention period"
+          },
+          "cpt_5.art_21.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The retention period for personal data shall be that set by law or regulation, or\n  regulation or, in the absence thereof, that which is necessary for the pursuit of the purpose."
+          },
+          "cpt_5.art_21.pt_2": {
+            "classType": "POINT",
+            "content": "2 - When, due to the nature and purpose of the processing, namely for archiving purposes in the public interest, scientific or\n  interest, scientific or historical research purposes or statistical purposes, it is not possible to\n  it is not possible to determine in advance when it is no longer necessary, it is lawful to\n  retention of personal data, provided that appropriate technical and organizational measures are adopted to guarantee the rights of the data subject.\n  measures are adopted to guarantee the rights of the data subject, in particular information on its\n  retention."
+          },
+          "cpt_5.art_21.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Where personal data is necessary for the controller or processor to\n  processor, to prove compliance with contractual or other obligations, they\n  may be kept for as long as the corresponding rights are not time-barred."
+          },
+          "cpt_5.art_21.pt_4": {
+            "classType": "POINT",
+            "content": "4 - When the purpose for which personal data were initially or subsequently processed ceases to exist, the\n  controller must destroy or anonymize it."
+          },
+          "cpt_5.art_21.pt_5": {
+            "classType": "POINT",
+            "content": "5 - In cases where there is a data retention period imposed by law, the right to\n  the right to erasure provided for in Article 17 of the GDPR can only be exercised once that period has expired."
+          },
+          "cpt_5.art_21.pt_6": {
+            "classType": "POINT",
+            "content": "6 - Data relating to contributory declarations for the purposes of retirement or reform may be\n  be kept without a time limit, in order to assist the holder in reconstituting their career\n  careers, provided that appropriate technical and organizational measures are adopted to guarantee the data subject's\n  rights of the data subject."
+          }
+        }
+      },
+      "cpt_5.art_22": {
+        "classType": "ARTICLE",
+        "content": {
+          "9ff6816f-a65d-473e-aae3-28c0f79e8821": {
+            "classType": "ARTICLE",
+            "content": "Article 22"
+          },
+          "676cd279-346f-4c3f-81f6-200b2932a5ee": {
+            "classType": "TITLE",
+            "content": "Data transfers"
+          },
+          "15f81cef-fab7-495f-9af4-ef5bc2e9c17e": {
+            "classType": "POINT",
+            "content": "Data transfers to countries outside the European Union or international organizations,\n  carried out in compliance with legal obligations, by public entities exercising powers of\n  authority, are considered to be in the public interest for the purposes of Article 49(4) of the GDPR.\n  of the GDPR."
+          }
+        }
+      },
+      "cpt_5.art_23": {
+        "classType": "ARTICLE",
+        "content": {
+          "92d351ea-a242-4867-843b-27e83be8b701": {
+            "classType": "ARTICLE",
+            "content": "Article 23"
+          },
+          "a23797ce-ed97-4982-a6f0-7e8cc4e91641": {
+            "classType": "TITLE",
+            "content": "Processing of personal data by public entities for different purposes"
+          },
+          "cpt_5.art_23.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The processing of personal data by public entities for purposes other than those\n  collection is of an exceptional nature and must be duly substantiated with a view to\n  ensure the pursuit of a public interest that cannot otherwise be safeguarded, under the terms of\n  under the terms of Article 6(1)(e) and (4) and Article 9(2)(g) of the GDPR.\n  GDPR."
+          },
+          "cpt_5.art_23.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The transmission of personal data between public entities for purposes other than those\n  determined by the collection is of an exceptional nature, must be duly substantiated under the terms\n  referred to in the previous paragraph and must be the subject of a protocol that establishes the responsibilities of\n  responsibilities of each intervening entity, both in the act of transmission and in other processing to be carried out."
+          }
+        }
+      }
+    }
+  },
+  "cpt_6": {
+    "classType": "CHAPTER",
+    "content": {
+      "80069990-d9b7-44a7-895b-911e815d57ec": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER VI"
+      },
+      "a3867641-fced-438e-8c87-092f307150c2": {
+        "classType": "TITLE",
+        "content": "Specific situations in which personal data is processed"
+      },
+      "cpt_6.art_24": {
+        "classType": "ARTICLE",
+        "content": {
+          "55fc2a5d-a399-4d3e-be41-648da9f004c9": {
+            "classType": "ARTICLE",
+            "content": "Article 24"
+          },
+          "f7375115-9249-4b61-be34-9dcd001b60e2": {
+            "classType": "TITLE",
+            "content": "Freedom of expression and information"
+          },
+          "cpt_6.art_24.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The protection of personal data, under the terms of the GDPR and this law, is without prejudice to the exercise of\n  freedom of expression, information and the press, including the processing of data for journalistic\n  purposes and for the purposes of academic, artistic or literary expression."
+          },
+          "cpt_6.art_24.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The exercise of freedom of information, especially when revealing personal data provided for in\n  in Article 9(1) of the GDPR and Article 17 of this law, must respect the principle of the\n  dignity of the human person laid down in the Constitution of the Portuguese Republic, as well as the rights\n  rights enshrined therein and in national legislation."
+          },
+          "cpt_6.art_24.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Processing for journalistic purposes must comply with national legislation on access to and\n  exercise of the profession."
+          },
+          "cpt_6.art_24.pt_4": {
+            "classType": "POINT",
+            "content": "4 - The exercise of freedom of expression does not legitimize the disclosure of personal data such as addresses\n  addresses and contact details, with the exception of those that are generally known."
+          }
+        }
+      },
+      "cpt_6.art_25": {
+        "classType": "ARTICLE",
+        "content": {
+          "89839bca-6957-487b-a438-680d77dccaba": {
+            "classType": "ARTICLE",
+            "content": "Article 25"
+          },
+          "5ddb12b9-fc3d-4928-914c-874af43cd85b": {
+            "classType": "TITLE",
+            "content": "Publication in official gazette"
+          },
+          "cpt_6.art_25.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The publication of personal data in official journals must comply with Article 5 of the GDPR,\n  namely the principles of purpose and minimization."
+          },
+          "cpt_6.art_25.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Where the personal data \"name\" is sufficient to guarantee the identification of the data subject and the\n  processing, no other personal data should be published."
+          },
+          "cpt_6.art_25.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Under no circumstances may personal data published in an official gazette be\n  altered, erased or concealed."
+          },
+          "cpt_6.art_25.pt_4": {
+            "classType": "POINT",
+            "content": "4 - The right to erasure of personal data published in an official gazette is an exception\n  and can only be implemented under the conditions set out in Article 17 of the GDPR, in cases where this is the only way to\n  is the only way to protect the right to be forgotten and weighed against the other interests at stake.\n  present."
+          },
+          "cpt_6.art_25.pt_5": {
+            "classType": "POINT",
+            "content": "5 - The provisions of the previous paragraph shall be implemented by de-indexing personal data in search engines, always without\n  search engines, always without deleting the publication that is made public."
+          },
+          "cpt_6.art_25.pt_6": {
+            "classType": "POINT",
+            "content": "6 - In the case of publication of personal data in official gazettes, the entity responsible for\n  the entity that orders the publication or, in the case of the offices of the members of the\n  the respective secretariats-general."
+          }
+        }
+      },
+      "cpt_6.art_26": {
+        "classType": "ARTICLE",
+        "content": {
+          "32ced576-1ce8-4167-83e4-623820c127ec": {
+            "classType": "ARTICLE",
+            "content": "Article 26"
+          },
+          "4d77ff07-32d3-4a6e-8a19-361e840fbe03": {
+            "classType": "TITLE",
+            "content": "Access to administrative documents"
+          },
+          "5ddd01e0-d4cd-4994-8964-6648e4b9e8ce": {
+            "classType": "POINT",
+            "content": "Access to administrative documents containing personal data is governed by the provisions of\n  Law no. 26/2016, of August 22."
+          }
+        }
+      },
+      "cpt_6.art_27": {
+        "classType": "ARTICLE",
+        "content": {
+          "b3328781-316c-4149-8997-e26b9e7f453e": {
+            "classType": "ARTICLE",
+            "content": "Article 27"
+          },
+          "a08865c3-aff4-4772-87ee-7f1bea93fd56": {
+            "classType": "TITLE",
+            "content": "Publication of public procurement data"
+          },
+          "1d586e0c-d4dd-463a-b620-238c78887429": {
+            "classType": "POINT",
+            "content": "In the context of public procurement, and where publication of personal data is necessary, the following should not be published\n  personal data other than the name should not be published, provided that this is sufficient to\n  ensure the identification of the public contractor and the co-contractor."
+          }
+        }
+      },
+      "cpt_6.art_28": {
+        "classType": "ARTICLE",
+        "content": {
+          "a8c70dfe-96e0-48aa-80aa-e29e388b316d": {
+            "classType": "ARTICLE",
+            "content": "Article 28"
+          },
+          "910860d8-016d-45b3-a357-fe54acc0d1f7": {
+            "classType": "TITLE",
+            "content": "Labor relations"
+          },
+          "cpt_6.art_28.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Employers may process the personal data of their employees for the purposes and within the limits defined in the\n  defined in the Labour Code and its complementary legislation or in other sectoral\n  with the specificities set out in this article."
+          },
+          "cpt_6.art_28.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The previous paragraph also covers processing carried out by a subcontractor or certified accountant on behalf of the\n  accountant on behalf of the employer, for the purposes of managing employment relations, provided that it is carried out\n  under a service contract and subject to the same guarantees of confidentiality."
+          },
+          "cpt_6.art_28.pt_3": {
+            "classType": "POINT",
+            "content": {
+              "cpt_6.art_28.pt_3.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Unless otherwise provided by law, the employee's consent does not constitute a requirement for\n  legitimacy of the processing of their personal data:"
+              },
+              "cpt_6.art_28.pt_3.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "(a)",
+                  "if the treatment results in a legal or economic advantage for the worker; or"
+                ]
+              },
+              "cpt_6.art_28.pt_3.spt_b": {
+                "classType": "SUBPOINT",
+                "content": ["b)", "If such processing is covered by Article 6(1)(b) of the GDPR."]
+              }
+            }
+          },
+          "cpt_6.art_28.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Recorded images and other personal data recorded through the use of video systems or other remote\n  systems or other technological means of remote surveillance, under the terms of article 20 of the Labour Code, may only be used in criminal proceedings.\n  of the Labor Code, may only be used in criminal proceedings."
+          },
+          "cpt_6.art_28.pt_5": {
+            "classType": "POINT",
+            "content": "5 - In the cases provided for in the previous paragraph, recorded images and other personal data may also be used for the purposes of\n  also be used for the purposes of establishing disciplinary responsibility, to the extent that\n  criminal proceedings."
+          },
+          "cpt_6.art_28.pt_6": {
+            "classType": "POINT",
+            "content": "6 - The processing of workers' biometric data is only considered legitimate for the control of\n  and for controlling access to the employer's premises.\n  only representations of the biometric data are used and that the respective collection process does not\n  reversibility of said data."
+          }
+        }
+      },
+      "cpt_6.art_29": {
+        "classType": "ARTICLE",
+        "content": {
+          "d7be9a82-4658-4194-8297-10bbc69c780d": {
+            "classType": "ARTICLE",
+            "content": "Article 29"
+          },
+          "d1b64829-c0c2-49fe-8c0f-b9a94ae82209": {
+            "classType": "TITLE",
+            "content": "Processing of health and genetic data"
+          },
+          "cpt_6.art_29.pt_1": {
+            "classType": "POINT",
+            "content": "1 - In the processing of health data and genetic data, access to personal data is governed by the\n  need-to-know principle."
+          },
+          "cpt_6.art_29.pt_2": {
+            "classType": "POINT",
+            "content": "2 - In the cases provided for in Article 9(2)(h) and (i) of the GDPR, the processing of data\n  provided for in paragraph 1 of the same article must be carried out by a professional bound by secrecy or by\n  other person subject to a duty of confidentiality, and appropriate information security measures must be guaranteed.\n  information security."
+          },
+          "cpt_6.art_29.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Access to the data referred to in the previous paragraph is exclusively electronic,\n  unless it is technically impossible or the data subject has expressly indicated otherwise.\n  disclosure or subsequent transmission."
+          },
+          "cpt_6.art_29.pt_4": {
+            "classType": "POINT",
+            "content": "4 - The office holders, employees and service providers of the data controller, the data protection officer, students and\n  of health data and genetic data, the Data Protection Officer, students and\n  researchers in the field of health and genetics and all health professionals who have access to health data are obliged to\n  health data are bound by a duty of secrecy."
+          },
+          "cpt_6.art_29.pt_5": {
+            "classType": "POINT",
+            "content": "5 - The duty of secrecy referred to in the previous paragraph shall also apply to all members of\n  bodies and workers who, in the context of monitoring, financing or supervising the\n  health care activity, have access to health data."
+          },
+          "cpt_6.art_29.pt_6": {
+            "classType": "POINT",
+            "content": "6 - The data subject must be notified of any access made to their personal data,\n  It is the responsibility of the controller to ensure that this mechanism of\n  mechanism."
+          },
+          "cpt_6.art_29.pt_7": {
+            "classType": "POINT",
+            "content": {
+              "cpt_6.art_29.pt_7.pt_7": {
+                "classType": "POINT",
+                "content": "7 - The minimum technical security measures and requirements inherent to the processing of data referred to in\n  referred to in paragraph 1 shall be approved by order of the members of the Government responsible for the areas of\n  areas, which shall regulate the following matters in particular:"
+              },
+              "cpt_6.art_29.pt_7.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Establishment of differentiated access permissions to personal data, due to the need to know and the\n  need to know and segregation of duties;"
+                ]
+              },
+              "cpt_6.art_29.pt_7.spt_b": {
+                "classType": "SUBPOINT",
+                "content": ["b)", "Requirements for prior authentication of those accessing;"]
+              },
+              "cpt_6.art_29.pt_7.spt_c": {
+                "classType": "SUBPOINT",
+                "content": ["c)", "Electronic record of access and data accessed."]
+              }
+            }
+          }
+        }
+      },
+      "cpt_6.art_30": {
+        "classType": "ARTICLE",
+        "content": {
+          "1d42e8b2-7098-413b-8ab5-385e6d4d25c8": {
+            "classType": "ARTICLE",
+            "content": "Article 30"
+          },
+          "1a5dbe04-1f27-4de8-b637-1bc879972ab3": {
+            "classType": "TITLE",
+            "content": "Centralized health databases or registers"
+          },
+          "cpt_6.art_30.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Health data may be organized in centralized databases or registers\n  platforms, when processed for the purposes legally provided for in the GDPR and national legislation.\n  in the GDPR and national legislation."
+          },
+          "cpt_6.art_30.pt_2": {
+            "classType": "POINT",
+            "content": "2 - The health databases or centralized registers based on the single platforms referred to in the previous\n  in the previous paragraph must meet the security and inviolability requirements set out in the\n  GDPR."
+          }
+        }
+      },
+      "cpt_6.art_31": {
+        "classType": "ARTICLE",
+        "content": {
+          "d6bc1e0e-448a-422f-9e49-6f1066dccad6": {
+            "classType": "ARTICLE",
+            "content": "Article 31"
+          },
+          "98621ae6-8cbf-4bbd-9a88-e8c99403aeaf": {
+            "classType": "TITLE",
+            "content": "Processing for archiving purposes in the public interest, scientific or historical research purposes or\n  or statistical purposes"
+          },
+          "cpt_6.art_31.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes must\n  or statistical purposes must respect the principle of data minimization and include the\n  anonymization or pseudonymization of the data whenever the purposes pursued can be achieved by\n  one of these ways."
+          },
+          "cpt_6.art_31.pt_2": {
+            "classType": "POINT",
+            "content": "2 - When personal data is processed for archiving purposes in the public interest, scientific or historical\n  scientific or historical research or statistical purposes, the rights of access, rectification\n  access, rectification, restriction of processing and objection provided for in Articles 15, 16, 18 and 21 of the GDPR, to the extent necessary\n  and 21 of the GDPR, to the extent necessary, if those rights are likely to render impossible or seriously impair the achievement of those purposes.\n  or seriously impair the achievement of those purposes."
+          },
+          "cpt_6.art_31.pt_3": {
+            "classType": "POINT",
+            "content": "3 - The following applies to the processing of personal data for archiving purposes in the public interest\n  Decree-Law no. 16/93, of January 23, in its current wording, shall apply."
+          },
+          "cpt_6.art_31.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Consent to the processing of data for scientific research purposes may\n  cover several areas of research or be given only for certain fields or specific\n  specific research projects, and in any case ethical standards must be respected.\n  standards recognized by the scientific community."
+          },
+          "cpt_6.art_31.pt_5": {
+            "classType": "POINT",
+            "content": "5 - Without prejudice to the provisions of the National Statistical System Law, personal data processed for statistical purposes must be\n  processed for statistical purposes shall be anonymized or pseudonymized in order to protect the\n  data subjects, namely with regard to the impossibility of re-identification once the statistical operation has been\n  completion of the statistical operation."
+          }
+        }
+      }
+    }
+  },
+  "cpt_7": {
+    "classType": "CHAPTER",
+    "content": {
+      "50bb8319-4687-4103-a500-99be0588313c": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER VII"
+      },
+      "41a0354f-537f-4e59-bd58-9cce3add8b11": {
+        "classType": "TITLE",
+        "content": "Administrative and judicial protection"
+      },
+      "cpt_7.sct_1": {
+        "classType": "SECTION",
+        "content": {
+          "6288a3b5-d7cd-4275-ae1b-7c811a7b9b42": {
+            "classType": "SECTION",
+            "content": "SECTION I"
+          },
+          "3222973c-be1a-4723-9227-bd584eb57c57": {
+            "classType": "TITLE",
+            "content": "General provisions"
+          },
+          "cpt_7.sct_1.art_32": {
+            "classType": "ARTICLE",
+            "content": {
+              "bbfbb1a0-97a7-47a0-bba2-12690eaf31a7": {
+                "classType": "ARTICLE",
+                "content": "Article 32"
+              },
+              "dfdd8173-7ca9-4d11-8c40-ad7c67c73175": {
+                "classType": "TITLE",
+                "content": "Administrative guardianship"
+              },
+              "bf724727-0e44-4dc0-a04a-b501336479bb": {
+                "classType": "POINT",
+                "content": "Without prejudice to the right to lodge a complaint with the CNPD, any person may resort to means of\n  administrative protection, namely by petition or challenge, in order to guarantee\n  compliance with legal provisions on the protection of personal data, under the terms set out in the Code of Administrative Procedure.\n  in the Code of Administrative Procedure."
+              }
+            }
+          },
+          "cpt_7.sct_1.art_33": {
+            "classType": "ARTICLE",
+            "content": {
+              "da6a88d9-f766-46cb-a9c8-a5bcac01f9bc": {
+                "classType": "ARTICLE",
+                "content": "Article 33"
+              },
+              "0c12485b-2c38-4c0f-9688-1175d8a4eb36": {
+                "classType": "TITLE",
+                "content": "Civil liability"
+              },
+              "cpt_7.sct_1.art_33.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Any person who has suffered damage as a result of the unlawful processing of data or any other act\n  act that violates the provisions of the GDPR or national law on the protection of personal data\n  personal data protection, has the right to obtain compensation from the controller or processor for the damage suffered."
+              },
+              "cpt_7.sct_1.art_33.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The controller and the processor shall not incur civil liability if they\n  the event that caused the damage is not attributable to them."
+              },
+              "cpt_7.sct_1.art_33.pt_3": {
+                "classType": "POINT",
+                "content": "3 - The liability of the State and other public bodies shall be governed by the rules set out in\n  in\n  Law no. 67/2007, of December 31, as amended by\n  Law no. 31/2008, of July 17th."
+              }
+            }
+          },
+          "cpt_7.sct_1.art_34": {
+            "classType": "ARTICLE",
+            "content": {
+              "7f686407-3a75-4a14-ac33-41f9966f7a1f": {
+                "classType": "ARTICLE",
+                "content": "Article 34"
+              },
+              "527b4daf-62a3-47d2-b138-1207cf3687fd": {
+                "classType": "TITLE",
+                "content": "Judicial protection"
+              },
+              "cpt_7.sct_1.art_34.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Any person, in accordance with the general rules of legal standing, may bring actions against\n  against the decisions, namely of an administrative nature, and omissions of the CNPD, as well as\n  civil liability actions for damage caused by such acts or omissions."
+              },
+              "cpt_7.sct_1.art_34.pt_2": {
+                "classType": "POINT",
+                "content": "2 - Actions brought against the CNPD fall within the jurisdiction of the administrative courts."
+              },
+              "cpt_7.sct_1.art_34.pt_3": {
+                "classType": "POINT",
+                "content": "3 - The data subject may bring actions against the controller or processor, including civil liability actions.\n  processor, including civil liability actions."
+              },
+              "cpt_7.sct_1.art_34.pt_4": {
+                "classType": "POINT",
+                "content": "4 - Actions brought against the controller or a processor shall be brought\n  national courts if the controller or processor has an establishment in national territory or if the data subject\n  national territory or if the data subject is habitually resident there."
+              }
+            }
+          },
+          "cpt_7.sct_1.art_35": {
+            "classType": "ARTICLE",
+            "content": {
+              "1ae9d924-8746-4d39-8196-52f9998c2404": {
+                "classType": "ARTICLE",
+                "content": "Article 35"
+              },
+              "202f8513-0881-4941-a362-d53388a53730": {
+                "classType": "TITLE",
+                "content": "Representation of data subjects"
+              },
+              "3f6fe687-190c-492e-a5c4-3c42bb7c2893": {
+                "classType": "POINT",
+                "content": "Without prejudice to compliance with the rules on legal representation, the data subject has\n  the right to mandate a non-profit body, organization or association\n  constituted in accordance with national law, whose statutory purposes are in the public interest and whose\n  public interest and whose activity covers the defense of the rights, freedoms and guarantees of the data subject with regard to the\n  rights, freedoms and guarantees of the data subject with regard to the protection of personal data to exercise, on their behalf, the rights provided for in\n  Articles 77, 78, 79 and 82 of the GDPR."
+              }
+            }
+          },
+          "cpt_7.sct_1.art_36": {
+            "classType": "ARTICLE",
+            "content": {
+              "d4d87f9d-83b5-4b7f-abe5-59a011b6bd01": {
+                "classType": "ARTICLE",
+                "content": "Article 36"
+              },
+              "6d63a175-e49d-41e3-a021-0875da0979e6": {
+                "classType": "TITLE",
+                "content": "Legitimacy of the CNPD"
+              },
+              "64dab5f0-df05-4fb2-977f-db537e0ed42d": {
+                "classType": "POINT",
+                "content": "The CNPD is entitled to intervene in legal proceedings in the event of violations of the provisions of the GDPR and this law.\n  provisions of the GDPR and this law, and must report to the Public Prosecutor's Office any criminal offenses of which it has\n  of which it becomes aware, in the exercise of its functions and because of them, as well as carry out the necessary and urgent precautionary\n  necessary and urgent precautionary measures to secure evidence."
+              }
+            }
+          }
+        }
+      },
+      "cpt_7.sct_2": {
+        "classType": "SECTION",
+        "content": {
+          "3cbdbb86-18da-42c6-937b-d5574ee88c61": {
+            "classType": "SECTION",
+            "content": "SECTION II"
+          },
+          "a32a2605-49ce-43be-9fae-708d5b5b35bb": {
+            "classType": "TITLE",
+            "content": "Administrative offenses"
+          },
+          "cpt_7.sct_2.art_37": {
+            "classType": "ARTICLE",
+            "content": {
+              "64488e64-5c77-4f84-9cc7-30e6247b747f": {
+                "classType": "ARTICLE",
+                "content": "Article 37"
+              },
+              "fcf7d7aa-af3f-4d5a-a3b5-bdc9458c226b": {
+                "classType": "TITLE",
+                "content": "Very serious offenses"
+              },
+              "cpt_7.sct_2.art_37.pt_1": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_2.art_37.pt_1.pt_1": {
+                    "classType": "POINT",
+                    "content": "1 - The following are very serious administrative offenses:"
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "a)",
+                      "The processing of personal data in willful disregard of the principles enshrined in article\n  5 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "b)",
+                      "The processing of personal data that is not based on consent or another condition of\n  legitimacy, under the terms of Article 6 of the GDPR or national legislation;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "Failure to comply with the rules on the provision of consent set out in Article 7 of the\n  GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_d": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "d)",
+                      "The processing of personal data provided for in Article 9(1) of the GDPR without one of the following\n  one of the circumstances provided for in paragraph 2 of the same article;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_e": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "e)",
+                      "The processing of personal data provided for in Article 10 of the GDPR that contravenes the rules therein\n  provided for therein;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_f": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "f)",
+                      "Requiring the payment of a sum of money outside the cases provided for in Article\n  12 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_g": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "g)",
+                      "The requirement to pay a sum of money, in the cases provided for in Article\n  12 of the GDPR, which exceeds the costs necessary to satisfy the data subject's right;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_h": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "h)",
+                      "Failure to provide relevant information in accordance with Articles 13 and 14 of the GDPR.\n  occurs in the following circumstances:"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_i": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "i)",
+                      "Not to allow, ensure or hinder the exercise of the rights provided for in articles 15 to\n  22 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_ii": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "ii)",
+                      "Omission of information about the recipients or categories of recipients of the data\n  data;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_iii": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "iii)",
+                      "Omission of information about the right to withdraw consent in the cases provided for in\n  Article 6(1)(a) and Article 9(2)(a) of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_j": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "j)",
+                      "The international transfer of personal data in breach of the provisions of Articles 44 to 49 of the GDPR\n  of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_k": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "k)",
+                      "Failure to comply with the decisions of the supervisory authority provided for in Article 58(2) of the GDPR; or\n  GDPR, or refusal to cooperate as required by the CNPD in the exercise of its powers;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_1.spt_l": {
+                    "classType": "SUBPOINT",
+                    "content": ["l)", "Violation of the rules set out in chapter vi of this law."]
+                  }
+                }
+              },
+              "cpt_7.sct_2.art_37.pt_2": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_2.art_37.pt_2.pt_2": {
+                    "classType": "POINT",
+                    "content": "2 - The administrative offenses referred to in the previous paragraph shall be punishable by a fine:"
+                  },
+                  "cpt_7.sct_2.art_37.pt_2.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "(a)",
+                      "from 5 000 (euro) to 20 000 000 (euro) or 4 % of annual worldwide turnover,\n  whichever is higher in the case of a large enterprise;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_2.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "(b)",
+                      "from 2 000 (euro) to 2 000 000 (euro) or 4 % of annual worldwide turnover, whichever is the higher, in the case of SMEs\n  whichever is higher, in the case of SMEs;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_37.pt_2.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "From 1000 (euro) to 500 000 (euro), in the case of natural persons."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_2.art_38": {
+            "classType": "ARTICLE",
+            "content": {
+              "fe79d12d-56b6-4572-a443-78d64eba8efd": {
+                "classType": "ARTICLE",
+                "content": "Article 38"
+              },
+              "f1488a47-9f51-4524-b399-ddda88779e71": {
+                "classType": "TITLE",
+                "content": "Serious offenses"
+              },
+              "cpt_7.sct_2.art_38.pt_1": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_2.art_38.pt_1.pt_1": {
+                    "classType": "POINT",
+                    "content": "1 - The following are serious administrative offenses:"
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": ["a)", "Violation of Article 8 of the GDPR;"]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "b)",
+                      "Failure to provide the other information provided for in articles 13 and 14 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "Violation of the provisions of articles 24 and 25 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_d": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "d)",
+                      "Breach of the obligations set out in Article 26 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_e": {
+                    "classType": "SUBPOINT",
+                    "content": ["e)", "Violation of Article 27 of the GDPR;"]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_f": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "f)",
+                      "Breach of the obligations set out in Article 28 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_g": {
+                    "classType": "SUBPOINT",
+                    "content": ["g)", "Violation of Article 29 of the GDPR;"]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_h": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "h)",
+                      "Failure to record the processing of personal data in violation of Article 30 of the GDPR; and\n  of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_i": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "i)",
+                      "Violation of the security rules set out in Article 32 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_j": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "j)",
+                      "Failure to comply with the duties set out in Article 33 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_k": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "k)",
+                      "Failure to comply with the duty to inform the holder of personal data in the situations provided for in\n  Article 34 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_l": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "l)",
+                      "Failure to comply with the obligation to carry out impact assessments in the cases provided for in article\n  35 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_m": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "m)",
+                      "Failure to comply with the obligation to consult the supervisory authority prior to carrying out\n  processing operations in the cases provided for in Article 36 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_n": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "n)",
+                      "Failure to comply with the duties set out in Article 37 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_o": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "o)",
+                      "Violation of the provisions of Article 38 of the GDPR, in particular with regard to guarantees of\n  independence of the data protection officer;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_p": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "p)",
+                      "Failure to comply with the duties set out in Article 39 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_q": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "q)",
+                      "The practice of acts of supervision of codes of conduct by bodies not accredited by the\n  authority in accordance with Article 41 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_r": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "r)",
+                      "Non-compliance by supervisory bodies of codes of conduct with the provisions of\n  Article 41(4) of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_s": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "s)",
+                      "The use of data protection seals or marks that have not been issued by\n  certification bodies duly accredited under the terms of articles 42 and 43 of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_t": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "t)",
+                      "Failure by certification bodies to comply with the duties set out in Article 43 of the GDPR\n  of the GDPR;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_1.spt_u": {
+                    "classType": "SUBPOINT",
+                    "content": ["u)", "Violation of the provisions of article 19 of this law."]
+                  }
+                }
+              },
+              "cpt_7.sct_2.art_38.pt_2": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_2.art_38.pt_2.pt_2": {
+                    "classType": "POINT",
+                    "content": "2 - The administrative offenses referred to in the previous paragraph are punishable by a fine of:"
+                  },
+                  "cpt_7.sct_2.art_38.pt_2.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "(a)",
+                      "from 2500 (euro) to 10 000 000 (euro) or 2 % of annual worldwide turnover,\n  whichever is higher, in the case of a large enterprise;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_2.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "(b)",
+                      "from EUR 1 000 000 to EUR 1 000 000 or 2 % of annual worldwide turnover, whichever is higher, in the case of SMEs; or\n  whichever is higher, in the case of SMEs;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_38.pt_2.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "From 500 (euro) to 250,000 (euro), in the case of natural persons."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_2.art_39": {
+            "classType": "ARTICLE",
+            "content": {
+              "b2c57231-ea55-4722-a0c9-0ff107b4f9e4": {
+                "classType": "ARTICLE",
+                "content": "Article 39"
+              },
+              "f7b1426b-9cb7-4d7b-8ae7-aa82b357506b": {
+                "classType": "TITLE",
+                "content": "Determining the amount of the fine"
+              },
+              "cpt_7.sct_2.art_39.pt_1": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_2.art_39.pt_1.pt_1": {
+                    "classType": "POINT",
+                    "content": "1 - In determining the amount of the fine, the CNPD shall take into account, in addition to the criteria set out in\n  Article 83(2) of the GDPR:"
+                  },
+                  "cpt_7.sct_2.art_39.pt_1.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "a)",
+                      "The economic situation of the agent, in the case of a natural person, or the turnover and annual balance sheet, in the case of a legal person.\n  in the case of a legal person;"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_39.pt_1.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": ["b)", "The continuing nature of the offense;"]
+                  },
+                  "cpt_7.sct_2.art_39.pt_1.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "The size of the entity, taking into account the number of employees and the nature of the services\n  provided."
+                    ]
+                  }
+                }
+              },
+              "cpt_7.sct_2.art_39.pt_2": {
+                "classType": "POINT",
+                "content": "2 - For the purposes of applying the provisions of the previous articles, the concepts of small and\n  (SMEs) and large enterprises shall be those defined in\n  European Commission Recommendation 2003/361/EC of May 6, 2003."
+              },
+              "cpt_7.sct_2.art_39.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Except in the case of willful misconduct, the initiation of administrative offense proceedings depends on the prior\n  warning by the CNPD to comply with the omitted obligation or reinstate the violated\n  violated within a reasonable period of time."
+              }
+            }
+          },
+          "cpt_7.sct_2.art_40": {
+            "classType": "ARTICLE",
+            "content": {
+              "48fad3ec-8da1-4102-97f3-3dbb620d9e57": {
+                "classType": "ARTICLE",
+                "content": "Article 40"
+              },
+              "1e7b38cf-bd44-4407-837d-226b9cc9755c": {
+                "classType": "TITLE",
+                "content": "Limitation period for misdemeanor proceedings"
+              },
+              "7def97ef-1387-40d9-bc10-697db28fa1b5": {
+                "classType": "POINT",
+                "content": {
+                  "3d336c37-6523-4f3f-86bd-f162b106c5c9": {
+                    "classType": "POINT",
+                    "content": "Proceedings for administrative offenses are extinguished by prescription as soon as the following time limits have elapsed\n  of the administrative offense, the following periods have elapsed:"
+                  },
+                  "cpt_7.sct_2.art_40.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": ["a)", "Three years, in the case of a very serious offense;"]
+                  },
+                  "cpt_7.sct_2.art_40.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": ["b)", "Two years, in the case of a serious offense."]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_2.art_41": {
+            "classType": "ARTICLE",
+            "content": {
+              "e793d290-5935-4063-a374-d67f872f311b": {
+                "classType": "ARTICLE",
+                "content": "Article 41"
+              },
+              "01aad9d3-2115-4743-be52-b8b7a337e95d": {
+                "classType": "TITLE",
+                "content": "Limitation period for fines"
+              },
+              "7e1f2e3d-77d1-472f-b24f-0e89fde5787b": {
+                "classType": "POINT",
+                "content": {
+                  "1d8a13f7-5ce9-4e0d-9a6c-e1b8ddc63468": {
+                    "classType": "POINT",
+                    "content": "The fines provided for in this law are time-barred:"
+                  },
+                  "cpt_7.sct_2.art_41.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "a)",
+                      "Three years, in the case of fines of more than 100,000 (euros);"
+                    ]
+                  },
+                  "cpt_7.sct_2.art_41.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": ["b)", "Two years, in the case of fines of 100,000 (euro) or less."]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_2.art_42": {
+            "classType": "ARTICLE",
+            "content": {
+              "bad03653-2d97-4032-bf36-451e715c30aa": {
+                "classType": "ARTICLE",
+                "content": "Article 42"
+              },
+              "9c94dc67-5d20-4454-8734-70e46883ee75": {
+                "classType": "TITLE",
+                "content": "Destination of fines"
+              },
+              "86c6acf9-e111-480a-9b60-fa37a2baef65": {
+                "classType": "POINT",
+                "content": "The amount of the fines collected reverts 60% to the State and 40% to the CNPD."
+              }
+            }
+          },
+          "cpt_7.sct_2.art_43": {
+            "classType": "ARTICLE",
+            "content": {
+              "a0e98afe-cf23-4c5a-a99b-58725da6a82a": {
+                "classType": "ARTICLE",
+                "content": "Article 43"
+              },
+              "f284348f-92a3-4211-a44d-d45e5add1cd3": {
+                "classType": "TITLE",
+                "content": "Fulfillment of the omitted duty"
+              },
+              "835935fe-67c4-42d3-9e99-5eba54fb6b78": {
+                "classType": "POINT",
+                "content": "Whenever the administrative offense results from the omission of a duty, the imposition of the sanction and payment of the fine\n  payment of the fine do not exempt the offender from complying with the duty if it is still possible to do so."
+              }
+            }
+          },
+          "cpt_7.sct_2.art_44": {
+            "classType": "ARTICLE",
+            "content": {
+              "b0162e04-a574-4372-899f-b807291ac259": {
+                "classType": "ARTICLE",
+                "content": "Article 44"
+              },
+              "df14319b-ebd2-4a55-bf39-b6607d37258c": {
+                "classType": "TITLE",
+                "content": "Scope of administrative offenses"
+              },
+              "cpt_7.sct_2.art_44.pt_1": {
+                "classType": "POINT",
+                "content": "1 - The fines provided for in the GDPR and this law apply equally to public and private entities.\n  entities."
+              },
+              "cpt_7.sct_2.art_44.pt_2": {
+                "classType": "POINT",
+                "content": "2 - Under the terms of Article 83(7) of the GDPR, public entities, upon request, may\n  request, may ask the CNPD to waive the imposition of fines during the three-year period\n  three years from the entry into force of this law."
+              },
+              "cpt_7.sct_2.art_44.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Public entities are subject to the CNPD's powers of correction, as provided for in the\n  GDPR and this law, with the exception of the imposition of fines under the terms defined in the previous paragraph.\n  above."
+              }
+            }
+          },
+          "cpt_7.sct_2.art_45": {
+            "classType": "ARTICLE",
+            "content": {
+              "f53c178f-9a22-4b82-b655-b395e265e26d": {
+                "classType": "ARTICLE",
+                "content": "Article 45"
+              },
+              "8ae439e6-c037-4355-b84a-1c123252f26a": {
+                "classType": "TITLE",
+                "content": "Subsidiary regime"
+              },
+              "41515b9c-3c5e-468d-92eb-c8e33da115f7": {
+                "classType": "POINT",
+                "content": "In everything that is not provided for in this law with regard to administrative offenses, the following shall apply\n  shall apply."
+              }
+            }
+          }
+        }
+      },
+      "cpt_7.sct_3": {
+        "classType": "SECTION",
+        "content": {
+          "1ecdeb32-a198-4a2e-a8b4-2146491af985": {
+            "classType": "SECTION",
+            "content": "SECTION III"
+          },
+          "8b43ca93-2052-4dfe-8eda-eacc9595b84b": {
+            "classType": "TITLE",
+            "content": "Crimes"
+          },
+          "cpt_7.sct_3.art_46": {
+            "classType": "ARTICLE",
+            "content": {
+              "4224849a-ed45-4532-8de6-19613b49bcbe": {
+                "classType": "ARTICLE",
+                "content": "Article 46"
+              },
+              "35ae3dd4-df21-41ac-b8c2-b5ab932fb493": {
+                "classType": "TITLE",
+                "content": "Use of data in a manner incompatible with the purpose of collection"
+              },
+              "cpt_7.sct_3.art_46.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who uses personal data in a way that is incompatible with the purpose for which it was collected shall be punished with\n  imprisonment of up to one year or a fine of up to 120 days."
+              },
+              "cpt_7.sct_3.art_46.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The penalty shall be doubled in its limits in the case of personal data referred to in\n  referred to in Articles 9 and 10 of the GDPR."
+              }
+            }
+          },
+          "cpt_7.sct_3.art_47": {
+            "classType": "ARTICLE",
+            "content": {
+              "473ea7eb-5a22-4014-97a3-e35f3779f0ff": {
+                "classType": "ARTICLE",
+                "content": "Article 47"
+              },
+              "d3617b96-881a-400c-a732-b2bcf3932696": {
+                "classType": "TITLE",
+                "content": "Improper access"
+              },
+              "cpt_7.sct_3.art_47.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who, without proper authorization or justification, accesses personal data in any way shall be punished with\n  punishable by imprisonment of up to one year or a fine of up to 120 days."
+              },
+              "cpt_7.sct_3.art_47.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The penalty shall be doubled in its limits in the case of personal data referred to in\n  referred to in Articles 9 and 10 of the GDPR."
+              },
+              "cpt_7.sct_3.art_47.pt_3": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_3.art_47.pt_3.pt_3": {
+                    "classType": "POINT",
+                    "content": "3 - The penalty shall also be doubled when access is gained:"
+                  },
+                  "cpt_7.sct_3.art_47.pt_3.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": ["(a)", "is achieved by violating technical safety rules; or"]
+                  },
+                  "cpt_7.sct_3.art_47.pt_3.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "b)",
+                      "Has provided the agent or a third party with a financial benefit or advantage."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_3.art_48": {
+            "classType": "ARTICLE",
+            "content": {
+              "ee69ed0c-43bd-4db5-ba88-a8cf938014e7": {
+                "classType": "ARTICLE",
+                "content": "Article 48"
+              },
+              "935b0493-42e0-43c5-bef2-0760e88e8a3e": {
+                "classType": "TITLE",
+                "content": "Data deviation"
+              },
+              "cpt_7.sct_3.art_48.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who copies, subtracts, assigns or transfers, whether for a consideration or free of charge, personal data without legal\n  without legal provision or consent, regardless of the purpose pursued, shall be punished with\n  imprisonment of up to one year or a fine of up to 120 days."
+              },
+              "cpt_7.sct_3.art_48.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The penalty shall be doubled in its limits in the case of personal data referred to in\n  referred to in Articles 9 and 10 of the GDPR."
+              },
+              "cpt_7.sct_3.art_48.pt_3": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_3.art_48.pt_3.pt_3": {
+                    "classType": "POINT",
+                    "content": "3 - The penalty shall also be doubled when access is gained:"
+                  },
+                  "cpt_7.sct_3.art_48.pt_3.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": ["(a)", "is achieved by violating technical safety rules; or"]
+                  },
+                  "cpt_7.sct_3.art_48.pt_3.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "b)",
+                      "Has provided the agent or a third party with a financial benefit or advantage."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_3.art_49": {
+            "classType": "ARTICLE",
+            "content": {
+              "6933d6d4-26fb-4f63-8bea-26c9a963989f": {
+                "classType": "ARTICLE",
+                "content": "Article 49"
+              },
+              "97e9c71f-2385-409f-8f91-00c064403533": {
+                "classType": "TITLE",
+                "content": "Data corruption or destruction"
+              },
+              "cpt_7.sct_3.art_49.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who, without proper authorization or justification, deletes, destroys, damages, hides, suppresses\n  or modifies personal data, rendering it unusable or affecting its potential for use,\n  shall be punished with imprisonment of up to 2 years or a fine of up to 240 days."
+              },
+              "cpt_7.sct_3.art_49.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The penalty shall be doubled if the damage caused is particularly serious."
+              },
+              "cpt_7.sct_3.art_49.pt_3": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_3.art_49.pt_3.pt_3": {
+                    "classType": "POINT",
+                    "content": "3 - In the situations provided for in the preceding paragraphs, if the agent acts negligently, he shall be punished with\n  imprisonment:"
+                  },
+                  "cpt_7.sct_3.art_49.pt_3.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "a)",
+                      "Up to 1 year or a fine of up to 120 days, in the case provided for in paragraph 1;"
+                    ]
+                  },
+                  "cpt_7.sct_3.art_49.pt_3.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "b)",
+                      "Up to 2 years or a fine of up to 240 days, in the case provided for in paragraph 2."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_3.art_50": {
+            "classType": "ARTICLE",
+            "content": {
+              "9e713c7b-b75d-4d0d-8382-294869170524": {
+                "classType": "ARTICLE",
+                "content": "Article 50"
+              },
+              "28ba321f-674b-4434-8019-01eb85118a66": {
+                "classType": "TITLE",
+                "content": "Entering false data"
+              },
+              "cpt_7.sct_3.art_50.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who enters or facilitates the entry of false personal data, with the intention of obtaining\n  undue advantage for themselves or a third party, or to cause damage, shall be punished with imprisonment\n  up to 2 years or a fine of up to 240 days."
+              },
+              "cpt_7.sct_3.art_50.pt_2": {
+                "classType": "POINT",
+                "content": "2 - The penalty shall be doubled if the insertion referred to in the previous paragraph\n  results in actual damage."
+              }
+            }
+          },
+          "cpt_7.sct_3.art_51": {
+            "classType": "ARTICLE",
+            "content": {
+              "d80ca225-b0fe-4f4e-9447-b7a943f49da3": {
+                "classType": "ARTICLE",
+                "content": "Article 51"
+              },
+              "867a15dd-4173-4793-9f2f-276b62c7b587": {
+                "classType": "TITLE",
+                "content": "Breach of the duty of secrecy"
+              },
+              "cpt_7.sct_3.art_51.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who, under the obligation of professional secrecy in accordance with the law, without just cause and without due\n  consent, reveals or discloses personal data in whole or in part shall be punished with imprisonment of up to one year or a fine of up to 120 days.\n  up to one year or a fine of up to 120 days."
+              },
+              "cpt_7.sct_3.art_51.pt_2": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_3.art_51.pt_2.pt_2": {
+                    "classType": "POINT",
+                    "content": "2 - The penalty shall be doubled if the perpetrator:"
+                  },
+                  "cpt_7.sct_3.art_51.pt_2.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "a)",
+                      "Is a civil servant or equivalent, under the terms of criminal law;"
+                    ]
+                  },
+                  "cpt_7.sct_3.art_51.pt_2.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": ["b)", "You are a data protection officer;"]
+                  },
+                  "cpt_7.sct_3.art_51.pt_2.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "It is determined by the intention to obtain any patrimonial advantage or other benefit\n  benefit;"
+                    ]
+                  },
+                  "cpt_7.sct_3.art_51.pt_2.spt_d": {
+                    "classType": "SUBPOINT",
+                    "content": ["d)", "Endangering the reputation, honor or privacy of others."]
+                  }
+                }
+              },
+              "cpt_7.sct_3.art_51.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Negligence is punishable by a prison sentence of up to 6 months or a fine of up to 60 days."
+              }
+            }
+          },
+          "cpt_7.sct_3.art_52": {
+            "classType": "ARTICLE",
+            "content": {
+              "80e99b38-11c0-43bb-97fb-d09dca321a45": {
+                "classType": "ARTICLE",
+                "content": "Article 52"
+              },
+              "6f9608f4-be8a-47b8-8a9c-ed701772b727": {
+                "classType": "TITLE",
+                "content": "Disobedience"
+              },
+              "cpt_7.sct_3.art_52.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Anyone who fails to comply with the obligations laid down in the GDPR and this law, after the deadline\n  deadline set by the CNPD for compliance, shall be punished with imprisonment of up to one year or a fine of up to 120 days.\n  up to 1 year or a fine of up to 120 days."
+              },
+              "cpt_7.sct_3.art_52.pt_2": {
+                "classType": "POINT",
+                "content": {
+                  "cpt_7.sct_3.art_52.pt_2.pt_2": {
+                    "classType": "POINT",
+                    "content": "2 - The penalty shall be doubled if, after being notified to do so, the\n  agent:"
+                  },
+                  "cpt_7.sct_3.art_52.pt_2.spt_a": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "a)",
+                      "Failure to interrupt, cease or block the unlawful processing of data;"
+                    ]
+                  },
+                  "cpt_7.sct_3.art_52.pt_2.spt_b": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "b)",
+                      "Failing to erase or destroy the data when legally required to do so, or at the end of the period of\n  retention period laid down in this law; or"
+                    ]
+                  },
+                  "cpt_7.sct_3.art_52.pt_2.spt_c": {
+                    "classType": "SUBPOINT",
+                    "content": [
+                      "c)",
+                      "Refusing, without just cause, to cooperate as required under the terms of article 8 of this law\n  this law."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpt_7.sct_3.art_53": {
+            "classType": "ARTICLE",
+            "content": {
+              "252e3bbe-d9f3-4a56-b89a-6b1228835442": {
+                "classType": "ARTICLE",
+                "content": "Article 53"
+              },
+              "fb3df056-4675-4de7-be15-db3d000fafa1": {
+                "classType": "TITLE",
+                "content": "Punishability of the attempt"
+              },
+              "ffd30171-aedd-4be7-86ff-612a1e37fd33": {
+                "classType": "POINT",
+                "content": "In the crimes provided for in this section, an attempt is always punishable."
+              }
+            }
+          },
+          "cpt_7.sct_3.art_54": {
+            "classType": "ARTICLE",
+            "content": {
+              "6ee30270-63b7-4ff3-b2f1-5ec506dc8da4": {
+                "classType": "ARTICLE",
+                "content": "Article 54"
+              },
+              "005ab4fb-8c82-46de-b0d2-cdbfc9818340": {
+                "classType": "TITLE",
+                "content": "Liability of legal persons"
+              },
+              "a1900d5d-873d-457a-9569-7c63432603cf": {
+                "classType": "POINT",
+                "content": "Legal persons and entities treated as such, with the exception of the State, legal persons in the\n  exercise of prerogatives of public power and organizations governed by public international law,\n  shall be liable for the crimes provided for in this section, under the terms of Article 11 of the Penal Code.\n  Penal Code."
+              }
+            }
+          }
+        }
+      },
+      "cpt_7.sct_4": {
+        "classType": "SECTION",
+        "content": {
+          "d86959ec-4120-4646-b250-b7426d298d6b": {
+            "classType": "SECTION",
+            "content": "SECTION IV"
+          },
+          "f621818e-c30c-49fd-81f5-d74fe153b6e5": {
+            "classType": "TITLE",
+            "content": "Common provisions"
+          },
+          "cpt_7.sct_4.art_55": {
+            "classType": "ARTICLE",
+            "content": {
+              "66ee0ca0-b7f2-4c32-80c3-da5341ee2288": {
+                "classType": "ARTICLE",
+                "content": "Article 55"
+              },
+              "f381cc39-4830-4667-a973-4b2a51c7d3b8": {
+                "classType": "TITLE",
+                "content": "Concurrent offenses"
+              },
+              "cpt_7.sct_4.art_55.pt_1": {
+                "classType": "POINT",
+                "content": "1 - If the same act constitutes both a crime and an administrative offense, the perpetrator shall always be punished\n  crime."
+              },
+              "cpt_7.sct_4.art_55.pt_2": {
+                "classType": "POINT",
+                "content": "2 - When there is a concurrence of crime and administrative offense, or when, for the same fact, one\n  for the same fact, one person must answer for a crime and another for an administrative offense, the processing of the\n  the competent authorities for criminal proceedings, under the terms of the general\n  general regime for administrative offenses."
+              }
+            }
+          },
+          "cpt_7.sct_4.art_56": {
+            "classType": "ARTICLE",
+            "content": {
+              "f50a3e41-9c4c-4c39-96a9-d050b4834e0f": {
+                "classType": "ARTICLE",
+                "content": "Article 56"
+              },
+              "2f36d11d-9df4-47f7-9160-20c4739aaf7c": {
+                "classType": "TITLE",
+                "content": "Accessory sanctions"
+              },
+              "cpt_7.sct_4.art_56.pt_1": {
+                "classType": "POINT",
+                "content": "1 - In addition to the penalties imposed, the following may be ordered\n  processing, blocking, erasure or total or partial destruction of the data.\n  of the data."
+              },
+              "cpt_7.sct_4.art_56.pt_2": {
+                "classType": "POINT",
+                "content": "2 - In the case of crimes or fines of more than 100,000 (euros), the conviction may also be\n  the conviction be made public, by means of an extract containing the identification of the\n  agent, the details of the infraction and the sanctions imposed, on the Citizen's Portal, for a period of no less than 90 days.\n  less than 90 days."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "cpt_8": {
+    "classType": "CHAPTER",
+    "content": {
+      "f524c3c7-01da-41e4-b2ca-82abe4d95ca1": {
+        "classType": "CHAPTER",
+        "content": "CHAPTER VIII"
+      },
+      "236cebfa-693d-44a2-9648-3387b2ccc328": {
+        "classType": "TITLE",
+        "content": "Final and transitional provisions"
+      },
+      "cpt_8.art_57": {
+        "classType": "ARTICLE",
+        "content": {
+          "61289fde-6c35-4fd1-98f1-7e638cfa10d6": {
+            "classType": "ARTICLE",
+            "content": "Article 57"
+          },
+          "6ebb50cc-5577-49fe-83ec-7e966faf06dc": {
+            "classType": "TITLE",
+            "content": "National Data Protection Commission"
+          },
+          "0f52f834-ea5c-427c-ae84-0748507657b5": {
+            "classType": "POINT",
+            "content": "The members of the CNPD in office on the date of entry into force of this law shall remain in office\n  until the end of their respective terms of office."
+          }
+        }
+      },
+      "cpt_8.art_58": {
+        "classType": "ARTICLE",
+        "content": {
+          "8e893ba1-7e07-427a-af88-9f95561d86f1": {
+            "classType": "ARTICLE",
+            "content": "Article 58"
+          },
+          "2cc890c7-867d-4199-af70-709c1a22d6d7": {
+            "classType": "TITLE",
+            "content": "Technical guidelines"
+          },
+          "1a8823b4-6eed-404c-aafc-6a651dbf081d": {
+            "classType": "POINT",
+            "content": "The technical guidelines for the application of the GDPR by the State's direct and indirect administration\n  are approved by resolution of the Council of Ministers, which may recommend their application\n  also to the state business sector."
+          }
+        }
+      },
+      "cpt_8.art_59": {
+        "classType": "ARTICLE",
+        "content": {
+          "bb04e7ab-e29b-48e8-8090-91fc260d79ae": {
+            "classType": "ARTICLE",
+            "content": "Article 59"
+          },
+          "630f7f11-af64-4882-97f2-f7acffbdef9e": {
+            "classType": "TITLE",
+            "content": "Applicability of fines to public bodies"
+          },
+          "514f38f2-40a4-4d50-85c3-d7185ef433e7": {
+            "classType": "POINT",
+            "content": "The possibility of non-applicability of fines to public entities, under the terms of no.\n  2 of article 44 of this law must be reassessed three years after the entry into force of this law.\n  of this law."
+          }
+        }
+      },
+      "cpt_8.art_60": {
+        "classType": "ARTICLE",
+        "content": {
+          "473d463a-18dd-469f-aee4-eb80837d1cf6": {
+            "classType": "ARTICLE",
+            "content": "Article 60"
+          },
+          "67b9eea4-95cc-4f71-b7e9-9a08c44d0360": {
+            "classType": "TITLE",
+            "content": "Pre-existing personal data processing situations"
+          },
+          "cpt_8.art_60.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The processing of personal data subject to public registration, under the terms of article 31 of\n  Law no. 67/98, of October 26, shall remain under the responsibility of the CNPD and available for\n  free consultation by anyone."
+          },
+          "cpt_8.art_60.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Notifications and requests for authorization already decided by the CNPD at the time of the entry into force of this law, but not yet published, must be\n  of this law, but not yet published, must be published under the terms of the legislation provided for in the previous paragraph.\n  above."
+          },
+          "cpt_8.art_60.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Applications for registration and authorization pending before the CNPD on the date of entry into force of the\n  this law expire with its entry into force."
+          },
+          "cpt_8.art_60.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Those responsible for the processing of personal data carried out on the basis of authorizations\n  issued under the terms of\n  Law no. 67/98, of October 26, as well as processors, are bound to comply with the obligations\n  imposed by the GDPR, with the exception of the data protection impact assessment referred to in\n  Article 35 of that regulation."
+          }
+        }
+      },
+      "cpt_8.art_61": {
+        "classType": "ARTICLE",
+        "content": {
+          "4f0c1412-0d7e-48ce-9a0e-380d00d7c1a0": {
+            "classType": "ARTICLE",
+            "content": "Article 61"
+          },
+          "84d5b5c7-60e8-430f-a0dd-f147705ab0b1": {
+            "classType": "TITLE",
+            "content": "Renewal of consent"
+          },
+          "cpt_8.art_61.pt_1": {
+            "classType": "POINT",
+            "content": "1 - When the processing of personal data in progress on the date of entry into force of this law is based on the consent of the respective\n  is based on the consent of the respective data subject, it is not necessary to obtain new consent if the\n  has complied with the requirements of the GDPR."
+          },
+          "cpt_8.art_61.pt_2": {
+            "classType": "POINT",
+            "content": "2 - If the expiry of consent is due to the termination of a contract to which the data subject is a party, the\n  data subject is a party, the processing of data is lawful until this occurs."
+          }
+        }
+      },
+      "cpt_8.art_62": {
+        "classType": "ARTICLE",
+        "content": {
+          "218b0396-2fac-4058-8bcb-7ad13437394d": {
+            "classType": "ARTICLE",
+            "content": "Article 62"
+          },
+          "32d39695-d85f-4d54-9d63-561a19906c68": {
+            "classType": "TITLE",
+            "content": "Personal data protection regimes"
+          },
+          "cpt_8.art_62.pt_1": {
+            "classType": "POINT",
+            "content": "1 - The rules on the protection of personal data laid down in special legislation shall remain in force\n  provisions of the GDPR and this law, without prejudice to the provisions of the following paragraph.\n  in the following paragraph."
+          },
+          "cpt_8.art_62.pt_2": {
+            "classType": "POINT",
+            "content": "2 - All rules that provide for authorizations or notifications of the processing of personal data to the\n  CNPD, except in the cases provided for in the GDPR and this law, cease to apply on the date of entry into force of the GDPR.\n  entry into force of the GDPR."
+          }
+        }
+      }
+    }
+  }
+}
