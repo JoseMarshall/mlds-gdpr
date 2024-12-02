@@ -15,14 +15,14 @@ export async function translateText({ text, targetLanguage, sourceLanguage }) {
 }
 
 export async function translateObject(obj, targetLanguage, sourceLanguage) {
-  if (typeof obj !== 'object' || Array.isArray(obj)) {
+  if (typeof obj !== 'object') {
     return obj;
   }
 
-  const result = {};
+  const result = Array.isArray(obj) ? [] : {};
   for (const key in obj) {
     const value = obj[key];
-    if (typeof value === 'object' && !Array.isArray(value)) {
+    if (typeof value === 'object') {
       result[key] = await translateObject(value, targetLanguage, sourceLanguage);
     } else if (key === 'content' && value && typeof value === 'string') {
       result[key] = await translateText({ text: value, targetLanguage, sourceLanguage });
