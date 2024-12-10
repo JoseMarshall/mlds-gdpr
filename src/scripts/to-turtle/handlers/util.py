@@ -15,7 +15,13 @@ def extract_romans(text):
     return "".join(romans).strip()
 
 
-def deep_extract_literal(obj):
+def extract_node_id(node_uri):
+    return node_uri.split("#")[-1]
+
+
+def deep_extract_literal(
+    obj,
+):
     if isinstance(obj, dict):
         # get keys from obj
         keys = list(obj.keys())

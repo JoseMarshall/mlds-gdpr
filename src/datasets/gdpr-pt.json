@@ -2,57 +2,79 @@
   "cpt_1": {
     "classType": "CHAPTER",
     "content": {
-      "34a2f546-3884-481b-9eb7-cc24ee6ab6ca": {
+      "ff6cdbcb-4210-417c-847d-f19190bd9b6e": {
         "classType": "CHAPTER",
         "content": "CAPÍTULO I"
       },
-      "705c819f-f06f-4dc3-877d-9f796ccab26b": {
+      "7f70326e-f48c-40b4-a0ca-ea5bcfdabfbd": {
         "classType": "TITLE",
         "content": "Disposições gerais"
       },
       "cpt_1.art_1": {
         "classType": "ARTICLE",
         "content": {
-          "6de6d392-1330-4dd6-b777-a904db8cc55a": {
+          "45fa3878-0ace-4b65-872d-b2bdae4a66b7": {
             "classType": "ARTICLE",
             "content": "Artigo 1.º"
           },
-          "b4c7170b-3995-469f-bf03-631262ef8da8": {
+          "6f05dae1-6925-499b-b2d6-1be6fded86a8": {
             "classType": "TITLE",
-            "content": "Âmbito"
+            "content": "Objeto"
           },
-          "9896a1da-98b2-45f6-91de-491466bd0cc0": {
+          "d29b5a45-00f3-47e6-ad59-ef77d5f734e8": {
             "classType": "POINT",
-            "content": "A presente lei regula a organização e o funcionamento da Comissão Nacional de Proteção de Dados\n  (CNPD), bem como o estatuto pessoal dos seus membros."
+            "content": "A presente lei assegura a execução, na ordem jurídica interna, do Regulamento (UE)\n  2016/679\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016, relativo à proteção das pessoas\n  singulares no que diz respeito ao tratamento de dados pessoais e à livre circulação desses dados,\n  doravante designado abreviadamente por Regulamento Geral de Proteção de Dados (RGPD)."
           }
         }
       },
       "cpt_1.art_2": {
         "classType": "ARTICLE",
         "content": {
-          "eabf1e78-2b29-43d1-9d23-e5d56bd1dbad": {
+          "f22ce86c-6ce2-4497-b686-da030eb11ee8": {
             "classType": "ARTICLE",
             "content": "Artigo 2.º"
           },
-          "d6bd71dd-5993-490e-8be9-491807e1d0f3": {
+          "4efcf462-1944-4921-aa31-fb7d06ae4338": {
             "classType": "TITLE",
-            "content": "Natureza, atribuições e competências"
+            "content": "Âmbito de aplicação"
           },
           "cpt_1.art_2.pt_1": {
             "classType": "POINT",
-            "content": "1 - A CNPD é uma entidade administrativa independente, com personalidade jurídica de direito\n  público e poderes de autoridade, dotada de autonomia administrativa e financeira, que funciona\n  junto da Assembleia da República."
+            "content": "1 - A presente lei aplica-se aos tratamentos de dados pessoais realizados no território nacional,\n  independentemente da natureza pública ou privada do responsável pelo tratamento ou do\n  subcontratante, mesmo que o tratamento de dados pessoais seja efetuado em cumprimento de\n  obrigações legais ou no âmbito da prossecução de missões de interesse público, aplicando-se todas\n  as exclusões previstas no artigo 2.º do RGPD."
           },
           "cpt_1.art_2.pt_2": {
             "classType": "POINT",
-            "content": "2 - A CNPD é a autoridade de controlo nacional para efeitos do Regulamento Geral de Proteção de\n  Dados (RGPD), aprovado pelo Regulamento (UE)\n  2016/679, do Parlamento Europeu e do Conselho, de 27 de abril de 2016, e da lei que assegura a sua\n  execução na ordem jurídica interna."
+            "content": {
+              "cpt_1.art_2.pt_2.pt_2": {
+                "classType": "POINT",
+                "content": "2 - A presente lei aplica-se ainda aos tratamentos de dados pessoais realizados fora do território\n  nacional quando:"
+              },
+              "cpt_1.art_2.pt_2.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Sejam efetuados no âmbito da atividade de um estabelecimento situado no território nacional; ou"
+                ]
+              },
+              "cpt_1.art_2.pt_2.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Afetem titulares de dados que se encontrem no território nacional, quando as atividades de\n  tratamento estejam subordinadas ao disposto no n.º 2 do artigo 3.º do RGPD; ou"
+                ]
+              },
+              "cpt_1.art_2.pt_2.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Afetem dados que estejam inscritos nos postos consulares de que sejam titulares portugueses\n  residentes no estrangeiro."
+                ]
+              }
+            }
           },
           "cpt_1.art_2.pt_3": {
             "classType": "POINT",
-            "content": "3 - A CNPD controla e fiscaliza o cumprimento do RGPD e da presente lei, bem como das demais\n  disposições legais e regulamentares em matéria de proteção de dados pessoais, a fim de defender os\n  direitos, liberdades e garantias das pessoas singulares no âmbito dos tratamentos de dados\n  pessoais."
-          },
-          "cpt_1.art_2.pt_4": {
-            "classType": "POINT",
-            "content": "4 - A CNPD age com independência na prossecução das suas atribuições e no exercício dos poderes\n  que lhe são atribuídos pela presente lei."
+            "content": "3 - A presente lei não se aplica aos ficheiros de dados pessoais constituídos e mantidos sob a\n  responsabilidade do Sistema de Informações da República Portuguesa, que se rege por disposições\n  específicas, nos termos da lei."
           }
         }
       }
@@ -61,377 +83,193 @@
   "cpt_2": {
     "classType": "CHAPTER",
     "content": {
-      "e30bedf3-2024-4a7d-99b9-adbe9a1a721e": {
+      "c7c6fe1d-3cd7-4055-9d7b-4c8f3223c27c": {
         "classType": "CHAPTER",
         "content": "CAPÍTULO II"
       },
-      "37b30566-8399-4444-ad3d-eaddaeed8c81": {
+      "343aa200-db2d-4e7c-98b2-9b091e73a5b7": {
         "classType": "TITLE",
-        "content": "Membros da CNPD"
+        "content": "Comissão Nacional de Proteção de Dados"
       },
       "cpt_2.art_3": {
         "classType": "ARTICLE",
         "content": {
-          "6d6e1ffe-3951-431c-95b5-355b9e18c837": {
+          "3afb9a2b-6ebc-4927-8a7f-ee0269ce3719": {
             "classType": "ARTICLE",
             "content": "Artigo 3.º"
           },
-          "1d99c05d-82a4-41fc-9cfa-9fba540412f8": {
+          "40e1bc9c-9f10-4c5a-a71e-626556c5f72a": {
             "classType": "TITLE",
-            "content": "Composição, designação e mandato dos membros"
+            "content": "Autoridade de controlo nacional"
           },
-          "cpt_2.art_3.pt_1": {
+          "98280d65-c083-46a1-aaa4-a6582baff64a": {
             "classType": "POINT",
-            "content": {
-              "cpt_2.art_3.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - A CNPD é composta por sete membros de integridade e mérito reconhecidos:"
-              },
-              "cpt_2.art_3.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Um Presidente, eleito pela Assembleia da República;"
-                ]
-              },
-              "cpt_2.art_3.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Duas personalidades eleitas pela Assembleia da República segundo o método da média mais alta de\n  Hondt;"
-                ]
-              },
-              "cpt_2.art_3.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Dois magistrados, sendo um magistrado judicial, designado pelo Conselho Superior da\n  Magistratura, e um magistrado do Ministério Público, designado pelo Conselho Superior do\n  Ministério Público;"
-                ]
-              },
-              "cpt_2.art_3.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Duas personalidades designadas pelo Governo;"
-                ]
-              }
-            }
-          },
-          "cpt_2.art_3.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O mandato dos membros da CNPD é de cinco anos, renovável duas vezes, e cessa com a posse dos\n  novos membros."
-          },
-          "cpt_2.art_3.pt_3": {
-            "classType": "POINT",
-            "content": "3 - A designação dos membros da CNPD consta de lista publicada na 1.ª série do Diário da\n  República."
-          },
-          "cpt_2.art_3.pt_4": {
-            "classType": "POINT",
-            "content": "4 - Os membros da CNPD tomam posse perante o Presidente da Assembleia da República nos 10 dias\n  seguintes à publicação da lista referida no número anterior."
+            "content": "A Comissão Nacional de Proteção de Dados (CNPD) é a autoridade de controlo nacional para efeitos\n  do RGPD e da presente lei."
           }
         }
       },
       "cpt_2.art_4": {
         "classType": "ARTICLE",
         "content": {
-          "44e52661-4504-432b-898a-bf5f93271784": {
+          "66d595cc-a2b8-4407-afcd-99895035a555": {
             "classType": "ARTICLE",
             "content": "Artigo 4.º"
           },
-          "6b13b30a-4179-4c73-bb22-9b09e0ab5c59": {
+          "780e813d-74e8-4715-8979-6da0a5f4abe2": {
             "classType": "TITLE",
-            "content": "Incapacidades e incompatibilidades"
+            "content": "Natureza e independência"
           },
           "cpt_2.art_4.pt_1": {
             "classType": "POINT",
-            "content": "1 - Só podem ser membros da CNPD os cidadãos que se encontrem no pleno gozo dos seus direitos\n  civis e políticos."
+            "content": "1 - A CNPD é uma entidade administrativa independente, com personalidade jurídica de direito\n  público e poderes de autoridade, dotada de autonomia administrativa e financeira, que funciona\n  junto da Assembleia da República."
           },
           "cpt_2.art_4.pt_2": {
             "classType": "POINT",
-            "content": "2 - Os membros da CNPD ficam sujeitos ao regime de incompatibilidades estabelecido para os\n  titulares de altos cargos públicos."
+            "content": "2 - A CNPD controla e fiscaliza o cumprimento do RGPD e da presente lei, bem como das demais\n  disposições legais e regulamentares em matéria de proteção de dados pessoais, a fim de defender os\n  direitos, liberdades e garantias das pessoas singulares no âmbito dos tratamentos de dados\n  pessoais."
+          },
+          "cpt_2.art_4.pt_3": {
+            "classType": "POINT",
+            "content": "3 - A CNPD age com independência na prossecução das suas atribuições e no exercício dos poderes\n  que lhe são atribuídos pela presente lei."
+          },
+          "cpt_2.art_4.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Os membros da CNPD ficam sujeitos ao regime de incompatibilidades estabelecido para os\n  titulares de altos cargos públicos, não podendo, durante o seu mandato, desempenhar outra\n  atividade, remunerada ou não, com exceção da atividade de docência no ensino superior e de\n  investigação."
           }
         }
       },
       "cpt_2.art_5": {
         "classType": "ARTICLE",
         "content": {
-          "481a2226-ded2-44b3-b3f6-8a02349fe3aa": {
+          "4a980174-cce5-4293-8b5c-6f3bf8e41ad1": {
             "classType": "ARTICLE",
             "content": "Artigo 5.º"
           },
-          "5e56d3ff-4084-4cf6-aeab-d4497525d374": {
+          "cc9752aa-241f-4dc6-b13e-2cc7526b714f": {
             "classType": "TITLE",
-            "content": "Inamovibilidade"
+            "content": "Composição e funcionamento"
           },
-          "cpt_2.art_5.pt_1": {
+          "84818e53-4e00-4e64-8f33-142fa1f5676b": {
             "classType": "POINT",
-            "content": {
-              "cpt_2.art_5.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - Os membros da CNPD são inamovíveis, não podendo as suas funções cessar antes do termo do\n  mandato, salvo nos seguintes casos:"
-              },
-              "cpt_2.art_5.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Morte ou impossibilidade física permanente ou com uma duração que se preveja ultrapassar a data\n  do termo do mandato;"
-                ]
-              },
-              "cpt_2.art_5.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Renúncia ao mandato;"
-                ]
-              },
-              "cpt_2.art_5.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Perda do mandato."
-                ]
-              }
-            }
-          },
-          "cpt_2.art_5.pt_2": {
-            "classType": "POINT",
-            "content": "2 - No caso de vacatura por um dos motivos previstos no número anterior, a vaga deve ser\n  preenchida no prazo de 30 dias após a sua verificação, através da designação de novo membro pela\n  entidade competente."
-          },
-          "cpt_2.art_5.pt_3": {
-            "classType": "POINT",
-            "content": "3 - O membro designado nos termos do número anterior completa o mandato do membro que substitui."
+            "content": "A composição, o modo de designação e o estatuto remuneratório dos membros da CNPD, bem como a\n  respetiva orgânica e quadro de pessoal, são aprovados por lei da Assembleia da República."
           }
         }
       },
       "cpt_2.art_6": {
         "classType": "ARTICLE",
         "content": {
-          "0124796f-be60-41e0-a4d0-0e14929ef47e": {
+          "f17aa652-abee-4f5a-8e21-5064a493df3f": {
             "classType": "ARTICLE",
             "content": "Artigo 6.º"
           },
-          "5c50e367-339e-412f-879c-75b795663bd3": {
+          "1422ed9c-e896-4e25-b71c-13b450b8c5c6": {
             "classType": "TITLE",
-            "content": "Renúncia"
+            "content": "Atribuições e competências"
           },
           "cpt_2.art_6.pt_1": {
             "classType": "POINT",
-            "content": "1 - Os membros da CNPD podem renunciar ao mandato através de declaração escrita apresentada à\n  Comissão."
+            "content": {
+              "cpt_2.art_6.pt_1.pt_1": {
+                "classType": "POINT",
+                "content": "1 - Para além do disposto no artigo 57.º do RGPD, a CNPD prossegue as seguintes atribuições:"
+              },
+              "cpt_2.art_6.pt_1.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Pronunciar-se, a título não vinculativo, sobre as medidas legislativas e regulamentares\n  relativas à proteção de dados pessoais, bem como sobre instrumentos jurídicos em preparação, em\n  instituições europeias ou internacionais, relativos à mesma matéria;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Fiscalizar o cumprimento das disposições do RGPD e das demais disposições legais e\n  regulamentares relativas à proteção de dados pessoais e dos direitos, liberdades e garantias dos\n  titulares dos dados, e corrigir e sancionar o seu incumprimento;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Disponibilizar uma lista de tratamentos sujeitos à avaliação do impacto sobre a proteção de\n  dados, nos termos do n.º 4 do artigo 35.º do RGPD, definindo igualmente critérios que permitam\n  densificar a noção de elevado risco prevista nesse artigo;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_d": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "d)",
+                  "Elaborar e apresentar ao Comité Europeu para a Proteção de Dados, previsto no RGPD, os projetos\n  de critérios para a acreditação dos organismos de monitorização de códigos de conduta e dos\n  organismos de certificação, nos termos dos artigos 41.º e 43.º do RGPD, e assegurar a posterior\n  publicação dos critérios, caso sejam aprovados;"
+                ]
+              },
+              "cpt_2.art_6.pt_1.spt_e": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "e)",
+                  "Cooperar com o Instituto Português de Acreditação, I. P. (IPAC, I. P.), relativamente à\n  aplicação do disposto no artigo 14.º da presente lei, bem como na definição de requisitos\n  adicionais de acreditação, tendo em vista a salvaguarda da coerência de aplicação do RGPD;"
+                ]
+              }
+            }
           },
           "cpt_2.art_6.pt_2": {
             "classType": "POINT",
-            "content": "2 - A renúncia torna-se efetiva com o seu anúncio e é publicada na 2.ª série do Diário da\n  República."
+            "content": "2 - A CNPD exerce as competências previstas no artigo 58.º do RGPD."
           }
         }
       },
       "cpt_2.art_7": {
         "classType": "ARTICLE",
         "content": {
-          "d4a955ac-4344-46f7-8069-6382cc6b6b09": {
+          "9750affd-5d90-49b9-9d95-8d0fa50ac8f4": {
             "classType": "ARTICLE",
             "content": "Artigo 7.º"
           },
-          "c6266839-3f12-41d2-9292-72c4d9922d19": {
+          "5426fae4-1fc8-4ef8-a4c1-4b9be84d707a": {
             "classType": "TITLE",
-            "content": "Perda do mandato"
+            "content": "Avaliações prévias de impacto"
           },
           "cpt_2.art_7.pt_1": {
             "classType": "POINT",
-            "content": {
-              "cpt_2.art_7.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - Perdem o mandato os membros da CNPD que:"
-              },
-              "cpt_2.art_7.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Sejam abrangidos por qualquer das incapacidades ou incompatibilidades previstas na lei;"
-                ]
-              },
-              "cpt_2.art_7.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Faltem, no mesmo ano civil, a três reuniões consecutivas ou a seis interpoladas, salvo motivo\n  justificado;"
-                ]
-              },
-              "cpt_2.art_7.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Cometam violação do disposto na alínea c) do artigo 8.º, desde que judicialmente declarada."
-                ]
-              }
-            }
+            "content": "1 - Nos termos do n.º 5 do artigo 35.º do RGPD, a CNPD difunde uma lista de tipos de tratamentos\n  de dados cuja avaliação prévia de impacto não é obrigatória."
           },
           "cpt_2.art_7.pt_2": {
             "classType": "POINT",
-            "content": "2 - A perda do mandato é objeto, conforme os casos, de deliberação ou declaração a publicar na 2.ª\n  série do Diário da República."
+            "content": "2 - O disposto no número anterior não impede os responsáveis pelo tratamento de efetuar uma\n  avaliação prévia de impacto por iniciativa própria."
+          },
+          "cpt_2.art_7.pt_3": {
+            "classType": "POINT",
+            "content": "3 - As listas referidas nos n.os 4 e 5 do artigo 35.º do RGPD são publicitadas no sítio da CNPD na\n  Internet."
           }
         }
       },
       "cpt_2.art_8": {
         "classType": "ARTICLE",
         "content": {
-          "eaf647e3-6110-4cc5-87b5-4abcab342ab7": {
+          "f150718c-afb3-4119-86b9-019f1f0bb12a": {
             "classType": "ARTICLE",
             "content": "Artigo 8.º"
           },
-          "49965e6b-0d2f-4a2f-bae8-bff386580400": {
+          "252bfe0e-6c33-4a2b-af41-3014ff1bda67": {
             "classType": "TITLE",
-            "content": "Deveres"
+            "content": "Dever de colaboração"
           },
-          "cdd3383b-af10-4b77-8d1f-9b0674c17a65": {
+          "cpt_2.art_8.pt_1": {
             "classType": "POINT",
-            "content": {
-              "cc91fc3d-18e2-411a-a55b-746af4162314": {
-                "classType": "POINT",
-                "content": "Constituem deveres dos membros da CNPD:"
-              },
-              "cpt_2.art_8.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Exercer o respetivo cargo com isenção, rigor e independência;"
-                ]
-              },
-              "cpt_2.art_8.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Participar ativa e assiduamente nos trabalhos do órgão que integram;"
-                ]
-              },
-              "cpt_2.art_8.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Guardar sigilo sobre as questões ou processos que estejam a ser objeto de apreciação, nos\n  termos previstos no Regulamento (UE)\n  2016/679\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016, e na Diretiva (UE)\n  2016/680\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_2.art_9": {
-        "classType": "ARTICLE",
-        "content": {
-          "e35dece2-6b78-427a-be06-c6345542dbf7": {
-            "classType": "ARTICLE",
-            "content": "Artigo 9.º"
+            "content": "1 - As entidades públicas e privadas devem prestar a sua colaboração à CNPD, facultando-lhe todas\n  as informações que por esta lhes sejam solicitadas, no exercício das suas atribuições e\n  competências."
           },
-          "fe03b2a0-9505-41a1-8821-e9df162d8bfa": {
-            "classType": "TITLE",
-            "content": "Estatuto remuneratório"
-          },
-          "cpt_2.art_9.pt_1": {
+          "cpt_2.art_8.pt_2": {
             "classType": "POINT",
-            "content": "1 - O presidente da CNPD é remunerado de acordo com a tabela indiciária e o regime fixados para o\n  cargo de diretor-geral, cabendo aos restantes membros uma remuneração igual a 85 % daquela, sem\n  prejuízo da faculdade de opção pelas remunerações correspondentes ao lugar de origem."
+            "content": "2 - O dever de colaboração é assegurado, designadamente, quando a CNPD tiver necessidade, para o\n  cabal exercício das suas funções, de examinar o sistema informático e os ficheiros de dados\n  pessoais, bem como toda a documentação relativa ao tratamento e transmissão de dados pessoais."
           },
-          "cpt_2.art_9.pt_2": {
+          "cpt_2.art_8.pt_3": {
             "classType": "POINT",
-            "content": "2 - O presidente da CNPD tem direito a um abono mensal para despesas de representação de montante\n  igual ao atribuído aos diretores-gerais."
+            "content": "3 - Os membros da CNPD, bem como os seus trabalhadores, prestadores de serviços ou pessoas por si\n  mandatadas, estão obrigados ao dever de sigilo profissional, nomeadamente quanto aos dados\n  pessoais, segredo profissional, segredo industrial ou comercial ou informações confidenciais a que\n  tenham acesso no exercício das suas funções."
           },
-          "cpt_2.art_9.pt_3": {
+          "cpt_2.art_8.pt_4": {
             "classType": "POINT",
-            "content": "3 - Os restantes membros da CNPD têm direito a um abono mensal para despesas de representação de\n  montante igual ao atribuído aos subdiretores-gerais."
+            "content": "4 - O dever de sigilo mantém-se após o termo das respetivas funções."
           },
-          "cpt_2.art_9.pt_4": {
+          "cpt_2.art_8.pt_5": {
             "classType": "POINT",
-            "content": "4 - Os membros da CNPD beneficiam do regime geral de segurança social, se não estiverem abrangidos\n  por outro mais favorável."
-          }
-        }
-      },
-      "cpt_2.art_10": {
-        "classType": "ARTICLE",
-        "content": {
-          "2585fbc9-a615-4c1d-aaba-c492a597ed49": {
-            "classType": "ARTICLE",
-            "content": "Artigo 10.º"
-          },
-          "3c75be9a-657b-494b-80ac-a3f1c29661e7": {
-            "classType": "TITLE",
-            "content": "Garantias"
-          },
-          "321b420b-48c5-4667-b704-c712b02e7652": {
-            "classType": "POINT",
-            "content": {
-              "aeb79793-45da-488d-9bae-f5341bb0dcd4": {
-                "classType": "POINT",
-                "content": "Os membros da CNPD beneficiam das seguintes garantias:"
-              },
-              "cpt_2.art_10.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Não podem ser prejudicados na estabilidade do seu emprego, na sua carreira profissional e no\n  regime de segurança social de que beneficiem;"
-                ]
-              },
-              "cpt_2.art_10.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "O período correspondente ao exercício do mandato considera-se, para todos os efeitos legais,\n  como prestado no lugar de origem;"
-                ]
-              },
-              "cpt_2.art_10.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "O período de duração do mandato suspende, a requerimento do interessado, a contagem dos prazos\n  para a apresentação de relatórios curriculares ou prestação de provas para a carreira de docente\n  de ensino superior ou para a de investigação científica, bem como a contagem dos prazos dos\n  contratos de professores convidados, assistentes, assistentes estagiários ou convidados;"
-                ]
-              },
-              "cpt_2.art_10.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Têm direito a ser dispensados das suas atividades públicas ou privadas, quando se encontrem em\n  funções de representação nacional ou internacional da Comissão."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_2.art_11": {
-        "classType": "ARTICLE",
-        "content": {
-          "a11e0bf6-1fe4-4077-b37a-6ac83cffa77d": {
-            "classType": "ARTICLE",
-            "content": "Artigo 11.º"
-          },
-          "270f56f0-0aa6-4202-9a50-8a6ca811fa04": {
-            "classType": "TITLE",
-            "content": "Impedimentos e suspeições"
-          },
-          "cpt_2.art_11.pt_1": {
-            "classType": "POINT",
-            "content": "1 - Aos impedimentos e suspeições são aplicáveis, com as devidas adaptações, as disposições do\n  Código do Procedimento Administrativo."
-          },
-          "cpt_2.art_11.pt_2": {
-            "classType": "POINT",
-            "content": "2 - Os impedimentos e suspeições são apreciados pela CNPD."
-          }
-        }
-      },
-      "cpt_2.art_12": {
-        "classType": "ARTICLE",
-        "content": {
-          "0420b498-f76c-463f-8673-5cbc8433b234": {
-            "classType": "ARTICLE",
-            "content": "Artigo 12.º"
-          },
-          "61f3521b-be87-4a55-8016-b93069cbaaf1": {
-            "classType": "TITLE",
-            "content": "Cartão de identificação"
-          },
-          "cpt_2.art_12.pt_1": {
-            "classType": "POINT",
-            "content": "1 - Os membros da CNPD possuem cartão de identificação, dele constando o cargo, as regalias e os\n  direitos inerentes à sua função."
-          },
-          "cpt_2.art_12.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O cartão de identificação é simultaneamente de livre trânsito e de acesso a todos os locais em\n  que sejam tratados dados pessoais sujeitos ao controlo da CNPD."
+            "content": "5 - O dever de colaboração previsto nos números anteriores, bem como os poderes de fiscalização da\n  CNPD, não prejudicam o dever de segredo a que o responsável pelo tratamento esteja obrigado nos\n  termos da lei ou de normas internacionais."
           }
         }
       }
@@ -440,310 +278,267 @@
   "cpt_3": {
     "classType": "CHAPTER",
     "content": {
-      "4e8185dd-471e-4661-8e6f-20d28cf7bb0c": {
+      "290ec92a-9ad6-4e5b-8507-958f1b9cd219": {
         "classType": "CHAPTER",
         "content": "CAPÍTULO III"
       },
-      "ac1d271a-6dd3-4fe5-a365-9b6e51d4afd3": {
+      "3d267b64-7fc5-47a9-a428-39c21a3e45a8": {
         "classType": "TITLE",
-        "content": "Funcionamento da CNPD"
+        "content": "Encarregado de proteção de dados"
+      },
+      "cpt_3.art_9": {
+        "classType": "ARTICLE",
+        "content": {
+          "b924d43f-6701-4db9-97f9-9060401d4553": {
+            "classType": "ARTICLE",
+            "content": "Artigo 9.º"
+          },
+          "e475018e-203e-494f-a8bf-5d6a281252f0": {
+            "classType": "TITLE",
+            "content": "Disposição geral"
+          },
+          "cpt_3.art_9.pt_1": {
+            "classType": "POINT",
+            "content": "1 - O encarregado de proteção de dados é designado com base nos requisitos previstos no n.º 5 do\n  artigo 37.º do RGPD, não carecendo de certificação profissional para o efeito."
+          },
+          "cpt_3.art_9.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Independentemente da natureza da sua relação jurídica, o encarregado de proteção de dados\n  exerce a sua função com autonomia técnica perante a entidade responsável pelo tratamento ou\n  subcontratante."
+          }
+        }
+      },
+      "cpt_3.art_10": {
+        "classType": "ARTICLE",
+        "content": {
+          "b871549e-b3d5-4ab0-9b81-fcc72b1272e8": {
+            "classType": "ARTICLE",
+            "content": "Artigo 10.º"
+          },
+          "927a1555-28dd-45b1-b5d7-dfb4174a70d8": {
+            "classType": "TITLE",
+            "content": "Dever de sigilo e confidencialidade"
+          },
+          "cpt_3.art_10.pt_1": {
+            "classType": "POINT",
+            "content": "1 - De acordo com o disposto no n.º 5 do artigo 38.º do RGPD, o encarregado de proteção de dados\n  está obrigado a um dever de sigilo profissional em tudo o que diga respeito ao exercício dessas\n  funções, que se mantém após o termo das funções que lhes deram origem."
+          },
+          "cpt_3.art_10.pt_2": {
+            "classType": "POINT",
+            "content": "2 - O encarregado de proteção de dados, bem como os responsáveis pelo tratamento de dados,\n  incluindo os subcontratantes, e todas as pessoas que intervenham em qualquer operação de\n  tratamento de dados, estão obrigados a um dever de confidencialidade que acresce aos deveres de\n  sigilo profissional previsto na lei."
+          }
+        }
+      },
+      "cpt_3.art_11": {
+        "classType": "ARTICLE",
+        "content": {
+          "2d528cd7-b39c-4dc1-81d6-a608e158d05c": {
+            "classType": "ARTICLE",
+            "content": "Artigo 11.º"
+          },
+          "bce712f4-14dd-4ecc-a9f1-0928861e5abe": {
+            "classType": "TITLE",
+            "content": "Funções do encarregado de proteção de dados"
+          },
+          "b1bd1309-ca20-4525-95ac-17bbf4200d57": {
+            "classType": "POINT",
+            "content": {
+              "d2b5e363-6195-4c3a-a639-9ebcff32f537": {
+                "classType": "POINT",
+                "content": "Para além do disposto nos artigos 37.º a 39.º do RGPD, são funções do encarregado de proteção de\n  dados:"
+              },
+              "cpt_3.art_11.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Assegurar a realização de auditorias, quer periódicas, quer não programadas;"
+                ]
+              },
+              "cpt_3.art_11.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Sensibilizar os utilizadores para a importância da deteção atempada de incidentes de segurança\n  e para a necessidade de informar imediatamente o responsável pela segurança;"
+                ]
+              },
+              "cpt_3.art_11.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Assegurar as relações com os titulares dos dados nas matérias abrangidas pelo RGPD e pela\n  legislação nacional em matéria de proteção de dados."
+                ]
+              }
+            }
+          }
+        }
+      },
+      "cpt_3.art_12": {
+        "classType": "ARTICLE",
+        "content": {
+          "497ba593-465a-4ce0-a6eb-69ade7e7e380": {
+            "classType": "ARTICLE",
+            "content": "Artigo 12.º"
+          },
+          "53ed4254-3166-4aeb-a9b6-498fc96dfaa8": {
+            "classType": "TITLE",
+            "content": "Encarregados de proteção de dados em entidades públicas"
+          },
+          "cpt_3.art_12.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Nos termos da alínea a) do n.º 1 do artigo 37.º do RGPD, é obrigatória a designação de\n  encarregados de proteção de dados nas entidades públicas, de acordo com o disposto nos números\n  seguintes."
+          },
+          "cpt_3.art_12.pt_2": {
+            "classType": "POINT",
+            "content": {
+              "cpt_3.art_12.pt_2.pt_2": {
+                "classType": "POINT",
+                "content": "2 - Para efeitos do número anterior, entende-se por entidades públicas:"
+              },
+              "cpt_3.art_12.pt_2.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "O Estado;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "As regiões autónomas;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "As autarquias locais e as entidades supranacionais previstas na lei;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_d": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "d)",
+                  "As entidades administrativas independentes e o Banco de Portugal;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_e": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "e)",
+                  "Os institutos públicos;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_f": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "f)",
+                  "As instituições de ensino superior públicas, independentemente da sua natureza;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_g": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "g)",
+                  "As empresas do setor empresarial do Estado e dos setores empresariais regionais e locais;"
+                ]
+              },
+              "cpt_3.art_12.pt_2.spt_h": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "h)",
+                  "As associações públicas."
+                ]
+              }
+            }
+          },
+          "cpt_3.art_12.pt_3": {
+            "classType": "POINT",
+            "content": {
+              "cpt_3.art_12.pt_3.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Independentemente de quem seja responsável pelo tratamento, existe pelo menos um encarregado\n  de proteção de dados:"
+              },
+              "cpt_3.art_12.pt_3.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Por cada ministério ou área governativa, no caso do Estado, sendo designado pelo respetivo\n  ministro, com faculdade de delegação em qualquer secretário de Estado que o coadjuvar;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Por cada secretaria regional, no caso das regiões autónomas, sendo designado pelo respetivo\n  secretário regional, com faculdade de delegação em dirigente superior de 1.º grau;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Por cada município, sendo designado pela câmara municipal, com faculdade de delegação no\n  presidente e subdelegação em qualquer vereador;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_d": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "d)",
+                  "Nas freguesias em que tal se justifique, nomeadamente naquelas com mais de 750 habitantes,\n  sendo designado pela junta de freguesia, com faculdade de delegação no presidente;"
+                ]
+              },
+              "cpt_3.art_12.pt_3.spt_e": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "e)",
+                  "Por cada entidade, no caso das demais entidades referidas no número anterior, sendo designada\n  pelo respetivo órgão executivo, de administração ou gestão, com faculdade de delegação no\n  respetivo presidente."
+                ]
+              }
+            }
+          },
+          "cpt_3.art_12.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Nos termos do n.º 3 do artigo 37.º do RGPD, pode ser designado o mesmo encarregado de proteção\n  de dados para vários ministérios ou áreas governativas, secretarias regionais, autarquias locais\n  ou outras pessoas coletivas públicas."
+          },
+          "cpt_3.art_12.pt_5": {
+            "classType": "POINT",
+            "content": "5 - Cabe a cada entidade a designação do encarregado de proteção de dados, não sendo obrigatório o\n  exercício de funções em regime de exclusividade."
+          },
+          "cpt_3.art_12.pt_6": {
+            "classType": "POINT",
+            "content": "6 - O encarregado de proteção de dados de uma entidade pública que tenha atribuições de regulação\n  ou controlo não pode exercer essas funções simultaneamente em entidade sujeita ao controlo, ou\n  inserida no perímetro regulatório daquela entidade."
+          }
+        }
       },
       "cpt_3.art_13": {
         "classType": "ARTICLE",
         "content": {
-          "bf304d3e-bdf9-4ad5-8ce4-fec49df097e0": {
+          "c302abba-933a-4776-9678-5d006fbff895": {
             "classType": "ARTICLE",
             "content": "Artigo 13.º"
           },
-          "99551303-28ee-4412-b976-76536db742f5": {
+          "9f45c5ba-655b-486d-b1f4-a7c4788e382f": {
             "classType": "TITLE",
-            "content": "Reuniões"
+            "content": "Encarregados de proteção de dados em entidades privadas"
           },
-          "cpt_3.art_13.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A CNPD funciona com carácter permanente."
-          },
-          "cpt_3.art_13.pt_2": {
-            "classType": "POINT",
-            "content": "2 - A CNPD tem reuniões ordinárias e extraordinárias."
-          },
-          "cpt_3.art_13.pt_3": {
+          "9aeb4eb4-30f4-43c0-a302-e90ca8db6206": {
             "classType": "POINT",
             "content": {
-              "cpt_3.art_13.pt_3.pt_3": {
+              "9c4bcbd6-1fa1-424e-93c8-a1530c3cea5f": {
                 "classType": "POINT",
-                "content": "3 - As reuniões extraordinárias têm lugar:"
+                "content": "O responsável pelo tratamento e o subcontratante designam um encarregado de proteção de dados\n  sempre que a atividade privada desenvolvida, a título principal, implique:"
               },
-              "cpt_3.art_13.pt_3.spt_a": {
+              "cpt_3.art_13.spt_a": {
                 "classType": "SUBPOINT",
                 "content": [
                   "a)",
-                  "Por iniciativa do presidente;"
+                  "Operações de tratamento que, devido à sua natureza, âmbito e ou finalidade, exijam um controlo\n  regular e sistemático dos titulares dos dados em grande escala; ou"
                 ]
               },
-              "cpt_3.art_13.pt_3.spt_b": {
+              "cpt_3.art_13.spt_b": {
                 "classType": "SUBPOINT",
                 "content": [
                   "b)",
-                  "A pedido de três dos seus membros."
-                ]
-              }
-            }
-          },
-          "cpt_3.art_13.pt_4": {
-            "classType": "POINT",
-            "content": "4 - As reuniões da CNPD não são públicas e realizam-se nas suas instalações ou, por sua\n  deliberação, em qualquer outro local do território nacional, sendo a periodicidade estabelecida\n  nos termos adequados ao desempenho das suas funções."
-          },
-          "cpt_3.art_13.pt_5": {
-            "classType": "POINT",
-            "content": "5 - O presidente, quando o entender conveniente, pode, com o acordo da Comissão, convidar a\n  participar nas reuniões, salvo na fase decisória, qualquer pessoa cuja presença seja considerada\n  útil."
-          },
-          "cpt_3.art_13.pt_6": {
-            "classType": "POINT",
-            "content": "6 - Das reuniões é lavrada ata, que, depois de aprovada pela CNPD, é assinada pelo presidente e\n  pelo secretário."
-          }
-        }
-      },
-      "cpt_3.art_14": {
-        "classType": "ARTICLE",
-        "content": {
-          "dd0745f5-7dd0-47d7-b0c4-f9af43b8b903": {
-            "classType": "ARTICLE",
-            "content": "Artigo 14.º"
-          },
-          "bd0d59df-de6f-4a1e-a6bc-a5020c488f7f": {
-            "classType": "TITLE",
-            "content": "Ordem de trabalhos"
-          },
-          "cpt_3.art_14.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A ordem de trabalhos para cada reunião ordinária é fixada pelo presidente, devendo ser\n  comunicada aos vogais com a antecedência mínima de dois dias úteis relativamente à data prevista\n  para a sua realização."
-          },
-          "cpt_3.art_14.pt_2": {
-            "classType": "POINT",
-            "content": "2 - A ordem de trabalhos deve incluir os assuntos que para esse fim lhe forem indicados por\n  qualquer vogal, desde que sejam da competência do órgão e o pedido seja apresentado por escrito\n  com uma antecedência mínima de cinco dias sobre a data da reunião."
-          }
-        }
-      },
-      "cpt_3.art_15": {
-        "classType": "ARTICLE",
-        "content": {
-          "b88fc89e-7451-4ade-9d48-a2b941959e54": {
-            "classType": "ARTICLE",
-            "content": "Artigo 15.º"
-          },
-          "09463e5f-d241-4116-b1bd-4dca27b27800": {
-            "classType": "TITLE",
-            "content": "Deliberações"
-          },
-          "cpt_3.art_15.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A CNPD só pode reunir e deliberar com a presença de pelo menos quatro membros."
-          },
-          "cpt_3.art_15.pt_2": {
-            "classType": "POINT",
-            "content": "2 - As deliberações da CNPD são tomadas por maioria dos membros presentes, tendo o presidente voto\n  de qualidade."
-          },
-          "cpt_3.art_15.pt_3": {
-            "classType": "POINT",
-            "content": "3 - (Revogado.)"
-          }
-        }
-      },
-      "cpt_3.art_16": {
-        "classType": "ARTICLE",
-        "content": {
-          "042abdf5-c512-48f3-85dd-8d5ac0ccc911": {
-            "classType": "ARTICLE",
-            "content": "Artigo 16.º"
-          },
-          "401b409c-f300-4fb1-9202-356c783f29f0": {
-            "classType": "TITLE",
-            "content": "Publicidade"
-          },
-          "cpt_3.art_16.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_3.art_16.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - São publicados no sítio da Internet da CNPD as deliberações relativas a:"
-              },
-              "cpt_3.art_16.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Acreditação e certificação;"
-                ]
-              },
-              "cpt_3.art_16.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Revogação e anulação de acreditação e de certificação;"
-                ]
-              },
-              "cpt_3.art_16.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Códigos de conduta;"
-                ]
-              },
-              "cpt_3.art_16.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Autorizações;"
-                ]
-              },
-              "cpt_3.art_16.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Regras vinculativas."
-                ]
-              }
-            }
-          },
-          "cpt_3.art_16.pt_2": {
-            "classType": "POINT",
-            "content": "2 - São ainda publicados naquele sítio os regulamentos e os pareceres sobre disposições legais e\n  regulamentares e instrumentos jurídicos em preparação em instituições da União Europeia e\n  internacionais, bem como as orientações e recomendações genéricas."
-          },
-          "cpt_3.art_16.pt_3": {
-            "classType": "POINT",
-            "content": "3 - São publicados na 2.ª série do Diário da República os regulamentos administrativos, incluindo\n  os relativos à fixação de taxas e os emitidos ao abrigo do disposto no n.º 3 do artigo 22.º"
-          }
-        }
-      },
-      "cpt_3.art_17": {
-        "classType": "ARTICLE",
-        "content": {
-          "28389332-5937-4684-a315-964413985ad7": {
-            "classType": "ARTICLE",
-            "content": "Artigo 17.º"
-          },
-          "82d96fbe-16a1-42be-b858-cbf09b034084": {
-            "classType": "TITLE",
-            "content": "Denúncias e participações"
-          },
-          "cpt_3.art_17.pt_1": {
-            "classType": "POINT",
-            "content": "1 - As denúncias e participações são apresentadas por escrito, em local específico para o efeito\n  no sítio da CNPD, sem prejuízo de, excecionalmente, desde que devidamente fundamentado, se admitir\n  a sua apresentação por correio eletrónico ou correio postal, podendo ser exigida a confirmação da\n  identidade dos seus autores."
-          },
-          "cpt_3.art_17.pt_2": {
-            "classType": "POINT",
-            "content": "2 - (Revogado.)"
-          },
-          "cpt_3.art_17.pt_3": {
-            "classType": "POINT",
-            "content": "3 - Quando a questão suscitada não for da competência da CNPD, deve a mesma ser encaminhada para a\n  entidade competente, com informação ao exponente."
-          },
-          "cpt_3.art_17.pt_4": {
-            "classType": "POINT",
-            "content": "4 - As reclamações, queixas e petições manifestamente infundadas podem ser arquivadas pelo membro\n  da Comissão a quem o respetivo processo tenha sido distribuído."
-          }
-        }
-      },
-      "cpt_3.art_18": {
-        "classType": "ARTICLE",
-        "content": {
-          "53b20298-4461-4b57-aa7a-1464d50964e1": {
-            "classType": "ARTICLE",
-            "content": "Artigo 18.º"
-          },
-          "5f20659a-f2cb-4d50-bdfb-5ee957ff11e1": {
-            "classType": "TITLE",
-            "content": "Formalidades"
-          },
-          "cpt_3.art_18.pt_1": {
-            "classType": "POINT",
-            "content": "1 - Os documentos dirigidos à CNPD e o processado subsequente não estão sujeitos a formalidades\n  especiais."
-          },
-          "cpt_3.art_18.pt_2": {
-            "classType": "POINT",
-            "content": "2 - A CNPD pode aprovar modelos ou formulários, em suporte eletrónico, com vista a permitir melhor\n  instrução dos processos."
-          },
-          "cpt_3.art_18.pt_3": {
-            "classType": "POINT",
-            "content": "3 - (Revogado.)"
-          },
-          "cpt_3.art_18.pt_4": {
-            "classType": "POINT",
-            "content": "4 - Os pedidos de parecer sobre disposições legais e regulamentares em preparação devem ser\n  remetidos à CNPD pelo titular do órgão com poder legiferante ou regulamentar, instruídos com o\n  respetivo estudo de impacto sobre a proteção de dados pessoais."
-          },
-          "cpt_3.art_18.pt_5": {
-            "classType": "POINT",
-            "content": "5 - Os pedidos de parecer sobre quaisquer outros instrumentos jurídicos da União Europeia ou\n  internacionais em preparação, relativos ao tratamento de dados pessoais, devem ser remetidos à\n  CNPD pela entidade que representa o Estado português no processo de elaboração da iniciativa,\n  devidamente instruídos."
-          }
-        }
-      },
-      "cpt_3.art_19": {
-        "classType": "ARTICLE",
-        "content": {
-          "7a75050d-624e-4b2e-9a21-cf30290b4db4": {
-            "classType": "ARTICLE",
-            "content": "Artigo 19.º"
-          },
-          "81216342-557c-4579-80bd-16cdd6b2a25f": {
-            "classType": "TITLE",
-            "content": "Competências e substituição do presidente"
-          },
-          "cpt_3.art_19.pt_1": {
-            "classType": "POINT",
-            "content": "1 - O fiscal único é o órgão responsável pelo controlo da legalidade, da regularidade e da boa\n  gestão financeira e patrimonial da CNPD, e de consulta por esta nesse domínio."
-          },
-          "cpt_3.art_19.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O fiscal único é um revisor oficial de contas, designado pela Assembleia da República, por\n  resolução, e que toma posse perante o Presidente da Assembleia da República."
-          },
-          "cpt_3.art_19.pt_3": {
-            "classType": "POINT",
-            "content": "3 - O mandato do fiscal único tem a duração de cinco anos, não renovável, permanecendo em\n  exercício de funções até à efetiva substituição."
-          },
-          "cpt_3.art_19.pt_4": {
-            "classType": "POINT",
-            "content": "4 - O fiscal único é remunerado por valor correspondente a 25 % da remuneração base auferida pelos\n  membros da CNPD."
-          },
-          "cpt_3.art_19.pt_5": {
-            "classType": "POINT",
-            "content": {
-              "cpt_3.art_19.pt_5.pt_5": {
-                "classType": "POINT",
-                "content": "5 - Compete, designadamente, ao fiscal único:"
-              },
-              "cpt_3.art_19.pt_5.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Acompanhar e controlar a gestão financeira e patrimonial da CNPD;"
-                ]
-              },
-              "cpt_3.art_19.pt_5.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Examinar periodicamente a situação financeira e económica da CNPD e verificar o cumprimento das\n  normas reguladoras da sua atividade;"
-                ]
-              },
-              "cpt_3.art_19.pt_5.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Emitir parecer prévio no prazo máximo de 10 dias sobre a aquisição, oneração, arrendamento e\n  alienação de bens móveis;"
-                ]
-              },
-              "cpt_3.art_19.pt_5.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Emitir parecer sobre qualquer assunto que lhe seja submetido pela CNPD;"
-                ]
-              },
-              "cpt_3.art_19.pt_5.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Participar às entidades competentes as irregularidades que detete."
+                  "Operações de tratamento em grande escala das categorias especiais de dados nos termos do artigo\n  9.º do RGPD, ou de dados pessoais relacionados com condenações penais e contraordenacionais nos\n  termos do artigo 10.º do RGPD."
                 ]
               }
             }
@@ -755,167 +550,57 @@
   "cpt_4": {
     "classType": "CHAPTER",
     "content": {
-      "93830617-82e6-4c44-bc3b-5cd14d73202b": {
+      "1e6463ac-14f8-4c0c-85e0-2677b53ce337": {
         "classType": "CHAPTER",
         "content": "CAPÍTULO IV"
       },
-      "ad4641ef-a255-4496-9fc5-e696bd34ad78": {
+      "b7421372-9dbc-472a-87ae-d39ced1f9bc3": {
         "classType": "TITLE",
-        "content": "Regime financeiro"
+        "content": "Acreditação, certificação e códigos de conduta"
       },
-      "cpt_4.art_20": {
+      "cpt_4.art_14": {
         "classType": "ARTICLE",
         "content": {
-          "bcc0d256-1ec9-49bc-9668-b3c4e4efe657": {
+          "7ee19c59-a3ec-4fb7-9af9-5d0f2de626d7": {
             "classType": "ARTICLE",
-            "content": "Artigo 20.º"
+            "content": "Artigo 14.º"
           },
-          "a42fbac0-5df5-4334-a08d-ce4756172f9c": {
+          "2efa7ab9-a0ff-4b25-87f7-0d87df80adbb": {
             "classType": "TITLE",
-            "content": "Regime de receitas e despesas"
+            "content": "Acreditação e certificação"
           },
-          "cpt_4.art_20.pt_1": {
+          "cpt_4.art_14.pt_1": {
             "classType": "POINT",
-            "content": "1 - As receitas e despesas da CNPD, que goza de autonomia administrativa e financeira, constam de\n  orçamento anual."
+            "content": "1 - Nos termos da alínea b) do n.º 1 do artigo 43.º do RGPD, a autoridade competente para a\n  acreditação dos organismos de certificação em matéria de proteção de dados é o IPAC, I. P."
           },
-          "cpt_4.art_20.pt_2": {
+          "cpt_4.art_14.pt_2": {
             "classType": "POINT",
-            "content": {
-              "cpt_4.art_20.pt_2.pt_2": {
-                "classType": "POINT",
-                "content": "2 - Além das dotações que lhe forem atribuídas no orçamento da Assembleia da República, nos termos\n  da\n  Lei n.º 59/90, de 21 de novembro, constituem receitas da CNPD:"
-              },
-              "cpt_4.art_20.pt_2.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "O produto das taxas cobradas;"
-                ]
-              },
-              "cpt_4.art_20.pt_2.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "O produto da venda de publicações;"
-                ]
-              },
-              "cpt_4.art_20.pt_2.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "O produto dos encargos da passagem de certidões e acesso a documentos;"
-                ]
-              },
-              "cpt_4.art_20.pt_2.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "O montante das coimas cobradas que, nos termos previstos na lei, revertam a seu favor;"
-                ]
-              },
-              "cpt_4.art_20.pt_2.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "O saldo de gerência do ano anterior;"
-                ]
-              },
-              "cpt_4.art_20.pt_2.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Os subsídios, subvenções, comparticipações, doações e legados, concedidos por entidades,\n  públicas e privadas, nacionais, estrangeiras, da União Europeia ou internacionais;"
-                ]
-              },
-              "cpt_4.art_20.pt_2.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Quaisquer outras receitas que lhe sejam atribuídas por lei ou contrato."
-                ]
-              }
-            }
+            "content": "2 - O ato de acreditação emitido pelo IPAC, I. P., deve tomar em consideração os requisitos\n  previstos no RGPD, bem como os requisitos adicionais estabelecidos pela CNPD."
           },
-          "cpt_4.art_20.pt_3": {
+          "cpt_4.art_14.pt_3": {
             "classType": "POINT",
-            "content": "3 - Constituem despesas da CNPD as que resultem dos encargos e responsabilidades decorrentes do\n  seu funcionamento, bem como quaisquer outras relativas à prossecução das suas atribuições."
-          },
-          "cpt_4.art_20.pt_4": {
-            "classType": "POINT",
-            "content": "4 - O orçamento anual, as respetivas alterações bem como as contas são aprovados pela CNPD."
-          },
-          "cpt_4.art_20.pt_5": {
-            "classType": "POINT",
-            "content": "5 - As contas da CNPD ficam sujeitas, nos termos gerais, ao controlo do Tribunal de Contas."
-          },
-          "cpt_4.art_20.pt_6": {
-            "classType": "POINT",
-            "content": "6 - A gestão do orçamento da CNPD, incluindo as dotações não integradas no orçamento da Assembleia\n  da República, fica sujeita ao regime deste último, sendo igualmente aplicável o regime previsto no\n  n.º 10 do artigo 60.º da\n  Lei n.º 71/2018, de 31 de dezembro."
+            "content": "3 - A certificação, bem como a emissão de selos e marcas de proteção de dados, é efetuada por\n  organismos de certificação acreditados nos termos do n.º 1, destinando-se a atestar que os\n  procedimentos implementados cumprem o disposto no RGPD e na presente lei."
           }
         }
       },
-      "cpt_4.art_21": {
+      "cpt_4.art_15": {
         "classType": "ARTICLE",
         "content": {
-          "5c34f195-0e73-4a26-a511-f3962f57967f": {
+          "d56c97a1-566d-48a7-ae78-f1881f02602a": {
             "classType": "ARTICLE",
-            "content": "Artigo 21.º"
+            "content": "Artigo 15.º"
           },
-          "92be4530-0ee2-4351-bb84-9bb787a22055": {
+          "9a7941eb-31da-46ac-b188-583098db4f47": {
             "classType": "TITLE",
-            "content": "Taxas"
+            "content": "Códigos de conduta"
           },
-          "cpt_4.art_21.pt_1": {
+          "cpt_4.art_15.pt_1": {
             "classType": "POINT",
-            "content": {
-              "cpt_4.art_21.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - A CNPD pode cobrar taxas:"
-              },
-              "cpt_4.art_21.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Pela acreditação e certificação;"
-                ]
-              },
-              "cpt_4.art_21.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Pela consulta prévia;"
-                ]
-              },
-              "cpt_4.art_21.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Pela emissão de autorizações;"
-                ]
-              },
-              "cpt_4.art_21.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Pela apreciação de códigos de conduta;"
-                ]
-              },
-              "cpt_4.art_21.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Nos demais casos previstos por lei."
-                ]
-              }
-            }
+            "content": "1 - Compete à CNPD fomentar a elaboração de códigos de conduta que regulem atividades\n  determinadas, os quais devem tomar em atenção as necessidades específicas das micro, pequenas e\n  médias empresas."
           },
-          "cpt_4.art_21.pt_2": {
+          "cpt_4.art_15.pt_2": {
             "classType": "POINT",
-            "content": "2 - O montante das taxas, que deve ser proporcional à complexidade do pedido e ao serviço\n  prestado, é fixado em regulamento pela CNPD."
-          },
-          "cpt_4.art_21.pt_3": {
-            "classType": "POINT",
-            "content": "3 - Em caso de comprovada insuficiência económica, o interessado poderá ficar isento, total ou\n  parcialmente, do pagamento das taxas referidas no n.º 1, mediante deliberação da CNPD."
+            "content": "2 - O tratamento de dados pessoais pela administração direta e indireta do Estado é objeto de\n  códigos de conduta próprios."
           }
         }
       }
@@ -924,625 +609,240 @@
   "cpt_5": {
     "classType": "CHAPTER",
     "content": {
-      "deeb6d58-becf-463b-9b64-42c4972940bd": {
+      "924a2418-0500-4a1f-a50a-3e31bd2c5582": {
         "classType": "CHAPTER",
         "content": "CAPÍTULO V"
       },
-      "5aff00b8-9e21-47c7-af3d-9e9193be3049": {
+      "c387d929-eb1e-4cf0-929c-3b2966228785": {
         "classType": "TITLE",
-        "content": "Serviços de apoio"
+        "content": "Disposições especiais"
       },
-      "cpt_5.art_22": {
+      "cpt_5.art_16": {
         "classType": "ARTICLE",
         "content": {
-          "3e2f0673-41c4-41c8-aff2-07be54a9f1e0": {
+          "7f7bd0d0-569a-4b16-83ae-3bca8a3d9fad": {
             "classType": "ARTICLE",
-            "content": "Artigo 22.º"
+            "content": "Artigo 16.º"
           },
-          "09146ac0-1c54-46fa-b1ca-19a4f069a5ff": {
+          "2d4faec4-1398-4819-97d3-bf55be6667ca": {
             "classType": "TITLE",
-            "content": "Organização dos serviços de apoio"
+            "content": "Consentimento de menores"
           },
-          "cpt_5.art_22.pt_1": {
+          "cpt_5.art_16.pt_1": {
             "classType": "POINT",
-            "content": "1 - A CNPD dispõe de serviços de apoio próprios que compreendem unidades e núcleos."
+            "content": "1 - Nos termos do artigo 8.º do RGPD, os dados pessoais de crianças só podem ser objeto de\n  tratamento com base no consentimento previsto na alínea a) do n.º 1 do artigo 6.º do RGPD e\n  relativo à oferta direta de serviços da sociedade de informação quando as mesmas já tenham\n  completado 13 anos de idade."
           },
-          "cpt_5.art_22.pt_2": {
+          "cpt_5.art_16.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Caso a criança tenha idade inferior a 13 anos, o tratamento só é lícito se o consentimento for\n  dado pelos representantes legais desta, de preferência com recurso a meios de autenticação segura."
+          }
+        }
+      },
+      "cpt_5.art_17": {
+        "classType": "ARTICLE",
+        "content": {
+          "a16c77ba-485e-438a-a63d-24ee8f41feeb": {
+            "classType": "ARTICLE",
+            "content": "Artigo 17.º"
+          },
+          "3b20a5cb-5907-40d6-9a49-2aedb0dd66f1": {
+            "classType": "TITLE",
+            "content": "Proteção de dados pessoais de pessoas falecidas"
+          },
+          "cpt_5.art_17.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Os dados pessoais de pessoas falecidas são protegidos nos termos do RGPD e da presente lei\n  quando se integrem nas categorias especiais de dados pessoais a que se refere o n.º 1 do artigo\n  9.º do RGPD, ou quando se reportem à intimidade da vida privada, à imagem ou aos dados relativos\n  às comunicações, ressalvados os casos previstos no n.º 2 do mesmo artigo."
+          },
+          "cpt_5.art_17.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Os direitos previstos no RGPD relativos a dados pessoais de pessoas falecidas, abrangidos pelo\n  número anterior, nomeadamente os direitos de acesso, retificação e apagamento, são exercidos por\n  quem a pessoa falecida haja designado para o efeito ou, na sua falta, pelos respetivos herdeiros."
+          },
+          "cpt_5.art_17.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Os titulares dos dados podem igualmente, nos termos legais aplicáveis, deixar determinada a\n  impossibilidade de exercício dos direitos referidos no número anterior após a sua morte."
+          }
+        }
+      },
+      "cpt_5.art_18": {
+        "classType": "ARTICLE",
+        "content": {
+          "317fdca5-bb7c-4842-8529-e2ffedb99f49": {
+            "classType": "ARTICLE",
+            "content": "Artigo 18.º"
+          },
+          "46720ad7-54f5-453a-b25f-1d53565eeafa": {
+            "classType": "TITLE",
+            "content": "Portabilidade e interoperabilidade dos dados"
+          },
+          "cpt_5.art_18.pt_1": {
+            "classType": "POINT",
+            "content": "1 - O direito de portabilidade dos dados, previsto no artigo 20.º do RGPD, abrange apenas os dados\n  fornecidos pelos respetivos titulares."
+          },
+          "cpt_5.art_18.pt_2": {
+            "classType": "POINT",
+            "content": "2 - A portabilidade dos dados deve, sempre que possível, ter lugar em formato aberto."
+          },
+          "cpt_5.art_18.pt_3": {
+            "classType": "POINT",
+            "content": "3 - No âmbito da Administração Pública, sempre que a interoperabilidade dos dados não seja\n  tecnicamente possível, o titular dos dados tem o direito de exigir que os mesmos lhe sejam\n  entregues num formato digital aberto, de acordo com o Regulamento Nacional de Interoperabilidade\n  Digital em vigor."
+          }
+        }
+      },
+      "cpt_5.art_19": {
+        "classType": "ARTICLE",
+        "content": {
+          "134a67b1-37d7-4425-ab9b-7c142f80f416": {
+            "classType": "ARTICLE",
+            "content": "Artigo 19.º"
+          },
+          "05fcaa9f-9dec-42d6-a747-1222201e967f": {
+            "classType": "TITLE",
+            "content": "Videovigilância"
+          },
+          "cpt_5.art_19.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Sem prejuízo das disposições legais específicas que imponham a sua utilização, nomeadamente\n  por razões de segurança pública, os sistemas de videovigilância cuja finalidade seja a proteção de\n  pessoas e bens asseguram os requisitos previstos no artigo 31.º da\n  Lei n.º 34/2013, de 16 de maio, com os limites definidos no número seguinte."
+          },
+          "cpt_5.art_19.pt_2": {
             "classType": "POINT",
             "content": {
-              "cpt_5.art_22.pt_2.pt_2": {
+              "cpt_5.art_19.pt_2.pt_2": {
                 "classType": "POINT",
-                "content": "2 - Os serviços de apoio são constituídos pelas seguintes unidades:"
+                "content": "2 - As câmaras não podem incidir sobre:"
               },
-              "cpt_5.art_22.pt_2.spt_a": {
+              "cpt_5.art_19.pt_2.spt_a": {
                 "classType": "SUBPOINT",
                 "content": [
                   "a)",
-                  "Unidade de Direitos e Sanções;"
+                  "Vias públicas, propriedades limítrofes ou outros locais que não sejam do domínio exclusivo do\n  responsável, exceto no que seja estritamente necessário para cobrir os acessos ao imóvel;"
                 ]
               },
-              "cpt_5.art_22.pt_2.spt_b": {
+              "cpt_5.art_19.pt_2.spt_b": {
                 "classType": "SUBPOINT",
                 "content": [
                   "b)",
-                  "Unidade de Inspeção;"
+                  "A zona de digitação de códigos de caixas multibanco ou outros terminais de pagamento ATM;"
                 ]
               },
-              "cpt_5.art_22.pt_2.spt_c": {
+              "cpt_5.art_19.pt_2.spt_c": {
                 "classType": "SUBPOINT",
                 "content": [
                   "c)",
-                  "Unidade de Relações Públicas e Internacionais;"
+                  "O interior de áreas reservadas a clientes ou utentes onde deva ser respeitada a privacidade,\n  designadamente instalações sanitárias, zonas de espera e provadores de vestuário;"
                 ]
               },
-              "cpt_5.art_22.pt_2.spt_d": {
+              "cpt_5.art_19.pt_2.spt_d": {
                 "classType": "SUBPOINT",
                 "content": [
                   "d)",
-                  "Unidade de Informática;"
-                ]
-              },
-              "cpt_5.art_22.pt_2.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Unidade de Apoio Administrativo e Financeiro."
+                  "O interior de áreas reservadas aos trabalhadores, designadamente zonas de refeição, vestiários,\n  ginásios, instalações sanitárias e zonas exclusivamente afetas ao seu descanso."
                 ]
               }
             }
           },
-          "cpt_5.art_22.pt_3": {
+          "cpt_5.art_19.pt_3": {
             "classType": "POINT",
-            "content": "3 - Compete à CNPD aprovar o regulamento de organização e funcionamento dos serviços de apoio, bem\n  como o regulamento de avaliação dos trabalhadores."
+            "content": "3 - Nos estabelecimentos de ensino, as câmaras de videovigilância só podem incidir sobre os\n  perímetros externos e locais de acesso, e ainda sobre espaços cujos bens e equipamentos requeiram\n  especial proteção, como laboratórios ou salas de informática."
           },
-          "cpt_5.art_22.pt_4": {
+          "cpt_5.art_19.pt_4": {
             "classType": "POINT",
-            "content": "4 - Os serviços de apoio são dirigidos por um secretário, o qual tem direito à remuneração mais\n  elevada de consultor-coordenador, bem como a um abono mensal para despesas de representação no\n  valor de 8 % da remuneração base."
+            "content": "4 - Nos casos em que é admitida a videovigilância, é proibida a captação de som, exceto no período\n  em que as instalações vigiadas estejam encerradas ou mediante autorização prévia da CNPD."
+          }
+        }
+      },
+      "cpt_5.art_20": {
+        "classType": "ARTICLE",
+        "content": {
+          "e53890e3-496a-4c4e-8b39-81a0344e1b4d": {
+            "classType": "ARTICLE",
+            "content": "Artigo 20.º"
           },
-          "cpt_5.art_22.pt_5": {
-            "classType": "POINT",
-            "content": "5 - O secretário é nomeado por despacho do presidente, obtido parecer favorável da Comissão, com\n  observância dos requisitos legais adequados ao desempenho das respetivas funções, escolhido\n  preferencialmente de entre funcionários já pertencentes ao mapa da CNPD, habilitados com\n  licenciatura e de reconhecida competência para o desempenho do lugar."
+          "e4ac6331-04ad-4d00-99e9-a3a84abc6f13": {
+            "classType": "TITLE",
+            "content": "Dever de segredo"
           },
-          "cpt_5.art_22.pt_6": {
+          "cpt_5.art_20.pt_1": {
             "classType": "POINT",
-            "content": "6 - A nomeação do secretário é feita em regime de comissão de serviço, por períodos de três anos."
+            "content": "1 - Os direitos de informação e de acesso a dados pessoais previstos nos artigos 13.º a 15.º do\n  RGPD não podem ser exercidos quando a lei imponha ao responsável pelo tratamento ou ao\n  subcontratante um dever de segredo que seja oponível ao próprio titular dos dados."
+          },
+          "cpt_5.art_20.pt_2": {
+            "classType": "POINT",
+            "content": "2 - O titular dos dados pode solicitar à CNPD a emissão de parecer quanto à oponibilidade do dever\n  de segredo, sem prejuízo do disposto no Capítulo VII."
+          }
+        }
+      },
+      "cpt_5.art_21": {
+        "classType": "ARTICLE",
+        "content": {
+          "556b3e02-18e4-45e5-9606-0592df9d880b": {
+            "classType": "ARTICLE",
+            "content": "Artigo 21.º"
+          },
+          "e30bf091-16dd-4541-a7d2-d4f7cd992a89": {
+            "classType": "TITLE",
+            "content": "Prazo de conservação de dados pessoais"
+          },
+          "cpt_5.art_21.pt_1": {
+            "classType": "POINT",
+            "content": "1 - O prazo de conservação de dados pessoais é o que estiver fixado por norma legal ou\n  regulamentar ou, na falta desta, o que se revele necessário para a prossecução da finalidade."
+          },
+          "cpt_5.art_21.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Quando, pela natureza e finalidade do tratamento, designadamente para fins de arquivo de\n  interesse público, fins de investigação científica ou histórica ou fins estatísticos, não seja\n  possível determinar antecipadamente o momento em que o mesmo deixa de ser necessário, é lícita a\n  conservação dos dados pessoais, desde que sejam adotadas medidas técnicas e organizativas\n  adequadas a garantir os direitos do titular dos dados, designadamente a informação da sua\n  conservação."
+          },
+          "cpt_5.art_21.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Quando os dados pessoais sejam necessários para o responsável pelo tratamento, ou o\n  subcontratante, comprovar o cumprimento de obrigações contratuais ou de outra natureza, os mesmos\n  podem ser conservados enquanto não decorrer o prazo de prescrição dos direitos correspetivos."
+          },
+          "cpt_5.art_21.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Quando cesse a finalidade que motivou o tratamento, inicial ou posterior, de dados pessoais, o\n  responsável pelo tratamento deve proceder à sua destruição ou anonimização."
+          },
+          "cpt_5.art_21.pt_5": {
+            "classType": "POINT",
+            "content": "5 - Nos casos em que existe um prazo de conservação de dados imposto por lei, só pode ser exercido\n  o direito ao apagamento previsto no artigo 17.º do RGPD findo esse prazo."
+          },
+          "cpt_5.art_21.pt_6": {
+            "classType": "POINT",
+            "content": "6 - Os dados relativos a declarações contributivas para efeitos de aposentação ou reforma podem\n  ser conservados sem limite de prazo, a fim de auxiliar o titular na reconstituição das carreiras\n  contributivas, desde que sejam adotadas medidas técnicas e organizativas adequadas a garantir os\n  direitos do titular dos dados."
+          }
+        }
+      },
+      "cpt_5.art_22": {
+        "classType": "ARTICLE",
+        "content": {
+          "9ff6816f-a65d-473e-aae3-28c0f79e8821": {
+            "classType": "ARTICLE",
+            "content": "Artigo 22.º"
+          },
+          "676cd279-346f-4c3f-81f6-200b2932a5ee": {
+            "classType": "TITLE",
+            "content": "Transferências de dados"
+          },
+          "15f81cef-fab7-495f-9af4-ef5bc2e9c17e": {
+            "classType": "POINT",
+            "content": "As transferências de dados para países terceiros à União Europeia ou organizações internacionais,\n  efetuadas no cumprimento de obrigações legais, por entidades públicas no exercício de poderes de\n  autoridade, são consideradas de interesse público para efeitos do disposto no n.º 4 do artigo 49.º\n  do RGPD."
           }
         }
       },
       "cpt_5.art_23": {
         "classType": "ARTICLE",
         "content": {
-          "fcc282fc-4d43-431e-b0d2-97a78c1dc3b2": {
+          "92d351ea-a242-4867-843b-27e83be8b701": {
             "classType": "ARTICLE",
             "content": "Artigo 23.º"
           },
-          "a3f7346c-e26e-42c2-8dc5-92969ad26598": {
+          "a23797ce-ed97-4982-a6f0-7e8cc4e91641": {
             "classType": "TITLE",
-            "content": "Competências do secretário"
+            "content": "Tratamento de dados pessoais por entidades públicas para finalidades diferentes"
           },
           "cpt_5.art_23.pt_1": {
             "classType": "POINT",
-            "content": {
-              "cpt_5.art_23.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - Compete ao secretário:"
-              },
-              "cpt_5.art_23.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Secretariar a Comissão;"
-                ]
-              },
-              "cpt_5.art_23.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Dar execução às decisões da Comissão, de acordo com as orientações do presidente;"
-                ]
-              },
-              "cpt_5.art_23.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Assegurar a boa organização e funcionamento dos serviços de apoio, nomeadamente no tocante à\n  gestão financeira, do pessoal e das instalações e equipamento, de acordo com as orientações do\n  presidente;"
-                ]
-              },
-              "cpt_5.art_23.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Elaborar o projeto de orçamento, bem como as respetivas alterações, e assegurar a sua execução;"
-                ]
-              },
-              "cpt_5.art_23.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Elaborar o projeto de relatório anual."
-                ]
-              }
-            }
+            "content": "1 - O tratamento de dados pessoais por entidades públicas para finalidades diferentes das\n  determinadas pela recolha tem natureza excecional e deve ser devidamente fundamentado com vista a\n  assegurar a prossecução do interesse público que de outra forma não possa ser acautelado, nos\n  termos da alínea e) do n.º 1, do n.º 4 do artigo 6.º e da alínea g) do n.º 2 do artigo 9.º do\n  RGPD."
           },
           "cpt_5.art_23.pt_2": {
             "classType": "POINT",
-            "content": "2 - O secretário é substituído, nas suas faltas e impedimentos, pelo técnico superior ou consultor\n  designado pelo presidente, obtido parecer favorável da Comissão."
-          }
-        }
-      },
-      "cpt_5.art_24": {
-        "classType": "ARTICLE",
-        "content": {
-          "33217e7f-efa3-4179-a4f5-62d5e32644c3": {
-            "classType": "ARTICLE",
-            "content": "Artigo 24.º"
-          },
-          "d687855a-44d5-45dc-a63a-e68cd2245dbb": {
-            "classType": "TITLE",
-            "content": "Unidade de Direitos e Sanções"
-          },
-          "3eae9c86-c4fc-469f-b08f-30e4073a9a59": {
-            "classType": "POINT",
-            "content": {
-              "166cc1b5-c31f-4fa2-a867-2e9c1563c47f": {
-                "classType": "POINT",
-                "content": "Compete à Unidade de Direitos e Sanções assegurar o apoio técnico-jurídico, designadamente:"
-              },
-              "cpt_5.art_24.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Fiscalizar a conformidade do tratamento de dados pessoais, podendo para tal aceder às\n  instalações do responsável e do subcontratante, aos equipamentos, aos meios de tratamento de\n  dados, bem como a toda a documentação que se revele necessária;"
-                ]
-              },
-              "cpt_5.art_24.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Investigar, no âmbito da assistência mútua e das operações conjuntas previstas nos artigos 61.º\n  e 62.º do Regulamento (UE)\n  2016/679\n  do Parlamento e do Conselho, de 27 de abril de 2016, os tratamentos de dados pessoais, nas\n  condições previstas na alínea anterior;"
-                ]
-              },
-              "cpt_5.art_24.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Realizar as auditorias da parte nacional dos sistemas de informação europeus, nos termos da\n  legislação da União Europeia."
-                ]
-              },
-              "cpt_5.art_24.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Analisar e preparar orientações sobre estudos de avaliação do impacto sobre a proteção de\n  dados;"
-                ]
-              },
-              "cpt_5.art_24.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Instruir e propor decisões sobre processos de autorização prévia nos casos previstos em lei;"
-                ]
-              },
-              "cpt_5.art_24.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Instruir e propor decisões sobre processos de acreditação e de revisão de acreditação e\n  certificações;"
-                ]
-              },
-              "cpt_5.art_24.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Analisar e preparar decisões em processos de notificação de violações de dados pessoais;"
-                ]
-              },
-              "cpt_5.art_24.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Analisar e preparar decisões sobre códigos de conduta;"
-                ]
-              },
-              "cpt_5.art_24.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Interagir com encarregados de proteção de dados;"
-                ]
-              },
-              "cpt_5.art_24.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "Colaborar na organização de colóquios, seminários e outras iniciativas de difusão de matérias\n  de proteção de dados pessoais;"
-                ]
-              },
-              "cpt_5.art_24.spt_k": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "k)",
-                  "Instruir e propor decisões relativas ao exercício de direitos pelos titulares dos dados\n  pessoais;"
-                ]
-              },
-              "cpt_5.art_24.spt_l": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "l)",
-                  "Desempenhar quaisquer outras tarefas de âmbito técnico-jurídico."
-                ]
-              },
-              "cpt_5.art_24.spt_Compete": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Compete",
-                  "à Unidade de Inspeção realizar inspeções e auditorias no âmbito dos processos em curso,\n  com mandato do presidente da CNPD, em especial:"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_5.art_25": {
-        "classType": "ARTICLE",
-        "content": {
-          "b8ffd2d8-fa20-4726-95ea-807678ec1e60": {
-            "classType": "ARTICLE",
-            "content": "Artigo 25.º"
-          },
-          "38cd056f-30c7-4ccb-babc-4c0039056359": {
-            "classType": "TITLE",
-            "content": "Unidade de Relações Públicas e Internacionais"
-          },
-          "6820b756-45e6-4c09-acff-790eb8635a50": {
-            "classType": "POINT",
-            "content": {
-              "4a86c120-2336-4091-9d83-b2929422410d": {
-                "classType": "POINT",
-                "content": "Compete à Unidade de Relações Públicas e Internacionais assegurar o apoio em matéria de\n  informação, documentação e relações públicas e na interação com autoridades europeias e\n  internacionais, designadamente:"
-              },
-              "cpt_5.art_25.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Gerir os conteúdos do sítio da Internet e da intranet da CNPD;"
-                ]
-              },
-              "cpt_5.art_25.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Organizar e manter atualizado um centro de documentação com a função de recolher bibliografia,\n  documentação, textos, diplomas legais, atos normativos e administrativos e demais elementos de\n  informação científica e técnica relacionada com a proteção de dados pessoais;"
-                ]
-              },
-              "cpt_5.art_25.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Promover a divulgação e o esclarecimento de direitos e obrigações relativos à proteção de dados\n  pessoais;"
-                ]
-              },
-              "cpt_5.art_25.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Assegurar os contactos com os órgãos de comunicação social;"
-                ]
-              },
-              "cpt_5.art_25.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Organizar, assessorar e dinamizar a realização de colóquios, seminários e outros eventos;"
-                ]
-              },
-              "cpt_5.art_25.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Colaborar na conceção e edição de publicações, bem como no relatório anual de atividades;"
-                ]
-              },
-              "cpt_5.art_25.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Desempenhar quaisquer outras tarefas, no âmbito da informação e comunicação;"
-                ]
-              },
-              "cpt_5.art_25.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Gerir as relações institucionais com organizações da União Europeia ou internacionais em\n  matéria de proteção de dados pessoais;"
-                ]
-              },
-              "cpt_5.art_25.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Assegurar as relações com as autoridades de controlo congéneres, em especial no âmbito das\n  competências do Comité Europeu para a Proteção de Dados;"
-                ]
-              },
-              "cpt_5.art_25.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "Instruir e preparar decisões nos procedimentos de cooperação e coerência;"
-                ]
-              },
-              "cpt_5.art_25.spt_k": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "k)",
-                  "Instruir e preparar decisões quanto a transferências internacionais de dados pessoais."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_5.art_26": {
-        "classType": "ARTICLE",
-        "content": {
-          "529bb5a2-5668-4ba1-a64e-164c7e6c8003": {
-            "classType": "ARTICLE",
-            "content": "Artigo 26.º"
-          },
-          "3acc92b9-b097-44de-a313-f2b302323b3e": {
-            "classType": "TITLE",
-            "content": "Unidade de Informática"
-          },
-          "cpt_5.art_26.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_5.art_26.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - Compete à Unidade de Informática garantir o normal funcionamento das infraestruturas de\n  informação e comunicação da CNPD e o apoio técnico necessário na área das tecnologias de\n  informação, nomeadamente:"
-              },
-              "cpt_5.art_26.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Assegurar a gestão integrada e a manutenção do parque informático da CNPD e do respetivo\n  sistema de comunicações;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Assegurar o correto funcionamento da rede informática e dos sistemas de informação da CNPD;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Proceder aos estudos técnicos necessários à aquisição de material informático e de comunicação;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Assegurar o apoio aos utilizadores dos sistemas de informação e comunicação, bem como fomentar\n  junto dos mesmos boas práticas para uma utilização segura e adequada desses sistemas;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Assegurar a aplicação de normas de segurança que garantam a fiabilidade, confidencialidade e\n  durabilidade dos sistemas de informação;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Conceber a arquitetura global do sistema de informação da CNPD;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Desenhar, desenvolver e operacionalizar as aplicações e as interfaces necessárias ao exercício\n  da atividade da CNPD;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Desenhar, desenvolver e operacionalizar o sítio da Internet da CNPD;"
-                ]
-              },
-              "cpt_5.art_26.pt_1.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Efetuar estudos sobre novas tecnologias com impacto no tratamento de dados pessoais."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_5.art_27": {
-        "classType": "ARTICLE",
-        "content": {
-          "1d1fc455-d801-4882-a093-1d7d99f03df9": {
-            "classType": "ARTICLE",
-            "content": "Artigo 27.º"
-          },
-          "444a2da2-03cf-46c6-9a47-29fce6d945b1": {
-            "classType": "TITLE",
-            "content": "Unidade de Apoio Administrativo e Financeiro"
-          },
-          "be8411e4-7e60-4f43-a508-8022ebaacb27": {
-            "classType": "POINT",
-            "content": {
-              "4e238119-230a-4b76-9d8e-a7b368b86e65": {
-                "classType": "POINT",
-                "content": "Compete à Unidade de Apoio Administrativo e Financeiro apoiar a CNPD na gestão dos processos e dos\n  recursos humanos, financeiros e materiais, designadamente:"
-              },
-              "cpt_5.art_27.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Preparar as propostas de orçamento e acompanhar a sua execução;"
-                ]
-              },
-              "cpt_5.art_27.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Assegurar o processamento e a contabilização das receitas e das despesas;"
-                ]
-              },
-              "cpt_5.art_27.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Elaborar a conta de gerência e o respetivo relatório;"
-                ]
-              },
-              "cpt_5.art_27.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Promover as aquisições de bens e serviços;"
-                ]
-              },
-              "cpt_5.art_27.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Administrar os bens de consumo, bem como gerir as instalações, viaturas e demais equipamentos\n  ao serviço da CNPD;"
-                ]
-              },
-              "cpt_5.art_27.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Elaborar e manter atualizado o inventário geral;"
-                ]
-              },
-              "cpt_5.art_27.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Promover o recrutamento, promoção e a contratação de trabalhadores, bem como a aplicação dos\n  instrumentos de mobilidade;"
-                ]
-              },
-              "cpt_5.art_27.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Processar os vencimentos dos trabalhadores, dos membros da CNPD e do fiscal único;"
-                ]
-              },
-              "cpt_5.art_27.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Organizar e manter atualizada a informação relativa aos trabalhadores, aos membros da CNPD e ao\n  fiscal único;"
-                ]
-              },
-              "cpt_5.art_27.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "Promover a formação dos trabalhadores;"
-                ]
-              },
-              "cpt_5.art_27.spt_k": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "k)",
-                  "Promover a execução da avaliação dos trabalhadores;"
-                ]
-              },
-              "cpt_5.art_27.spt_l": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "l)",
-                  "Instruir e propor decisão em processos disciplinares;"
-                ]
-              },
-              "cpt_5.art_27.spt_m": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "m)",
-                  "Secretariar o presidente e o secretário;"
-                ]
-              },
-              "cpt_5.art_27.spt_n": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "n)",
-                  "Assegurar o registo e encaminhamento da correspondência, bem como a organização e arquivo de\n  documentos;"
-                ]
-              },
-              "cpt_5.art_27.spt_o": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "o)",
-                  "Assegurar o atendimento externo e o apoio a reuniões;"
-                ]
-              },
-              "cpt_5.art_27.spt_p": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "p)",
-                  "Assegurar a condução de viaturas e a sua manutenção e receber e entregar expediente e\n  encomendas;"
-                ]
-              },
-              "cpt_5.art_27.spt_q": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "q)",
-                  "Desempenhar quaisquer outras tarefas que, no contexto da sua área funcional, sejam determinadas\n  pelo presidente ou pelo secretário."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_5.art_28": {
-        "classType": "ARTICLE",
-        "content": {
-          "9188ffeb-d013-407e-88b8-8eb47959baad": {
-            "classType": "ARTICLE",
-            "content": "Artigo 28.º"
-          },
-          "79933193-337d-4907-92ce-4f5677342239": {
-            "classType": "TITLE",
-            "content": "Regime de pessoal"
-          },
-          "cpt_5.art_28.pt_1": {
-            "classType": "POINT",
-            "content": "1 - Aos trabalhadores da CNPD aplica-se o regime geral do trabalho em funções públicas."
-          },
-          "cpt_5.art_28.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O pessoal da CNPD está isento de horário de trabalho, não sendo por isso devida qualquer\n  remuneração a título de horas extraordinárias, sem prejuízo do disposto no artigo 33.º"
-          }
-        }
-      },
-      "cpt_5.art_29": {
-        "classType": "ARTICLE",
-        "content": {
-          "47d0edda-beba-4630-a980-6a9a8dd06dab": {
-            "classType": "ARTICLE",
-            "content": "Artigo 29.º"
-          },
-          "342ba2ca-205e-4826-95aa-6c8b9420ce3c": {
-            "classType": "TITLE",
-            "content": "Cartão de identificação"
-          },
-          "0776fca1-bdfd-45de-b0ac-698a304fb2d8": {
-            "classType": "POINT",
-            "content": "Os trabalhadores da CNPD possuem cartão de identificação, dele constando o cargo desempenhado e os\n  poderes inerentes à sua função."
+            "content": "2 - A transmissão de dados pessoais entre entidades públicas para finalidades diferentes das\n  determinadas pela recolha tem natureza excecional, deve ser devidamente fundamentada nos termos\n  referidos no número anterior e deve ser objeto de protocolo que estabeleça as responsabilidades de\n  cada entidade interveniente, quer no ato de transmissão, quer em outros tratamentos a efetuar."
           }
         }
       }
@@ -1551,225 +851,288 @@
   "cpt_6": {
     "classType": "CHAPTER",
     "content": {
-      "e1990cd2-c0be-40b8-aa87-601d97797015": {
+      "80069990-d9b7-44a7-895b-911e815d57ec": {
         "classType": "CHAPTER",
         "content": "CAPÍTULO VI"
       },
-      "8d402194-95ad-4c7b-a020-37e87a8d6b0f": {
+      "a3867641-fced-438e-8c87-092f307150c2": {
         "classType": "TITLE",
-        "content": "Disposições finais e transitórias"
+        "content": "Situações específicas de tratamento de dados pessoais"
+      },
+      "cpt_6.art_24": {
+        "classType": "ARTICLE",
+        "content": {
+          "55fc2a5d-a399-4d3e-be41-648da9f004c9": {
+            "classType": "ARTICLE",
+            "content": "Artigo 24.º"
+          },
+          "f7375115-9249-4b61-be34-9dcd001b60e2": {
+            "classType": "TITLE",
+            "content": "Liberdade de expressão e informação"
+          },
+          "cpt_6.art_24.pt_1": {
+            "classType": "POINT",
+            "content": "1 - A proteção de dados pessoais, nos termos do RGPD e da presente lei, não prejudica o exercício\n  da liberdade de expressão, informação e imprensa, incluindo o tratamento de dados para fins\n  jornalísticos e para fins de expressão académica, artística ou literária."
+          },
+          "cpt_6.art_24.pt_2": {
+            "classType": "POINT",
+            "content": "2 - O exercício da liberdade de informação, especialmente quando revele dados pessoais previstos\n  no n.º 1 do artigo 9.º do RGPD e no artigo 17.º da presente lei, deve respeitar o princípio da\n  dignidade da pessoa humana previsto na Constituição da República Portuguesa, bem como os direitos\n  de personalidade nela e na legislação nacional consagrados."
+          },
+          "cpt_6.art_24.pt_3": {
+            "classType": "POINT",
+            "content": "3 - O tratamento para fins jornalísticos deve respeitar a legislação nacional sobre acesso e\n  exercício da profissão."
+          },
+          "cpt_6.art_24.pt_4": {
+            "classType": "POINT",
+            "content": "4 - O exercício da liberdade de expressão não legitima a divulgação de dados pessoais como moradas\n  e contactos, à exceção daqueles que sejam de conhecimento generalizado."
+          }
+        }
+      },
+      "cpt_6.art_25": {
+        "classType": "ARTICLE",
+        "content": {
+          "89839bca-6957-487b-a438-680d77dccaba": {
+            "classType": "ARTICLE",
+            "content": "Artigo 25.º"
+          },
+          "5ddb12b9-fc3d-4928-914c-874af43cd85b": {
+            "classType": "TITLE",
+            "content": "Publicação em jornal oficial"
+          },
+          "cpt_6.art_25.pt_1": {
+            "classType": "POINT",
+            "content": "1 - A publicação de dados pessoais em jornais oficiais deve obedecer ao artigo 5.º do RGPD,\n  nomeadamente aos princípios da finalidade e da minimização."
+          },
+          "cpt_6.art_25.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Sempre que o dado pessoal «nome» seja suficiente para garantir a identificação do titular e a\n  eficácia do tratamento, não devem ser publicados outros dados pessoais."
+          },
+          "cpt_6.art_25.pt_3": {
+            "classType": "POINT",
+            "content": "3 - Os dados pessoais publicados em jornal oficial não podem, em circunstância alguma, ser\n  alterados, rasurados ou ocultados."
+          },
+          "cpt_6.art_25.pt_4": {
+            "classType": "POINT",
+            "content": "4 - O direito ao apagamento de dados pessoais publicados em jornal oficial tem natureza excecional\n  e só se pode concretizar nas condições previstas no artigo 17.º do RGPD, nos casos em que essa\n  seja a única forma de acautelar o direito ao esquecimento e ponderados os demais interesses em\n  presença."
+          },
+          "cpt_6.art_25.pt_5": {
+            "classType": "POINT",
+            "content": "5 - O disposto no número anterior realiza-se através da desindexação dos dados pessoais em motores\n  de busca, sempre sem eliminação da publicação que faz fé pública."
+          },
+          "cpt_6.art_25.pt_6": {
+            "classType": "POINT",
+            "content": "6 - Em caso de publicação de dados pessoais em jornais oficiais, considera-se responsável pelo\n  tratamento a entidade que manda proceder à publicação, ou, no caso dos gabinetes dos membros do\n  Governo, as respetivas secretarias-gerais."
+          }
+        }
+      },
+      "cpt_6.art_26": {
+        "classType": "ARTICLE",
+        "content": {
+          "32ced576-1ce8-4167-83e4-623820c127ec": {
+            "classType": "ARTICLE",
+            "content": "Artigo 26.º"
+          },
+          "4d77ff07-32d3-4a6e-8a19-361e840fbe03": {
+            "classType": "TITLE",
+            "content": "Acesso a documentos administrativos"
+          },
+          "5ddd01e0-d4cd-4994-8964-6648e4b9e8ce": {
+            "classType": "POINT",
+            "content": "O acesso a documentos administrativos que contenham dados pessoais rege-se pelo disposto na\n  Lei n.º 26/2016, de 22 de agosto."
+          }
+        }
+      },
+      "cpt_6.art_27": {
+        "classType": "ARTICLE",
+        "content": {
+          "b3328781-316c-4149-8997-e26b9e7f453e": {
+            "classType": "ARTICLE",
+            "content": "Artigo 27.º"
+          },
+          "a08865c3-aff4-4772-87ee-7f1bea93fd56": {
+            "classType": "TITLE",
+            "content": "Publicação de dados no âmbito da contratação pública"
+          },
+          "1d586e0c-d4dd-463a-b620-238c78887429": {
+            "classType": "POINT",
+            "content": "No âmbito da contratação pública, e caso seja necessária a publicação de dados pessoais, não devem\n  ser publicados outros dados pessoais para além do nome, sempre que este seja suficiente para\n  garantir a identificação do contraente público e do cocontratante."
+          }
+        }
+      },
+      "cpt_6.art_28": {
+        "classType": "ARTICLE",
+        "content": {
+          "a8c70dfe-96e0-48aa-80aa-e29e388b316d": {
+            "classType": "ARTICLE",
+            "content": "Artigo 28.º"
+          },
+          "910860d8-016d-45b3-a357-fe54acc0d1f7": {
+            "classType": "TITLE",
+            "content": "Relações laborais"
+          },
+          "cpt_6.art_28.pt_1": {
+            "classType": "POINT",
+            "content": "1 - O empregador pode tratar os dados pessoais dos seus trabalhadores para as finalidades e com os\n  limites definidos no Código do Trabalho e respetiva legislação complementar ou noutros regimes\n  setoriais, com as especificidades estabelecidas no presente artigo."
+          },
+          "cpt_6.art_28.pt_2": {
+            "classType": "POINT",
+            "content": "2 - O número anterior abrange igualmente o tratamento efetuado por subcontratante ou contabilista\n  certificado em nome do empregador, para fins de gestão das relações laborais, desde que realizado\n  ao abrigo de um contrato de prestação de serviços e sujeito a iguais garantias de sigilo."
+          },
+          "cpt_6.art_28.pt_3": {
+            "classType": "POINT",
+            "content": {
+              "cpt_6.art_28.pt_3.pt_3": {
+                "classType": "POINT",
+                "content": "3 - Salvo norma legal em contrário, o consentimento do trabalhador não constitui requisito de\n  legitimidade do tratamento dos seus dados pessoais:"
+              },
+              "cpt_6.art_28.pt_3.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Se do tratamento resultar uma vantagem jurídica ou económica para o trabalhador; ou"
+                ]
+              },
+              "cpt_6.art_28.pt_3.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Se esse tratamento estiver abrangido pelo disposto na alínea b) do n.º 1 do artigo 6.º do RGPD."
+                ]
+              }
+            }
+          },
+          "cpt_6.art_28.pt_4": {
+            "classType": "POINT",
+            "content": "4 - As imagens gravadas e outros dados pessoais registados através da utilização de sistemas de\n  vídeo ou outros meios tecnológicos de vigilância à distância, nos termos previstos no artigo 20.º\n  do Código do Trabalho, só podem ser utilizados no âmbito do processo penal."
+          },
+          "cpt_6.art_28.pt_5": {
+            "classType": "POINT",
+            "content": "5 - Nos casos previstos no número anterior, as imagens gravadas e outros dados pessoais podem\n  também ser utilizados para efeitos de apuramento de responsabilidade disciplinar, na medida em que\n  o sejam no âmbito do processo penal."
+          },
+          "cpt_6.art_28.pt_6": {
+            "classType": "POINT",
+            "content": "6 - O tratamento de dados biométricos dos trabalhadores só é considerado legítimo para controlo de\n  assiduidade e para controlo de acessos às instalações do empregador, devendo assegurar-se que\n  apenas se utilizem representações dos dados biométricos e que o respetivo processo de recolha não\n  permita a reversibilidade dos referidos dados."
+          }
+        }
+      },
+      "cpt_6.art_29": {
+        "classType": "ARTICLE",
+        "content": {
+          "d7be9a82-4658-4194-8297-10bbc69c780d": {
+            "classType": "ARTICLE",
+            "content": "Artigo 29.º"
+          },
+          "d1b64829-c0c2-49fe-8c0f-b9a94ae82209": {
+            "classType": "TITLE",
+            "content": "Tratamento de dados de saúde e dados genéticos"
+          },
+          "cpt_6.art_29.pt_1": {
+            "classType": "POINT",
+            "content": "1 - Nos tratamentos de dados de saúde e de dados genéticos, o acesso a dados pessoais rege-se pelo\n  princípio da necessidade de conhecer a informação."
+          },
+          "cpt_6.art_29.pt_2": {
+            "classType": "POINT",
+            "content": "2 - Nos casos previstos nas alíneas h) e i) do n.º 2 do artigo 9.º do RGPD, o tratamento dos dados\n  previstos no n.º 1 do mesmo artigo deve ser efetuado por um profissional obrigado a sigilo ou por\n  outra pessoa sujeita a dever de confidencialidade, devendo ser garantidas medidas adequadas de\n  segurança da informação."
+          },
+          "cpt_6.art_29.pt_3": {
+            "classType": "POINT",
+            "content": "3 - O acesso aos dados a que alude o número anterior é feito exclusivamente de forma eletrónica,\n  salvo impossibilidade técnica ou expressa indicação em contrário do titular dos dados, sendo\n  vedada a sua divulgação ou transmissão posterior."
+          },
+          "cpt_6.art_29.pt_4": {
+            "classType": "POINT",
+            "content": "4 - Os titulares de órgãos, trabalhadores e prestadores de serviços do responsável pelo tratamento\n  de dados de saúde e de dados genéticos, o encarregado de proteção de dados, os estudantes e\n  investigadores na área da saúde e da genética e todos os profissionais de saúde que tenham acesso\n  a dados relativos à saúde estão obrigados a um dever de sigilo."
+          },
+          "cpt_6.art_29.pt_5": {
+            "classType": "POINT",
+            "content": "5 - O dever de sigilo referido no número anterior é também aplicável a todos os titulares de\n  órgãos e trabalhadores que, no contexto do acompanhamento, financiamento ou fiscalização da\n  atividade de prestação de cuidados de saúde, tenham acesso a dados relativos à saúde."
+          },
+          "cpt_6.art_29.pt_6": {
+            "classType": "POINT",
+            "content": "6 - O titular dos dados deve ser notificado de qualquer acesso realizado aos seus dados pessoais,\n  cabendo ao responsável pelo tratamento assegurar a disponibilização desse mecanismo de\n  rastreabilidade e notificação."
+          },
+          "cpt_6.art_29.pt_7": {
+            "classType": "POINT",
+            "content": {
+              "cpt_6.art_29.pt_7.pt_7": {
+                "classType": "POINT",
+                "content": "7 - As medidas e os requisitos técnicos mínimos de segurança inerentes ao tratamento de dados a\n  que alude o n.º 1 são aprovados por portaria dos membros do Governo responsáveis pelas áreas da\n  saúde e da justiça, que deve regulamentar, nomeadamente, as seguintes matérias:"
+              },
+              "cpt_6.art_29.pt_7.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "Estabelecimento de permissões de acesso aos dados pessoais diferenciados, em razão da\n  necessidade de conhecer e da segregação de funções;"
+                ]
+              },
+              "cpt_6.art_29.pt_7.spt_b": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "b)",
+                  "Requisitos de autenticação prévia de quem acede;"
+                ]
+              },
+              "cpt_6.art_29.pt_7.spt_c": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "c)",
+                  "Registo eletrónico dos acessos e dos dados acedidos."
+                ]
+              }
+            }
+          }
+        }
       },
       "cpt_6.art_30": {
         "classType": "ARTICLE",
         "content": {
-          "595ae938-a0b2-44a2-a61c-e5b771e4cc72": {
+          "1d42e8b2-7098-413b-8ab5-385e6d4d25c8": {
             "classType": "ARTICLE",
             "content": "Artigo 30.º"
           },
-          "7f8611b0-b999-49db-9c32-33e92d2c91dc": {
+          "1a5dbe04-1f27-4de8-b637-1bc879972ab3": {
             "classType": "TITLE",
-            "content": "Quadro de pessoal"
+            "content": "Bases de dados ou registos centralizados de saúde"
           },
           "cpt_6.art_30.pt_1": {
             "classType": "POINT",
-            "content": "1 - O quadro de pessoal, bem como o conteúdo funcional das respetivas carreiras, é fixado em\n  resolução da Assembleia da República."
+            "content": "1 - Os dados relativos à saúde podem ser organizados em bases de dados ou registos centralizados\n  assentes em plataformas únicas, quando tratados para efeitos das finalidades legalmente previstas\n  no RGPD e na legislação nacional."
           },
           "cpt_6.art_30.pt_2": {
             "classType": "POINT",
-            "content": "2 - Os lugares de consultor da CNPD serão providos em regime de comissão de serviço, por tempo\n  indeterminado, requisição ou destacamento, no caso da nomeação recair em funcionário público, ou\n  em regime de contrato individual de trabalho, quando não vinculados à Administração Pública."
-          },
-          "cpt_6.art_30.pt_3": {
-            "classType": "POINT",
-            "content": "3 - São condições indispensáveis ao recrutamento de consultor a elevada competência profissional e\n  experiência válida para o exercício da função, a avaliar com base nos respetivos curricula."
-          },
-          "cpt_6.art_30.pt_4": {
-            "classType": "POINT",
-            "content": "4 - O prazo previsto no n.º 1 do artigo 97.º da Lei Geral do Trabalho em Funções Públicas,\n  aprovada em anexo à\n  Lei n.º 35/2014, de 20 de junho, não é aplicável ao regime de mobilidade para os serviços de apoio à CNPD,\n  podendo, porém, a mobilidade ser dada por finda por decisão do presidente, ouvida a Comissão, ou a\n  pedido do interessado."
-          },
-          "cpt_6.art_30.pt_5": {
-            "classType": "POINT",
-            "content": "5 - Quando a complexidade e ou especificidade dos assuntos o exigir pode o presidente autorizar a\n  contratação de pessoal em regime de contrato de prestação de serviços."
-          },
-          "cpt_6.art_30.pt_6": {
-            "classType": "POINT",
-            "content": "6 - Para o desempenho de funções nos serviços de apoio da CNPD no âmbito dos mecanismos de\n  mobilidade, e sempre que se opere por iniciativa do trabalhador, é dispensado o acordo do serviço\n  de origem."
+            "content": "2 - As bases de dados de saúde ou registos centralizados assentes nas plataformas únicas referidas\n  no número anterior devem preencher os requisitos de segurança e de inviolabilidade previstos no\n  RGPD."
           }
         }
       },
       "cpt_6.art_31": {
         "classType": "ARTICLE",
         "content": {
-          "93894d0c-5079-41b0-9c52-91a61f8c2cae": {
+          "d6bc1e0e-448a-422f-9e49-6f1066dccad6": {
             "classType": "ARTICLE",
             "content": "Artigo 31.º"
           },
-          "c7d6408d-3cac-4775-a894-95e4da475271": {
+          "98621ae6-8cbf-4bbd-9a88-e8c99403aeaf": {
             "classType": "TITLE",
-            "content": "Trabalhadores em funções públicas"
+            "content": "Tratamentos para fins de arquivo de interesse público, fins de investigação científica ou\n  histórica ou fins estatísticos"
           },
-          "1407e371-c2e4-4718-b7b1-e2617e5e1b0f": {
+          "cpt_6.art_31.pt_1": {
             "classType": "POINT",
-            "content": "A nomeação em comissão de serviço de trabalhadores em funções públicas para o cargo de consultor\n  não determina a abertura de vaga no mapa de origem, ficando salvaguardados todos os direitos\n  inerentes aos seus anteriores cargos ou funções, designadamente para efeitos de promoção ou\n  progressão."
-          }
-        }
-      },
-      "cpt_6.art_32": {
-        "classType": "ARTICLE",
-        "content": {
-          "92f66199-8678-4f4f-8d5c-9327a11cfaf5": {
-            "classType": "ARTICLE",
-            "content": "Artigo 32.º"
+            "content": "1 - O tratamento para fins de arquivo de interesse público, fins de investigação científica ou\n  histórica ou fins estatísticos deve respeitar o princípio da minimização dos dados e incluir a\n  anonimização ou a pseudonimização dos mesmos sempre que os fins visados possam ser atingidos por\n  uma destas vias."
           },
-          "2a305f30-f28d-4e81-b3dc-4c91d415f834": {
-            "classType": "TITLE",
-            "content": "Remuneração base, recrutamento, promoção e progressão dos consultores"
-          },
-          "cpt_6.art_32.pt_1": {
+          "cpt_6.art_31.pt_2": {
             "classType": "POINT",
-            "content": "1 - A remuneração base mensal dos consultores da CNPD consta do mapa i anexo a esta lei, de que\n  faz parte integrante."
+            "content": "2 - Quando os dados pessoais sejam tratados para fins de arquivo de interesse público, fins de\n  investigação científica ou histórica ou fins estatísticos, ficam prejudicados os direitos de\n  acesso, retificação, limitação do tratamento e de oposição previstos nos artigos 15.º, 16.º, 18.º\n  e 21.º do RGPD, na medida do necessário, se esses direitos forem suscetíveis de tornar impossível\n  ou prejudicar gravemente a realização desses fins."
           },
-          "cpt_6.art_32.pt_2": {
+          "cpt_6.art_31.pt_3": {
             "classType": "POINT",
-            "content": "2 - A promoção e progressão nas categorias de consultor-coordenador e consultor rege-se pelos\n  princípios aplicáveis à carreira técnica superior."
+            "content": "3 - Ao tratamento de dados pessoais para fins de arquivo de interesse público é aplicável o\n  Decreto-Lei n.º 16/93, de 23 de janeiro, na sua redação atual."
           },
-          "cpt_6.art_32.pt_3": {
+          "cpt_6.art_31.pt_4": {
             "classType": "POINT",
-            "content": "3 - Pode haver lugar a recrutamento direto para a categoria de consultor-coordenador, desde que os\n  candidatos possuam adequada qualificação e experiência profissional para o efeito."
+            "content": "4 - O consentimento relativo ao tratamento de dados para fins de investigação científica pode\n  abranger diversas áreas de investigação ou ser dado unicamente para determinados domínios ou\n  projetos de investigação específicos, devendo em qualquer caso ser respeitados os padrões éticos\n  reconhecidos pela comunidade científica."
           },
-          "cpt_6.art_32.pt_4": {
+          "cpt_6.art_31.pt_5": {
             "classType": "POINT",
-            "content": "4 - Podem ser recrutados como consultores-adjuntos indivíduos licenciados com qualificações para o\n  exercício da função, sempre que não se justifique o recrutamento na categoria de consultor."
-          }
-        }
-      },
-      "cpt_6.art_33": {
-        "classType": "ARTICLE",
-        "content": {
-          "c2909851-2e27-4f13-b751-2716fe9ea707": {
-            "classType": "ARTICLE",
-            "content": "Artigo 33.º"
-          },
-          "7c71a684-c499-4808-a57a-9bee8f73edd8": {
-            "classType": "TITLE",
-            "content": "Disponibilidade permanente"
-          },
-          "cpt_6.art_33.pt_1": {
-            "classType": "POINT",
-            "content": "1 - O pessoal da CNPD tem direito a um suplemento remuneratório, a título de disponibilidade\n  permanente, de montante mensal correspondente a 12,5 % da remuneração base."
-          },
-          "cpt_6.art_33.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O suplemento é abonado em 12 mensalidades e releva para efeitos de aposentação, sendo\n  considerado no cálculo da pensão pela fórmula prevista na alínea b) do n.º 1 do artigo 47.º do\n  Estatuto da Aposentação."
-          },
-          "cpt_6.art_33.pt_3": {
-            "classType": "POINT",
-            "content": "3 - Ao pessoal da CNPD abrangido pelos n.os 1, 2, 7 e 9 do artigo 34.º não é atribuído o\n  suplemento referido nos números anteriores."
-          }
-        }
-      },
-      "cpt_6.art_34": {
-        "classType": "ARTICLE",
-        "content": {
-          "b494ff93-caab-4754-9050-32859e460662": {
-            "classType": "ARTICLE",
-            "content": "Artigo 34.º"
-          },
-          "a14c712e-acc2-4932-9c80-c2a19d9af1fa": {
-            "classType": "TITLE",
-            "content": "Pessoal atualmente ao serviço da CNPD"
-          },
-          "cpt_6.art_34.pt_1": {
-            "classType": "POINT",
-            "content": "1 - Os funcionários e agentes que prestam atualmente serviço na CNPD e que beneficiam do regime do\n  n.º 3 do artigo 26.º da\n  Lei n.º 67/98, de 26 de outubro, transitam para o novo quadro de acordo com as regras dos números seguintes,\n  mantendo o seu atual estatuto remuneratório, que passa a ter a natureza de remuneração pessoal."
-          },
-          "cpt_6.art_34.pt_2": {
-            "classType": "POINT",
-            "content": "2 - Ao pessoal da CNPD, não vinculado à Administração Pública, que se encontre na situação do\n  número anterior aplica-se idêntico regime remuneratório, sendo porém a sua relação jurídica de\n  emprego a do contrato individual de trabalho, ao abrigo da lei geral aplicável à Administração\n  Pública."
-          },
-          "cpt_6.art_34.pt_3": {
-            "classType": "POINT",
-            "content": "3 - Os lugares da carreira técnica superior e especialista de informática previstos no quadro de\n  pessoal, para garantir a transição prevista nos n.os 1 e 2, são lugares a extinguir quando\n  vagarem."
-          },
-          "cpt_6.art_34.pt_4": {
-            "classType": "POINT",
-            "content": "4 - Os funcionários vinculados à Administração Pública a prestar serviço na CNPD à data da entrada\n  em vigor da presente lei transitam para o novo quadro, mediante deliberação daquela, para a\n  carreira e categoria que integre as funções que o funcionário efetivamente desempenhe, sem\n  prejuízo das habilitações e qualificações legalmente exigidas, em escalão a que corresponda o\n  mesmo índice remuneratório, ou, quando não houver coincidência de índice, em escalão a que\n  corresponda o índice superior mais aproximado na estrutura da carreira para que se processe a\n  transição."
-          },
-          "cpt_6.art_34.pt_5": {
-            "classType": "POINT",
-            "content": "5 - A correspondência referida no número anterior fixa-se entre os índices remuneratórios\n  definidos para o escalão 1 da categoria em que o funcionário se encontra e o escalão 1 da\n  categoria da nova carreira."
-          },
-          "cpt_6.art_34.pt_6": {
-            "classType": "POINT",
-            "content": "6 - Aos funcionários que, nos termos do n.º 1, transitem para categoria diversa será contado,\n  nesta última, para todos os efeitos legais, o tempo de serviço prestado na anterior, desde que no\n  exercício de funções idênticas ou semelhantes às da nova carreira."
-          },
-          "cpt_6.art_34.pt_7": {
-            "classType": "POINT",
-            "content": "7 - O disposto no n.º 1 aplica-se igualmente ao atual secretário, com as necessárias adaptações\n  decorrentes do regime de exercício de funções."
-          },
-          "cpt_6.art_34.pt_8": {
-            "classType": "POINT",
-            "content": "8 - A transição para os lugares do quadro da CNPD faz-se por despacho do presidente,\n  independentemente de quaisquer outras formalidades, sem prejuízo do disposto no n.º 1."
-          },
-          "cpt_6.art_34.pt_9": {
-            "classType": "POINT",
-            "content": "9 - A CNPD pode deliberar manter as comissões, requisições ou destacamentos do pessoal ao seu\n  serviço à data da entrada em vigor da presente lei, mantendo os funcionários que beneficiem do n.º\n  3 do artigo 26.º da\n  Lei n.º 67/98\n  o seu atual estatuto remuneratório, que passa a ter natureza de remuneração pessoal."
-          }
-        }
-      },
-      "cpt_6.art_35": {
-        "classType": "ARTICLE",
-        "content": {
-          "80ff0ff6-72ef-4e4e-b9be-78a70c488273": {
-            "classType": "ARTICLE",
-            "content": "Artigo 35.º"
-          },
-          "c6cfb704-8108-4597-8c01-4fc92efd262f": {
-            "classType": "TITLE",
-            "content": "Norma transitória"
-          },
-          "cpt_6.art_35.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A suspensão da comissão de serviço do presidente da CNPD mantém-se até ao termo do seu\n  mandato."
-          },
-          "cpt_6.art_35.pt_2": {
-            "classType": "POINT",
-            "content": "2 - A aplicação da presente lei no corrente ano faz-se no quadro orçamental aprovado para a CNPD\n  em 2004."
-          }
-        }
-      },
-      "cpt_6.art_36": {
-        "classType": "ARTICLE",
-        "content": {
-          "aaf4859f-2db4-4153-97b6-9cdc043c2746": {
-            "classType": "ARTICLE",
-            "content": "Artigo 36.º"
-          },
-          "cbf2638c-4e9c-4bb4-b4e6-1505984ff17b": {
-            "classType": "TITLE",
-            "content": "Norma revogatória"
-          },
-          "8611cc5b-0d2a-483e-a25c-e1d5c435050c": {
-            "classType": "POINT",
-            "content": {
-              "9f079270-f6ad-4f11-a0dc-73f8412aa048": {
-                "classType": "POINT",
-                "content": "São revogados:"
-              },
-              "cpt_6.art_36.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "O\n  Decreto-Lei n.º 121/93, de 16 de abril;"
-                ]
-              },
-              "cpt_6.art_36.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "A\n  Resolução da Assembleia da República n.º 53/94, de 19 de agosto."
-                ]
-              }
-            }
+            "content": "5 - Sem prejuízo do disposto na Lei do Sistema Estatístico Nacional, os dados pessoais tratados\n  para fins estatísticos devem ser anonimizados ou pseudonimizados, de modo a acautelar a tutela dos\n  titulares dos dados, nomeadamente no que respeita à impossibilidade de reidentificação logo que\n  concluída a operação estatística."
           }
         }
       }
@@ -2978,1408 +2341,6 @@
           "cpt_8.art_62.pt_2": {
             "classType": "POINT",
             "content": "2 - Todas as normas que prevejam autorizações ou notificações de tratamento de dados pessoais à\n  CNPD, fora dos casos previstos no RGPD e na presente lei, deixam de vigorar à data de entrada em\n  vigor do RGPD."
-          }
-        }
-      }
-    }
-  },
-  "cpt_9": {
-    "classType": "CHAPTER",
-    "content": {
-      "98bfb923-4895-4f0e-8820-6adfca0e2912": {
-        "classType": "CHAPTER",
-        "content": "CAPÍTULO IX"
-      },
-      "513157b7-0ea3-4cf3-ad90-147f7e31d7cc": {
-        "classType": "TITLE",
-        "content": "Alterações legislativas"
-      },
-      "cpt_9.art_63": {
-        "classType": "ARTICLE",
-        "content": {
-          "9bb7c3e9-162c-47d0-8f63-385fa94b6f10": {
-            "classType": "ARTICLE",
-            "content": "Artigo 63.º"
-          },
-          "45f02c33-355f-452a-a3d3-ef2c3fad8237": {
-            "classType": "TITLE",
-            "content": "Alteração à\n  Lei n.º 43/2004, de 18 de agosto"
-          },
-          "cpt_9.art_63.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A CNPD é uma entidade administrativa independente, com personalidade jurídica de direito\n  público e poderes de autoridade, dotada de autonomia administrativa e financeira, que funciona\n  junto da Assembleia da República."
-          },
-          "cpt_9.art_63.pt_2": {
-            "classType": "POINT",
-            "content": "2 - A CNPD é a autoridade de controlo nacional para efeitos do Regulamento Geral de Proteção de\n  Dados (RGPD), aprovado pelo Regulamento (UE)\n  2016/679\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016, e da lei que assegura a sua execução\n  na ordem jurídica interna."
-          },
-          "cpt_9.art_63.pt_3": {
-            "classType": "POINT",
-            "content": "3 - A CNPD controla e fiscaliza o cumprimento do RGPD e da presente lei, bem como das demais\n  disposições legais e regulamentares em matéria de proteção de dados pessoais, a fim de defender os\n  direitos, liberdades e garantias das pessoas singulares no âmbito dos tratamentos de dados\n  pessoais."
-          },
-          "cpt_9.art_63.pt_4": {
-            "classType": "POINT",
-            "content": "4 - A CNPD age com independência na prossecução das suas atribuições e no exercício dos poderes\n  que lhe são atribuídos pela presente lei."
-          }
-        }
-      },
-      "cpt_9.art_3": {
-        "classType": "ARTICLE",
-        "content": {
-          "5ed5440c-65ec-4068-815c-ddfe3e97f620": {
-            "classType": "ARTICLE",
-            "content": "Artigo 3.º"
-          },
-          "a3d43cba-cd32-4598-a3ed-00367203c85c": {
-            "classType": "TITLE",
-            "content": "Composição, designação e mandato dos membros"
-          },
-          "cpt_9.art_3.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_3.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - A CNPD é composta por sete membros de integridade e mérito reconhecidos:"
-              },
-              "cpt_9.art_3.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Um presidente, eleito pela Assembleia da República;"
-                ]
-              },
-              "cpt_9.art_3.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Duas personalidades eleitas pela Assembleia da República segundo o método da média mais alta de\n  Hondt;"
-                ]
-              },
-              "cpt_9.art_3.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Dois magistrados, sendo um magistrado judicial, designado pelo Conselho Superior da\n  Magistratura, e um magistrado do Ministério Público, designado pelo Conselho Superior do\n  Ministério Público;"
-                ]
-              },
-              "cpt_9.art_3.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Duas personalidades designadas pelo Governo."
-                ]
-              }
-            }
-          },
-          "cpt_9.art_3.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O mandato dos membros da CNPD é de cinco anos, renovável duas vezes, e cessa com a posse dos\n  novos membros."
-          },
-          "cpt_9.art_3.pt_3": {
-            "classType": "POINT",
-            "content": "3 - A designação dos membros da CNPD consta de lista publicada na 1.ª série do Diário da\n  República."
-          },
-          "cpt_9.art_3.pt_4": {
-            "classType": "POINT",
-            "content": "4 - Os membros da CNPD tomam posse perante o Presidente da Assembleia da República nos 10 dias\n  seguintes à publicação da lista referida no número anterior."
-          }
-        }
-      },
-      "cpt_9.art_8": {
-        "classType": "ARTICLE",
-        "content": {
-          "06c9cb82-db48-401f-873e-061d24073e34": {
-            "classType": "ARTICLE",
-            "content": "Artigo 8.º"
-          },
-          "c1031f6c-ed32-41e7-b652-8537d9ed986b": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "53837920-62e0-4043-8d5a-497dc1de6dc4": {
-            "classType": "POINT",
-            "content": {
-              "34196ebd-fb2f-46ce-9f5b-68735f67615a": {
-                "classType": "POINT",
-                "content": "Constituem deveres dos membros da CNPD:"
-              },
-              "cpt_9.art_8.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_8.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_8.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Guardar sigilo sobre as questões ou processos que estejam a ser objeto de apreciação, nos\n  termos previstos no Regulamento (UE)\n  2016/679\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016, e na Diretiva (UE)\n  2016/680\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_9.art_16": {
-        "classType": "ARTICLE",
-        "content": {
-          "d2b345af-c91c-42bd-b0d2-00161faaa21b": {
-            "classType": "ARTICLE",
-            "content": "Artigo 16.º"
-          },
-          "f6358060-4c71-4302-a7cc-733814495317": {
-            "classType": "TITLE",
-            "content": "Publicidade"
-          },
-          "cpt_9.art_16.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_16.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - São publicadas no sítio da Internet da CNPD as deliberações relativas a:"
-              },
-              "cpt_9.art_16.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Acreditação e certificação;"
-                ]
-              },
-              "cpt_9.art_16.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Revogação e anulação de acreditação e de certificação;"
-                ]
-              },
-              "cpt_9.art_16.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Códigos de conduta;"
-                ]
-              },
-              "cpt_9.art_16.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Autorizações;"
-                ]
-              },
-              "cpt_9.art_16.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Regras vinculativas."
-                ]
-              }
-            }
-          },
-          "cpt_9.art_16.pt_2": {
-            "classType": "POINT",
-            "content": "2 - São ainda publicados naquele sítio os regulamentos e os pareceres sobre disposições legais e\n  regulamentares e instrumentos jurídicos em preparação em instituições da União Europeia e\n  internacionais, bem como as orientações e recomendações genéricas."
-          },
-          "cpt_9.art_16.pt_3": {
-            "classType": "POINT",
-            "content": "3 - São publicados na 2.ª série do Diário da República os regulamentos administrativos, incluindo\n  os relativos à fixação de taxas e os emitidos ao abrigo do disposto no n.º 3 do artigo 22.º"
-          }
-        }
-      },
-      "cpt_9.art_17": {
-        "classType": "ARTICLE",
-        "content": {
-          "d5dcd992-5902-4cf1-87a1-52cf828bd17c": {
-            "classType": "ARTICLE",
-            "content": "Artigo 17.º"
-          },
-          "da29d81a-3034-4266-8bb7-6016d6192ec2": {
-            "classType": "TITLE",
-            "content": "Denúncias e participações"
-          },
-          "cpt_9.art_17.pt_1": {
-            "classType": "POINT",
-            "content": "1 - As denúncias e participações são apresentadas por escrito, em local específico para o efeito\n  no sítio da CNPD, sem prejuízo de, excecionalmente, desde que devidamente fundamentado, se admitir\n  a sua apresentação por correio eletrónico ou correio postal, podendo ser exigida a confirmação da\n  identidade dos seus autores."
-          },
-          "cpt_9.art_17.pt_2": {
-            "classType": "POINT",
-            "content": "2 - (Revogado.)"
-          },
-          "cpt_9.art_17.pt_3": {
-            "classType": "POINT",
-            "content": "3 - ..."
-          },
-          "cpt_9.art_17.pt_4": {
-            "classType": "POINT",
-            "content": "4 - ..."
-          }
-        }
-      },
-      "cpt_9.art_18": {
-        "classType": "ARTICLE",
-        "content": {
-          "5f4d5642-8fd1-4875-87a2-fb8ec8af5920": {
-            "classType": "ARTICLE",
-            "content": "Artigo 18.º"
-          },
-          "9f774c4a-f383-424c-97e9-ae9c298dd066": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_18.pt_1": {
-            "classType": "POINT",
-            "content": "1 - ..."
-          },
-          "cpt_9.art_18.pt_2": {
-            "classType": "POINT",
-            "content": "2 - A CNPD pode aprovar modelos ou formulários, em suporte eletrónico, com vista a permitir melhor\n  instrução dos processos."
-          },
-          "cpt_9.art_18.pt_3": {
-            "classType": "POINT",
-            "content": "3 - (Revogado.)"
-          },
-          "cpt_9.art_18.pt_4": {
-            "classType": "POINT",
-            "content": "4 - Os pedidos de parecer sobre disposições legais e regulamentares em preparação devem ser\n  remetidos à CNPD pelo titular do órgão com poder legiferante ou regulamentar, instruídos com o\n  respetivo estudo de impacto sobre a proteção de dados pessoais."
-          },
-          "cpt_9.art_18.pt_5": {
-            "classType": "POINT",
-            "content": "5 - Os pedidos de parecer sobre quaisquer outros instrumentos jurídicos da União Europeia ou\n  internacionais em preparação, relativos ao tratamento de dados pessoais, devem ser remetidos à\n  CNPD pela entidade que representa o Estado português no processo de elaboração da iniciativa,\n  devidamente instruídos."
-          }
-        }
-      },
-      "cpt_9.art_19": {
-        "classType": "ARTICLE",
-        "content": {
-          "b7ed189d-737f-4d8b-b974-d099597b1280": {
-            "classType": "ARTICLE",
-            "content": "Artigo 19.º"
-          },
-          "e1346d36-ed43-4e98-9062-c6986b640523": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_19.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_19.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - ...:"
-              },
-              "cpt_9.art_19.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Ouvida a Comissão, nomear o pessoal do mapa e autorizar transferências, requisições e\n  destacamentos;"
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_19.pt_1.spt_l": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "l)",
-                  "..."
-                ]
-              }
-            }
-          },
-          "cpt_9.art_19.pt_2": {
-            "classType": "POINT",
-            "content": "2 - ..."
-          }
-        }
-      },
-      "cpt_9.art_20": {
-        "classType": "ARTICLE",
-        "content": {
-          "4ed1112a-bcd1-440e-b29b-c659e7b7da16": {
-            "classType": "ARTICLE",
-            "content": "Artigo 20.º"
-          },
-          "652ddf52-cb31-439c-b900-7981ba6881c5": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_20.pt_1": {
-            "classType": "POINT",
-            "content": "1 - As receitas e despesas da CNPD, que goza de autonomia administrativa e financeira, constam de\n  orçamento anual."
-          },
-          "cpt_9.art_20.pt_2": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_20.pt_2.pt_2": {
-                "classType": "POINT",
-                "content": "2 - Além das dotações que lhe sejam atribuídas no orçamento da Assembleia da República, nos termos\n  da\n  Lei n.º 59/90, de 21 de novembro, constituem receitas da CNPD:"
-              },
-              "cpt_9.art_20.pt_2.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_20.pt_2.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "O produto da venda de publicações;"
-                ]
-              },
-              "cpt_9.art_20.pt_2.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_20.pt_2.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "O montante das coimas cobradas que, nos termos da lei, revertam a seu favor;"
-                ]
-              },
-              "cpt_9.art_20.pt_2.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "..."
-                ]
-              },
-              "cpt_9.art_20.pt_2.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Os subsídios, subvenções, comparticipações, doações e legados, concedidos por entidades,\n  públicas e privadas, nacionais, estrangeiras, da União Europeia ou internacionais;"
-                ]
-              }
-            }
-          },
-          "cpt_9.art_20.pt_3": {
-            "classType": "POINT",
-            "content": "3 - ..."
-          },
-          "cpt_9.art_20.pt_4": {
-            "classType": "POINT",
-            "content": "4 - ..."
-          },
-          "cpt_9.art_20.pt_5": {
-            "classType": "POINT",
-            "content": "5 - ..."
-          },
-          "cpt_9.art_20.pt_6": {
-            "classType": "POINT",
-            "content": "6 - A gestão do orçamento da CNPD, incluindo as dotações não integradas no orçamento da Assembleia\n  da República, fica sujeita ao regime deste último, sendo igualmente aplicável o regime previsto no\n  n.º 10 do artigo 60.º da\n  Lei n.º 71/2018, de 31 de dezembro."
-          }
-        }
-      },
-      "cpt_9.art_21": {
-        "classType": "ARTICLE",
-        "content": {
-          "a71ca5c8-af85-4bf6-b7ab-4dadb40e84e5": {
-            "classType": "ARTICLE",
-            "content": "Artigo 21.º"
-          },
-          "baaf0fd5-3467-4dc3-98d2-edf857d197b1": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_21.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_21.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - ..."
-              },
-              "cpt_9.art_21.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Pela acreditação e certificação;"
-                ]
-              },
-              "cpt_9.art_21.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Pela consulta prévia;"
-                ]
-              },
-              "cpt_9.art_21.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Pela emissão de autorizações;"
-                ]
-              },
-              "cpt_9.art_21.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Pela apreciação de códigos de conduta;"
-                ]
-              },
-              "cpt_9.art_21.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Nos demais casos previstos por lei."
-                ]
-              }
-            }
-          },
-          "cpt_9.art_21.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O montante das taxas, que deve ser proporcional à complexidade do pedido e ao serviço\n  prestado, é fixado em regulamento pela CNPD."
-          },
-          "cpt_9.art_21.pt_3": {
-            "classType": "POINT",
-            "content": "3 - ..."
-          }
-        }
-      },
-      "cpt_9.art_22": {
-        "classType": "ARTICLE",
-        "content": {
-          "8e3d4d9f-d0e7-48f8-9dcf-68e0a36907f5": {
-            "classType": "ARTICLE",
-            "content": "Artigo 22.º"
-          },
-          "33c7c373-84bd-4b20-b9b3-b32c5b67a96f": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_22.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A CNPD dispõe de serviços de apoio próprios que compreendem unidades e núcleos."
-          },
-          "cpt_9.art_22.pt_2": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_22.pt_2.pt_2": {
-                "classType": "POINT",
-                "content": "2 - Os serviços de apoio são constituídos pelas seguintes unidades:"
-              },
-              "cpt_9.art_22.pt_2.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Unidade de Direitos e Sanções;"
-                ]
-              },
-              "cpt_9.art_22.pt_2.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Unidade de Inspeção;"
-                ]
-              },
-              "cpt_9.art_22.pt_2.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Unidade de Relações Públicas e Internacionais;"
-                ]
-              },
-              "cpt_9.art_22.pt_2.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Unidade de Informática;"
-                ]
-              },
-              "cpt_9.art_22.pt_2.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Unidade de Apoio Administrativo e Financeiro."
-                ]
-              }
-            }
-          },
-          "cpt_9.art_22.pt_3": {
-            "classType": "POINT",
-            "content": "3 - Compete à CNPD aprovar o regulamento de organização e funcionamento dos serviços de apoio, bem\n  como o regulamento de avaliação dos trabalhadores."
-          },
-          "cpt_9.art_22.pt_4": {
-            "classType": "POINT",
-            "content": "4 - (Anterior n.º 3.)"
-          },
-          "cpt_9.art_22.pt_5": {
-            "classType": "POINT",
-            "content": "5 - O secretário é nomeado por despacho do presidente, obtido parecer favorável da Comissão, com\n  observância dos requisitos legais adequados ao desempenho das respetivas funções, escolhido\n  preferencialmente de entre funcionários já pertencentes ao mapa da CNPD, habilitados com\n  licenciatura e de reconhecida competência para o desempenho do lugar."
-          },
-          "cpt_9.art_22.pt_6": {
-            "classType": "POINT",
-            "content": "6 - (Anterior n.º 5.)"
-          }
-        }
-      },
-      "cpt_9.art_24": {
-        "classType": "ARTICLE",
-        "content": {
-          "4dc4c121-d360-4815-8fbb-bf9b7061ba28": {
-            "classType": "ARTICLE",
-            "content": "Artigo 24.º"
-          },
-          "8a7582bb-f7a1-46f0-abdd-fbffc096ffda": {
-            "classType": "TITLE",
-            "content": "Unidade de Direitos e Sanções"
-          },
-          "fff9561e-f7dc-48e6-88af-7161755f7d0c": {
-            "classType": "POINT",
-            "content": {
-              "5ad0d9a5-6afe-49e9-88a9-f9df57a98e2a": {
-                "classType": "POINT",
-                "content": "Compete à Unidade de Direitos e Sanções assegurar o apoio técnico-jurídico, designadamente:"
-              },
-              "cpt_9.art_24.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Instruir os processos de contraordenação, bem como outros processos abertos com base em\n  participações ou denúncias;"
-                ]
-              },
-              "cpt_9.art_24.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Preparar as peças processuais e representar a CNPD em processos judiciais, quando mandatados\n  para o efeito;"
-                ]
-              },
-              "cpt_9.art_24.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Preparar pareceres sobre projetos legislativos e regulamentares e sobre instrumentos jurídicos\n  em preparação em instituições da União Europeia e internacionais;"
-                ]
-              },
-              "cpt_9.art_24.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Analisar e preparar orientações sobre estudos de avaliação do impacto sobre a proteção de\n  dados;"
-                ]
-              },
-              "cpt_9.art_24.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Instruir e propor decisões sobre processos de autorização prévia nos casos previstos em lei;"
-                ]
-              },
-              "cpt_9.art_24.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Instruir e propor decisões sobre processos de acreditação e de revisão de acreditação e\n  certificações;"
-                ]
-              },
-              "cpt_9.art_24.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Analisar e preparar decisões em processos de notificação de violações de dados pessoais;"
-                ]
-              },
-              "cpt_9.art_24.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Analisar e preparar decisões sobre códigos de conduta;"
-                ]
-              },
-              "cpt_9.art_24.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Interagir com encarregados de proteção de dados;"
-                ]
-              },
-              "cpt_9.art_24.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "Colaborar na organização de colóquios, seminários e outras iniciativas de difusão de matérias\n  de proteção de dados pessoais;"
-                ]
-              },
-              "cpt_9.art_24.spt_k": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "k)",
-                  "Instruir e propor decisões relativas ao exercício de direitos pelos titulares dos dados\n  pessoais;"
-                ]
-              },
-              "cpt_9.art_24.spt_l": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "l)",
-                  "Desempenhar quaisquer outras tarefas de âmbito técnico-jurídico."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_9.art_25": {
-        "classType": "ARTICLE",
-        "content": {
-          "bf67cb2f-49ab-4374-9cd1-29fffae11f55": {
-            "classType": "ARTICLE",
-            "content": "Artigo 25.º"
-          },
-          "c41eb253-7353-473c-aebd-4a77043ac240": {
-            "classType": "TITLE",
-            "content": "Unidade de Relações Públicas e Internacionais"
-          },
-          "5facafaa-e059-4511-bb52-868a72f9d51e": {
-            "classType": "POINT",
-            "content": {
-              "5a4be336-1baa-4fb0-9ed1-8418eb7ee038": {
-                "classType": "POINT",
-                "content": "Compete à Unidade de Relações Públicas e Internacionais assegurar o apoio em matéria de\n  informação, documentação e relações públicas e na interação com autoridades europeias e\n  internacionais, designadamente:"
-              },
-              "cpt_9.art_25.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Gerir os conteúdos do sítio da Internet e da intranet da CNPD;"
-                ]
-              },
-              "cpt_9.art_25.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Organizar e manter atualizado um centro de documentação com a função de recolher bibliografia,\n  documentação, textos, diplomas legais, atos normativos e administrativos e demais elementos de\n  informação científica e técnica relacionada com a proteção de dados pessoais;"
-                ]
-              },
-              "cpt_9.art_25.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Promover a divulgação e o esclarecimento de direitos e obrigações relativos à proteção de dados\n  pessoais;"
-                ]
-              },
-              "cpt_9.art_25.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Assegurar os contactos com os órgãos de comunicação social;"
-                ]
-              },
-              "cpt_9.art_25.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Organizar, assessorar e dinamizar a realização de colóquios, seminários e outros eventos;"
-                ]
-              },
-              "cpt_9.art_25.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Colaborar na conceção e edição de publicações, bem como no relatório anual de atividades;"
-                ]
-              },
-              "cpt_9.art_25.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Desempenhar quaisquer outras tarefas, no âmbito da informação e comunicação;"
-                ]
-              },
-              "cpt_9.art_25.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Gerir as relações institucionais com organizações da União Europeia ou internacionais em\n  matéria de proteção de dados pessoais;"
-                ]
-              },
-              "cpt_9.art_25.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Assegurar as relações com as autoridades de controlo congéneres, em especial no âmbito das\n  competências do Comité Europeu para a Proteção de Dados;"
-                ]
-              },
-              "cpt_9.art_25.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "Instruir e preparar decisões nos procedimentos de cooperação e coerência;"
-                ]
-              },
-              "cpt_9.art_25.spt_k": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "k)",
-                  "Instruir e preparar decisões quanto a transferências internacionais de dados pessoais."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_9.art_26": {
-        "classType": "ARTICLE",
-        "content": {
-          "0f32b42a-f302-4acc-8023-430121f2477d": {
-            "classType": "ARTICLE",
-            "content": "Artigo 26.º"
-          },
-          "de13d4fc-d82d-4ced-994c-968497774240": {
-            "classType": "TITLE",
-            "content": "Unidade de Informática"
-          },
-          "cpt_9.art_26.pt_1": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_26.pt_1.pt_1": {
-                "classType": "POINT",
-                "content": "1 - Compete à Unidade de Informática garantir o normal funcionamento das infraestruturas de\n  informação e comunicação da CNPD e o apoio técnico necessário na área das tecnologias de\n  informação, nomeadamente:"
-              },
-              "cpt_9.art_26.pt_1.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Assegurar a gestão integrada e a manutenção do parque informático da CNPD e do respetivo\n  sistema de comunicações;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Assegurar o correto funcionamento da rede informática e dos sistemas de informação da CNPD;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Proceder aos estudos técnicos necessários à aquisição de material informático e de comunicação;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Assegurar o apoio aos utilizadores dos sistemas de informação e comunicação, bem como fomentar\n  junto dos mesmos boas práticas para uma utilização segura e adequada desses sistemas;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Assegurar a aplicação de normas de segurança que garantam a fiabilidade, confidencialidade e\n  durabilidade dos sistemas de informação;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Conceber a arquitetura global do sistema de informação da CNPD;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Desenhar, desenvolver e operacionalizar as aplicações e as interfaces necessárias ao exercício\n  da atividade da CNPD;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Desenhar, desenvolver e operacionalizar o sítio da Internet da CNPD;"
-                ]
-              },
-              "cpt_9.art_26.pt_1.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Efetuar estudos sobre novas tecnologias com impacto no tratamento de dados pessoais."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_9.art_27": {
-        "classType": "ARTICLE",
-        "content": {
-          "d5d0bb7c-6951-403e-bce9-e0471afe1358": {
-            "classType": "ARTICLE",
-            "content": "Artigo 27.º"
-          },
-          "fc2482c4-f91b-46e2-87bf-0d9d721340e4": {
-            "classType": "TITLE",
-            "content": "Unidade de Apoio Administrativo e Financeiro"
-          },
-          "1d026266-76e8-42a2-a978-e5c5bd3d89e1": {
-            "classType": "POINT",
-            "content": {
-              "b240af45-8b54-49ce-a765-85c78e31552d": {
-                "classType": "POINT",
-                "content": "Compete à Unidade de Apoio Administrativo e Financeiro apoiar a CNPD na gestão dos processos e dos\n  recursos humanos, financeiros e materiais, designadamente:"
-              },
-              "cpt_9.art_27.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "[Anterior alínea c).]"
-                ]
-              },
-              "cpt_9.art_27.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "[Anterior alínea d).]"
-                ]
-              },
-              "cpt_9.art_27.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "[Anterior alínea e).]"
-                ]
-              },
-              "cpt_9.art_27.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Promover as aquisições de bens e serviços;"
-                ]
-              },
-              "cpt_9.art_27.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Administrar os bens de consumo, bem como gerir as instalações, viaturas e demais equipamentos\n  ao serviço da CNPD;"
-                ]
-              },
-              "cpt_9.art_27.spt_f": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "f)",
-                  "Elaborar e manter atualizado o inventário geral;"
-                ]
-              },
-              "cpt_9.art_27.spt_g": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "g)",
-                  "Promover o recrutamento, promoção e a contratação de trabalhadores, bem como a aplicação dos\n  instrumentos de mobilidade;"
-                ]
-              },
-              "cpt_9.art_27.spt_h": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "h)",
-                  "Processar os vencimentos dos trabalhadores, dos membros da CNPD e do fiscal único;"
-                ]
-              },
-              "cpt_9.art_27.spt_i": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "i)",
-                  "Organizar e manter atualizada a informação relativa aos trabalhadores, aos membros da CNPD e ao\n  fiscal único;"
-                ]
-              },
-              "cpt_9.art_27.spt_j": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "j)",
-                  "Promover a formação dos trabalhadores;"
-                ]
-              },
-              "cpt_9.art_27.spt_k": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "k)",
-                  "Promover a execução da avaliação dos trabalhadores;"
-                ]
-              },
-              "cpt_9.art_27.spt_l": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "l)",
-                  "Instruir e propor decisão em processos disciplinares;"
-                ]
-              },
-              "cpt_9.art_27.spt_m": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "m)",
-                  "Secretariar o presidente e o secretário;"
-                ]
-              },
-              "cpt_9.art_27.spt_n": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "n)",
-                  "Assegurar o registo e encaminhamento da correspondência, bem como a organização e arquivo de\n  documentos;"
-                ]
-              },
-              "cpt_9.art_27.spt_o": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "o)",
-                  "Assegurar o atendimento externo e o apoio a reuniões;"
-                ]
-              },
-              "cpt_9.art_27.spt_p": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "p)",
-                  "Assegurar a condução de viaturas e a sua manutenção e receber e entregar expediente e\n  encomendas;"
-                ]
-              },
-              "cpt_9.art_27.spt_q": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "q)",
-                  "Desempenhar quaisquer outras tarefas que, no contexto da sua área funcional, sejam determinadas\n  pelo presidente ou pelo secretário."
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_9.art_28": {
-        "classType": "ARTICLE",
-        "content": {
-          "db88487f-d1bf-4960-874f-2215e7298b10": {
-            "classType": "ARTICLE",
-            "content": "Artigo 28.º"
-          },
-          "b5a891b6-d7c4-47d8-83c6-bf86a4f34d15": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_28.pt_1": {
-            "classType": "POINT",
-            "content": "1 - Aos trabalhadores da CNPD aplica-se o regime geral do trabalho em funções públicas."
-          },
-          "cpt_9.art_28.pt_2": {
-            "classType": "POINT",
-            "content": "2 - ..."
-          }
-        }
-      },
-      "cpt_9.art_29": {
-        "classType": "ARTICLE",
-        "content": {
-          "6a937aa0-41ca-4a90-b706-808c333466ad": {
-            "classType": "ARTICLE",
-            "content": "Artigo 29.º"
-          },
-          "8248604a-038c-4395-89f6-2fdf9c1314c7": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "d8af98d6-bc7b-4ec1-aad3-e9bec0c66483": {
-            "classType": "POINT",
-            "content": "Os trabalhadores da CNPD possuem cartão de identificação, dele constando o cargo desempenhado e os\n  poderes inerentes à sua função."
-          }
-        }
-      },
-      "cpt_9.art_30": {
-        "classType": "ARTICLE",
-        "content": {
-          "fd604514-b8d6-4473-b39e-ce8e1de4f4ba": {
-            "classType": "ARTICLE",
-            "content": "Artigo 30.º"
-          },
-          "c415938c-e338-479e-8128-8fd1b58e44d6": {
-            "classType": "TITLE",
-            "content": "[...]"
-          },
-          "cpt_9.art_30.pt_1": {
-            "classType": "POINT",
-            "content": "1 - ..."
-          },
-          "cpt_9.art_30.pt_2": {
-            "classType": "POINT",
-            "content": "2 - ..."
-          },
-          "cpt_9.art_30.pt_3": {
-            "classType": "POINT",
-            "content": "3 - ..."
-          },
-          "cpt_9.art_30.pt_4": {
-            "classType": "POINT",
-            "content": "4 - O prazo previsto no n.º 1 do artigo 97.º da Lei Geral do Trabalho em Funções Públicas,\n  aprovada em anexo à\n  Lei n.º 35/2014, de 20 de junho, não é aplicável ao regime de mobilidade para os serviços de apoio à CNPD,\n  podendo, porém, a mobilidade ser dada por finda por decisão do presidente, ouvida a Comissão, ou a\n  pedido do interessado."
-          },
-          "cpt_9.art_30.pt_5": {
-            "classType": "POINT",
-            "content": "5 - ..."
-          },
-          "cpt_9.art_30.pt_6": {
-            "classType": "POINT",
-            "content": "6 - Para o desempenho de funções nos serviços de apoio da CNPD no âmbito dos mecanismos de\n  mobilidade, e sempre que se opere por iniciativa do trabalhador, é dispensado o acordo do serviço\n  de origem."
-          }
-        }
-      },
-      "cpt_9.art_31": {
-        "classType": "ARTICLE",
-        "content": {
-          "41eaef0b-55e8-4661-8d23-1b0a33527167": {
-            "classType": "ARTICLE",
-            "content": "Artigo 31.º"
-          },
-          "9d8bb203-292f-42fc-9970-2776b6855d5a": {
-            "classType": "TITLE",
-            "content": "Trabalhadores em funções públicas"
-          },
-          "6f9f99ae-59af-4615-8ee2-dc4af6ff63f6": {
-            "classType": "POINT",
-            "content": "A nomeação em comissão de serviço de trabalhadores em funções públicas para o cargo de consultor\n  não determina a abertura de vaga no mapa de origem, ficando salvaguardados todos os direitos\n  inerentes aos seus anteriores cargos ou funções, designadamente para efeitos de promoção ou\n  progressão.»"
-          }
-        }
-      },
-      "cpt_9.art_64": {
-        "classType": "ARTICLE",
-        "content": {
-          "558b904b-83b3-4cfe-86d0-5986688c2f69": {
-            "classType": "ARTICLE",
-            "content": "Artigo 64.º"
-          },
-          "855ab1fa-0fd0-4e6b-aaa1-1d18395860e3": {
-            "classType": "TITLE",
-            "content": "Aditamento à\n  Lei n.º 43/2004, de 18 de agosto"
-          },
-          "ecaddfeb-9433-4629-b13a-4ff8f9a8c1e0": {
-            "classType": "POINT",
-            "content": {
-              "cf2622b7-1fa2-4f46-972a-837d766c97e5": {
-                "classType": "POINT",
-                "content": "São aditados os artigos 19.º-A e 24.º-A à\n  Lei n.º 43/2004, de 18 de agosto, com a seguinte redação:"
-              },
-              "a84124eb-4414-4df8-9f14-e2d260db70b6": {
-                "classType": "TITLE_ID",
-                "content": "«Artigo 19.º-A"
-              },
-              "7b6e2bc0-decd-4e26-acd8-d63696165228": {
-                "classType": "TITLE",
-                "content": "Fiscal único"
-              }
-            }
-          },
-          "cpt_9.art_64.pt_1": {
-            "classType": "POINT",
-            "content": "1 - O fiscal único é o órgão responsável pelo controlo da legalidade, da regularidade e da boa\n  gestão financeira e patrimonial da CNPD, e de consulta por esta nesse domínio."
-          },
-          "cpt_9.art_64.pt_2": {
-            "classType": "POINT",
-            "content": "2 - O fiscal único é um revisor oficial de contas, designado pela Assembleia da República, por\n  resolução, e que toma posse perante o Presidente da Assembleia da República."
-          },
-          "cpt_9.art_64.pt_3": {
-            "classType": "POINT",
-            "content": "3 - O mandato do fiscal único tem a duração de cinco anos, não renovável, permanecendo em\n  exercício de funções até à efetiva substituição."
-          },
-          "cpt_9.art_64.pt_4": {
-            "classType": "POINT",
-            "content": "4 - O fiscal único é remunerado por valor correspondente a 25 % da remuneração base auferida pelos\n  membros da CNPD."
-          },
-          "cpt_9.art_64.pt_5": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_64.pt_5.pt_5": {
-                "classType": "POINT",
-                "content": "5 - Compete, designadamente, ao fiscal único:"
-              },
-              "cpt_9.art_64.pt_5.spt_a": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "a)",
-                  "Fiscalizar a conformidade do tratamento de dados pessoais, podendo para tal aceder às\n  instalações do responsável e do subcontratante, aos equipamentos, aos meios de tratamento de\n  dados, bem como a toda a documentação que se revele necessária;"
-                ]
-              },
-              "cpt_9.art_64.pt_5.spt_b": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "b)",
-                  "Investigar, no âmbito da assistência mútua e das operações conjuntas previstas nos artigos 61.º\n  e 62.º do Regulamento (UE)\n  2016/679\n  do Parlamento e do Conselho, de 27 de abril de 2016, os tratamentos de dados pessoais, nas\n  condições previstas na alínea anterior;"
-                ]
-              },
-              "cpt_9.art_64.pt_5.spt_c": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "c)",
-                  "Realizar as auditorias da parte nacional dos sistemas de informação europeus, nos termos da\n  legislação da União Europeia.»"
-                ]
-              },
-              "cpt_9.art_64.pt_5.spt_d": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "d)",
-                  "Emitir parecer sobre qualquer assunto que lhe seja submetido pela CNPD;"
-                ]
-              },
-              "cpt_9.art_64.pt_5.spt_e": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "e)",
-                  "Participar às entidades competentes as irregularidades que detete."
-                ]
-              },
-              "cpt_9.art_64.pt_5.spt_Compete": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Compete",
-                  "à Unidade de Inspeção realizar inspeções e auditorias no âmbito dos processos em curso,\n  com mandato da CNPD, em especial:"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "cpt_9.art_65": {
-        "classType": "ARTICLE",
-        "content": {
-          "b07ec739-38f2-4866-9ce1-6032767a672f": {
-            "classType": "ARTICLE",
-            "content": "Artigo 65.º"
-          },
-          "cc1ba173-7ce1-4b3a-b2b4-331e614cbfdd": {
-            "classType": "TITLE",
-            "content": "Alteração à\n  Lei n.º 26/2016, de 22 de agosto"
-          },
-          "8fd1726d-8b93-4557-befd-8eba67188b4e": {
-            "classType": "POINT",
-            "content": {
-              "6c0b36df-7065-4b55-89ca-ae674f9ef459": {
-                "classType": "POINT",
-                "content": "O artigo 6.º do regime de acesso à informação administrativa e ambiental e de reutilização dos\n  documentos administrativos aprovado pela\n  Lei n.º 26/2016, de 22 de agosto, passa a ter a seguinte redação:"
-              },
-              "39a0608e-f4b6-495f-8308-36f9cbfee7d9": {
-                "classType": "TITLE_ID",
-                "content": "«Artigo 6.º"
-              },
-              "4f6942cf-0549-42e8-bf78-1179e987a035": {
-                "classType": "TITLE",
-                "content": "[...]"
-              }
-            }
-          },
-          "cpt_9.art_65.pt_1": {
-            "classType": "POINT",
-            "content": "1 - ..."
-          },
-          "cpt_9.art_65.pt_2": {
-            "classType": "POINT",
-            "content": "2 - ..."
-          },
-          "cpt_9.art_65.pt_3": {
-            "classType": "POINT",
-            "content": "3 - ..."
-          },
-          "cpt_9.art_65.pt_4": {
-            "classType": "POINT",
-            "content": "4 - ..."
-          },
-          "cpt_9.art_65.pt_5": {
-            "classType": "POINT",
-            "content": "5 - ..."
-          },
-          "cpt_9.art_65.pt_6": {
-            "classType": "POINT",
-            "content": "6 - ..."
-          },
-          "cpt_9.art_65.pt_7": {
-            "classType": "POINT",
-            "content": "7 - ..."
-          },
-          "cpt_9.art_65.pt_8": {
-            "classType": "POINT",
-            "content": "8 - ..."
-          },
-          "cpt_9.art_65.pt_9": {
-            "classType": "POINT",
-            "content": "9 - Sem prejuízo das ponderações previstas nos números anteriores, nos pedidos de acesso a\n  documentos nominativos que não contenham dados pessoais que revelem a origem étnica, as opiniões\n  políticas, as convicções religiosas ou filosóficas, a filiação sindical, dados genéticos,\n  biométricos ou relativos à saúde, ou dados relativos à intimidade da vida privada, à vida sexual\n  ou à orientação sexual de uma pessoa, presume-se, na falta de outro indicado pelo requerente, que\n  o pedido se fundamenta no direito de acesso a documentos administrativos.»"
-          }
-        }
-      },
-      "cpt_9.art_66": {
-        "classType": "ARTICLE",
-        "content": {
-          "3a236c2c-85aa-4ebc-a9a7-9fa85283bed4": {
-            "classType": "ARTICLE",
-            "content": "Artigo 66.º"
-          },
-          "892d99df-e3cc-4ff9-9291-d0dc9afebcc0": {
-            "classType": "TITLE",
-            "content": "Norma revogatória"
-          },
-          "cpt_9.art_66.pt_1": {
-            "classType": "POINT",
-            "content": "1 - É revogada a\n  Lei n.º 67/98, de 26 de outubro, que transpõe para a ordem jurídica portuguesa a Diretiva\n  95/45/CE, do Parlamento Europeu e do Conselho, de 24 de outubro de 1995, relativa à proteção de pessoas\n  singulares no que diz respeito ao tratamento dos dados pessoais e à livre circulação desses dados."
-          },
-          "cpt_9.art_66.pt_2": {
-            "classType": "POINT",
-            "content": "2 - São revogados o n.º 3 do artigo 15.º e o n.º 2 do artigo 17.º da\n  Lei n.º 43/2004, de 18 de agosto, alterada pela\n  Lei n.º 55-A/2010, de 31 de dezembro."
-          }
-        }
-      },
-      "cpt_9.art_67": {
-        "classType": "ARTICLE",
-        "content": {
-          "3537e451-2be8-463b-8034-c5b3713bb5b5": {
-            "classType": "ARTICLE",
-            "content": "Artigo 67.º"
-          },
-          "bc39e133-a683-4367-ad91-09c11c2ed8ba": {
-            "classType": "TITLE",
-            "content": "Republicação"
-          },
-          "f7014a53-d32f-4c0d-ae7a-254b74117642": {
-            "classType": "POINT",
-            "content": "É republicada em anexo à presente lei, da qual faz parte integrante, a\n  Lei n.º 43/2004, de 18 de agosto, com a redação atual e com as necessárias correções formais."
-          }
-        }
-      },
-      "cpt_9.art_68": {
-        "classType": "ARTICLE",
-        "content": {
-          "bd86d65b-867e-49f9-8374-da656aae4f01": {
-            "classType": "ARTICLE",
-            "content": "Artigo 68.º"
-          },
-          "5b8632b9-de51-4674-92b1-989b547c256d": {
-            "classType": "TITLE",
-            "content": "Entrada em vigor e produção de efeitos"
-          },
-          "cpt_9.art_68.pt_1": {
-            "classType": "POINT",
-            "content": "1 - A presente lei entra em vigor no dia seguinte ao da sua publicação."
-          },
-          "cpt_9.art_68.pt_2": {
-            "classType": "POINT",
-            "content": {
-              "cpt_9.art_68.pt_2.pt_2": {
-                "classType": "POINT",
-                "content": "2 - O fiscal único a eleger nos termos do disposto no artigo 19.º-A da\n  Lei n.º 43/2004, de 18 de agosto, só pode iniciar o seu mandato a partir de 1 de janeiro de 2020."
-              },
-              "cpt_9.art_68.pt_2.spt_Aprovada": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Aprovada",
-                  "em 14 de junho de 2019."
-                ]
-              },
-              "cpt_9.art_68.pt_2.spt_O": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "O",
-                  "Presidente da República, Marcelo Rebelo de Sousa."
-                ]
-              },
-              "cpt_9.art_68.pt_2.spt_Promulgada": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Promulgada",
-                  "em 26 de julho de 2019."
-                ]
-              },
-              "cpt_9.art_68.pt_2.spt_Publique": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Publique-se.",
-                  ""
-                ]
-              },
-              "cpt_9.art_68.pt_2.spt_Referendada": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Referendada",
-                  "em 30 de julho de 2019."
-                ]
-              },
-              "cpt_9.art_68.pt_2.spt_Pelo": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Pelo",
-                  "Primeiro-Ministro, Augusto Ernesto Santos Silva, Ministro dos Negócios Estrangeiros."
-                ]
-              },
-              "cpt_9.art_68.pt_2.spt_Republica": {
-                "classType": "SUBPOINT",
-                "content": [
-                  "Republicação",
-                  "da\n  Lei n.º 43/2004, de 18 de agosto"
-                ]
-              }
-            }
           }
         }
       }
