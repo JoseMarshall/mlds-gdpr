@@ -28,7 +28,13 @@
   "author": "Josemar Hebo <hebojosemar@gmail.com> (https://github.com/JoseMarshall)",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
+    "@nlpjs/similarity": "^4.26.1",
+    "deepl-node": "^1.15.0",
+    "dotenv": "^16.4.5",
     "jsdom": "^25.0.1",
+    "keyword-extractor": "^0.0.28",
+    "natural": "^8.0.1",
     "pdfjs-dist": "^4.8.69",
     "puppeteer": "^23.8.0",
     "uuid": "^11.0.2"
