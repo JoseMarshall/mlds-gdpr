@@ -157,189 +157,189 @@
             "classType": "TITLE",
             "content": "Definições"
           },
-          "72234c19-a210-466d-b416-8796f2c4a58e": {
+          "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e": {
             "classType": "POINT",
             "content": {
               "a69e5cbd-2aa1-433a-bcd9-eedfbcf71227": {
                 "classType": "POINT",
                 "content": "Para efeitos do presente regulamento, entende-se por:"
               },
-              "cpt_1.art_4.spt_1": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_1": {
                 "classType": "SUBPOINT",
                 "content": [
                   "1)",
                   "«Dados pessoais», informação relativa a uma pessoa singular identificada ou identificável\n          («titular dos dados»); é considerada identificável uma pessoa singular que possa ser\n          identificada, direta ou indiretamente, em especial por referência a um identificador, como\n          por exemplo um nome, um número de identificação, dados de localização, identificadores por\n          via eletrónica ou a um ou mais elementos específicos da identidade física, fisiológica,\n          genética, mental, económica, cultural ou social dessa pessoa singular;"
                 ]
               },
-              "cpt_1.art_4.spt_2": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_2": {
                 "classType": "SUBPOINT",
                 "content": [
                   "2)",
                   "«Tratamento», uma operação ou um conjunto de operações efetuadas sobre dados pessoais ou\n          sobre conjuntos de dados pessoais, por meios automatizados ou não automatizados, tais como\n          a recolha, o registo, a organização, a estruturação, a conservação, a adaptação ou\n          alteração, a recuperação, a consulta, a utilização, a divulgação por transmissão, difusão\n          ou qualquer outra forma de disponibilização, a comparação ou interconexão, a limitação, o\n          apagamento ou a destruição;"
                 ]
               },
-              "cpt_1.art_4.spt_3": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_3": {
                 "classType": "SUBPOINT",
                 "content": [
                   "3)",
                   "«Limitação do tratamento», a inserção de uma marca nos dados pessoais conservados com o\n          objetivo de limitar o seu tratamento no futuro;"
                 ]
               },
-              "cpt_1.art_4.spt_4": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_4": {
                 "classType": "SUBPOINT",
                 "content": [
                   "4)",
                   "«Definição de perfis», qualquer forma de tratamento automatizado de dados pessoais que\n          consista em utilizar esses dados pessoais para avaliar certos aspetos pessoais de uma\n          pessoa singular, nomeadamente para analisar ou prever aspetos relacionados com o seu\n          desempenho profissional, a sua situação económica, saúde, preferências pessoais,\n          interesses, fiabilidade, comportamento, localização ou deslocações;"
                 ]
               },
-              "cpt_1.art_4.spt_5": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_5": {
                 "classType": "SUBPOINT",
                 "content": [
                   "5)",
                   "«Pseudonimização», o tratamento de dados pessoais de forma que deixem de poder ser\n          atribuídos a um titular de dados específico sem recorrer a informações suplementares,\n          desde que essas informações suplementares sejam mantidas separadamente e sujeitas a\n          medidas técnicas e organizativas para assegurar que os dados pessoais não possam ser\n          atribuídos a uma pessoa singular identificada ou identificável;"
                 ]
               },
-              "cpt_1.art_4.spt_6": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_6": {
                 "classType": "SUBPOINT",
                 "content": [
                   "6)",
                   "«Ficheiro», qualquer conjunto estruturado de dados pessoais, acessível segundo critérios\n          específicos, quer seja centralizado, descentralizado ou repartido de modo funcional ou\n          geográfico;"
                 ]
               },
-              "cpt_1.art_4.spt_7": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_7": {
                 "classType": "SUBPOINT",
                 "content": [
                   "7)",
                   "«Responsável pelo tratamento», a pessoa singular ou coletiva, a autoridade pública, a\n          agência ou outro organismo que, individualmente ou em conjunto com outras, determina as\n          finalidades e os meios de tratamento de dados pessoais; sempre que as finalidades e os\n          meios desse tratamento sejam determinados pelo direito da União ou de um Estado-Membro, o\n          responsável pelo tratamento ou os critérios específicos aplicáveis à sua nomeação podem\n          ser previstos pelo direito da União ou de um Estado-Membro;"
                 ]
               },
-              "cpt_1.art_4.spt_8": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_8": {
                 "classType": "SUBPOINT",
                 "content": [
                   "8)",
                   "«Subcontratante», uma pessoa singular ou coletiva, a autoridade pública, agência ou outro\n          organismo que trate os dados pessoais por conta do responsável pelo tratamento destes;"
                 ]
               },
-              "cpt_1.art_4.spt_9": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_9": {
                 "classType": "SUBPOINT",
                 "content": [
                   "9)",
                   "«Destinatário», uma pessoa singular ou coletiva, a autoridade pública, agência ou outro\n          organismo que recebem comunicações de dados pessoais, independentemente de se tratar ou\n          não de um terceiro. Contudo, as autoridades públicas que possam receber dados pessoais no\n          âmbito de inquéritos específicos nos termos do direito da União ou dos Estados-Membros não\n          são consideradas destinatários; o tratamento desses dados por essas autoridades públicas\n          deve cumprir as regras de proteção de dados aplicáveis em função das finalidades do\n          tratamento;"
                 ]
               },
-              "cpt_1.art_4.spt_10": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_10": {
                 "classType": "SUBPOINT",
                 "content": [
                   "10)",
                   "«Terceiro», a pessoa singular ou coletiva, a autoridade pública, o serviço ou organismo\n          que não seja o titular dos dados, o responsável pelo tratamento, o subcontratante e as\n          pessoas que, sob a autoridade direta do responsável pelo tratamento ou do subcontratante,\n          estão autorizadas a tratar os dados pessoais;"
                 ]
               },
-              "cpt_1.art_4.spt_11": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_11": {
                 "classType": "SUBPOINT",
                 "content": [
                   "11)",
                   "«Consentimento» do titular dos dados, uma manifestação de vontade, livre, específica,\n          informada e explícita, pela qual o titular dos dados aceita, mediante declaração ou ato\n          positivo inequívoco, que os dados pessoais que lhe dizem respeito sejam objeto de\n          tratamento;"
                 ]
               },
-              "cpt_1.art_4.spt_12": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_12": {
                 "classType": "SUBPOINT",
                 "content": [
                   "12)",
                   "«Violação de dados pessoais», uma violação da segurança que provoque, de modo acidental ou\n          ilícito, a destruição, a perda, a alteração, a divulgação ou o acesso, não autorizados, a\n          dados pessoais transmitidos, conservados ou sujeitos a qualquer outro tipo de tratamento;"
                 ]
               },
-              "cpt_1.art_4.spt_13": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_13": {
                 "classType": "SUBPOINT",
                 "content": [
                   "13)",
                   "«Dados genéticos», os dados pessoais relativos às características genéticas, hereditárias\n          ou adquiridas, de uma pessoa singular que deem informações únicas sobre a fisiologia ou a\n          saúde dessa pessoa singular e que resulta designadamente de uma análise de uma amostra\n          biológica proveniente da pessoa singular em causa;"
                 ]
               },
-              "cpt_1.art_4.spt_14": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_14": {
                 "classType": "SUBPOINT",
                 "content": [
                   "14)",
                   "«Dados biométricos», dados pessoais resultantes de um tratamento técnico específico\n          relativo às características físicas, fisiológicas ou comportamentais de uma pessoa\n          singular que permitam ou confirmem a identificação única dessa pessoa singular,\n          nomeadamente imagens faciais ou dados dactiloscópicos;"
                 ]
               },
-              "cpt_1.art_4.spt_15": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_15": {
                 "classType": "SUBPOINT",
                 "content": [
                   "15)",
                   "«Dados relativos à saúde», dados pessoais relacionados com a saúde física ou mental de uma\n          pessoa singular, incluindo a prestação de serviços de saúde, que revelem informações sobre\n          o seu estado de saúde;"
                 ]
               },
-              "cpt_1.art_4.spt_16": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_16": {
                 "classType": "SUBPOINT",
                 "content": [
                   "16)",
                   "«Estabelecimento principal»:\n        \n          \n            \n            \n          \n          \n            \n              \n                a)\n              \n              \n                \n                  No que se refere a um responsável pelo tratamento com estabelecimentos em vários\n                  Estados-Membros, o local onde se encontra a sua administração central na União, a\n                  menos que as decisões sobre as finalidades e os meios de tratamento dos dados\n                  pessoais sejam tomadas noutro estabelecimento do responsável pelo tratamento na\n                  União e este último estabelecimento tenha competência para mandar executar tais\n                  decisões, sendo neste caso o estabelecimento que tiver tomado as referidas\n                  decisões considerado estabelecimento principal;\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                b)\n              \n              \n                \n                  No que se refere a um subcontratante com estabelecimentos em vários\n                  Estados-Membros, o local onde se encontra a sua administração central na União ou,\n                  caso o subcontratante não tenha administração central na União, o estabelecimento\n                  do subcontratante na União onde são exercidas as principais atividades de\n                  tratamento no contexto das atividades de um estabelecimento do subcontratante, na\n                  medida em que se encontre sujeito a obrigações específicas nos termos do presente\n                  regulamento;"
                 ]
               },
-              "cpt_1.art_4.spt_17": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_17": {
                 "classType": "SUBPOINT",
                 "content": [
                   "17)",
                   "«Representante», uma pessoa singular ou coletiva estabelecida na União que, designada por\n          escrito pelo responsável pelo tratamento ou subcontratante, nos termos do artigo 27.o, representa o responsável pelo tratamento ou o subcontratante no que se refere às suas\n          obrigações respetivas nos termos do presente regulamento;"
                 ]
               },
-              "cpt_1.art_4.spt_18": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_18": {
                 "classType": "SUBPOINT",
                 "content": [
                   "18)",
                   "«Empresa», uma pessoa singular ou coletiva que, independentemente da sua forma jurídica,\n          exerce uma atividade económica, incluindo as sociedades ou associações que exercem\n          regularmente uma atividade económica;"
                 ]
               },
-              "cpt_1.art_4.spt_19": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_19": {
                 "classType": "SUBPOINT",
                 "content": [
                   "19)",
                   "«Grupo empresarial», um grupo composto pela empresa que exerce o controlo e pelas empresas\n          controladas;"
                 ]
               },
-              "cpt_1.art_4.spt_20": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_20": {
                 "classType": "SUBPOINT",
                 "content": [
                   "20)",
                   "«Regras vinculativas aplicáveis às empresas», as regras internas de proteção de dados\n          pessoais aplicadas por um responsável pelo tratamento ou um subcontratante estabelecido no\n          território de um Estado-Membro para as transferências ou conjuntos de transferências de\n          dados pessoais para um responsável ou subcontratante num ou mais países terceiros, dentro\n          de um grupo empresarial ou de um grupo de empresas envolvidas numa atividade económica\n          conjunta;"
                 ]
               },
-              "cpt_1.art_4.spt_21": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_21": {
                 "classType": "SUBPOINT",
                 "content": [
                   "21)",
                   "«Autoridade de controlo», uma autoridade pública independente criada por um Estado-Membro\n          nos termos do artigo 51.o;"
                 ]
               },
-              "cpt_1.art_4.spt_22": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_22": {
                 "classType": "SUBPOINT",
                 "content": [
                   "22)",
                   "«Autoridade de controlo interessada», uma autoridade de controlo afetada pelo tratamento\n          de dados pessoais pelo facto de:\n        \n        \n          \n            \n            \n          \n          \n            \n              \n                a)\n              \n              \n                \n                  O responsável pelo tratamento ou o subcontratante estar estabelecido no território\n                  do Estado-Membro dessa autoridade de controlo;\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                b)\n              \n              \n                \n                  Os titulares de dados que residem no Estado-Membro dessa autoridade de controlo\n                  serem substancialmente afetados, ou suscetíveis de o ser, pelo tratamento dos\n                  dados; ou\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                c)\n              \n              \n                \n                  Ter sido apresentada uma reclamação junto dessa autoridade de controlo;"
                 ]
               },
-              "cpt_1.art_4.spt_23": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_23": {
                 "classType": "SUBPOINT",
                 "content": [
                   "23)",
                   "«Tratamento transfronteiriço»:\n        \n          \n            \n            \n          \n          \n            \n              \n                a)\n              \n              \n                \n                  O tratamento de dados pessoais que ocorre no contexto das atividades de\n                  estabelecimentos em mais do que um Estado-Membro de um responsável pelo tratamento\n                  ou um subcontratante na União, caso o responsável pelo tratamento ou o\n                  subcontratante esteja estabelecido em mais do que um Estado-Membro; ou\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                b)\n              \n              \n                \n                  O tratamento de dados pessoais que ocorre no contexto das atividades de um único\n                  estabelecimento de um responsável pelo tratamento ou de um subcontratante, mas que\n                  afeta substancialmente, ou é suscetível de afetar substancialmente, titulares de\n                  dados em mais do que um Estados-Membro;"
                 ]
               },
-              "cpt_1.art_4.spt_24": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_24": {
                 "classType": "SUBPOINT",
                 "content": [
                   "24)",
                   "«Objeção pertinente e fundamentada», uma objeção a um projeto de decisão que visa\n          determinar se há violação do presente regulamento ou se a ação prevista relativamente ao\n          responsável pelo tratamento ou ao subcontratante está em conformidade com o presente\n          regulamento, demonstrando claramente a gravidade dos riscos que advêm do projeto de\n          decisão para os direitos e liberdades fundamentais dos titulares dos dados e,\n          eventualmente, para a livre circulação de dados pessoais no território da União;"
                 ]
               },
-              "cpt_1.art_4.spt_25": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_25": {
                 "classType": "SUBPOINT",
                 "content": [
                   "25)",
                   "«Serviços da sociedade da informação», um serviço definido no artigo 1.o, n.o 1, alínea b), da Diretiva (UE) 2015/1535 do Parlamento\n          Europeu e do Conselho\n            (19);"
                 ]
               },
-              "cpt_1.art_4.spt_26": {
+              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_26": {
                 "classType": "SUBPOINT",
                 "content": [
                   "26)",
@@ -626,7 +626,7 @@
             "classType": "POINT",
             "content": "1. Quando for aplicável o artigo 6.o, n.o 1,\n  alínea a), no que respeita à oferta direta de serviços da sociedade da informação às crianças, dos\n  dados pessoais de crianças é lícito se elas tiverem pelo menos 16 anos. Caso a criança tenha menos\n  de 16 anos, o tratamento só é lícito se e na medida em que o consentimento seja dado ou autorizado\n  pelos titulares das responsabilidades parentais da criança."
           },
-          "bc9e7ce4-3eba-4701-8b3d-50de70333b83": {
+          "cpt_2.art_8.pt_bc9e7ce4-3eba-4701-8b3d-50de70333b83": {
             "classType": "POINT",
             "content": "Os Estados-Membros podem dispor no seu direito uma idade inferior para os efeitos referidos, desde\n  que essa idade não seja inferior a 13 anos."
           },
@@ -755,7 +755,7 @@
             "classType": "TITLE",
             "content": "Tratamento de dados pessoais relacionados com condenações penais e infrações"
           },
-          "32ebf31f-488f-46ce-ba30-43a116dfbe8d": {
+          "cpt_2.art_10.pt_32ebf31f-488f-46ce-ba30-43a116dfbe8d": {
             "classType": "POINT",
             "content": "O tratamento de dados pessoais relacionados com condenações penais e infrações ou com medidas de\n  segurança conexas com base no artigo 6.o, n.o\n  1, só é efetuado sob o controlo de uma autoridade pública ou se o tratamento for autorizado por\n  disposições do direito da União ou de um Estado-Membro que prevejam garantias adequadas para os\n  direitos e liberdades dos titulares dos dados. Os registos completos das condenações penais só são\n  conservados sob o controlo das autoridades públicas."
           }
@@ -1325,7 +1325,7 @@
                 "classType": "TITLE",
                 "content": "Direito de retificação"
               },
-              "51e21638-b1aa-48a3-a73d-c8df5505694c": {
+              "cpt_3.sct_3.art_16.pt_51e21638-b1aa-48a3-a73d-c8df5505694c": {
                 "classType": "POINT",
                 "content": "O titular tem o direito de obter, sem demora injustificada, do responsável pelo tratamento a\n  retificação dos dados pessoais inexatos que lhe digam respeito. Tendo em conta as finalidades do\n  tratamento, o titular dos dados tem direito a que os seus dados pessoais incompletos sejam\n  completados, incluindo por meio de uma declaração adicional."
               }
@@ -1506,7 +1506,7 @@
                 "classType": "TITLE",
                 "content": "Obrigação de notificação da retificação ou apagamento dos dados pessoais ou limitação do\n  tratamento"
               },
-              "b8c7196c-9c34-48d5-883d-6ea0d300d4d4": {
+              "cpt_3.sct_3.art_19.pt_b8c7196c-9c34-48d5-883d-6ea0d300d4d4": {
                 "classType": "POINT",
                 "content": "O responsável pelo tratamento comunica a cada destinatário a quem os dados pessoais tenham sido\n  transmitidos qualquer retificação ou apagamento dos dados pessoais ou limitação do tratamento a\n  que se tenha procedido em conformidade com o artigo 16.o, o artigo\n  17.o, n.o 1, e o artigo 18.o, salvo se tal comunicação se revelar impossível ou implicar um esforço desproporcionado. Se o\n  titular dos dados o solicitar, o responsável pelo tratamento fornece-lhe informações sobre os\n  referidos destinatários."
               }
@@ -2113,7 +2113,7 @@
                 "classType": "TITLE",
                 "content": "Tratamento sob a autoridade do responsável pelo tratamento ou do subcontratante"
               },
-              "9d55e876-d1f2-4e0d-8c20-1f824c7655fe": {
+              "cpt_4.sct_1.art_29.pt_9d55e876-d1f2-4e0d-8c20-1f824c7655fe": {
                 "classType": "POINT",
                 "content": "O subcontratante ou qualquer pessoa que, agindo sob a autoridade do responsável pelo tratamento ou\n  do subcontratante, tenha acesso a dados pessoais, não procede ao tratamento desses dados exceto\n  por instrução do responsável pelo tratamento, salvo se a tal for obrigado por força do direito da\n  União ou dos Estados-Membros."
               }
@@ -2247,7 +2247,7 @@
                 "classType": "TITLE",
                 "content": "Cooperação com a autoridade de controlo"
               },
-              "954118ec-2bc5-4871-96d5-83ba086e8082": {
+              "cpt_4.sct_1.art_31.pt_954118ec-2bc5-4871-96d5-83ba086e8082": {
                 "classType": "POINT",
                 "content": "O responsável pelo tratamento e o subcontratante e, sendo caso disso, os seus representantes\n  cooperam com a autoridade de controlo, a pedido desta, na prossecução das suas atribuições."
               }
@@ -3238,7 +3238,7 @@
             "classType": "TITLE",
             "content": "Princípio geral das transferências"
           },
-          "f844d844-d545-4154-aa5d-cddcb7a4e469": {
+          "cpt_5.art_44.pt_f844d844-d545-4154-aa5d-cddcb7a4e469": {
             "classType": "POINT",
             "content": "Qualquer transferência de dados pessoais que sejam ou venham a ser objeto de tratamento após\n  transferência para um país terceiro ou uma organização internacional só é realizada se, sem\n  prejuízo das outras disposições do presente regulamento, as condições estabelecidas no presente\n  capítulo forem respeitadas pelo responsável pelo tratamento e pelo subcontratante, inclusivamente\n  no que diz respeito às transferências ulteriores de dados pessoais do país terceiro ou da\n  organização internacional para outro país terceiro ou outra organização internacional. Todas as\n  disposições do presente capítulo são aplicadas de forma a assegurar que não é comprometido o nível\n  de proteção das pessoas singulares garantido pelo presente regulamento."
           }
@@ -3301,7 +3301,7 @@
             "classType": "POINT",
             "content": "5. A Comissão, sempre que a informação disponível revelar, nomeadamente na sequência da revisão a\n  que se refere o n.o 3 do presente artigo, que um país terceiro, um\n  território ou um ou mais setores específicos de um país terceiro, ou uma organização\n  internacional, deixou de assegurar um nível de proteção adequado na aceção do n.o\n  2 do presente artigo, na medida do necessário, revoga, altera ou suspende a decisão referida no\n  n.o 3 do presente artigo, através de atos de execução, sem efeitos\n  retroativos. Os referidos atos de execução são adotados pelo procedimento de exame a que se refere\n  o artigo 93.o, n.o 2."
           },
-          "62c8ae2c-0ea9-45ed-b5bd-81f3107c7f77": {
+          "cpt_5.art_45.pt_62c8ae2c-0ea9-45ed-b5bd-81f3107c7f77": {
             "classType": "POINT",
             "content": "Por imperativos de urgência devidamente justificados, a Comissão adota atos de execução\n  imediatamente aplicáveis pelo procedimento a que se refere o artigo 93.o, n.o 3."
           },
@@ -3581,7 +3581,7 @@
             "classType": "TITLE",
             "content": "Transferências ou divulgações não autorizadas pelo direito da União"
           },
-          "a160c538-1fab-480d-87f2-d8e4f9e3bd87": {
+          "cpt_5.art_48.pt_a160c538-1fab-480d-87f2-d8e4f9e3bd87": {
             "classType": "POINT",
             "content": "As decisões judiciais e as decisões de autoridades administrativas de um país terceiro que exijam\n  que o responsável pelo tratamento ou o subcontratante transfiram ou divulguem dados pessoais só\n  são reconhecidas ou executadas se tiverem como base um acordo internacional, como um acordo de\n  assistência judiciária mútua, em vigor entre o país terceiro em causa e a União ou um dos\n  Estados-Membros, sem prejuízo de outros motivos de transferência nos termos do presente capítulo."
           }
@@ -3696,35 +3696,35 @@
             "classType": "TITLE",
             "content": "Cooperação internacional no domínio da proteção de dados pessoais"
           },
-          "abfaab68-2b43-427d-a937-f66a5f262980": {
+          "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980": {
             "classType": "POINT",
             "content": {
               "eaa72b78-425a-458c-a9ba-479d3e4d6cec": {
                 "classType": "POINT",
                 "content": "Em relação a países terceiros e a organizações internacionais, a Comissão e as autoridades de\n  controlo tomam as medidas necessárias para:"
               },
-              "cpt_5.art_50.spt_a": {
+              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_a": {
                 "classType": "SUBPOINT",
                 "content": [
                   "a)",
                   "Estabelecer regras internacionais de cooperação destinadas a facilitar a aplicação efetiva\n          da legislação em matéria de proteção de dados pessoais;"
                 ]
               },
-              "cpt_5.art_50.spt_b": {
+              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_b": {
                 "classType": "SUBPOINT",
                 "content": [
                   "b)",
                   "Prestar assistência mútua a nível internacional no domínio da aplicação da legislação\n          relativa à proteção de dados pessoais, nomeadamente através da notificação, comunicação de\n          reclamações, e assistência na investigação e intercâmbio de informações, sob reserva das\n          garantias adequadas de proteção dos dados pessoais e de outros direitos e liberdades\n          fundamentais;"
                 ]
               },
-              "cpt_5.art_50.spt_c": {
+              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_c": {
                 "classType": "SUBPOINT",
                 "content": [
                   "c)",
                   "Associar as partes interessadas aos debates e atividades que visem intensificar a\n          cooperação internacional no âmbito da aplicação da legislação relativa à proteção de dados\n          pessoais;"
                 ]
               },
-              "cpt_5.art_50.spt_d": {
+              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_d": {
                 "classType": "SUBPOINT",
                 "content": [
                   "d)",
@@ -4460,7 +4460,7 @@
                 "classType": "TITLE",
                 "content": "Relatórios de atividades"
               },
-              "2ff5d159-12c5-4381-8e61-4a0530e174f9": {
+              "cpt_6.sct_2.art_59.pt_2ff5d159-12c5-4381-8e61-4a0530e174f9": {
                 "classType": "POINT",
                 "content": "As autoridades de controlo elaboram um relatório anual de atividades, que pode incluir uma lista\n  dos tipos de violação notificadas e dos tipos de medidas tomadas nos termos do artigo 58.o, n.o 2. Os relatórios são apresentados ao Parlamento nacional, ao\n  Governo e às outras autoridades designadas no direito do Estado-Membro. Os relatórios são\n  disponibilizados ao público, à Comissão e ao Comité."
               }
@@ -4701,7 +4701,7 @@
                 "classType": "TITLE",
                 "content": "Procedimento de controlo da coerência"
               },
-              "095f65c8-f8d6-410c-a385-cca35ce6c0ad": {
+              "cpt_7.sct_2.art_63.pt_095f65c8-f8d6-410c-a385-cca35ce6c0ad": {
                 "classType": "POINT",
                 "content": "A fim de contribuir para a aplicação coerente do presente regulamento em toda a União, as\n  autoridades de controlo cooperam entre si e, quando for relevante, com a Comissão, através do\n  procedimento de controlo da coerência previsto na presente secção."
               }
@@ -4921,11 +4921,11 @@
                 "classType": "TITLE",
                 "content": "Troca de informações"
               },
-              "553ebbec-77ab-4761-82d4-6e86ea6436e0": {
+              "cpt_7.sct_2.art_67.pt_553ebbec-77ab-4761-82d4-6e86ea6436e0": {
                 "classType": "POINT",
                 "content": "Comissão pode adotar atos de execução de aplicação geral a fim de especificar as regras de\n  intercâmbio eletrónico de informações entre as autoridades de controlo e entre estas e o Comité,\n  nomeadamente o formato normalizado referido no artigo 64.o."
               },
-              "5148820f-9b6f-4e5b-8d6f-37f3a8361b9b": {
+              "cpt_7.sct_2.art_67.pt_5148820f-9b6f-4e5b-8d6f-37f3a8361b9b": {
                 "classType": "POINT",
                 "content": "Os referidos atos de execução são adotados pelo procedimento de exame a que se refere o artigo\n  93.o, n.o 2."
               }
@@ -5869,7 +5869,7 @@
             "classType": "TITLE",
             "content": "Tratamento e acesso do público aos documentos oficiais"
           },
-          "e4bb0d64-4b8f-42c7-bf43-3a4558256ba8": {
+          "cpt_9.art_86.pt_e4bb0d64-4b8f-42c7-bf43-3a4558256ba8": {
             "classType": "POINT",
             "content": "Os dados pessoais que constem de documentos oficiais na posse de uma autoridade pública ou de um\n  organismo público ou privado para a prossecução de atribuições de interesse público podem ser\n  divulgados pela autoridade ou organismo nos termos do direito da União ou do Estado-Membro que for\n  aplicável à autoridade ou organismo público, a fim de conciliar o acesso do público a documentos\n  oficiais com o direito à proteção dos dados pessoais nos termos do presente regulamento."
           }
@@ -5886,7 +5886,7 @@
             "classType": "TITLE",
             "content": "Tratamento do número de identificação nacional"
           },
-          "49a9286a-a4d0-481d-ab1f-6e329fd8fa8d": {
+          "cpt_9.art_87.pt_49a9286a-a4d0-481d-ab1f-6e329fd8fa8d": {
             "classType": "POINT",
             "content": "Os Estados-Membros podem determinar em pormenor as condições específicas aplicáveis ao tratamento\n  de um número de identificação nacional ou de qualquer outro elemento de identificação de aplicação\n  geral. Nesse caso, o número de identificação nacional ou qualquer outro elemento de identificação\n  de aplicação geral é exclusivamente utilizado mediante garantias adequadas dos direitos e\n  liberdades do titular dos dados nos termos do presente regulamento."
           }
@@ -6114,7 +6114,7 @@
             "classType": "TITLE",
             "content": "Relação com a Diretiva 2002/58/CE"
           },
-          "0dbac2f8-b629-4093-a206-9e5c1ba5d5ee": {
+          "cpt_11.art_95.pt_0dbac2f8-b629-4093-a206-9e5c1ba5d5ee": {
             "classType": "POINT",
             "content": "O presente regulamento não impõe obrigações suplementares a pessoas singulares ou coletivas no que\n  respeita ao tratamento no contexto da prestação de serviços de comunicações eletrónicas\n  disponíveis nas redes públicas de comunicações na União em matérias que estejam sujeitas a\n  obrigações específicas com o mesmo objetivo estabelecidas na Diretiva 2002/58/CE."
           }
@@ -6131,7 +6131,7 @@
             "classType": "TITLE",
             "content": "Relação com acordos celebrados anteriormente"
           },
-          "c4677363-d388-4f58-9866-99a85633dd75": {
+          "cpt_11.art_96.pt_c4677363-d388-4f58-9866-99a85633dd75": {
             "classType": "POINT",
             "content": "Os acordos internacionais celebrados pelos Estados-Membros antes de 24 de maio de 2016, que\n  impliquem a transferência de dados pessoais para países terceiros ou organizações internacionais e\n  que sejam conformes com o direito da União aplicável antes dessa data, permanecem em vigor até\n  serem alterados, substituídos ou revogados."
           }
@@ -6197,7 +6197,7 @@
             "classType": "TITLE",
             "content": "Revisão de outros atos jurídicos da União em matéria de proteção de dados"
           },
-          "13ab06b2-840e-4540-b3b2-15a7ee367682": {
+          "cpt_11.art_98.pt_13ab06b2-840e-4540-b3b2-15a7ee367682": {
             "classType": "POINT",
             "content": "Se necessário, a Comissão apresenta propostas legislativas com vista à alteração de outros atos\n  jurídicos da União sobre a proteção dos dados pessoais, a fim de assegurar uma proteção uniforme e\n  coerente das pessoas singulares no que diz respeito ao tratamento. Tal incide nomeadamente sobre\n  as normas relativas à proteção das pessoas singulares no que diz respeito ao tratamento pelas\n  instituições, órgãos, organismos e agências da União e a livre circulação desses dados."
           }

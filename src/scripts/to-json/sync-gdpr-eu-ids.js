@@ -105,7 +105,7 @@ function roman2Arabic(roman) {
   return result;
 }
 
-function buildId(obj) {
+function buildId(obj, index) {
   if (!obj) {
     return null;
   }
@@ -133,7 +133,7 @@ function buildId(obj) {
     },
     [gdprClasses.POINT]: (content) => {
       const match = content.slice(0, 5).match(/(\d+)/);
-      return match ? match[1].trim() : null;
+      return match ? match[1].trim() : index;
     },
     [gdprClasses.SUBPOINT]: (content) => {
       const match = content.match(/([\d\w]+)/);
@@ -175,7 +175,11 @@ function makeHumanReadableIds(gdprEu, gdprEuCopy, parentKey = '') {
   let index = 0;
   for (const key of keys) {
     if (isObJectAndNotArray(gdprEu[key])) {
-      const builtKey = buildId(gdprEu[key], index);
+      let builtKey = buildId(gdprEu[key], key);
+      const prefix = builtKey?.split('_')[0];
+      if (parentKey.split('.').pop()?.split('_')[0] === prefix) {
+        builtKey = '';
+      }
       const newKey = builtKey ? `${parentKey ? `${parentKey}.${builtKey}` : builtKey}` : key;
 
       result[newKey] = makeHumanReadableIds(
@@ -202,7 +206,7 @@ function main() {
     JSON.stringify(gdprWithReadableId, null, 2)
   );
 
-  ['it', 'de', 'en'].forEach((locale) => {
+  ['en', 'pt', 'de', 'it'].forEach((locale) => {
     const synced = syncGDPRs(gdprWithReadableId, require(`../../datasets/gdpr-eu-${locale}.json`));
     fs.writeFileSync(
       path.resolve(__dirname, `../../datasets/gdpr-eu-${locale}.json`),
@@ -212,7 +216,5 @@ function main() {
 
   return 'gdpr-eu ids Synced Successfully ✅';
 }
-
-main();
 
 module.exports = main;
