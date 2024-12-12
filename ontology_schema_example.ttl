@@ -1,7 +1,7 @@
 @prefix schema: <http://schema.org/> .
-@prefix eli: <http://data.europa.eu/eli/ontology#>  .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>  .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>  .
+@prefix eli: <http://data.europa.eu/eli/ontology#>  .
 @prefix gdpr: <http://example.org/gdpr#> .
 @prefix rgdpr: <http://example.org/rgdpr#> .
 
@@ -49,40 +49,36 @@ gdpr:article_6_point_1_f a gdpr:SubPoint ;
 rgdpr:gdpr_eu_en a eli:LegalExpression ;
     eli:realizes gdpr:GDPR;
     eli:language "en" ;
-    eli:title "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)" ;
+    eli:title "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on ..." ;
     eli:title_alternative "GDPR" ;
     eli:has_translation rgdpr:gdpr_eu_it,
         rgdpr:gdpr_eu_pt,
         rgdpr:gdpr_eu_de .
 
-rgdpr:cpt_10 a eli:LegalExpression ;
+rgdpr:cpt_10_en a eli:LegalExpression ;
     eli:realizes gdpr:chapter_10;
-    eli:is_part_of rgdpr:gdpr_eu_en ;
-    eli:has_part rgdpr:art_92 ,
-        rgdpr:art_93 ;
     eli:language "en" ;
     eli:has_translation rgdpr:cpt_10_de,
         rgdpr:cpt_10_it,
         rgdpr:cpt_10_pt ;
     eli:title "Delegated acts and implementing acts" .
 
-rgdpr:art_92 a eli:LegalExpression ;
+rgdpr:art_92_en a eli:LegalExpression ;
     eli:realizes gdpr:article_92 ;
-    eli:is_part_of rgdpr:chapter_10 ;
     eli:language "en" ;
     eli:has_translation rgdpr:art_92_de,
         rgdpr:art_92_it,
         rgdpr:art_92_pt ;
     eli:title "Exercise of the delegation" .
 
-rgdpr:art_92.pt_4 a eli:LegalExpression ;
+rgdpr:art_92_pt_4_en a eli:LegalExpression ;
     eli:realizes gdpr:article_92.pt_4 ;
     eli:language "en" ;
     eli:has_translation rgdpr:art_92.pt_4_de,
         rgdpr:art_92.pt_4_it,
         rgdpr:art_92.pt_4_pt .
 
-rgdpr:art_6.pt_1.f a eli:LegalExpression ;
+rgdpr:art_6.pt_1.f_en a eli:LegalExpression ;
     eli:description """Point (f) of the first subparagraph shall not apply to processing
         carried out by public authorities in the performance of their tasks.""" ;
     eli:has_translation <http://example.org/gdpr#http://example.org/gdpr#733e0c38-b95b-4483-84c1-f2b474961ec3-eu-de>,
