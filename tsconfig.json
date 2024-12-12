@@ -42,6 +42,9 @@
     "package.json",
     "package-lock.json",
     "src/scripts/to-json/gdpr-de-web-scrapping.mjs",
-    "src/scripts/to-json/gdpr-de.mjs"
+    "src/scripts/to-json/gdpr-de.mjs",
+    "src/scripts/translator.mjs",
+    "src/scripts/to-json/common.mjs",
+    "src/scripts/to-json/gdpr-pt.mjs"
   ]
 }
