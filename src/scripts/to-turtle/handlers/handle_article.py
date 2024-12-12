@@ -2,7 +2,8 @@ from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF
 from handle_point import handle_point
 from util import extract_all_numbers, extract_node_id, deep_extract_literal
-
+import os
+import json
 
 def handle_article(
     graph,
@@ -35,7 +36,28 @@ def handle_article(
             parent_uri,
         )
     )
+    
+# New loop to handle relatedArticles
+    if "relatedArticles" in node:
+        # Load all articles from the JSON file
+        json_file_path = os.path.join(os.path.dirname(__file__), "all_articles.json")
+        with open(json_file_path, "r") as json_file:
+            all_articles = json.load(json_file)
 
+        for related_article in node["relatedArticles"]:
+            pattern = "art_" + related_article
+            matching_strings = [s for s in all_articles if pattern in s]
+            # Find the matching article in all_articles
+            if matching_strings:  # Check if the key contains the related article value
+                related_article_uri = URIRef(custom_namespaces["RGDPR"] + matching_strings[0])
+                graph.add(
+                    (
+                        node_uri,
+                        custom_namespaces["ELI"].ensures_implementation_of,
+                        related_article_uri,
+                    )
+                )
+                
     for l in other_locales:
         node_translated_uri = URIRef(node_uri.removesuffix(f"_{locale}") + "_" + l)
         graph.add(
