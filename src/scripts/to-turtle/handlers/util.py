@@ -16,7 +16,8 @@ def extract_romans(text):
 
 
 def extract_node_id(node_uri):
-    return node_uri.split("#")[-1]
+    # exclude the locale
+    return re.sub(r"_[a-z]{2}_[a-z]{2}$", "", node_uri.split("#")[-1])
 
 
 def deep_extract_literal(

@@ -42,13 +42,6 @@ def handle_chapter(
     for key, value in node["content"].items():
         if value["classType"] == "ARTICLE":
             article_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    article_uri,
-                )
-            )
             handle_article(
                 graph,
                 value,

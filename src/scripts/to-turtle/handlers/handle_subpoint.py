@@ -30,13 +30,6 @@ def handle_subpoint(
     graph.add(
         (
             node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
-    graph.add(
-        (
-            node_uri,
             custom_namespaces["ELI"].description,
             Literal(node["content"][1]),
         )

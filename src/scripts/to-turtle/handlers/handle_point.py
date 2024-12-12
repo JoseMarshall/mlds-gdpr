@@ -54,13 +54,6 @@ def handle_point(
             URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
         )
     )
-    graph.add(
-        (
-            node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
 
     for l in other_locales:
         node_translated_uri = URIRef(node_uri.removesuffix(f"_{locale}") + "_" + l)
@@ -81,13 +74,7 @@ def handle_point(
                 )
             elif subpoint["classType"] == "SUBPOINT":
                 subpoint_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-                graph.add(
-                    (
-                        node_uri,
-                        custom_namespaces["ELI"].has_part,
-                        subpoint_uri,
-                    )
-                )
+
                 handle_subpoint(
                     graph,
                     subpoint,

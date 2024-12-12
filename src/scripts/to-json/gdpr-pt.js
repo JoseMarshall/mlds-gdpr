@@ -217,8 +217,8 @@ function buildId(obj) {
       return match ? roman2Arabic(match[1].trim()) : null;
     },
     [gdprClasses.SECTION]: (content) => {
-      const match = content.match(/ (\d+)$/);
-      return match ? match[1].trim() : null;
+      const match = content.match(/SECÇÃO ([IVXLCDM]+)$/);
+      return match ? roman2Arabic(match[1].trim()) : null;
     },
     [gdprClasses.ARTICLE]: (content) => {
       const match = content.match(/ (\d+)\./);

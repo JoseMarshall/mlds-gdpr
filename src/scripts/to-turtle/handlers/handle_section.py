@@ -28,13 +28,6 @@ def handle_section(
             URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
         )
     )
-    graph.add(
-        (
-            node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
 
     for l in other_locales:
         node_translated_uri = URIRef(node_uri.removesuffix(f"_{locale}") + "_" + l)
@@ -48,13 +41,7 @@ def handle_section(
     for key, article in node["content"].items():
         if article["classType"] == "ARTICLE":
             article_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    article_uri,
-                )
-            )
+
             handle_article(
                 graph,
                 article,
