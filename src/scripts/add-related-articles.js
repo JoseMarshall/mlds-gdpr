@@ -1,9 +1,9 @@
+const fs = require('fs');
+const path = require('path');
 const { areArticlesRelated } = require('./find-similarity');
 
 const gdprEuPt = require('../datasets/gdpr-eu-pt.json');
 const gdprPt = require('../datasets/gdpr-pt.json');
-
-const fs = require('fs');
 
 function getPointContent(point) {
   return typeof point.content === 'string'

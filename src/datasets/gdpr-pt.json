@@ -25,7 +25,11 @@
             "classType": "POINT",
             "content": "A presente lei assegura a execução, na ordem jurídica interna, do Regulamento (UE)\n  2016/679\n  do Parlamento Europeu e do Conselho, de 27 de abril de 2016, relativo à proteção das pessoas\n  singulares no que diz respeito ao tratamento de dados pessoais e à livre circulação desses dados,\n  doravante designado abreviadamente por Regulamento Geral de Proteção de Dados (RGPD)."
           }
-        }
+        },
+        "relatedArticles": [
+          "1",
+          "4"
+        ]
       },
       "cpt_1.art_2": {
         "classType": "ARTICLE",
@@ -76,7 +80,11 @@
             "classType": "POINT",
             "content": "3 - A presente lei não se aplica aos ficheiros de dados pessoais constituídos e mantidos sob a\n  responsabilidade do Sistema de Informações da República Portuguesa, que se rege por disposições\n  específicas, nos termos da lei."
           }
-        }
+        },
+        "relatedArticles": [
+          "2",
+          "3"
+        ]
       }
     }
   },
@@ -106,7 +114,13 @@
             "classType": "POINT",
             "content": "A Comissão Nacional de Proteção de Dados (CNPD) é a autoridade de controlo nacional para efeitos\n  do RGPD e da presente lei."
           }
-        }
+        },
+        "relatedArticles": [
+          "27",
+          "31",
+          "40",
+          "42"
+        ]
       },
       "cpt_2.art_4": {
         "classType": "ARTICLE",
@@ -135,7 +149,11 @@
             "classType": "POINT",
             "content": "4 - Os membros da CNPD ficam sujeitos ao regime de incompatibilidades estabelecido para os\n  titulares de altos cargos públicos, não podendo, durante o seu mandato, desempenhar outra\n  atividade, remunerada ou não, com exceção da atividade de docência no ensino superior e de\n  investigação."
           }
-        }
+        },
+        "relatedArticles": [
+          "52",
+          "69"
+        ]
       },
       "cpt_2.art_5": {
         "classType": "ARTICLE",
@@ -152,7 +170,11 @@
             "classType": "POINT",
             "content": "A composição, o modo de designação e o estatuto remuneratório dos membros da CNPD, bem como a\n  respetiva orgânica e quadro de pessoal, são aprovados por lei da Assembleia da República."
           }
-        }
+        },
+        "relatedArticles": [
+          "23",
+          "93"
+        ]
       },
       "cpt_2.art_6": {
         "classType": "ARTICLE",
@@ -213,7 +235,13 @@
             "classType": "POINT",
             "content": "2 - A CNPD exerce as competências previstas no artigo 58.º do RGPD."
           }
-        }
+        },
+        "relatedArticles": [
+          "8",
+          "10",
+          "13",
+          "14"
+        ]
       },
       "cpt_2.art_7": {
         "classType": "ARTICLE",
@@ -238,7 +266,10 @@
             "classType": "POINT",
             "content": "3 - As listas referidas nos n.os 4 e 5 do artigo 35.º do RGPD são publicitadas no sítio da CNPD na\n  Internet."
           }
-        }
+        },
+        "relatedArticles": [
+          "35"
+        ]
       },
       "cpt_2.art_8": {
         "classType": "ARTICLE",
@@ -271,7 +302,11 @@
             "classType": "POINT",
             "content": "5 - O dever de colaboração previsto nos números anteriores, bem como os poderes de fiscalização da\n  CNPD, não prejudicam o dever de segredo a que o responsável pelo tratamento esteja obrigado nos\n  termos da lei ou de normas internacionais."
           }
-        }
+        },
+        "relatedArticles": [
+          "17",
+          "93"
+        ]
       }
     }
   },
@@ -305,7 +340,13 @@
             "classType": "POINT",
             "content": "2 - Independentemente da natureza da sua relação jurídica, o encarregado de proteção de dados\n  exerce a sua função com autonomia técnica perante a entidade responsável pelo tratamento ou\n  subcontratante."
           }
-        }
+        },
+        "relatedArticles": [
+          "6",
+          "13",
+          "14",
+          "17"
+        ]
       },
       "cpt_3.art_10": {
         "classType": "ARTICLE",
@@ -326,7 +367,13 @@
             "classType": "POINT",
             "content": "2 - O encarregado de proteção de dados, bem como os responsáveis pelo tratamento de dados,\n  incluindo os subcontratantes, e todas as pessoas que intervenham em qualquer operação de\n  tratamento de dados, estão obrigados a um dever de confidencialidade que acresce aos deveres de\n  sigilo profissional previsto na lei."
           }
-        }
+        },
+        "relatedArticles": [
+          "6",
+          "27",
+          "30",
+          "35"
+        ]
       },
       "cpt_3.art_11": {
         "classType": "ARTICLE",
@@ -369,7 +416,13 @@
               }
             }
           }
-        }
+        },
+        "relatedArticles": [
+          "12",
+          "25",
+          "35",
+          "37"
+        ]
       },
       "cpt_3.art_12": {
         "classType": "ARTICLE",
@@ -395,11 +448,17 @@
               },
               "cpt_3.art_12.pt_2.spt_a": {
                 "classType": "SUBPOINT",
-                "content": ["a)", "O Estado;"]
+                "content": [
+                  "a)",
+                  "O Estado;"
+                ]
               },
               "cpt_3.art_12.pt_2.spt_b": {
                 "classType": "SUBPOINT",
-                "content": ["b)", "As regiões autónomas;"]
+                "content": [
+                  "b)",
+                  "As regiões autónomas;"
+                ]
               },
               "cpt_3.art_12.pt_2.spt_c": {
                 "classType": "SUBPOINT",
@@ -417,7 +476,10 @@
               },
               "cpt_3.art_12.pt_2.spt_e": {
                 "classType": "SUBPOINT",
-                "content": ["e)", "Os institutos públicos;"]
+                "content": [
+                  "e)",
+                  "Os institutos públicos;"
+                ]
               },
               "cpt_3.art_12.pt_2.spt_f": {
                 "classType": "SUBPOINT",
@@ -435,7 +497,10 @@
               },
               "cpt_3.art_12.pt_2.spt_h": {
                 "classType": "SUBPOINT",
-                "content": ["h)", "As associações públicas."]
+                "content": [
+                  "h)",
+                  "As associações públicas."
+                ]
               }
             }
           },
@@ -495,7 +560,12 @@
             "classType": "POINT",
             "content": "6 - O encarregado de proteção de dados de uma entidade pública que tenha atribuições de regulação\n  ou controlo não pode exercer essas funções simultaneamente em entidade sujeita ao controlo, ou\n  inserida no perímetro regulatório daquela entidade."
           }
-        }
+        },
+        "relatedArticles": [
+          "37",
+          "70",
+          "92"
+        ]
       },
       "cpt_3.art_13": {
         "classType": "ARTICLE",
@@ -531,7 +601,11 @@
               }
             }
           }
-        }
+        },
+        "relatedArticles": [
+          "9",
+          "10"
+        ]
       }
     }
   },
@@ -569,7 +643,11 @@
             "classType": "POINT",
             "content": "3 - A certificação, bem como a emissão de selos e marcas de proteção de dados, é efetuada por\n  organismos de certificação acreditados nos termos do n.º 1, destinando-se a atestar que os\n  procedimentos implementados cumprem o disposto no RGPD e na presente lei."
           }
-        }
+        },
+        "relatedArticles": [
+          "42",
+          "43"
+        ]
       },
       "cpt_4.art_15": {
         "classType": "ARTICLE",
@@ -590,7 +668,11 @@
             "classType": "POINT",
             "content": "2 - O tratamento de dados pessoais pela administração direta e indireta do Estado é objeto de\n  códigos de conduta próprios."
           }
-        }
+        },
+        "relatedArticles": [
+          "40",
+          "41"
+        ]
       }
     }
   },
@@ -624,7 +706,12 @@
             "classType": "POINT",
             "content": "2 - Caso a criança tenha idade inferior a 13 anos, o tratamento só é lícito se o consentimento for\n  dado pelos representantes legais desta, de preferência com recurso a meios de autenticação segura."
           }
-        }
+        },
+        "relatedArticles": [
+          "6",
+          "8",
+          "19"
+        ]
       },
       "cpt_5.art_17": {
         "classType": "ARTICLE",
@@ -649,7 +736,13 @@
             "classType": "POINT",
             "content": "3 - Os titulares dos dados podem igualmente, nos termos legais aplicáveis, deixar determinada a\n  impossibilidade de exercício dos direitos referidos no número anterior após a sua morte."
           }
-        }
+        },
+        "relatedArticles": [
+          "9",
+          "19",
+          "20",
+          "50"
+        ]
       },
       "cpt_5.art_18": {
         "classType": "ARTICLE",
@@ -674,7 +767,11 @@
             "classType": "POINT",
             "content": "3 - No âmbito da Administração Pública, sempre que a interoperabilidade dos dados não seja\n  tecnicamente possível, o titular dos dados tem o direito de exigir que os mesmos lhe sejam\n  entregues num formato digital aberto, de acordo com o Regulamento Nacional de Interoperabilidade\n  Digital em vigor."
           }
-        }
+        },
+        "relatedArticles": [
+          "19",
+          "20"
+        ]
       },
       "cpt_5.art_19": {
         "classType": "ARTICLE",
@@ -736,7 +833,11 @@
             "classType": "POINT",
             "content": "4 - Nos casos em que é admitida a videovigilância, é proibida a captação de som, exceto no período\n  em que as instalações vigiadas estejam encerradas ou mediante autorização prévia da CNPD."
           }
-        }
+        },
+        "relatedArticles": [
+          "31",
+          "58"
+        ]
       },
       "cpt_5.art_20": {
         "classType": "ARTICLE",
@@ -757,7 +858,8 @@
             "classType": "POINT",
             "content": "2 - O titular dos dados pode solicitar à CNPD a emissão de parecer quanto à oponibilidade do dever\n  de segredo, sem prejuízo do disposto no Capítulo VII."
           }
-        }
+        },
+        "relatedArticles": []
       },
       "cpt_5.art_21": {
         "classType": "ARTICLE",
@@ -794,7 +896,11 @@
             "classType": "POINT",
             "content": "6 - Os dados relativos a declarações contributivas para efeitos de aposentação ou reforma podem\n  ser conservados sem limite de prazo, a fim de auxiliar o titular na reconstituição das carreiras\n  contributivas, desde que sejam adotadas medidas técnicas e organizativas adequadas a garantir os\n  direitos do titular dos dados."
           }
-        }
+        },
+        "relatedArticles": [
+          "17",
+          "18"
+        ]
       },
       "cpt_5.art_22": {
         "classType": "ARTICLE",
@@ -811,7 +917,13 @@
             "classType": "POINT",
             "content": "As transferências de dados para países terceiros à União Europeia ou organizações internacionais,\n  efetuadas no cumprimento de obrigações legais, por entidades públicas no exercício de poderes de\n  autoridade, são consideradas de interesse público para efeitos do disposto no n.º 4 do artigo 49.º\n  do RGPD."
           }
-        }
+        },
+        "relatedArticles": [
+          "13",
+          "14",
+          "15",
+          "44"
+        ]
       },
       "cpt_5.art_23": {
         "classType": "ARTICLE",
@@ -832,7 +944,11 @@
             "classType": "POINT",
             "content": "2 - A transmissão de dados pessoais entre entidades públicas para finalidades diferentes das\n  determinadas pela recolha tem natureza excecional, deve ser devidamente fundamentada nos termos\n  referidos no número anterior e deve ser objeto de protocolo que estabeleça as responsabilidades de\n  cada entidade interveniente, quer no ato de transmissão, quer em outros tratamentos a efetuar."
           }
-        }
+        },
+        "relatedArticles": [
+          "6",
+          "9"
+        ]
       }
     }
   },
@@ -874,7 +990,12 @@
             "classType": "POINT",
             "content": "4 - O exercício da liberdade de expressão não legitima a divulgação de dados pessoais como moradas\n  e contactos, à exceção daqueles que sejam de conhecimento generalizado."
           }
-        }
+        },
+        "relatedArticles": [
+          "9",
+          "17",
+          "85"
+        ]
       },
       "cpt_6.art_25": {
         "classType": "ARTICLE",
@@ -911,7 +1032,13 @@
             "classType": "POINT",
             "content": "6 - Em caso de publicação de dados pessoais em jornais oficiais, considera-se responsável pelo\n  tratamento a entidade que manda proceder à publicação, ou, no caso dos gabinetes dos membros do\n  Governo, as respetivas secretarias-gerais."
           }
-        }
+        },
+        "relatedArticles": [
+          "5",
+          "17",
+          "45",
+          "97"
+        ]
       },
       "cpt_6.art_26": {
         "classType": "ARTICLE",
@@ -928,7 +1055,10 @@
             "classType": "POINT",
             "content": "O acesso a documentos administrativos que contenham dados pessoais rege-se pelo disposto na\n  Lei n.º 26/2016, de 22 de agosto."
           }
-        }
+        },
+        "relatedArticles": [
+          "46"
+        ]
       },
       "cpt_6.art_27": {
         "classType": "ARTICLE",
@@ -945,7 +1075,10 @@
             "classType": "POINT",
             "content": "No âmbito da contratação pública, e caso seja necessária a publicação de dados pessoais, não devem\n  ser publicados outros dados pessoais para além do nome, sempre que este seja suficiente para\n  garantir a identificação do contraente público e do cocontratante."
           }
-        }
+        },
+        "relatedArticles": [
+          "4"
+        ]
       },
       "cpt_6.art_28": {
         "classType": "ARTICLE",
@@ -1001,7 +1134,13 @@
             "classType": "POINT",
             "content": "6 - O tratamento de dados biométricos dos trabalhadores só é considerado legítimo para controlo de\n  assiduidade e para controlo de acessos às instalações do empregador, devendo assegurar-se que\n  apenas se utilizem representações dos dados biométricos e que o respetivo processo de recolha não\n  permita a reversibilidade dos referidos dados."
           }
-        }
+        },
+        "relatedArticles": [
+          "6",
+          "20",
+          "57",
+          "58"
+        ]
       },
       "cpt_6.art_29": {
         "classType": "ARTICLE",
@@ -1054,15 +1193,25 @@
               },
               "cpt_6.art_29.pt_7.spt_b": {
                 "classType": "SUBPOINT",
-                "content": ["b)", "Requisitos de autenticação prévia de quem acede;"]
+                "content": [
+                  "b)",
+                  "Requisitos de autenticação prévia de quem acede;"
+                ]
               },
               "cpt_6.art_29.pt_7.spt_c": {
                 "classType": "SUBPOINT",
-                "content": ["c)", "Registo eletrónico dos acessos e dos dados acedidos."]
+                "content": [
+                  "c)",
+                  "Registo eletrónico dos acessos e dos dados acedidos."
+                ]
               }
             }
           }
-        }
+        },
+        "relatedArticles": [
+          "9",
+          "94"
+        ]
       },
       "cpt_6.art_30": {
         "classType": "ARTICLE",
@@ -1083,7 +1232,11 @@
             "classType": "POINT",
             "content": "2 - As bases de dados de saúde ou registos centralizados assentes nas plataformas únicas referidas\n  no número anterior devem preencher os requisitos de segurança e de inviolabilidade previstos no\n  RGPD."
           }
-        }
+        },
+        "relatedArticles": [
+          "40",
+          "49"
+        ]
       },
       "cpt_6.art_31": {
         "classType": "ARTICLE",
@@ -1116,7 +1269,10 @@
             "classType": "POINT",
             "content": "5 - Sem prejuízo do disposto na Lei do Sistema Estatístico Nacional, os dados pessoais tratados\n  para fins estatísticos devem ser anonimizados ou pseudonimizados, de modo a acautelar a tutela dos\n  titulares dos dados, nomeadamente no que respeita à impossibilidade de reidentificação logo que\n  concluída a operação estatística."
           }
-        }
+        },
+        "relatedArticles": [
+          "89"
+        ]
       }
     }
   },
@@ -1157,7 +1313,11 @@
                 "classType": "POINT",
                 "content": "Sem prejuízo do direito de apresentação de queixa à CNPD, qualquer pessoa pode recorrer a meios de\n  tutela administrativa, designadamente de cariz petitório ou impugnatório, para garantir o\n  cumprimento das disposições legais em matéria de proteção de dados pessoais, nos termos previstos\n  no Código do Procedimento Administrativo."
               }
-            }
+            },
+            "relatedArticles": [
+              "28",
+              "30"
+            ]
           },
           "cpt_7.sct_1.art_33": {
             "classType": "ARTICLE",
@@ -1182,7 +1342,11 @@
                 "classType": "POINT",
                 "content": "3 - À responsabilidade do Estado e demais pessoas coletivas públicas é aplicável o regime previsto\n  na\n  Lei n.º 67/2007, de 31 de dezembro, alterado pela\n  Lei n.º 31/2008, de 17 de julho."
               }
-            }
+            },
+            "relatedArticles": [
+              "34",
+              "70"
+            ]
           },
           "cpt_7.sct_1.art_34": {
             "classType": "ARTICLE",
@@ -1211,7 +1375,11 @@
                 "classType": "POINT",
                 "content": "4 - As ações intentadas contra o responsável pelo tratamento ou um subcontratante são propostas\n  nos tribunais nacionais se o responsável ou subcontratante tiver estabelecimento em território\n  nacional ou se o titular dos dados aqui residir habitualmente."
               }
-            }
+            },
+            "relatedArticles": [
+              "23",
+              "70"
+            ]
           },
           "cpt_7.sct_1.art_35": {
             "classType": "ARTICLE",
@@ -1228,7 +1396,13 @@
                 "classType": "POINT",
                 "content": "Sem prejuízo da observância das regras relativas ao patrocínio judiciário, o titular dos dados tem\n  o direito de mandatar um organismo, uma organização ou uma associação sem fins lucrativos\n  constituída em conformidade com o direito nacional, cujos fins estatutários sejam de interesse\n  público e cuja atividade abranja a defesa dos direitos, liberdades e garantias do titular dos\n  dados quanto à proteção de dados pessoais para, em seu nome, exercer os direitos previstos nos\n  artigos 77.º, 78.º, 79.º e 82.º do RGPD."
               }
-            }
+            },
+            "relatedArticles": [
+              "36",
+              "39",
+              "57",
+              "64"
+            ]
           },
           "cpt_7.sct_1.art_36": {
             "classType": "ARTICLE",
@@ -1245,7 +1419,12 @@
                 "classType": "POINT",
                 "content": "A CNPD tem legitimidade para intervir em processos judiciais no caso de violação das disposições\n  do RGPD e da presente lei, e deve denunciar ao Ministério Público as infrações penais de que tiver\n  conhecimento, no exercício das suas funções e por causa delas, bem como praticar os atos\n  cautelares necessários e urgentes para assegurar os meios de prova."
               }
-            }
+            },
+            "relatedArticles": [
+              "39",
+              "57",
+              "58"
+            ]
           }
         }
       },
@@ -1408,7 +1587,13 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "5",
+              "6",
+              "7",
+              "9"
+            ]
           },
           "cpt_7.sct_2.art_38": {
             "classType": "ARTICLE",
@@ -1430,7 +1615,10 @@
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": ["a)", "A violação do disposto no artigo 8.º do RGPD;"]
+                    "content": [
+                      "a)",
+                      "A violação do disposto no artigo 8.º do RGPD;"
+                    ]
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_b": {
                     "classType": "SUBPOINT",
@@ -1441,23 +1629,38 @@
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_c": {
                     "classType": "SUBPOINT",
-                    "content": ["c)", "A violação do disposto nos artigos 24.º e 25.º do RGPD;"]
+                    "content": [
+                      "c)",
+                      "A violação do disposto nos artigos 24.º e 25.º do RGPD;"
+                    ]
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_d": {
                     "classType": "SUBPOINT",
-                    "content": ["d)", "A violação das obrigações previstas no artigo 26.º do RGPD;"]
+                    "content": [
+                      "d)",
+                      "A violação das obrigações previstas no artigo 26.º do RGPD;"
+                    ]
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_e": {
                     "classType": "SUBPOINT",
-                    "content": ["e)", "A violação do disposto no artigo 27.º do RGPD;"]
+                    "content": [
+                      "e)",
+                      "A violação do disposto no artigo 27.º do RGPD;"
+                    ]
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_f": {
                     "classType": "SUBPOINT",
-                    "content": ["f)", "A violação das obrigações previstas no artigo 28.º do RGPD;"]
+                    "content": [
+                      "f)",
+                      "A violação das obrigações previstas no artigo 28.º do RGPD;"
+                    ]
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_g": {
                     "classType": "SUBPOINT",
-                    "content": ["g)", "A violação do disposto no artigo 29.º do RGPD;"]
+                    "content": [
+                      "g)",
+                      "A violação do disposto no artigo 29.º do RGPD;"
+                    ]
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_h": {
                     "classType": "SUBPOINT",
@@ -1552,7 +1755,10 @@
                   },
                   "cpt_7.sct_2.art_38.pt_1.spt_u": {
                     "classType": "SUBPOINT",
-                    "content": ["u)", "A violação do disposto no artigo 19.º da presente lei."]
+                    "content": [
+                      "u)",
+                      "A violação do disposto no artigo 19.º da presente lei."
+                    ]
                   }
                 }
               },
@@ -1586,7 +1792,13 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "8",
+              "19",
+              "26",
+              "27"
+            ]
           },
           "cpt_7.sct_2.art_39": {
             "classType": "ARTICLE",
@@ -1615,7 +1827,10 @@
                   },
                   "cpt_7.sct_2.art_39.pt_1.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": ["b)", "O caráter continuado da infração;"]
+                    "content": [
+                      "b)",
+                      "O caráter continuado da infração;"
+                    ]
                   },
                   "cpt_7.sct_2.art_39.pt_1.spt_c": {
                     "classType": "SUBPOINT",
@@ -1634,7 +1849,12 @@
                 "classType": "POINT",
                 "content": "3 - Exceto em caso de dolo, a instauração de processo de contraordenação depende de prévia\n  advertência do agente, por parte da CNPD, para cumprimento da obrigação omitida ou reintegração da\n  proibição violada em prazo razoável."
               }
-            }
+            },
+            "relatedArticles": [
+              "37",
+              "38",
+              "83"
+            ]
           },
           "cpt_7.sct_2.art_40": {
             "classType": "ARTICLE",
@@ -1656,15 +1876,27 @@
                   },
                   "cpt_7.sct_2.art_40.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": ["a)", "Três anos, quando se trate de contraordenação muito grave;"]
+                    "content": [
+                      "a)",
+                      "Três anos, quando se trate de contraordenação muito grave;"
+                    ]
                   },
                   "cpt_7.sct_2.art_40.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": ["b)", "Dois anos, quando se trate de contraordenação grave."]
+                    "content": [
+                      "b)",
+                      "Dois anos, quando se trate de contraordenação grave."
+                    ]
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "24",
+              "28",
+              "32",
+              "35"
+            ]
           },
           "cpt_7.sct_2.art_41": {
             "classType": "ARTICLE",
@@ -1700,7 +1932,13 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "40",
+              "57",
+              "64",
+              "83"
+            ]
           },
           "cpt_7.sct_2.art_42": {
             "classType": "ARTICLE",
@@ -1717,7 +1955,13 @@
                 "classType": "POINT",
                 "content": "O montante das coimas cobradas reverte em 60 % para o Estado e em 40 % para a CNPD."
               }
-            }
+            },
+            "relatedArticles": [
+              "24",
+              "25",
+              "28",
+              "32"
+            ]
           },
           "cpt_7.sct_2.art_43": {
             "classType": "ARTICLE",
@@ -1734,7 +1978,13 @@
                 "classType": "POINT",
                 "content": "Sempre que a contraordenação resulte da omissão de um dever, a aplicação da sanção e o pagamento\n  da coima não dispensam o infrator do seu cumprimento se este ainda for possível."
               }
-            }
+            },
+            "relatedArticles": [
+              "42",
+              "57",
+              "58",
+              "64"
+            ]
           },
           "cpt_7.sct_2.art_44": {
             "classType": "ARTICLE",
@@ -1759,7 +2009,12 @@
                 "classType": "POINT",
                 "content": "3 - As entidades públicas estão sujeitas aos poderes de correção da CNPD, tal como previstos no\n  RGPD e na presente lei, com exceção da aplicação de coimas nos termos definidos no número\n  anterior."
               }
-            }
+            },
+            "relatedArticles": [
+              "2",
+              "3",
+              "83"
+            ]
           },
           "cpt_7.sct_2.art_45": {
             "classType": "ARTICLE",
@@ -1776,7 +2031,12 @@
                 "classType": "POINT",
                 "content": "Em tudo o que não esteja previsto na presente lei em matéria contraordenacional, aplica-se o\n  disposto no regime geral do ilícito de mera ordenação social."
               }
-            }
+            },
+            "relatedArticles": [
+              "46",
+              "49",
+              "97"
+            ]
           }
         }
       },
@@ -1810,7 +2070,13 @@
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites quando se tratar dos dados pessoais a que se\n  referem os artigos 9.º e 10.º do RGPD."
               }
-            }
+            },
+            "relatedArticles": [
+              "15",
+              "40",
+              "42",
+              "49"
+            ]
           },
           "cpt_7.sct_3.art_47": {
             "classType": "ARTICLE",
@@ -1854,7 +2120,13 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "46",
+              "57",
+              "58",
+              "64"
+            ]
           },
           "cpt_7.sct_3.art_48": {
             "classType": "ARTICLE",
@@ -1898,7 +2170,8 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": []
           },
           "cpt_7.sct_3.art_49": {
             "classType": "ARTICLE",
@@ -1928,7 +2201,10 @@
                   },
                   "cpt_7.sct_3.art_49.pt_3.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": ["a)", "Até 1 ano ou multa até 120 dias, no caso previsto no n.º 1;"]
+                    "content": [
+                      "a)",
+                      "Até 1 ano ou multa até 120 dias, no caso previsto no n.º 1;"
+                    ]
                   },
                   "cpt_7.sct_3.art_49.pt_3.spt_b": {
                     "classType": "SUBPOINT",
@@ -1939,7 +2215,13 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "13",
+              "14",
+              "30",
+              "70"
+            ]
           },
           "cpt_7.sct_3.art_50": {
             "classType": "ARTICLE",
@@ -1960,7 +2242,8 @@
                 "classType": "POINT",
                 "content": "2 - A pena é agravada para o dobro nos seus limites se da inserção referida no número anterior\n  resultar um prejuízo efetivo."
               }
-            }
+            },
+            "relatedArticles": []
           },
           "cpt_7.sct_3.art_51": {
             "classType": "ARTICLE",
@@ -1993,7 +2276,10 @@
                   },
                   "cpt_7.sct_3.art_51.pt_2.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": ["b)", "For encarregado de proteção de dados;"]
+                    "content": [
+                      "b)",
+                      "For encarregado de proteção de dados;"
+                    ]
                   },
                   "cpt_7.sct_3.art_51.pt_2.spt_c": {
                     "classType": "SUBPOINT",
@@ -2015,7 +2301,10 @@
                 "classType": "POINT",
                 "content": "3 - A negligência é punível com pena de prisão até 6 meses ou com pena de multa até 60 dias."
               }
-            }
+            },
+            "relatedArticles": [
+              "4"
+            ]
           },
           "cpt_7.sct_3.art_52": {
             "classType": "ARTICLE",
@@ -2062,7 +2351,10 @@
                   }
                 }
               }
-            }
+            },
+            "relatedArticles": [
+              "8"
+            ]
           },
           "cpt_7.sct_3.art_53": {
             "classType": "ARTICLE",
@@ -2079,7 +2371,8 @@
                 "classType": "POINT",
                 "content": "Nos crimes previstos na presente secção, a tentativa é sempre punível."
               }
-            }
+            },
+            "relatedArticles": []
           },
           "cpt_7.sct_3.art_54": {
             "classType": "ARTICLE",
@@ -2096,7 +2389,11 @@
                 "classType": "POINT",
                 "content": "As pessoas coletivas e entidades equiparadas, com exceção do Estado, de pessoas coletivas no\n  exercício de prerrogativas de poder público e de organizações de direito internacional público,\n  são responsáveis pelos crimes previstos na presente secção, nos termos do artigo 11.º do Código\n  Penal."
               }
-            }
+            },
+            "relatedArticles": [
+              "11",
+              "70"
+            ]
           }
         }
       },
@@ -2130,7 +2427,13 @@
                 "classType": "POINT",
                 "content": "2 - Quando se verifique concurso de crime e contraordenação, ou quando, pelo mesmo facto, uma\n  pessoa deva responder a título de crime e outra a título de contraordenação, o processamento da\n  contraordenação cabe às autoridades competentes para o processo criminal, nos termos do regime\n  geral do ilícito de mera ordenação social."
               }
-            }
+            },
+            "relatedArticles": [
+              "33",
+              "40",
+              "42",
+              "43"
+            ]
           },
           "cpt_7.sct_4.art_56": {
             "classType": "ARTICLE",
@@ -2151,7 +2454,12 @@
                 "classType": "POINT",
                 "content": "2 - Tratando-se de crimes, ou de coimas de montante superior a 100 000 (euro), pode acessoriamente\n  ser determinada a publicidade da condenação, por meio de extrato contendo a identificação do\n  agente, os elementos da infração e as sanções aplicadas, no Portal do Cidadão, por período não\n  inferior a 90 dias."
               }
-            }
+            },
+            "relatedArticles": [
+              "55",
+              "62",
+              "84"
+            ]
           }
         }
       }
@@ -2183,7 +2491,13 @@
             "classType": "POINT",
             "content": "Os membros da CNPD em exercício à data da entrada em vigor da presente lei mantêm-se em funções\n  até ao fim dos respetivos mandatos."
           }
-        }
+        },
+        "relatedArticles": [
+          "25",
+          "35",
+          "37",
+          "38"
+        ]
       },
       "cpt_8.art_58": {
         "classType": "ARTICLE",
@@ -2200,7 +2514,13 @@
             "classType": "POINT",
             "content": "As orientações técnicas para a aplicação do RGPD pela administração direta e indireta do Estado\n  são aprovadas por resolução do Conselho de Ministros, a qual pode recomendar a sua aplicação\n  também ao setor empresarial do Estado."
           }
-        }
+        },
+        "relatedArticles": [
+          "36",
+          "42",
+          "43",
+          "57"
+        ]
       },
       "cpt_8.art_59": {
         "classType": "ARTICLE",
@@ -2217,7 +2537,10 @@
             "classType": "POINT",
             "content": "A possibilidade de não aplicabilidade de coimas às entidades públicas, nos termos previstos no n.º\n  2 do artigo 44.º da presente lei, deve ser objeto de reavaliação três anos após a entrada em vigor\n  da presente lei."
           }
-        }
+        },
+        "relatedArticles": [
+          "44"
+        ]
       },
       "cpt_8.art_60": {
         "classType": "ARTICLE",
@@ -2246,7 +2569,13 @@
             "classType": "POINT",
             "content": "4 - Os responsáveis pelos tratamentos de dados pessoais realizados com base em autorizações\n  emitidas nos termos da\n  Lei n.º 67/98, de 26 de outubro, bem como os subcontratantes, estão vinculados a cumprir as obrigações\n  impostas pelo RGPD, com exceção da avaliação de impacto sobre a proteção de dados a que se refere\n  o artigo 35.º desse regulamento."
           }
-        }
+        },
+        "relatedArticles": [
+          "31",
+          "35",
+          "56",
+          "65"
+        ]
       },
       "cpt_8.art_61": {
         "classType": "ARTICLE",
@@ -2267,7 +2596,11 @@
             "classType": "POINT",
             "content": "2 - Caso a caducidade do consentimento seja motivo de cessação de contrato em que o titular de\n  dados seja parte, o tratamento de dados é lícito até que esta ocorra."
           }
-        }
+        },
+        "relatedArticles": [
+          "60",
+          "64"
+        ]
       },
       "cpt_8.art_62": {
         "classType": "ARTICLE",
@@ -2288,7 +2621,13 @@
             "classType": "POINT",
             "content": "2 - Todas as normas que prevejam autorizações ou notificações de tratamento de dados pessoais à\n  CNPD, fora dos casos previstos no RGPD e na presente lei, deixam de vigorar à data de entrada em\n  vigor do RGPD."
           }
-        }
+        },
+        "relatedArticles": [
+          "25",
+          "35",
+          "37",
+          "38"
+        ]
       }
     }
   }
