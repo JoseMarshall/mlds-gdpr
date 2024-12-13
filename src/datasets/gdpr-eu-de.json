@@ -157,189 +157,189 @@
             "classType": "TITLE",
             "content": "Begriffsbestimmungen"
           },
-          "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e": {
+          "cpt_1.art_4.pt_1": {
             "classType": "POINT",
             "content": {
               "a69e5cbd-2aa1-433a-bcd9-eedfbcf71227": {
                 "classType": "POINT",
                 "content": "Im Sinne dieser Verordnung bezeichnet der Ausdruck:"
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_1": {
+              "cpt_1.art_4.pt_1.spt_1": {
                 "classType": "SUBPOINT",
                 "content": [
                   "1.",
                   "„personenbezogene Daten“ alle Informationen, die sich auf eine identifizierte oder\n          identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als\n          identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt,\n          insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu\n          Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen,\n          die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen,\n          kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden\n          kann;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_2": {
+              "cpt_1.art_4.pt_1.spt_2": {
                 "classType": "SUBPOINT",
                 "content": [
                   "2.",
                   "„Verarbeitung“ jeden mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang\n          oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das\n          Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder\n          Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch\n          Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die\n          Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_3": {
+              "cpt_1.art_4.pt_1.spt_3": {
                 "classType": "SUBPOINT",
                 "content": [
                   "3.",
                   "„Einschränkung der Verarbeitung“ die Markierung gespeicherter personenbezogener Daten mit\n          dem Ziel, ihre künftige Verarbeitung einzuschränken;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_4": {
+              "cpt_1.art_4.pt_1.spt_4": {
                 "classType": "SUBPOINT",
                 "content": [
                   "4.",
                   "„Profiling“ jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin\n          besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche\n          Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um\n          Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche\n          Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser\n          natürlichen Person zu analysieren oder vorherzusagen;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_5": {
+              "cpt_1.art_4.pt_1.spt_5": {
                 "classType": "SUBPOINT",
                 "content": [
                   "5.",
                   "„Pseudonymisierung“ die Verarbeitung personenbezogener Daten in einer Weise, dass die\n          personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer\n          spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen\n          Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen\n          unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer\n          identifizierten oder identifizierbaren natürlichen Person zugewiesen werden;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_6": {
+              "cpt_1.art_4.pt_1.spt_6": {
                 "classType": "SUBPOINT",
                 "content": [
                   "6.",
                   "„Dateisystem“ jede strukturierte Sammlung personenbezogener Daten, die nach bestimmten\n          Kriterien zugänglich sind, unabhängig davon, ob diese Sammlung zentral, dezentral oder\n          nach funktionalen oder geografischen Gesichtspunkten geordnet geführt wird;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_7": {
+              "cpt_1.art_4.pt_1.spt_7": {
                 "classType": "SUBPOINT",
                 "content": [
                   "7.",
                   "„Verantwortlicher“ die natürliche oder juristische Person, Behörde, Einrichtung oder\n          andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der\n          Verarbeitung von personenbezogenen Daten entscheidet; sind die Zwecke und Mittel dieser\n          Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so kann\n          der Verantwortliche beziehungsweise können die bestimmten Kriterien seiner Benennung nach\n          dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_8": {
+              "cpt_1.art_4.pt_1.spt_8": {
                 "classType": "SUBPOINT",
                 "content": [
                   "8.",
                   "„Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde, Einrichtung oder\n          andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_9": {
+              "cpt_1.art_4.pt_1.spt_9": {
                 "classType": "SUBPOINT",
                 "content": [
                   "9.",
                   "„Empfänger“ eine natürliche oder juristische Person, Behörde, Einrichtung oder andere\n          Stelle, der personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei\n          ihr um einen Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten\n          Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten\n          möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger; die\n          Verarbeitung dieser Daten durch die genannten Behörden erfolgt im Einklang mit den\n          geltenden Datenschutzvorschriften gemäß den Zwecken der Verarbeitung;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_10": {
+              "cpt_1.art_4.pt_1.spt_10": {
                 "classType": "SUBPOINT",
                 "content": [
                   "10.",
                   "„Dritter“ eine natürliche oder juristische Person, Behörde, Einrichtung oder andere\n          Stelle, außer der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und\n          den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des\n          Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_11": {
+              "cpt_1.art_4.pt_1.spt_11": {
                 "classType": "SUBPOINT",
                 "content": [
                   "11.",
                   "„Einwilligung“ der betroffenen Person jede freiwillig für den bestimmten Fall, in\n          informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer\n          Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene\n          Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden\n          personenbezogenen Daten einverstanden ist;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_12": {
+              "cpt_1.art_4.pt_1.spt_12": {
                 "classType": "SUBPOINT",
                 "content": [
                   "12.",
                   "„Verletzung des Schutzes personenbezogener Daten“ eine Verletzung der Sicherheit, die, ob\n          unbeabsichtigt oder unrechtmäßig, zur Vernichtung, zum Verlust, zur Veränderung, oder zur\n          unbefugten Offenlegung von beziehungsweise zum unbefugten Zugang zu personenbezogenen\n          Daten führt, die übermittelt, gespeichert oder auf sonstige Weise verarbeitet wurden;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_13": {
+              "cpt_1.art_4.pt_1.spt_13": {
                 "classType": "SUBPOINT",
                 "content": [
                   "13.",
                   "„genetische Daten“ personenbezogene Daten zu den ererbten oder erworbenen genetischen\n          Eigenschaften einer natürlichen Person, die eindeutige Informationen über die Physiologie\n          oder die Gesundheit dieser natürlichen Person liefern und insbesondere aus der Analyse\n          einer biologischen Probe der betreffenden natürlichen Person gewonnen wurden;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_14": {
+              "cpt_1.art_4.pt_1.spt_14": {
                 "classType": "SUBPOINT",
                 "content": [
                   "14.",
                   "„biometrische Daten“ mit speziellen technischen Verfahren gewonnene personenbezogene Daten\n          zu den physischen, physiologischen oder verhaltenstypischen Merkmalen einer natürlichen\n          Person, die die eindeutige Identifizierung dieser natürlichen Person ermöglichen oder\n          bestätigen, wie Gesichtsbilder oder daktyloskopische Daten;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_15": {
+              "cpt_1.art_4.pt_1.spt_15": {
                 "classType": "SUBPOINT",
                 "content": [
                   "15.",
                   "„Gesundheitsdaten“ personenbezogene Daten, die sich auf die körperliche oder geistige\n          Gesundheit einer natürlichen Person, einschließlich der Erbringung von\n          Gesundheitsdienstleistungen, beziehen und aus denen Informationen über deren\n          Gesundheitszustand hervorgehen;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_16": {
+              "cpt_1.art_4.pt_1.spt_16": {
                 "classType": "SUBPOINT",
                 "content": [
                   "16.",
                   "„Hauptniederlassung“\n        \n          \n            \n            \n          \n          \n            \n              \n                a)\n              \n              \n                \n                  im Falle eines Verantwortlichen mit Niederlassungen in mehr als einem\n                  Mitgliedstaat den Ort seiner Hauptverwaltung in der Union, es sei denn, die\n                  Entscheidungen hinsichtlich der Zwecke und Mittel der Verarbeitung\n                  personenbezogener Daten werden in einer anderen Niederlassung des Verantwortlichen\n                  in der Union getroffen und diese Niederlassung ist befugt, diese Entscheidungen\n                  umsetzen zu lassen; in diesem Fall gilt die Niederlassung, die derartige\n                  Entscheidungen trifft, als Hauptniederlassung;\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                b)\n              \n              \n                \n                  im Falle eines Auftragsverarbeiters mit Niederlassungen in mehr als einem\n                  Mitgliedstaat den Ort seiner Hauptverwaltung in der Union oder, sofern der\n                  Auftragsverarbeiter keine Hauptverwaltung in der Union hat, die Niederlassung des\n                  Auftragsverarbeiters in der Union, in der die Verarbeitungstätigkeiten im Rahmen\n                  der Tätigkeiten einer Niederlassung eines Auftragsverarbeiters hauptsächlich\n                  stattfinden, soweit der Auftragsverarbeiter spezifischen Pflichten aus dieser\n                  Verordnung unterliegt;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_17": {
+              "cpt_1.art_4.pt_1.spt_17": {
                 "classType": "SUBPOINT",
                 "content": [
                   "17.",
                   "„Vertreter“ eine in der Union niedergelassene natürliche oder juristische Person, die von\n          dem Verantwortlichen oder Auftragsverarbeiter schriftlich gemäß Artikel27 bestellt wurde\n          und den Verantwortlichen oder Auftragsverarbeiter in Bezug auf die ihnen jeweils nach\n          dieser Verordnung obliegenden Pflichten vertritt;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_18": {
+              "cpt_1.art_4.pt_1.spt_18": {
                 "classType": "SUBPOINT",
                 "content": [
                   "18.",
                   "„Unternehmen“ eine natürliche und juristische Person, die eine wirtschaftliche Tätigkeit\n          ausübt, unabhängig von ihrer Rechtsform, einschließlich Personengesellschaften oder\n          Vereinigungen, die regelmäßig einer wirtschaftlichen Tätigkeit nachgehen;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_19": {
+              "cpt_1.art_4.pt_1.spt_19": {
                 "classType": "SUBPOINT",
                 "content": [
                   "19.",
                   "„Unternehmensgruppe“ eine Gruppe, die aus einem herrschenden Unternehmen und den von\n          diesem abhängigen Unternehmen besteht;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_20": {
+              "cpt_1.art_4.pt_1.spt_20": {
                 "classType": "SUBPOINT",
                 "content": [
                   "20.",
                   "„verbindliche interne Datenschutzvorschriften“ Maßnahmen zum Schutz personenbezogener\n          Daten, zu deren Einhaltung sich ein im Hoheitsgebiet eines Mitgliedstaats niedergelassener\n          Verantwortlicher oder Auftragsverarbeiter verpflichtet im Hinblick auf Datenübermittlungen\n          oder eine Kategorie von Datenübermittlungen personenbezogener Daten an einen\n          Verantwortlichen oder Auftragsverarbeiter derselben Unternehmensgruppe oder derselben\n          Gruppe von Unternehmen, die eine gemeinsame Wirtschaftstätigkeit ausüben, in einem oder\n          mehreren Drittländern;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_21": {
+              "cpt_1.art_4.pt_1.spt_21": {
                 "classType": "SUBPOINT",
                 "content": [
                   "21.",
                   "„Aufsichtsbehörde“ eine von einem Mitgliedstaat gemäß Artikel51 eingerichtete unabhängige\n          staatliche Stelle;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_22": {
+              "cpt_1.art_4.pt_1.spt_22": {
                 "classType": "SUBPOINT",
                 "content": [
                   "22.",
                   "„betroffene Aufsichtsbehörde“ eine Aufsichtsbehörde, die von der Verarbeitung\n          personenbezogener Daten betroffen ist, weil\n        \n        \n          \n            \n            \n          \n          \n            \n              \n                a)\n              \n              \n                \n                  der Verantwortliche oder der Auftragsverarbeiter im Hoheitsgebiet des\n                  Mitgliedstaats dieser Aufsichtsbehörde niedergelassen ist,\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                b)\n              \n              \n                \n                  diese Verarbeitung erhebliche Auswirkungen auf betroffene Personen mit Wohnsitz im\n                  Mitgliedstaat dieser Aufsichtsbehörde hat oder haben kann oder\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                c)\n              \n              \n                eine Beschwerde bei dieser Aufsichtsbehörde eingereicht wurde;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_23": {
+              "cpt_1.art_4.pt_1.spt_23": {
                 "classType": "SUBPOINT",
                 "content": [
                   "23.",
                   "„grenzüberschreitende Verarbeitung“ entweder\n        \n          \n            \n            \n          \n          \n            \n              \n                a)\n              \n              \n                \n                  eine Verarbeitung personenbezogener Daten, die im Rahmen der Tätigkeiten von\n                  Niederlassungen eines Verantwortlichen oder eines Auftragsverarbeiters in der\n                  Union in mehr als einem Mitgliedstaat erfolgt, wenn der Verantwortliche oder\n                  Auftragsverarbeiter in mehr als einem Mitgliedstaat niedergelassen ist, oder\n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n          \n            \n              \n                b)\n              \n              \n                \n                  eine Verarbeitung personenbezogener Daten, die im Rahmen der Tätigkeiten einer\n                  einzelnen Niederlassung eines Verantwortlichen oder eines Auftragsverarbeiters in\n                  der Union erfolgt, die jedoch erhebliche Auswirkungen auf betroffene Personen in\n                  mehr als einem Mitgliedstaat hat oder haben kann;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_24": {
+              "cpt_1.art_4.pt_1.spt_24": {
                 "classType": "SUBPOINT",
                 "content": [
                   "24.",
                   "„maßgeblicher und begründeter Einspruch“ einen Einspruch gegen einen Beschlussentwurf im\n          Hinblick darauf, ob ein Verstoß gegen diese Verordnung vorliegt oder ob beabsichtigte\n          Maßnahmen gegen den Verantwortlichen oder den Auftragsverarbeiter im Einklang mit dieser\n          Verordnung steht, wobei aus diesem Einspruch die Tragweite der Risiken klar hervorgeht,\n          die von dem Beschlussentwurf in Bezug auf die Grundrechte und Grundfreiheiten der\n          betroffenen Personen und gegebenenfalls den freien Verkehr personenbezogener Daten in der\n          Union ausgehen;"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_25": {
+              "cpt_1.art_4.pt_1.spt_25": {
                 "classType": "SUBPOINT",
                 "content": [
                   "25.",
                   "„Dienst der Informationsgesellschaft“ eine Dienstleistung im Sinne des Artikels1 Nummer1\n          Buchstabe b der Richtlinie (EU) 2015/1535 des Europäischen Parlaments und des Rates(19);"
                 ]
               },
-              "cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e.spt_26": {
+              "cpt_1.art_4.pt_1.spt_26": {
                 "classType": "SUBPOINT",
                 "content": [
                   "26.",
@@ -626,7 +626,7 @@
             "classType": "POINT",
             "content": "(1)Gilt Artikel6 Absatz1 Buchstabea bei einem Angebot von Diensten der Informationsgesellschaft,\n  das einem Kind direkt gemacht wird, so ist die Verarbeitung der personenbezogenen Daten des Kindes\n  rechtmäßig, wenn das Kind das sechzehnte Lebensjahr vollendet hat. Hat das Kind noch nicht das\n  sechzehnte Lebensjahr vollendet, so ist diese Verarbeitung nur rechtmäßig, sofern und soweit diese\n  Einwilligung durch den Träger der elterlichen Verantwortung für das Kind oder mit dessen\n  Zustimmung erteilt wird."
           },
-          "cpt_2.art_8.pt_bc9e7ce4-3eba-4701-8b3d-50de70333b83": {
+          "cpt_2.art_8.pt_4": {
             "classType": "POINT",
             "content": "Die Mitgliedstaaten können durch Rechtsvorschriften zu diesen Zwecken eine niedrigere Altersgrenze\n  vorsehen, die jedoch nicht unter dem vollendeten dreizehnten Lebensjahr liegen darf."
           },
@@ -755,7 +755,7 @@
             "classType": "TITLE",
             "content": "Verarbeitung von personenbezogenen Daten über strafrechtliche Verurteilungen und Straftaten"
           },
-          "cpt_2.art_10.pt_32ebf31f-488f-46ce-ba30-43a116dfbe8d": {
+          "cpt_2.art_10.pt_1": {
             "classType": "POINT",
             "content": "Die Verarbeitung personenbezogener Daten über strafrechtliche Verurteilungen und Straftaten oder\n  damit zusammenhängende Sicherungsmaßregeln aufgrund von Artikel6 Absatz1 darf nur unter\n  behördlicher Aufsicht vorgenommen werden oder wenn dies nach dem Unionsrecht oder dem Recht der\n  Mitgliedstaaten, das geeignete Garantien für die Rechte und Freiheiten der betroffenen Personen\n  vorsieht, zulässig ist. Ein umfassendes Register der strafrechtlichen Verurteilungen darf nur\n  unter behördlicher Aufsicht geführt werden."
           }
@@ -1331,7 +1331,7 @@
                 "classType": "TITLE",
                 "content": "Recht auf Berichtigung"
               },
-              "cpt_3.sct_3.art_16.pt_51e21638-b1aa-48a3-a73d-c8df5505694c": {
+              "cpt_3.sct_3.art_16.pt_1": {
                 "classType": "POINT",
                 "content": "Die betroffene Person hat das Recht, von dem Verantwortlichen unverzüglich die Berichtigung sie\n  betreffender unrichtiger personenbezogener Daten zu verlangen. Unter Berücksichtigung der Zwecke\n  der Verarbeitung hat die betroffene Person das Recht, die Vervollständigung unvollständiger\n  personenbezogener Daten — auch mittels einer ergänzenden Erklärung — zu verlangen."
               }
@@ -1518,7 +1518,7 @@
                 "classType": "TITLE",
                 "content": "Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder\n  der Einschränkung der Verarbeitung"
               },
-              "cpt_3.sct_3.art_19.pt_b8c7196c-9c34-48d5-883d-6ea0d300d4d4": {
+              "cpt_3.sct_3.art_19.pt_1": {
                 "classType": "POINT",
                 "content": "Der Verantwortliche teilt allen Empfängern, denen personenbezogenen Daten offengelegt wurden, jede\n  Berichtigung oder Löschung der personenbezogenen Daten oder eine Einschränkung der Verarbeitung\n  nach Artikel 16, Artikel17 Absatz1 und Artikel18 mit, es sei denn, dies erweist sich als unmöglich\n  oder ist mit einem unverhältnismäßigen Aufwand verbunden. Der Verantwortliche unterrichtet die\n  betroffene Person über diese Empfänger, wenn die betroffene Person dies verlangt."
               }
@@ -2128,7 +2128,7 @@
                 "classType": "TITLE",
                 "content": "Verarbeitung unter der Aufsicht des Verantwortlichen oder des Auftragsverarbeiters"
               },
-              "cpt_4.sct_1.art_29.pt_9d55e876-d1f2-4e0d-8c20-1f824c7655fe": {
+              "cpt_4.sct_1.art_29.pt_1": {
                 "classType": "POINT",
                 "content": "Der Auftragsverarbeiter und jede dem Verantwortlichen oder dem Auftragsverarbeiter unterstellte\n  Person, die Zugang zu personenbezogenen Daten hat, dürfen diese Daten ausschließlich auf Weisung\n  des Verantwortlichen verarbeiten, es sei denn, dass sie nach dem Unionsrecht oder dem Recht der\n  Mitgliedstaaten zur Verarbeitung verpflichtet sind."
               }
@@ -2262,7 +2262,7 @@
                 "classType": "TITLE",
                 "content": "Zusammenarbeit mit der Aufsichtsbehörde"
               },
-              "cpt_4.sct_1.art_31.pt_954118ec-2bc5-4871-96d5-83ba086e8082": {
+              "cpt_4.sct_1.art_31.pt_1": {
                 "classType": "POINT",
                 "content": "Der Verantwortliche und der Auftragsverarbeiter und gegebenenfalls deren Vertreter arbeiten auf\n  Anfrage mit der Aufsichtsbehörde bei der Erfüllung ihrer Aufgaben zusammen."
               }
@@ -3253,7 +3253,7 @@
             "classType": "TITLE",
             "content": "Allgemeine Grundsätze der Datenübermittlung"
           },
-          "cpt_5.art_44.pt_f844d844-d545-4154-aa5d-cddcb7a4e469": {
+          "cpt_5.art_44.pt_1": {
             "classType": "POINT",
             "content": "Jedwede Übermittlung personenbezogener Daten, die bereits verarbeitet werden oder nach ihrer\n  Übermittlung an ein Drittland oder eine internationale Organisation verarbeitet werden sollen, ist\n  nur zulässig, wenn der Verantwortliche und der Auftragsverarbeiter die in diesem Kapitel\n  niedergelegten Bedingungen einhalten und auch die sonstigen Bestimmungen dieser Verordnung\n  eingehalten werden; dies gilt auch für die etwaige Weiterübermittlung personenbezogener Daten\n  durch das betreffende Drittland oder die betreffende internationale Organisation an ein anderes\n  Drittland oder eine andere internationale Organisation. Alle Bestimmungen dieses Kapitels sind\n  anzuwenden, um sicherzustellen, dass das durch diese Verordnung gewährleistete Schutzniveau für\n  natürliche Personen nicht untergraben wird."
           }
@@ -3316,7 +3316,7 @@
             "classType": "POINT",
             "content": "(5)Die Kommission widerruft, ändert oder setzt die in Absatz 3 des vorliegenden Artikels genannten\n  Beschlüsse im Wege von Durchführungsrechtsakten aus, soweit dies nötig ist und ohne rückwirkende\n  Kraft, soweit entsprechende Informationen — insbesondere im Anschluss an die in Absatz3 des\n  vorliegenden Artikels genannte Überprüfung — dahingehend vorliegen, dass ein Drittland, ein Gebiet\n  oder ein oder mehrere spezifischer Sektor in einem Drittland oder eine internationale Organisation\n  kein angemessenes Schutzniveau im Sinne des Absatzes2 des vorliegenden Artikels mehr\n  gewährleistet. Diese Durchführungsrechtsakte werden gemäß dem Prüfverfahren nach Artikel93 Absatz2\n  erlassen."
           },
-          "cpt_5.art_45.pt_62c8ae2c-0ea9-45ed-b5bd-81f3107c7f77": {
+          "cpt_5.art_45.pt_10": {
             "classType": "POINT",
             "content": "In hinreichend begründeten Fällen äußerster Dringlichkeit erlässt die Kommission gemäß dem in\n  Artikel 93 Absatz 3 genannten Verfahren sofort geltende Durchführungsrechtsakte."
           },
@@ -3593,7 +3593,7 @@
             "classType": "TITLE",
             "content": "Nach dem Unionsrecht nicht zulässige Übermittlung oder Offenlegung"
           },
-          "cpt_5.art_48.pt_a160c538-1fab-480d-87f2-d8e4f9e3bd87": {
+          "cpt_5.art_48.pt_1": {
             "classType": "POINT",
             "content": "Jegliches Urteil eines Gerichts eines Drittlands und jegliche Entscheidung einer\n  Verwaltungsbehörde eines Drittlands, mit denen von einem Verantwortlichen oder einem\n  Auftragsverarbeiter die Übermittlung oder Offenlegung personenbezogener Daten verlangt wird,\n  dürfen unbeschadet anderer Gründe für die Übermittlung gemäß diesem Kapitel jedenfalls nur dann\n  anerkannt oder vollstreckbar werden, wenn sie auf eine in Kraft befindliche internationale\n  Übereinkunft wie etwa ein Rechtshilfeabkommen zwischen dem ersuchenden Drittland und der Union\n  oder einem Mitgliedstaat gestützt sind."
           }
@@ -3708,35 +3708,35 @@
             "classType": "TITLE",
             "content": "Internationale Zusammenarbeit zum Schutz personenbezogener Daten"
           },
-          "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980": {
+          "cpt_5.art_50.pt_1": {
             "classType": "POINT",
             "content": {
               "eaa72b78-425a-458c-a9ba-479d3e4d6cec": {
                 "classType": "POINT",
                 "content": "In Bezug auf Drittländer und internationale Organisationen treffen die Kommission und die\n  Aufsichtsbehörden geeignete Maßnahmen zur"
               },
-              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_a": {
+              "cpt_5.art_50.pt_1.spt_a": {
                 "classType": "SUBPOINT",
                 "content": [
                   "a)",
                   "Entwicklung von Mechanismen der internationalen Zusammenarbeit, durch die die wirksame\n          Durchsetzung von Rechtsvorschriften zum Schutz personenbezogener Daten erleichtert wird,"
                 ]
               },
-              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_b": {
+              "cpt_5.art_50.pt_1.spt_b": {
                 "classType": "SUBPOINT",
                 "content": [
                   "b)",
                   "gegenseitigen Leistung internationaler Amtshilfe bei der Durchsetzung von\n          Rechtsvorschriften zum Schutz personenbezogener Daten, unter anderem durch Meldungen,\n          Beschwerdeverweisungen, Amtshilfe bei Untersuchungen und Informationsaustausch, sofern\n          geeignete Garantien für den Schutz personenbezogener Daten und anderer Grundrechte und\n          Grundfreiheiten bestehen,"
                 ]
               },
-              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_c": {
+              "cpt_5.art_50.pt_1.spt_c": {
                 "classType": "SUBPOINT",
                 "content": [
                   "c)",
                   "Einbindung maßgeblicher Interessenträger in Diskussionen und Tätigkeiten, die zum Ausbau\n          der internationalen Zusammenarbeit bei der Durchsetzung von Rechtsvorschriften zum Schutz\n          personenbezogener Daten dienen,"
                 ]
               },
-              "cpt_5.art_50.pt_abfaab68-2b43-427d-a937-f66a5f262980.spt_d": {
+              "cpt_5.art_50.pt_1.spt_d": {
                 "classType": "SUBPOINT",
                 "content": [
                   "d)",
@@ -4469,7 +4469,7 @@
                 "classType": "TITLE",
                 "content": "Tätigkeitsbericht"
               },
-              "cpt_6.sct_2.art_59.pt_2ff5d159-12c5-4381-8e61-4a0530e174f9": {
+              "cpt_6.sct_2.art_59.pt_1": {
                 "classType": "POINT",
                 "content": "Jede Aufsichtsbehörde erstellt einen Jahresbericht über ihre Tätigkeit, der eine Liste der Arten\n  der gemeldeten Verstöße und der Arten der getroffenen Maßnahmen nach Artikel 58 Absatz 2 enthalten\n  kann. Diese Berichte werden dem nationalen Parlament, der Regierung und anderen nach dem Recht der\n  Mitgliedstaaten bestimmten Behörden übermittelt. Sie werden der Öffentlichkeit, der Kommission und\n  dem Ausschuss zugänglich gemacht."
               }
@@ -4710,7 +4710,7 @@
                 "classType": "TITLE",
                 "content": "Kohärenzverfahren"
               },
-              "cpt_7.sct_2.art_63.pt_095f65c8-f8d6-410c-a385-cca35ce6c0ad": {
+              "cpt_7.sct_2.art_63.pt_1": {
                 "classType": "POINT",
                 "content": "Um zur einheitlichen Anwendung dieser Verordnung in der gesamten Union beizutragen, arbeiten die\n  Aufsichtsbehörden im Rahmen des in diesem Abschnitt beschriebenen Kohärenzverfahrens untereinander\n  und gegebenenfalls mit der Kommission zusammen."
               }
@@ -4930,11 +4930,11 @@
                 "classType": "TITLE",
                 "content": "Informationsaustausch"
               },
-              "cpt_7.sct_2.art_67.pt_553ebbec-77ab-4761-82d4-6e86ea6436e0": {
+              "cpt_7.sct_2.art_67.pt_1": {
                 "classType": "POINT",
                 "content": "Die Kommission kann Durchführungsrechtsakte von allgemeiner Tragweite zur Festlegung der\n  Ausgestaltung des elektronischen Informationsaustauschs zwischen den Aufsichtsbehörden sowie\n  zwischen den Aufsichtsbehörden und dem Ausschuss, insbesondere des standardisierten Formats nach\n  Artikel 64, erlassen."
               },
-              "cpt_7.sct_2.art_67.pt_5148820f-9b6f-4e5b-8d6f-37f3a8361b9b": {
+              "cpt_7.sct_2.art_67.pt_2": {
                 "classType": "POINT",
                 "content": "Diese Durchführungsrechtsakte werden gemäß dem Prüfverfahren nach Artikel93 Absatz2 erlassen."
               }
@@ -5875,7 +5875,7 @@
             "classType": "TITLE",
             "content": "Verarbeitung und Zugang der Öffentlichkeit zu amtlichen Dokumenten"
           },
-          "cpt_9.art_86.pt_e4bb0d64-4b8f-42c7-bf43-3a4558256ba8": {
+          "cpt_9.art_86.pt_1": {
             "classType": "POINT",
             "content": "Personenbezogene Daten in amtlichen Dokumenten, die sich im Besitz einer Behörde oder einer\n  öffentlichen Einrichtung oder einer privaten Einrichtung zur Erfüllung einer im öffentlichen\n  Interesse liegenden Aufgabe befinden, können von der Behörde oder der Einrichtung gemäß dem\n  Unionsrecht oder dem Recht des Mitgliedstaats, dem die Behörde oder Einrichtung unterliegt,\n  offengelegt werden, um den Zugang der Öffentlichkeit zu amtlichen Dokumenten mit dem Recht auf\n  Schutz personenbezogener Daten gemäß dieser Verordnung in Einklang zu bringen."
           }
@@ -5892,7 +5892,7 @@
             "classType": "TITLE",
             "content": "Verarbeitung der nationalen Kennziffer"
           },
-          "cpt_9.art_87.pt_49a9286a-a4d0-481d-ab1f-6e329fd8fa8d": {
+          "cpt_9.art_87.pt_1": {
             "classType": "POINT",
             "content": "Die Mitgliedstaaten können näher bestimmen, unter welchen spezifischen Bedingungen eine nationale\n  Kennziffer oder andere Kennzeichen von allgemeiner Bedeutung Gegenstand einer Verarbeitung sein\n  dürfen. In diesem Fall darf die nationale Kennziffer oder das andere Kennzeichen von allgemeiner\n  Bedeutung nur unter Wahrung geeigneter Garantien für die Rechte und Freiheiten der betroffenen\n  Person gemäß dieser Verordnung verwendet werden."
           }
@@ -6120,7 +6120,7 @@
             "classType": "TITLE",
             "content": "Verhältnis zur Richtlinie 2002/58/EG"
           },
-          "cpt_11.art_95.pt_0dbac2f8-b629-4093-a206-9e5c1ba5d5ee": {
+          "cpt_11.art_95.pt_1": {
             "classType": "POINT",
             "content": "Diese Verordnung erlegt natürlichen oder juristischen Personen in Bezug auf die Verarbeitung in\n  Verbindung mit der Bereitstellung öffentlich zugänglicher elektronischer Kommunikationsdienste in\n  öffentlichen Kommunikationsnetzen in der Union keine zusätzlichen Pflichten auf, soweit sie\n  besonderen in der Richtlinie 2002/58/EG festgelegten Pflichten unterliegen, die dasselbe Ziel\n  verfolgen."
           }
@@ -6137,7 +6137,7 @@
             "classType": "TITLE",
             "content": "Verhältnis zu bereits geschlossenen Übereinkünften"
           },
-          "cpt_11.art_96.pt_c4677363-d388-4f58-9866-99a85633dd75": {
+          "cpt_11.art_96.pt_1": {
             "classType": "POINT",
             "content": "Internationale Übereinkünfte, die die Übermittlung personenbezogener Daten an Drittländer oder\n  internationale Organisationen mit sich bringen, die von den Mitgliedstaaten vor dem 24.Mai 2016\n  abgeschlossen wurden und die im Einklang mit dem vor diesem Tag geltenden Unionsrecht stehen,\n  bleiben in Kraft, bis sie geändert, ersetzt oder gekündigt werden."
           }
@@ -6203,7 +6203,7 @@
             "classType": "TITLE",
             "content": "Überprüfung anderer Rechtsakte der Union zum Datenschutz"
           },
-          "cpt_11.art_98.pt_13ab06b2-840e-4540-b3b2-15a7ee367682": {
+          "cpt_11.art_98.pt_1": {
             "classType": "POINT",
             "content": "Die Kommission legt gegebenenfalls Gesetzgebungsvorschläge zur Änderung anderer Rechtsakte der\n  Union zum Schutz personenbezogener Daten vor, damit ein einheitlicher und kohärenter Schutz\n  natürlicher Personen bei der Verarbeitung sichergestellt wird. Dies betrifft insbesondere die\n  Vorschriften zum Schutz natürlicher Personen bei der Verarbeitung solcher Daten durch die Organe,\n  Einrichtungen, Ämter und Agenturen der Union und zum freien Verkehr solcher Daten."
           }
