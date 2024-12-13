@@ -22,8 +22,16 @@ function getPointContent(point) {
 function getObjectByPath(obj, path) {
   if (!obj || typeof path !== 'string') return undefined;
 
-  const [cpt] = path.split('.');
-  return obj[cpt].content[path];
+  const paths = path.split('.');
+  let p = '';
+  let result = null;
+  for (const iterator of paths) {
+    const index = p ? p + '.' + iterator : iterator;
+    result = (obj.content ?? obj)[index];
+    obj = result;
+    p = index;
+  }
+  return result;
 }
 
 // Helper function to extract all articles from JSON
@@ -61,14 +69,18 @@ for (const ptArticle of ptArticles) {
   try {
     getObjectByPath(gdprPt, ptArticle.path).relatedArticles = euArticles
       .filter((euArticle) => areArticlesRelated({ article1: ptArticle, article2: euArticle }))
-      .map((euArticle) => euArticle.path.match(/art_(\d+)/)[1]); // Extract article number
+      .map((euArticle) => euArticle.path.match(/art_(\d+)/)[1])
+      .slice(0, 4);
   } catch (error) {
     console.log(error);
   }
 }
 
 // Write updated JSON back to file
-const updatedGdprPt = JSON.stringify(gdprPt, null, 2);
-fs.writeFileSync('gdpr-pt-updated.json', updatedGdprPt);
+
+fs.writeFileSync(
+  path.resolve(__dirname, '../datasets/gdpr-pt.json'),
+  JSON.stringify(gdprPt, null, 2)
+);
 
 console.log('Updated gdpr-pt.json with relatedArticles key.');
