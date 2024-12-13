@@ -1,0 +1,108 @@
+{
+  "cpt_1": {
+    "classType": "CHAPTER",
+    "content": {
+      "944e3758-c240-49f5-8d35-d0c98185f74a": {
+        "classType": "TITLE_ID",
+        "content": "CAPO I"
+      },
+      "d29b5a45-00f3-47e6-ad59-ef77d5f734e8": {
+        "classType": "TITLE",
+        "content": {
+          "f22ce86c-6ce2-4497-b686-da030eb11ee8": {
+            "classType": "TITLE",
+            "content": "Disposizioni generali"
+          }
+        }
+      },
+      "cpt_1.art_1": {
+        "classType": "ARTICLE",
+        "content": {
+          "aee2bed8-2a84-43e0-a594-962290d477de": {
+            "classType": "ARTICLE",
+            "content": "Articolo 1"
+          },
+          "343aa200-db2d-4e7c-98b2-9b091e73a5b7": {
+            "classType": "TITLE",
+            "content": "Oggetto e finalità"
+          },
+          "cpt_1.art_1.pt_1": {
+            "classType": "POINT",
+            "content": "1.Il presente regolamento stabilisce norme relative alla protezione delle persone fisiche con\n      riguardo al trattamento dei dati personali, nonché norme relative alla libera circolazione di\n      tali dati."
+          }
+        }
+      },
+      "cpt_1.art_2": {
+        "classType": "ARTICLE",
+        "content": {
+          "5d2ddb3a-2ee9-459a-88be-42d193e41d7a": {
+            "classType": "ARTICLE",
+            "content": "Articolo 2"
+          },
+          "84818e53-4e00-4e64-8f33-142fa1f5676b": {
+            "classType": "TITLE",
+            "content": "Ambito di applicazione materiale"
+          },
+          "cpt_1.art_2.pt_1": {
+            "classType": "POINT",
+            "content": "1.Il presente regolamento si applica al trattamento interamente o parzialmente automatizzato\n      di dati personali e al trattamento non automatizzato di dati personali contenuti in un\n      archivio o destinati a figurarvi."
+          },
+
+          "cpt_1.art_2.pt_3": {
+            "classType": "POINT",
+            "content": "3.Per il trattamento dei dati personali da parte di istituzioni, organi, uffici e agenzie\n      dell'Unione, si applica il regolamento (CE) n. 45/2001. Il regolamento (CE) n.45/2001 e gli\n      altri atti giuridici dell'Unione applicabili a tale trattamento di dati personali devono\n      essere adeguati ai principi e alle norme del presente regolamento conformemente all'articolo\n      98."
+          },
+          "cpt_1.art_2.pt_4": {
+            "classType": "POINT",
+            "content": "4.Il presente regolamento non pregiudica pertanto l'applicazione della direttiva2000/31/CE, in\n      particolare le norme relative alla responsabilità dei prestatori intermediari di servizi di\n      cui agli articoli da 12 a 15 della medesima direttiva."
+          }
+        }
+      },
+
+  "cpt_2": {
+    "classType": "CHAPTER",
+    "content": {
+      "7360b9ff-5b02-444a-abde-37107285f867": {
+        "classType": "TITLE_ID",
+        "content": "CAPO II"
+      },
+      "5ff88b8e-4ca8-4a0c-847a-534d46c301ec": {
+        "classType": "TITLE",
+        "content": {
+          "6cd9ee38-3524-4f94-b7f0-97523661e3c8": {
+            "classType": "TITLE",
+            "content": "Principi"
+          }
+        }
+      },
+      "cpt_2.art_5": {
+        "classType": "ARTICLE",
+        "content": {
+          "14fbd478-103f-4641-9730-60f757c16d9e": {
+            "classType": "ARTICLE",
+            "content": "Articolo 5"
+          },
+          "ec8698ba-d15d-4baa-9070-8f740584e8dd": {
+            "classType": "TITLE",
+            "content": "Principi applicabili al trattamento di dati personali"
+          },
+          "cpt_2.art_5.pt_1": {
+            "classType": "POINT",
+            "content": {
+              "cpt_2.art_5.pt_1.pt_1": {
+                "classType": "POINT",
+                "content": "1.I dati personali sono:"
+              },
+              "cpt_2.art_5.pt_1.spt_a": {
+                "classType": "SUBPOINT",
+                "content": [
+                  "a)",
+                  "trattati in modo lecito, corretto e trasparente nei confronti dell'interessato\n              («liceità, correttezza e trasparenza»);"
+                ]
+              },
+      },
+
+        }
+      }
+    }
+  },
