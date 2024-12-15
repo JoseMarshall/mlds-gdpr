@@ -33,6 +33,7 @@ def handle_abstract_section(
     for key, article in node["content"].items():
         if article["classType"] == "ARTICLE":
             article_uri = URIRef(custom_namespaces["GDPR"] + key)
+            graph.add((node_uri, custom_namespaces["ELI"].has_part, article_uri))
             handle_abstract_article(
                 graph,
                 article,

@@ -35,6 +35,8 @@ def handle_abstract_point(
         for key, subpoint in node["content"].items():
             if subpoint["classType"] == "SUBPOINT":
                 subpoint_uri = URIRef(custom_namespaces["GDPR"] + key)
+                graph.add((node_uri, custom_namespaces["ELI"].has_part, subpoint_uri))
+
                 handle_abstract_subpoint(
                     graph,
                     subpoint,

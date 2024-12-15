@@ -34,6 +34,8 @@ def handle_abstract_article(
     for key, point in node["content"].items():
         if point["classType"] == "POINT":
             point_uri = URIRef(custom_namespaces["GDPR"] + key)
+            graph.add((node_uri, custom_namespaces["ELI"].has_part, point_uri))
+
             handle_abstract_point(
                 graph,
                 point,
