@@ -39,11 +39,19 @@ function getLiteralValue(obj) {
 }
 const alphabet = '_abcdefghijklmnopqrstuvwxyz';
 
+const prefixes = ['cpt', 'sct', 'art', 'pt', 'spt', 'sspt'];
+
+function appendSuffix(key) {
+  const lastPrefix = key.split('.').pop().split('_')[0];
+
+  return key + '.' + prefixes[prefixes.findIndex((x) => x === lastPrefix) + 1];
+}
+
 function charToNumber(char) {
   return Number.isInteger(Number(char)) ? char : alphabet.indexOf(char);
 }
 
-function makeHumanReadableIds(gdpr, gdprCopy, parentCounter = 1) {
+function makeHumanReadableIds(gdpr, gdprCopy, parentCounter = 1, parentKey = '') {
   const result = {};
 
   const keys = Object.keys(gdpr);
@@ -60,18 +68,14 @@ function makeHumanReadableIds(gdpr, gdprCopy, parentCounter = 1) {
   parentCounter = String(parentCounter).match(/\w/) ? charToNumber(parentCounter) : parentCounter;
 
   for (const key of keys) {
-    if (key === 'cpt_1.art_4.pt_72234c19-a210-466d-b416-8796f2c4a58e') {
-      console.log();
-    }
     if (isObJectAndNotArray(gdpr[key])) {
       const parts = key.split('.');
       let newKey =
-        parts.length > 1 &&
         parts[parts.length - 1].includes('-') &&
         ['POINT', 'SUBPOINT', 'SUBSUBPOINT'].includes(gdpr[key].classType)
           ? key.replace(
               parts[parts.length - 1],
-              parts[parts.length - 1].split('_')[0] +
+              (parentKey ? appendSuffix(parentKey) : parts[parts.length - 1].split('_')[0]) +
                 '_' +
                 (keys.filter((k) => k.match(/_([a-z]+)$/i)?.[1]).length
                   ? alphabet[++counter]
@@ -97,7 +101,8 @@ function makeHumanReadableIds(gdpr, gdprCopy, parentCounter = 1) {
       result[newKey] = makeHumanReadableIds(
         gdpr[key],
         getValue(gdprCopy, key, index),
-        counter <= 0 ? parentCounter : counter
+        counter <= 0 ? parentCounter : counter,
+        ['classType', 'content'].includes(key) ? parentKey : key
       );
     } else {
       result[key] = getLiteralValue(gdprCopy[key]);
@@ -109,7 +114,7 @@ function makeHumanReadableIds(gdpr, gdprCopy, parentCounter = 1) {
 }
 
 function main() {
-  const gdprName = 'gdpr-pt-en.json';
+  const gdprName = 'gdpr-pt.json';
   const gdprWithReadableId = makeHumanReadableIds(
     require(`../../datasets/${gdprName}`),
     require(`../../datasets/${gdprName}`)
