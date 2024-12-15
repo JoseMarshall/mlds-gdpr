@@ -23,7 +23,7 @@ def handle_chapter(
         (
             node_uri,
             custom_namespaces["ELI"].realizes,
-            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
+            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri, locale)),
         )
     )
     graph.add(
@@ -54,13 +54,6 @@ def handle_chapter(
 
         elif value["classType"] == "SECTION":
             section_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    section_uri,
-                )
-            )
             handle_section(
                 graph,
                 value,

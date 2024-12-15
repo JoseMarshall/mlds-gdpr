@@ -24,7 +24,7 @@ def handle_subpoint(
         (
             node_uri,
             custom_namespaces["ELI"].realizes,
-            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri)),
+            URIRef(custom_namespaces["GDPR"] + extract_node_id(node_uri, locale)),
         )
     )
     graph.add(

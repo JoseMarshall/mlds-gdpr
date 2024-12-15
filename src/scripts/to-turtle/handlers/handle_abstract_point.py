@@ -33,12 +33,13 @@ def handle_abstract_point(
 
     if not isinstance(node["content"], str):
         for key, subpoint in node["content"].items():
-            subpoint_uri = URIRef(custom_namespaces["GDPR"] + key)
-            handle_abstract_subpoint(
-                graph,
-                subpoint,
-                subpoint_uri,
-                node_uri,
-                locales,
-                custom_namespaces,
-            )
+            if subpoint["classType"] == "SUBPOINT":
+                subpoint_uri = URIRef(custom_namespaces["GDPR"] + key)
+                handle_abstract_subpoint(
+                    graph,
+                    subpoint,
+                    subpoint_uri,
+                    node_uri,
+                    locales,
+                    custom_namespaces,
+                )
