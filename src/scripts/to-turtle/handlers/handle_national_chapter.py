@@ -6,7 +6,7 @@ from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF
 from handle_national_article import handle_national_article
 from handle_national_section import handle_national_section
-from util import extract_romans, deep_extract_literal
+from util import extract_romans, deep_extract_literal, extract_node_id
 
 
 def handle_national_chapter(
@@ -20,6 +20,18 @@ def handle_national_chapter(
 
     graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalExpression))
     graph.add((node_uri, custom_namespaces["ELI"].language, Literal(locale)))
+    graph.add(
+        (
+            node_uri,
+            custom_namespaces["ELI"].realizes,
+            URIRef(
+                custom_namespaces["GDPR"]
+                + extract_node_id(node_uri, locale)
+                + "_abstract_"
+                + locale
+            ),
+        )
+    )
 
     if parent_uri:
         graph.add(

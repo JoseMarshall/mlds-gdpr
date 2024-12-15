@@ -2,7 +2,7 @@ from rdflib import URIRef, Namespace, Literal
 from rdflib.namespace import RDF
 from handle_national_subsubpoint import handle_national_subsubpoint
 
-from util import add_description
+from util import add_description, extract_node_id
 
 
 def handle_national_subpoint(
@@ -26,6 +26,18 @@ def handle_national_subpoint(
             node_uri,
             custom_namespaces["ELI"].is_part_of,
             parent_uri,
+        )
+    )
+    graph.add(
+        (
+            node_uri,
+            custom_namespaces["ELI"].realizes,
+            URIRef(
+                custom_namespaces["GDPR"]
+                + extract_node_id(node_uri, locale)
+                + "_abstract_"
+                + locale
+            ),
         )
     )
 

@@ -251,7 +251,7 @@ for locale in national_locales:
                 )
 
 # National Concrete Implementation
-"""
+
 for locale in national_locales:
     rgdpr_uri = URIRef(RGDPR + f"gdpr_{locale}")
     graph.add((rgdpr_uri, RDF.type, ELI.LegalExpression))
@@ -304,7 +304,6 @@ for locale in national_locales:
                     },
                 )
 
-"""
 
 # Serialize the RDF graph in Turtle format
 graph.serialize(

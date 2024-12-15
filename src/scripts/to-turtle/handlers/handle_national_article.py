@@ -1,7 +1,7 @@
 from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF
 from handle_national_point import handle_national_point
-from util import extract_all_numbers, deep_extract_literal
+from util import extract_all_numbers, deep_extract_literal, extract_node_id
 import os
 import json
 
@@ -27,6 +27,18 @@ def handle_national_article(
             node_uri,
             custom_namespaces["ELI"].is_part_of,
             parent_uri,
+        )
+    )
+    graph.add(
+        (
+            node_uri,
+            custom_namespaces["ELI"].realizes,
+            URIRef(
+                custom_namespaces["GDPR"]
+                + extract_node_id(node_uri, locale)
+                + "_abstract_"
+                + locale
+            ),
         )
     )
 
