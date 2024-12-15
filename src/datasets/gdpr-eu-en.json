@@ -418,10 +418,10 @@
                   "processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child."
                 ]
               },
-              "733e0c38-b95b-4483-84c1-f2b474961ec3": {
+              "cpt_2.art_6.pt_1.spt_g": {
                 "classType": "SUBPOINT",
                 "content": [
-                  "",
+                  "(g)",
                   "Point (f) of the first subparagraph shall not apply to processing\n        carried out by public authorities in the performance of their tasks."
                 ]
               }
@@ -446,10 +446,10 @@
                 "classType": "SUBPOINT",
                 "content": ["(b)", "Member State law to which the controller is subject."]
               },
-              "6867f80c-9431-4ad7-9d51-16fc9c7db4e1": {
+              "cpt_2.art_6.pt_3.spt_c": {
                 "classType": "SUBPOINT",
                 "content": [
-                  "",
+                  "(c)",
                   "The purpose of the processing shall be determined in that legal basis\n        or, as regards the processing referred to in point (e) of paragraph 1,\n        shall be necessary for the performance of a task carried out in the\n        public interest or in the exercise of official authority vested in the\n        controller. That legal basis may contain specific provisions to adapt\n        the application of rules of this Regulation, inter alia: the general\n        conditions governing the lawfulness of processing by the controller; the\n        types of data which are subject to the processing; the data subjects\n        concerned; the entities to, and the purposes for which, the personal\n        data may be disclosed; the purpose limitation; storage periods; and\n        processing operations and processing procedures, including measures to\n        ensure lawful and fair processing such as those for other specific\n        processing situations as provided for in Chapter IX. The Union or the\n        MemberState law shall meet an objective of public interest and be\n        proportionate to the legitimate aim pursued."
                 ]
               }
@@ -780,10 +780,10 @@
                     "classType": "SUBPOINT",
                     "content": ["(b)", "refuse to act on the request."]
                   },
-                  "18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e": {
+                  "cpt_3.sct_1.art_12.pt_5.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
-                      "",
+                      "c)",
                       "The controller shall bear the burden of demonstrating the manifestly\n          unfounded or excessive character of the request."
                     ]
                   }
@@ -1979,10 +1979,10 @@
                       "makes available to the controller all information necessary to demonstrate compliance with the obligations laid down in this Article and allow for and contribute to audits, including inspections, conducted by the controller or another auditor mandated by the controller."
                     ]
                   },
-                  "c278d7d5-259f-4627-9ac7-988e89d4e6e0": {
+                  "cpt_4.sct_1.art_28.pt_3.spt_i": {
                     "classType": "SUBPOINT",
                     "content": [
-                      "",
+                      "(i)",
                       "With regard to point(h) of the first subparagraph, the processor shall\n          immediately inform the controller if, in its opinion, an instruction\n          infringes this Regulation or other Union or MemberState data\n          protection provisions."
                     ]
                   }
@@ -3564,10 +3564,10 @@
                   "the transfer is made from a register which according to Union or Member State law is intended to provide information to the public and which is open to consultation either by the public in general or by any person who can demonstrate a legitimate interest, but only to the extent that the conditions laid down by Union or MemberState law for consultation are fulfilled in the particular case."
                 ]
               },
-              "03d3237c-defa-4637-be7b-316775816c17": {
+              "cpt_5.art_49.pt_1.spt_h": {
                 "classType": "SUBPOINT",
                 "content": [
-                  "",
+                  "h)",
                   "Where a transfer could not be based on a provision in Article 45 or 46,\n        including the provisions on binding corporate rules, and none of the\n        derogations for a specific situation referred to in the first\n        subparagraph of this paragraph is applicable, a transfer to a third\n        country or an international organisation may take place only if the\n        transfer is not repetitive, concerns only a limited number of data\n        subjects, is necessary for the purposes of compelling legitimate\n        interests pursued by the controller which are not overridden by the\n        interests or rights and freedoms of the data subject, and the controller\n        has assessed all the circumstances surrounding the data transfer and has\n        on the basis of that assessment provided suitable safeguards with regard\n        to the protection of personal data. The controller shall inform the\n        supervisory authority of the transfer. The controller shall, in addition\n        to providing the information referred to in Articles13 and 14, inform\n        the data subject of the transfer and on the compelling legitimate\n        interests pursued."
                 ]
               }
@@ -3763,22 +3763,22 @@
                     "classType": "POINT",
                     "content": "1.Member States shall provide for each member of their supervisory\n          authorities to be appointed by means of a transparent procedure by:"
                   },
-                  "0d98a029-23e7-4e32-a601-6c315660ce64": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": ["—", "their parliament;"]
+                    "content": ["a)", "their parliament;"]
                   },
-                  "52411851-aa55-4a22-b169-399a102e1f3c": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": ["—", "their government;"]
+                    "content": ["b)", "their government;"]
                   },
-                  "81a9c584-e750-4e22-9d39-cf1e5892e2d8": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_c": {
                     "classType": "SUBPOINT",
-                    "content": ["—", "their head of State; or"]
+                    "content": ["c)", "their head of State; or"]
                   },
-                  "b670a688-3a5c-4d81-a398-5b41a64ecff9": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_d": {
                     "classType": "SUBPOINT",
                     "content": [
-                      "—",
+                      "d)",
                       "an independent body entrusted with the appointment under Member State law."
                     ]
                   }

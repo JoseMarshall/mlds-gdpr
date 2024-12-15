@@ -4971,69 +4971,6 @@ rgdpr:p_3.cpt_7_de a eli:LegalExpression ;
     eli:title "Haftung und Sanktionen" ;
     eli:title_alternative "Kapitel 7" .
 
-gdpr:03d3237c-defa-4637-be7b-316775816c17 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_5.art_49.pt_1 ;
-    eli:is_realized_by rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt .
-
-gdpr:0d98a029-23e7-4e32-a601-6c315660ce64 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
-    eli:is_realized_by rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt .
-
-gdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_3.sct_1.art_12.pt_5 ;
-    eli:is_realized_by rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt .
-
-gdpr:52411851-aa55-4a22-b169-399a102e1f3c a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
-    eli:is_realized_by rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt .
-
-gdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_2.art_6.pt_3 ;
-    eli:is_realized_by rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt .
-
-gdpr:733e0c38-b95b-4483-84c1-f2b474961ec3 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_2.art_6.pt_1 ;
-    eli:is_realized_by rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt .
-
-gdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
-    eli:is_realized_by rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt .
-
-gdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
-    eli:is_realized_by rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt .
-
-gdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0 a gdpr:SubPoint ;
-    eli:is_part_of gdpr:cpt_4.sct_1.art_28.pt_3 ;
-    eli:is_realized_by rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt .
-
 gdpr:cpt_1.art_1.pt_1 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_1.art_1 ;
     eli:is_realized_by rgdpr:cpt_1.art_1.pt_1_eu_de,
@@ -5573,6 +5510,13 @@ gdpr:cpt_2.art_6.pt_1.spt_f a gdpr:SubPoint ;
         rgdpr:cpt_2.art_6.pt_1.spt_f_eu_it,
         rgdpr:cpt_2.art_6.pt_1.spt_f_eu_pt .
 
+gdpr:cpt_2.art_6.pt_1.spt_g a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_2.art_6.pt_1 ;
+    eli:is_realized_by rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt .
+
 gdpr:cpt_2.art_6.pt_2 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_2.art_6 ;
     eli:is_realized_by rgdpr:cpt_2.art_6.pt_2_eu_de,
@@ -5593,6 +5537,13 @@ gdpr:cpt_2.art_6.pt_3.spt_b a gdpr:SubPoint ;
         rgdpr:cpt_2.art_6.pt_3.spt_b_eu_en,
         rgdpr:cpt_2.art_6.pt_3.spt_b_eu_it,
         rgdpr:cpt_2.art_6.pt_3.spt_b_eu_pt .
+
+gdpr:cpt_2.art_6.pt_3.spt_c a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_2.art_6.pt_3 ;
+    eli:is_realized_by rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt .
 
 gdpr:cpt_2.art_6.pt_4.spt_a a gdpr:SubPoint ;
     eli:is_part_of gdpr:cpt_2.art_6.pt_4 ;
@@ -5817,6 +5768,13 @@ gdpr:cpt_3.sct_1.art_12.pt_5.spt_b a gdpr:SubPoint ;
         rgdpr:cpt_3.sct_1.art_12.pt_5.spt_b_eu_en,
         rgdpr:cpt_3.sct_1.art_12.pt_5.spt_b_eu_it,
         rgdpr:cpt_3.sct_1.art_12.pt_5.spt_b_eu_pt .
+
+gdpr:cpt_3.sct_1.art_12.pt_5.spt_c a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_3.sct_1.art_12.pt_5 ;
+    eli:is_realized_by rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt .
 
 gdpr:cpt_3.sct_1.art_12.pt_6 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_3.sct_1.art_12 ;
@@ -6727,6 +6685,13 @@ gdpr:cpt_4.sct_1.art_28.pt_3.spt_h a gdpr:SubPoint ;
         rgdpr:cpt_4.sct_1.art_28.pt_3.spt_h_eu_en,
         rgdpr:cpt_4.sct_1.art_28.pt_3.spt_h_eu_it,
         rgdpr:cpt_4.sct_1.art_28.pt_3.spt_h_eu_pt .
+
+gdpr:cpt_4.sct_1.art_28.pt_3.spt_i a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_4.sct_1.art_28.pt_3 ;
+    eli:is_realized_by rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt .
 
 gdpr:cpt_4.sct_1.art_28.pt_4 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_4.sct_1.art_28 ;
@@ -8072,6 +8037,13 @@ gdpr:cpt_5.art_49.pt_1.spt_g a gdpr:SubPoint ;
         rgdpr:cpt_5.art_49.pt_1.spt_g_eu_it,
         rgdpr:cpt_5.art_49.pt_1.spt_g_eu_pt .
 
+gdpr:cpt_5.art_49.pt_1.spt_h a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_5.art_49.pt_1 ;
+    eli:is_realized_by rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt .
+
 gdpr:cpt_5.art_49.pt_2 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_5.art_49 ;
     eli:is_realized_by rgdpr:cpt_5.art_49.pt_2_eu_de,
@@ -8204,6 +8176,34 @@ gdpr:cpt_6.sct_1.art_52.pt_6 a gdpr:Point ;
         rgdpr:cpt_6.sct_1.art_52.pt_6_eu_en,
         rgdpr:cpt_6.sct_1.art_52.pt_6_eu_it,
         rgdpr:cpt_6.sct_1.art_52.pt_6_eu_pt .
+
+gdpr:cpt_6.sct_1.art_53.pt_1.spt_a a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
+    eli:is_realized_by rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt .
+
+gdpr:cpt_6.sct_1.art_53.pt_1.spt_b a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
+    eli:is_realized_by rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt .
+
+gdpr:cpt_6.sct_1.art_53.pt_1.spt_c a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
+    eli:is_realized_by rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt .
+
+gdpr:cpt_6.sct_1.art_53.pt_1.spt_d a gdpr:SubPoint ;
+    eli:is_part_of gdpr:cpt_6.sct_1.art_53.pt_1 ;
+    eli:is_realized_by rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt .
 
 gdpr:cpt_6.sct_1.art_53.pt_2 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_6.sct_1.art_53 ;
@@ -11750,524 +11750,6 @@ gdpr:cpt_9.art_91 a gdpr:Article ;
         rgdpr:cpt_9.art_91_eu_en,
         rgdpr:cpt_9.art_91_eu_it,
         rgdpr:cpt_9.art_91_eu_pt .
-
-rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de a eli:LegalExpression ;
-    eli:description """Falls die Übermittlung nicht auf eine Bestimmung der Artikel 45 oder 46 — einschließlich der
-  verbindlichen internen Datenschutzvorschriften — gestützt werden könnte und keine der Ausnahmen
-  für einen bestimmten Fall gemäß dem ersten Unterabsatz anwendbar ist, darf eine Übermittlung an
-  ein Drittland oder eine internationale Organisation nur dann erfolgen, wenn die Übermittlung nicht
-  wiederholt erfolgt, nur eine begrenzte Zahl von betroffenen Personen betrifft, für die Wahrung der
-  zwingenden berechtigten Interessen des Verantwortlichen erforderlich ist, sofern die Interessen
-  oder die Rechte und Freiheiten der betroffenen Person nicht überwiegen, und der Verantwortliche
-  alle Umstände der Datenübermittlung beurteilt und auf der Grundlage dieser Beurteilung geeignete
-  Garantien in Bezug auf den Schutz personenbezogener Daten vorgesehen hat. Der Verantwortliche
-  setzt die Aufsichtsbehörde von der Übermittlung in Kenntnis. Der Verantwortliche unterrichtet die
-  betroffene Person über die Übermittlung und seine zwingenden berechtigten Interessen; dies erfolgt
-  zusätzlich zu den der betroffenen Person nach den Artikeln 13 und 14 mitgeteilten Informationen.""" ;
-    eli:has_translation rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt ;
-    eli:is_translation_of rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt ;
-    eli:realizes gdpr:03d3237c-defa-4637-be7b-316775816c17 ;
-    eli:title_alternative "Artikel 49-1-" .
-
-rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en a eli:LegalExpression ;
-    eli:description """Where a transfer could not be based on a provision in Article 45 or 46,
-        including the provisions on binding corporate rules, and none of the
-        derogations for a specific situation referred to in the first
-        subparagraph of this paragraph is applicable, a transfer to a third
-        country or an international organisation may take place only if the
-        transfer is not repetitive, concerns only a limited number of data
-        subjects, is necessary for the purposes of compelling legitimate
-        interests pursued by the controller which are not overridden by the
-        interests or rights and freedoms of the data subject, and the controller
-        has assessed all the circumstances surrounding the data transfer and has
-        on the basis of that assessment provided suitable safeguards with regard
-        to the protection of personal data. The controller shall inform the
-        supervisory authority of the transfer. The controller shall, in addition
-        to providing the information referred to in Articles13 and 14, inform
-        the data subject of the transfer and on the compelling legitimate
-        interests pursued.""" ;
-    eli:has_translation rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt ;
-    eli:is_translation_of rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt ;
-    eli:realizes gdpr:03d3237c-defa-4637-be7b-316775816c17 ;
-    eli:title_alternative "Article 49-1-" .
-
-rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it a eli:LegalExpression ;
-    eli:description """Se non è possibile basare il trasferimento su una disposizione dell'articolo45 o46, comprese
-      le disposizioni sulle norme vincolanti d'impresa, e nessuna delle deroghe in specifiche
-      situazioni a norma del primo comma del presente paragrafo è applicabile, il trasferimento
-      verso un paese terzo o un'organizzazione internazionale sia ammesso soltanto se non è
-      ripetitivo, riguarda un numero limitato di interessati, è necessario per il perseguimento
-      degli interessi legittimi cogenti del titolare del trattamento, su cui non prevalgano gli
-      interessi o i diritti e le libertà dell'interessato, e qualora il titolare e del trattamento
-      abbia valutato tutte le circostanze relative al trasferimento e sulla base di tale valutazione
-      abbia fornito garanzie adeguate relativamente alla protezione dei dati personali. Il titolare
-      del trattamento informa del trasferimento l'autorità di controllo. In aggiunta alla fornitura
-      di informazioni di cui agli articoli13 e 14, il titolare del trattamento informa l'interessato
-      del trasferimento e degli interessi legittimi cogenti perseguiti.""" ;
-    eli:has_translation rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt ;
-    eli:is_translation_of rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt ;
-    eli:realizes gdpr:03d3237c-defa-4637-be7b-316775816c17 ;
-    eli:title_alternative "Articolo 49-1-" .
-
-rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_pt a eli:LegalExpression ;
-    eli:description """Quando uma transferência não puder basear-se no disposto no artigo 45.o
-  ou 46.o, incluindo nas regras vinculativas aplicáveis às empresas, e
-  não for aplicável nenhuma das derrogações previstas para as situações específicas a que se refere
-  o primeiro parágrafo do presente número, a transferência para um país terceiro ou uma organização
-  internacional só pode ser efetuada se não for repetitiva, apenas disser respeito a um número
-  limitado de titulares dos dados, for necessária para efeitos dos interesses legítimos visados pelo
-  responsável pelo seu tratamento, desde que a tais interesses não se sobreponham os interesses ou
-  os direitos e liberdades do titular dos dados, e o responsável pelo tratamento tiver ponderado
-  todas as circunstâncias relativas à transferência de dados e, com base nessa avaliação, tiver
-  apresentado garantias adequadas no que respeita à proteção de dados pessoais. O responsável pelo
-  tratamento informa da transferência a autoridade de controlo. Para além de fornecer a informação
-  referida nos artigos 13.o e 14.o, o
-  responsável pelo tratamento presta informações ao titular dos dados sobre a transferência e os
-  interesses legítimos visados.""" ;
-    eli:has_translation rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it ;
-    eli:is_translation_of rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_de,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_en,
-        rgdpr:03d3237c-defa-4637-be7b-316775816c17_eu_it ;
-    eli:realizes gdpr:03d3237c-defa-4637-be7b-316775816c17 ;
-    eli:title_alternative "Artigo 49.o-1-" .
-
-rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de a eli:LegalExpression ;
-    eli:description "vom Parlament," ;
-    eli:has_translation rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt ;
-    eli:is_translation_of rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt ;
-    eli:realizes gdpr:0d98a029-23e7-4e32-a601-6c315660ce64 ;
-    eli:title_alternative "Artikel 53-1-—" .
-
-rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en a eli:LegalExpression ;
-    eli:description "their parliament;" ;
-    eli:has_translation rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt ;
-    eli:is_translation_of rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt ;
-    eli:realizes gdpr:0d98a029-23e7-4e32-a601-6c315660ce64 ;
-    eli:title_alternative "Article 53-1-—" .
-
-rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it a eli:LegalExpression ;
-    eli:description "dal rispettivo parlamento;" ;
-    eli:has_translation rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt ;
-    eli:is_translation_of rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt ;
-    eli:realizes gdpr:0d98a029-23e7-4e32-a601-6c315660ce64 ;
-    eli:title_alternative "Articolo 53-1-—" .
-
-rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_pt a eli:LegalExpression ;
-    eli:description "pelo Parlamento," ;
-    eli:has_translation rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it ;
-    eli:is_translation_of rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_de,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_en,
-        rgdpr:0d98a029-23e7-4e32-a601-6c315660ce64_eu_it ;
-    eli:realizes gdpr:0d98a029-23e7-4e32-a601-6c315660ce64 ;
-    eli:title_alternative "Artigo 53.o-1-—" .
-
-rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de a eli:LegalExpression ;
-    eli:description """Der Verantwortliche hat den Nachweis für den offenkundig unbegründeten oder exzessiven Charakter
-  des Antrags zu erbringen.""" ;
-    eli:has_translation rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt ;
-    eli:is_translation_of rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt ;
-    eli:realizes gdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e ;
-    eli:title_alternative "Artikel 12-5-" .
-
-rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en a eli:LegalExpression ;
-    eli:description """The controller shall bear the burden of demonstrating the manifestly
-          unfounded or excessive character of the request.""" ;
-    eli:has_translation rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt ;
-    eli:is_translation_of rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt ;
-    eli:realizes gdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e ;
-    eli:title_alternative "Article 12-5-" .
-
-rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it a eli:LegalExpression ;
-    eli:description """Incombe al titolare del trattamento l'onere di dimostrare il carattere manifestamente
-      infondato o eccessivo della richiesta.""" ;
-    eli:has_translation rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt ;
-    eli:is_translation_of rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt ;
-    eli:realizes gdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e ;
-    eli:title_alternative "Articolo 12-5-" .
-
-rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_pt a eli:LegalExpression ;
-    eli:description """Cabe ao responsável pelo tratamento demonstrar o caráter manifestamente infundado ou excessivo do
-  pedido.""" ;
-    eli:has_translation rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it ;
-    eli:is_translation_of rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_de,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_en,
-        rgdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e_eu_it ;
-    eli:realizes gdpr:18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e ;
-    eli:title_alternative "Artigo 12.o-5-" .
-
-rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de a eli:LegalExpression ;
-    eli:description "von der Regierung," ;
-    eli:has_translation rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt ;
-    eli:is_translation_of rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt ;
-    eli:realizes gdpr:52411851-aa55-4a22-b169-399a102e1f3c ;
-    eli:title_alternative "Artikel 53-1-—" .
-
-rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en a eli:LegalExpression ;
-    eli:description "their government;" ;
-    eli:has_translation rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt ;
-    eli:is_translation_of rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt ;
-    eli:realizes gdpr:52411851-aa55-4a22-b169-399a102e1f3c ;
-    eli:title_alternative "Article 53-1-—" .
-
-rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it a eli:LegalExpression ;
-    eli:description "dal rispettivo governo;" ;
-    eli:has_translation rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt ;
-    eli:is_translation_of rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt ;
-    eli:realizes gdpr:52411851-aa55-4a22-b169-399a102e1f3c ;
-    eli:title_alternative "Articolo 53-1-—" .
-
-rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_pt a eli:LegalExpression ;
-    eli:description "pelo Governo," ;
-    eli:has_translation rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it ;
-    eli:is_translation_of rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_de,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_en,
-        rgdpr:52411851-aa55-4a22-b169-399a102e1f3c_eu_it ;
-    eli:realizes gdpr:52411851-aa55-4a22-b169-399a102e1f3c ;
-    eli:title_alternative "Artigo 53.o-1-—" .
-
-rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de a eli:LegalExpression ;
-    eli:description """Der Zweck der Verarbeitung muss in dieser Rechtsgrundlage festgelegt oder hinsichtlich der
-  Verarbeitung gemäß Absatz1 Buchstabee für die Erfüllung einer Aufgabe erforderlich sein, die im
-  öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem
-  Verantwortlichen übertragen wurde. Diese Rechtsgrundlage kann spezifische Bestimmungen zur
-  Anpassung der Anwendung der Vorschriften dieser Verordnung enthalten, unter anderem Bestimmungen
-  darüber, welche allgemeinen Bedingungen für die Regelung der Rechtmäßigkeit der Verarbeitung durch
-  den Verantwortlichen gelten, welche Arten von Daten verarbeitet werden, welche Personen betroffen
-  sind, an welche Einrichtungen und für welche Zwecke die personenbezogenen Daten offengelegt werden
-  dürfen, welcher Zweckbindung sie unterliegen, wie lange sie gespeichert werden dürfen und welche
-  Verarbeitungsvorgänge und -verfahren angewandt werden dürfen, einschließlich Maßnahmen zur
-  Gewährleistung einer rechtmäßig und nach Treu und Glauben erfolgenden Verarbeitung, wie solche für
-  sonstige besondere Verarbeitungssituationen gemäß KapitelIX. Das Unionsrecht oder das Recht der
-  Mitgliedstaaten müssen ein im öffentlichen Interesse liegendes Ziel verfolgen und in einem
-  angemessenen Verhältnis zu dem verfolgten legitimen Zweck stehen.""" ;
-    eli:has_translation rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt ;
-    eli:is_translation_of rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt ;
-    eli:realizes gdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1 ;
-    eli:title_alternative "Artikel6-3-" .
-
-rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en a eli:LegalExpression ;
-    eli:description """The purpose of the processing shall be determined in that legal basis
-        or, as regards the processing referred to in point (e) of paragraph 1,
-        shall be necessary for the performance of a task carried out in the
-        public interest or in the exercise of official authority vested in the
-        controller. That legal basis may contain specific provisions to adapt
-        the application of rules of this Regulation, inter alia: the general
-        conditions governing the lawfulness of processing by the controller; the
-        types of data which are subject to the processing; the data subjects
-        concerned; the entities to, and the purposes for which, the personal
-        data may be disclosed; the purpose limitation; storage periods; and
-        processing operations and processing procedures, including measures to
-        ensure lawful and fair processing such as those for other specific
-        processing situations as provided for in Chapter IX. The Union or the
-        MemberState law shall meet an objective of public interest and be
-        proportionate to the legitimate aim pursued.""" ;
-    eli:has_translation rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt ;
-    eli:is_translation_of rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt ;
-    eli:realizes gdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1 ;
-    eli:title_alternative "Article 6-3-" .
-
-rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it a eli:LegalExpression ;
-    eli:description """La finalità del trattamento è determinata in tale base giuridica o, per quanto riguarda il
-      trattamento di cui al paragrafo 1, lettera e), è necessaria per l'esecuzione di un compito
-      svolto nel pubblico interesse o connesso all'esercizio di pubblici poteri di cui è investito
-      il titolare del trattamento. Tale base giuridica potrebbe contenere disposizioni specifiche
-      per adeguare l'applicazione delle norme del presente regolamento, tra cui: le condizioni
-      generali relative alla liceità del trattamento da parte del titolare del trattamento; le
-      tipologie di dati oggetto del trattamento; gli interessati; i soggetti cui possono essere
-      comunicati i dati personali e le finalità per cui sono comunicati; le limitazioni della
-      finalità, i periodi di conservazione e le operazioni e procedure di trattamento, comprese le
-      misure atte a garantire un trattamento lecito e corretto, quali quelle per altre specifiche
-      situazioni di trattamento di cui al capo IX. Il diritto dell'Unione o degli Stati membri
-      persegue un obiettivo di interesse pubblico ed è proporzionato all'obiettivo legittimo
-      perseguito.""" ;
-    eli:has_translation rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt ;
-    eli:is_translation_of rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt ;
-    eli:realizes gdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1 ;
-    eli:title_alternative "Articolo 6-3-" .
-
-rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_pt a eli:LegalExpression ;
-    eli:description """A finalidade do tratamento é determinada com esse fundamento jurídico ou, no que respeita ao
-  tratamento referido no n.o 1, alínea e), deve ser necessária ao
-  exercício de funções de interesse público ou ao exercício da autoridade pública de que está
-  investido o responsável pelo tratamento. Esse fundamento jurídico pode prever disposições
-  específicas para adaptar a aplicação das regras do presente regulamento, nomeadamente: as
-  condições gerais de licitude do tratamento pelo responsável pelo seu tratamento; os tipos de dados
-  objeto de tratamento; os titulares dos dados em questão; as entidades a que os dados pessoais
-  poderão ser comunicados e para que efeitos; os limites a que as finalidades do tratamento devem
-  obedecer; os prazos de conservação; e as operações e procedimentos de tratamento, incluindo as
-  medidas destinadas a garantir a legalidade e lealdade do tratamento, como as medidas relativas a
-  outras situações específicas de tratamento em conformidade com o capítulo IX. O direito da União
-  ou do Estado-Membro deve responder a um objetivo de interesse público e ser proporcional ao
-  objetivo legítimo prosseguido.""" ;
-    eli:has_translation rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it ;
-    eli:is_translation_of rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_de,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_en,
-        rgdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1_eu_it ;
-    eli:realizes gdpr:6867f80c-9431-4ad7-9d51-16fc9c7db4e1 ;
-    eli:title_alternative "Artigo 6.o-3-" .
-
-rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de a eli:LegalExpression ;
-    eli:description """Unterabsatz 1 Buchstabe f gilt nicht für die von Behörden in Erfüllung ihrer Aufgaben vorgenommene
-  Verarbeitung.""" ;
-    eli:has_translation rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt ;
-    eli:is_translation_of rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt ;
-    eli:realizes gdpr:733e0c38-b95b-4483-84c1-f2b474961ec3 ;
-    eli:title_alternative "Artikel6-1-" .
-
-rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en a eli:LegalExpression ;
-    eli:description """Point (f) of the first subparagraph shall not apply to processing
-        carried out by public authorities in the performance of their tasks.""" ;
-    eli:has_translation rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt ;
-    eli:is_translation_of rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt ;
-    eli:realizes gdpr:733e0c38-b95b-4483-84c1-f2b474961ec3 ;
-    eli:title_alternative "Article 6-1-" .
-
-rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it a eli:LegalExpression ;
-    eli:description """La lettera f) del primo comma non si applica al trattamento di dati effettuato dalle autorità
-      pubbliche nell'esecuzione dei loro compiti.""" ;
-    eli:has_translation rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt ;
-    eli:is_translation_of rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt ;
-    eli:realizes gdpr:733e0c38-b95b-4483-84c1-f2b474961ec3 ;
-    eli:title_alternative "Articolo 6-1-" .
-
-rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_pt a eli:LegalExpression ;
-    eli:description """O primeiro parágrafo, alínea f), não se aplica ao tratamento de dados efetuado por autoridades
-  públicas na prossecução das suas atribuições por via eletrónica.""" ;
-    eli:has_translation rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it ;
-    eli:is_translation_of rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_de,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_en,
-        rgdpr:733e0c38-b95b-4483-84c1-f2b474961ec3_eu_it ;
-    eli:realizes gdpr:733e0c38-b95b-4483-84c1-f2b474961ec3 ;
-    eli:title_alternative "Artigo 6.o-1-" .
-
-rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de a eli:LegalExpression ;
-    eli:description "vom Staatsoberhaupt oder" ;
-    eli:has_translation rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt ;
-    eli:is_translation_of rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt ;
-    eli:realizes gdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8 ;
-    eli:title_alternative "Artikel 53-1-—" .
-
-rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en a eli:LegalExpression ;
-    eli:description "their head of State; or" ;
-    eli:has_translation rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt ;
-    eli:is_translation_of rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt ;
-    eli:realizes gdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8 ;
-    eli:title_alternative "Article 53-1-—" .
-
-rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it a eli:LegalExpression ;
-    eli:description "dal rispettivo capo di Stato; oppure" ;
-    eli:has_translation rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt ;
-    eli:is_translation_of rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt ;
-    eli:realizes gdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8 ;
-    eli:title_alternative "Articolo 53-1-—" .
-
-rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_pt a eli:LegalExpression ;
-    eli:description "pelo Chefe de Estado, ou" ;
-    eli:has_translation rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it ;
-    eli:is_translation_of rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_de,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_en,
-        rgdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8_eu_it ;
-    eli:realizes gdpr:81a9c584-e750-4e22-9d39-cf1e5892e2d8 ;
-    eli:title_alternative "Artigo 53.o-1-—" .
-
-rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de a eli:LegalExpression ;
-    eli:description """von einer unabhängigen Stelle, die nach dem Recht des Mitgliedstaats mit der Ernennung
-          betraut wird.""" ;
-    eli:has_translation rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt ;
-    eli:is_translation_of rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt ;
-    eli:realizes gdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9 ;
-    eli:title_alternative "Artikel 53-1-—" .
-
-rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en a eli:LegalExpression ;
-    eli:description "an independent body entrusted with the appointment under Member State law." ;
-    eli:has_translation rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt ;
-    eli:is_translation_of rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt ;
-    eli:realizes gdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9 ;
-    eli:title_alternative "Article 53-1-—" .
-
-rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it a eli:LegalExpression ;
-    eli:description """da un organismo indipendente incaricato della nomina a norma del diritto dello Stato
-              membro.""" ;
-    eli:has_translation rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt ;
-    eli:is_translation_of rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt ;
-    eli:realizes gdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9 ;
-    eli:title_alternative "Articolo 53-1-—" .
-
-rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_pt a eli:LegalExpression ;
-    eli:description """por um organismo independente incumbido da nomeação nos termos do direito do
-          Estado-Membro.""" ;
-    eli:has_translation rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it ;
-    eli:is_translation_of rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_de,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_en,
-        rgdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9_eu_it ;
-    eli:realizes gdpr:b670a688-3a5c-4d81-a398-5b41a64ecff9 ;
-    eli:title_alternative "Artigo 53.o-1-—" .
-
-rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de a eli:LegalExpression ;
-    eli:description """Mit Blick auf Unterabsatz 1 Buchstabe h informiert der Auftragsverarbeiter den Verantwortlichen
-  unverzüglich, falls er der Auffassung ist, dass eine Weisung gegen diese Verordnung oder gegen
-  andere Datenschutzbestimmungen der Union oder der Mitgliedstaaten verstößt.""" ;
-    eli:has_translation rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt ;
-    eli:is_translation_of rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt ;
-    eli:realizes gdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0 ;
-    eli:title_alternative "Artikel 28-3-" .
-
-rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en a eli:LegalExpression ;
-    eli:description """With regard to point(h) of the first subparagraph, the processor shall
-          immediately inform the controller if, in its opinion, an instruction
-          infringes this Regulation or other Union or MemberState data
-          protection provisions.""" ;
-    eli:has_translation rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt ;
-    eli:is_translation_of rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt ;
-    eli:realizes gdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0 ;
-    eli:title_alternative "Article 28-3-" .
-
-rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it a eli:LegalExpression ;
-    eli:description """Con riguardo alla lettera h) del primo comma, il responsabile del trattamento informa
-      immediatamente il titolare del trattamento qualora, a suo parere, un'istruzione violi il
-      presente regolamento o altre disposizioni, nazionali o dell'Unione, relative alla protezione
-      dei dati.""" ;
-    eli:has_translation rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt ;
-    eli:is_translation_of rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt ;
-    eli:realizes gdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0 ;
-    eli:title_alternative "Articolo 28-3-" .
-
-rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_pt a eli:LegalExpression ;
-    eli:description """No que diz respeito ao primeiro parágrafo, alínea h), o subcontratante informa imediatamente o
-  responsável pelo tratamento se, no seu entender, alguma instrução violar o presente regulamento ou
-  outras disposições do direito da União ou dos Estados-Membros em matéria de proteção de dados.""" ;
-    eli:has_translation rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it ;
-    eli:is_translation_of rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_de,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_en,
-        rgdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0_eu_it ;
-    eli:realizes gdpr:c278d7d5-259f-4627-9ac7-988e89d4e6e0 ;
-    eli:title_alternative "Artigo 28.o-3-" .
 
 rgdpr:cpt_1.art_1.pt_1_eu_de a eli:LegalExpression ;
     eli:description """(1)Diese Verordnung enthält Vorschriften zum Schutz natürlicher Personen bei der Verarbeitung
@@ -17753,6 +17235,54 @@ rgdpr:cpt_2.art_6.pt_1.spt_f_eu_pt a eli:LegalExpression ;
     eli:realizes gdpr:cpt_2.art_6.pt_1.spt_f ;
     eli:title_alternative "Artigo 6.o-1-f)" .
 
+rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de a eli:LegalExpression ;
+    eli:description """Unterabsatz 1 Buchstabe f gilt nicht für die von Behörden in Erfüllung ihrer Aufgaben vorgenommene
+  Verarbeitung.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt ;
+    eli:realizes gdpr:cpt_2.art_6.pt_1.spt_g ;
+    eli:title_alternative "Artikel6-1-g)" .
+
+rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en a eli:LegalExpression ;
+    eli:description """Point (f) of the first subparagraph shall not apply to processing
+        carried out by public authorities in the performance of their tasks.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt ;
+    eli:realizes gdpr:cpt_2.art_6.pt_1.spt_g ;
+    eli:title_alternative "Article 6-1-(g)" .
+
+rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it a eli:LegalExpression ;
+    eli:description """La lettera f) del primo comma non si applica al trattamento di dati effettuato dalle autorità
+      pubbliche nell'esecuzione dei loro compiti.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt ;
+    eli:realizes gdpr:cpt_2.art_6.pt_1.spt_g ;
+    eli:title_alternative "Articolo 6-1-g)" .
+
+rgdpr:cpt_2.art_6.pt_1.spt_g_eu_pt a eli:LegalExpression ;
+    eli:description """O primeiro parágrafo, alínea f), não se aplica ao tratamento de dados efetuado por autoridades
+  públicas na prossecução das suas atribuições por via eletrónica.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_1.spt_g_eu_de,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_en,
+        rgdpr:cpt_2.art_6.pt_1.spt_g_eu_it ;
+    eli:realizes gdpr:cpt_2.art_6.pt_1.spt_g ;
+    eli:title_alternative "Artigo 6.o-1-g)" .
+
 rgdpr:cpt_2.art_6.pt_1_eu_de a eli:LegalExpression ;
     eli:description """(1)Die Verarbeitung ist nur rechtmäßig, wenn mindestens eine der nachstehenden Bedingungen erfüllt
   ist:""" ;
@@ -17954,6 +17484,101 @@ rgdpr:cpt_2.art_6.pt_3.spt_b_eu_pt a eli:LegalExpression ;
         rgdpr:cpt_2.art_6.pt_3.spt_b_eu_it ;
     eli:realizes gdpr:cpt_2.art_6.pt_3.spt_b ;
     eli:title_alternative "Artigo 6.o-3-b)" .
+
+rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de a eli:LegalExpression ;
+    eli:description """Der Zweck der Verarbeitung muss in dieser Rechtsgrundlage festgelegt oder hinsichtlich der
+  Verarbeitung gemäß Absatz1 Buchstabee für die Erfüllung einer Aufgabe erforderlich sein, die im
+  öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem
+  Verantwortlichen übertragen wurde. Diese Rechtsgrundlage kann spezifische Bestimmungen zur
+  Anpassung der Anwendung der Vorschriften dieser Verordnung enthalten, unter anderem Bestimmungen
+  darüber, welche allgemeinen Bedingungen für die Regelung der Rechtmäßigkeit der Verarbeitung durch
+  den Verantwortlichen gelten, welche Arten von Daten verarbeitet werden, welche Personen betroffen
+  sind, an welche Einrichtungen und für welche Zwecke die personenbezogenen Daten offengelegt werden
+  dürfen, welcher Zweckbindung sie unterliegen, wie lange sie gespeichert werden dürfen und welche
+  Verarbeitungsvorgänge und -verfahren angewandt werden dürfen, einschließlich Maßnahmen zur
+  Gewährleistung einer rechtmäßig und nach Treu und Glauben erfolgenden Verarbeitung, wie solche für
+  sonstige besondere Verarbeitungssituationen gemäß KapitelIX. Das Unionsrecht oder das Recht der
+  Mitgliedstaaten müssen ein im öffentlichen Interesse liegendes Ziel verfolgen und in einem
+  angemessenen Verhältnis zu dem verfolgten legitimen Zweck stehen.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_2.art_6.pt_3.spt_c ;
+    eli:title_alternative "Artikel6-3-c)" .
+
+rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en a eli:LegalExpression ;
+    eli:description """The purpose of the processing shall be determined in that legal basis
+        or, as regards the processing referred to in point (e) of paragraph 1,
+        shall be necessary for the performance of a task carried out in the
+        public interest or in the exercise of official authority vested in the
+        controller. That legal basis may contain specific provisions to adapt
+        the application of rules of this Regulation, inter alia: the general
+        conditions governing the lawfulness of processing by the controller; the
+        types of data which are subject to the processing; the data subjects
+        concerned; the entities to, and the purposes for which, the personal
+        data may be disclosed; the purpose limitation; storage periods; and
+        processing operations and processing procedures, including measures to
+        ensure lawful and fair processing such as those for other specific
+        processing situations as provided for in Chapter IX. The Union or the
+        MemberState law shall meet an objective of public interest and be
+        proportionate to the legitimate aim pursued.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_2.art_6.pt_3.spt_c ;
+    eli:title_alternative "Article 6-3-(c)" .
+
+rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it a eli:LegalExpression ;
+    eli:description """La finalità del trattamento è determinata in tale base giuridica o, per quanto riguarda il
+      trattamento di cui al paragrafo 1, lettera e), è necessaria per l'esecuzione di un compito
+      svolto nel pubblico interesse o connesso all'esercizio di pubblici poteri di cui è investito
+      il titolare del trattamento. Tale base giuridica potrebbe contenere disposizioni specifiche
+      per adeguare l'applicazione delle norme del presente regolamento, tra cui: le condizioni
+      generali relative alla liceità del trattamento da parte del titolare del trattamento; le
+      tipologie di dati oggetto del trattamento; gli interessati; i soggetti cui possono essere
+      comunicati i dati personali e le finalità per cui sono comunicati; le limitazioni della
+      finalità, i periodi di conservazione e le operazioni e procedure di trattamento, comprese le
+      misure atte a garantire un trattamento lecito e corretto, quali quelle per altre specifiche
+      situazioni di trattamento di cui al capo IX. Il diritto dell'Unione o degli Stati membri
+      persegue un obiettivo di interesse pubblico ed è proporzionato all'obiettivo legittimo
+      perseguito.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_2.art_6.pt_3.spt_c ;
+    eli:title_alternative "Articolo 6-3-c)" .
+
+rgdpr:cpt_2.art_6.pt_3.spt_c_eu_pt a eli:LegalExpression ;
+    eli:description """A finalidade do tratamento é determinada com esse fundamento jurídico ou, no que respeita ao
+  tratamento referido no n.o 1, alínea e), deve ser necessária ao
+  exercício de funções de interesse público ou ao exercício da autoridade pública de que está
+  investido o responsável pelo tratamento. Esse fundamento jurídico pode prever disposições
+  específicas para adaptar a aplicação das regras do presente regulamento, nomeadamente: as
+  condições gerais de licitude do tratamento pelo responsável pelo seu tratamento; os tipos de dados
+  objeto de tratamento; os titulares dos dados em questão; as entidades a que os dados pessoais
+  poderão ser comunicados e para que efeitos; os limites a que as finalidades do tratamento devem
+  obedecer; os prazos de conservação; e as operações e procedimentos de tratamento, incluindo as
+  medidas destinadas a garantir a legalidade e lealdade do tratamento, como as medidas relativas a
+  outras situações específicas de tratamento em conformidade com o capítulo IX. O direito da União
+  ou do Estado-Membro deve responder a um objetivo de interesse público e ser proporcional ao
+  objetivo legítimo prosseguido.""" ;
+    eli:has_translation rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it ;
+    eli:is_translation_of rgdpr:cpt_2.art_6.pt_3.spt_c_eu_de,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_en,
+        rgdpr:cpt_2.art_6.pt_3.spt_c_eu_it ;
+    eli:realizes gdpr:cpt_2.art_6.pt_3.spt_c ;
+    eli:title_alternative "Artigo 6.o-3-c)" .
 
 rgdpr:cpt_2.art_6.pt_3_eu_de a eli:LegalExpression ;
     eli:description """(3)Die Rechtsgrundlage für die Verarbeitungen gemäß Absatz1 Buchstabenc und e wird festgelegt
@@ -20128,6 +19753,54 @@ rgdpr:cpt_3.sct_1.art_12.pt_5.spt_b_eu_pt a eli:LegalExpression ;
         rgdpr:cpt_3.sct_1.art_12.pt_5.spt_b_eu_it ;
     eli:realizes gdpr:cpt_3.sct_1.art_12.pt_5.spt_b ;
     eli:title_alternative "Artigo 12.o-5-b)" .
+
+rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de a eli:LegalExpression ;
+    eli:description """Der Verantwortliche hat den Nachweis für den offenkundig unbegründeten oder exzessiven Charakter
+  des Antrags zu erbringen.""" ;
+    eli:has_translation rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_3.sct_1.art_12.pt_5.spt_c ;
+    eli:title_alternative "Artikel 12-5-c)" .
+
+rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en a eli:LegalExpression ;
+    eli:description """The controller shall bear the burden of demonstrating the manifestly
+          unfounded or excessive character of the request.""" ;
+    eli:has_translation rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_3.sct_1.art_12.pt_5.spt_c ;
+    eli:title_alternative "Article 12-5-c)" .
+
+rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it a eli:LegalExpression ;
+    eli:description """Incombe al titolare del trattamento l'onere di dimostrare il carattere manifestamente
+      infondato o eccessivo della richiesta.""" ;
+    eli:has_translation rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_3.sct_1.art_12.pt_5.spt_c ;
+    eli:title_alternative "Articolo 12-5-c)" .
+
+rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_pt a eli:LegalExpression ;
+    eli:description """Cabe ao responsável pelo tratamento demonstrar o caráter manifestamente infundado ou excessivo do
+  pedido.""" ;
+    eli:has_translation rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it ;
+    eli:is_translation_of rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_de,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_en,
+        rgdpr:cpt_3.sct_1.art_12.pt_5.spt_c_eu_it ;
+    eli:realizes gdpr:cpt_3.sct_1.art_12.pt_5.spt_c ;
+    eli:title_alternative "Artigo 12.o-5-c)" .
 
 rgdpr:cpt_3.sct_1.art_12.pt_5_eu_de a eli:LegalExpression ;
     eli:description """(5)Informationen gemäß den Artikeln13 und 14 sowie alle Mitteilungen und Maßnahmen gemäß den
@@ -28548,6 +28221,60 @@ rgdpr:cpt_4.sct_1.art_28.pt_3.spt_h_eu_pt a eli:LegalExpression ;
         rgdpr:cpt_4.sct_1.art_28.pt_3.spt_h_eu_it ;
     eli:realizes gdpr:cpt_4.sct_1.art_28.pt_3.spt_h ;
     eli:title_alternative "Artigo 28.o-3-h)" .
+
+rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de a eli:LegalExpression ;
+    eli:description """Mit Blick auf Unterabsatz 1 Buchstabe h informiert der Auftragsverarbeiter den Verantwortlichen
+  unverzüglich, falls er der Auffassung ist, dass eine Weisung gegen diese Verordnung oder gegen
+  andere Datenschutzbestimmungen der Union oder der Mitgliedstaaten verstößt.""" ;
+    eli:has_translation rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt ;
+    eli:realizes gdpr:cpt_4.sct_1.art_28.pt_3.spt_i ;
+    eli:title_alternative "Artikel 28-3-i)" .
+
+rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en a eli:LegalExpression ;
+    eli:description """With regard to point(h) of the first subparagraph, the processor shall
+          immediately inform the controller if, in its opinion, an instruction
+          infringes this Regulation or other Union or MemberState data
+          protection provisions.""" ;
+    eli:has_translation rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt ;
+    eli:realizes gdpr:cpt_4.sct_1.art_28.pt_3.spt_i ;
+    eli:title_alternative "Article 28-3-(i)" .
+
+rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it a eli:LegalExpression ;
+    eli:description """Con riguardo alla lettera h) del primo comma, il responsabile del trattamento informa
+      immediatamente il titolare del trattamento qualora, a suo parere, un'istruzione violi il
+      presente regolamento o altre disposizioni, nazionali o dell'Unione, relative alla protezione
+      dei dati.""" ;
+    eli:has_translation rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt ;
+    eli:realizes gdpr:cpt_4.sct_1.art_28.pt_3.spt_i ;
+    eli:title_alternative "Articolo 28-3-i)" .
+
+rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_pt a eli:LegalExpression ;
+    eli:description """No que diz respeito ao primeiro parágrafo, alínea h), o subcontratante informa imediatamente o
+  responsável pelo tratamento se, no seu entender, alguma instrução violar o presente regulamento ou
+  outras disposições do direito da União ou dos Estados-Membros em matéria de proteção de dados.""" ;
+    eli:has_translation rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it ;
+    eli:is_translation_of rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_de,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_en,
+        rgdpr:cpt_4.sct_1.art_28.pt_3.spt_i_eu_it ;
+    eli:realizes gdpr:cpt_4.sct_1.art_28.pt_3.spt_i ;
+    eli:title_alternative "Artigo 28.o-3-i)" .
 
 rgdpr:cpt_4.sct_1.art_28.pt_3_eu_de a eli:LegalExpression ;
     eli:description """(3)Die Verarbeitung durch einen Auftragsverarbeiter erfolgt auf der Grundlage eines Vertrags oder
@@ -41075,6 +40802,100 @@ rgdpr:cpt_5.art_49.pt_1.spt_g_eu_pt a eli:LegalExpression ;
     eli:realizes gdpr:cpt_5.art_49.pt_1.spt_g ;
     eli:title_alternative "Artigo 49.o-1-g)" .
 
+rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de a eli:LegalExpression ;
+    eli:description """Falls die Übermittlung nicht auf eine Bestimmung der Artikel 45 oder 46 — einschließlich der
+  verbindlichen internen Datenschutzvorschriften — gestützt werden könnte und keine der Ausnahmen
+  für einen bestimmten Fall gemäß dem ersten Unterabsatz anwendbar ist, darf eine Übermittlung an
+  ein Drittland oder eine internationale Organisation nur dann erfolgen, wenn die Übermittlung nicht
+  wiederholt erfolgt, nur eine begrenzte Zahl von betroffenen Personen betrifft, für die Wahrung der
+  zwingenden berechtigten Interessen des Verantwortlichen erforderlich ist, sofern die Interessen
+  oder die Rechte und Freiheiten der betroffenen Person nicht überwiegen, und der Verantwortliche
+  alle Umstände der Datenübermittlung beurteilt und auf der Grundlage dieser Beurteilung geeignete
+  Garantien in Bezug auf den Schutz personenbezogener Daten vorgesehen hat. Der Verantwortliche
+  setzt die Aufsichtsbehörde von der Übermittlung in Kenntnis. Der Verantwortliche unterrichtet die
+  betroffene Person über die Übermittlung und seine zwingenden berechtigten Interessen; dies erfolgt
+  zusätzlich zu den der betroffenen Person nach den Artikeln 13 und 14 mitgeteilten Informationen.""" ;
+    eli:has_translation rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt ;
+    eli:realizes gdpr:cpt_5.art_49.pt_1.spt_h ;
+    eli:title_alternative "Artikel 49-1-h)" .
+
+rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en a eli:LegalExpression ;
+    eli:description """Where a transfer could not be based on a provision in Article 45 or 46,
+        including the provisions on binding corporate rules, and none of the
+        derogations for a specific situation referred to in the first
+        subparagraph of this paragraph is applicable, a transfer to a third
+        country or an international organisation may take place only if the
+        transfer is not repetitive, concerns only a limited number of data
+        subjects, is necessary for the purposes of compelling legitimate
+        interests pursued by the controller which are not overridden by the
+        interests or rights and freedoms of the data subject, and the controller
+        has assessed all the circumstances surrounding the data transfer and has
+        on the basis of that assessment provided suitable safeguards with regard
+        to the protection of personal data. The controller shall inform the
+        supervisory authority of the transfer. The controller shall, in addition
+        to providing the information referred to in Articles13 and 14, inform
+        the data subject of the transfer and on the compelling legitimate
+        interests pursued.""" ;
+    eli:has_translation rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt ;
+    eli:realizes gdpr:cpt_5.art_49.pt_1.spt_h ;
+    eli:title_alternative "Article 49-1-h)" .
+
+rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it a eli:LegalExpression ;
+    eli:description """Se non è possibile basare il trasferimento su una disposizione dell'articolo45 o46, comprese
+      le disposizioni sulle norme vincolanti d'impresa, e nessuna delle deroghe in specifiche
+      situazioni a norma del primo comma del presente paragrafo è applicabile, il trasferimento
+      verso un paese terzo o un'organizzazione internazionale sia ammesso soltanto se non è
+      ripetitivo, riguarda un numero limitato di interessati, è necessario per il perseguimento
+      degli interessi legittimi cogenti del titolare del trattamento, su cui non prevalgano gli
+      interessi o i diritti e le libertà dell'interessato, e qualora il titolare e del trattamento
+      abbia valutato tutte le circostanze relative al trasferimento e sulla base di tale valutazione
+      abbia fornito garanzie adeguate relativamente alla protezione dei dati personali. Il titolare
+      del trattamento informa del trasferimento l'autorità di controllo. In aggiunta alla fornitura
+      di informazioni di cui agli articoli13 e 14, il titolare del trattamento informa l'interessato
+      del trasferimento e degli interessi legittimi cogenti perseguiti.""" ;
+    eli:has_translation rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt ;
+    eli:realizes gdpr:cpt_5.art_49.pt_1.spt_h ;
+    eli:title_alternative "Articolo 49-1-h)" .
+
+rgdpr:cpt_5.art_49.pt_1.spt_h_eu_pt a eli:LegalExpression ;
+    eli:description """Quando uma transferência não puder basear-se no disposto no artigo 45.o
+  ou 46.o, incluindo nas regras vinculativas aplicáveis às empresas, e
+  não for aplicável nenhuma das derrogações previstas para as situações específicas a que se refere
+  o primeiro parágrafo do presente número, a transferência para um país terceiro ou uma organização
+  internacional só pode ser efetuada se não for repetitiva, apenas disser respeito a um número
+  limitado de titulares dos dados, for necessária para efeitos dos interesses legítimos visados pelo
+  responsável pelo seu tratamento, desde que a tais interesses não se sobreponham os interesses ou
+  os direitos e liberdades do titular dos dados, e o responsável pelo tratamento tiver ponderado
+  todas as circunstâncias relativas à transferência de dados e, com base nessa avaliação, tiver
+  apresentado garantias adequadas no que respeita à proteção de dados pessoais. O responsável pelo
+  tratamento informa da transferência a autoridade de controlo. Para além de fornecer a informação
+  referida nos artigos 13.o e 14.o, o
+  responsável pelo tratamento presta informações ao titular dos dados sobre a transferência e os
+  interesses legítimos visados.""" ;
+    eli:has_translation rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it ;
+    eli:is_translation_of rgdpr:cpt_5.art_49.pt_1.spt_h_eu_de,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_en,
+        rgdpr:cpt_5.art_49.pt_1.spt_h_eu_it ;
+    eli:realizes gdpr:cpt_5.art_49.pt_1.spt_h ;
+    eli:title_alternative "Artigo 49.o-1-h)" .
+
 rgdpr:cpt_5.art_49.pt_1_eu_de a eli:LegalExpression ;
     eli:description """(1)Falls weder ein Angemessenheitsbeschluss nach Artikel45 Absatz 3 vorliegt noch geeignete
   Garantien nach Artikel46, einschließlich verbindlicher interner Datenschutzvorschriften, bestehen,
@@ -42423,6 +42244,185 @@ rgdpr:cpt_6.sct_1.art_52_eu_pt a eli:LegalExpression ;
     eli:number "52" ;
     eli:realizes gdpr:cpt_6.sct_1.art_52 ;
     eli:title_alternative "Artigo 52.o" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de a eli:LegalExpression ;
+    eli:description "vom Parlament," ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_a ;
+    eli:title_alternative "Artikel 53-1-a)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en a eli:LegalExpression ;
+    eli:description "their parliament;" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_a ;
+    eli:title_alternative "Article 53-1-a)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it a eli:LegalExpression ;
+    eli:description "dal rispettivo parlamento;" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_a ;
+    eli:title_alternative "Articolo 53-1-a)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_pt a eli:LegalExpression ;
+    eli:description "pelo Parlamento," ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_a_eu_it ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_a ;
+    eli:title_alternative "Artigo 53.o-1-a)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de a eli:LegalExpression ;
+    eli:description "von der Regierung," ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_b ;
+    eli:title_alternative "Artikel 53-1-b)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en a eli:LegalExpression ;
+    eli:description "their government;" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_b ;
+    eli:title_alternative "Article 53-1-b)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it a eli:LegalExpression ;
+    eli:description "dal rispettivo governo;" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_b ;
+    eli:title_alternative "Articolo 53-1-b)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_pt a eli:LegalExpression ;
+    eli:description "pelo Governo," ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_b_eu_it ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_b ;
+    eli:title_alternative "Artigo 53.o-1-b)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de a eli:LegalExpression ;
+    eli:description "vom Staatsoberhaupt oder" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_c ;
+    eli:title_alternative "Artikel 53-1-c)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en a eli:LegalExpression ;
+    eli:description "their head of State; or" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_c ;
+    eli:title_alternative "Article 53-1-c)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it a eli:LegalExpression ;
+    eli:description "dal rispettivo capo di Stato; oppure" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_c ;
+    eli:title_alternative "Articolo 53-1-c)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_pt a eli:LegalExpression ;
+    eli:description "pelo Chefe de Estado, ou" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_c_eu_it ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_c ;
+    eli:title_alternative "Artigo 53.o-1-c)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de a eli:LegalExpression ;
+    eli:description """von einer unabhängigen Stelle, die nach dem Recht des Mitgliedstaats mit der Ernennung
+          betraut wird.""" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_d ;
+    eli:title_alternative "Artikel 53-1-d)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en a eli:LegalExpression ;
+    eli:description "an independent body entrusted with the appointment under Member State law." ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_d ;
+    eli:title_alternative "Article 53-1-d)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it a eli:LegalExpression ;
+    eli:description """da un organismo indipendente incaricato della nomina a norma del diritto dello Stato
+              membro.""" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_d ;
+    eli:title_alternative "Articolo 53-1-d)" .
+
+rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_pt a eli:LegalExpression ;
+    eli:description """por um organismo independente incumbido da nomeação nos termos do direito do
+          Estado-Membro.""" ;
+    eli:has_translation rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it ;
+    eli:is_translation_of rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_de,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_en,
+        rgdpr:cpt_6.sct_1.art_53.pt_1.spt_d_eu_it ;
+    eli:realizes gdpr:cpt_6.sct_1.art_53.pt_1.spt_d ;
+    eli:title_alternative "Artigo 53.o-1-d)" .
 
 rgdpr:cpt_6.sct_1.art_53.pt_1_eu_de a eli:LegalExpression ;
     eli:description """(1)Die Mitgliedstaaten sehen vor, dass jedes Mitglied ihrer Aufsichtsbehörden im Wege eines

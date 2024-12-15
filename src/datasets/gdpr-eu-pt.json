@@ -496,10 +496,10 @@
                   "O tratamento for necessário para efeito dos interesses legítimos prosseguidos pelo\n          responsável pelo tratamento ou por terceiros, exceto se prevalecerem os interesses ou\n          direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais, em\n          especial se o titular for uma criança."
                 ]
               },
-              "733e0c38-b95b-4483-84c1-f2b474961ec3": {
+              "cpt_2.art_6.pt_1.spt_g": {
                 "classType": "SUBPOINT",
                 "content": [
-                  "",
+                  "g)",
                   "O primeiro parágrafo, alínea f), não se aplica ao tratamento de dados efetuado por autoridades\n  públicas na prossecução das suas atribuições por via eletrónica."
                 ]
               }
@@ -527,10 +527,10 @@
                   "Pelo direito do Estado-Membro ao qual o responsável pelo tratamento está sujeito."
                 ]
               },
-              "6867f80c-9431-4ad7-9d51-16fc9c7db4e1": {
+              "cpt_2.art_6.pt_3.spt_c": {
                 "classType": "SUBPOINT",
                 "content": [
-                  "",
+                  "c)",
                   "A finalidade do tratamento é determinada com esse fundamento jurídico ou, no que respeita ao\n  tratamento referido no n.o 1, alínea e), deve ser necessária ao\n  exercício de funções de interesse público ou ao exercício da autoridade pública de que está\n  investido o responsável pelo tratamento. Esse fundamento jurídico pode prever disposições\n  específicas para adaptar a aplicação das regras do presente regulamento, nomeadamente: as\n  condições gerais de licitude do tratamento pelo responsável pelo seu tratamento; os tipos de dados\n  objeto de tratamento; os titulares dos dados em questão; as entidades a que os dados pessoais\n  poderão ser comunicados e para que efeitos; os limites a que as finalidades do tratamento devem\n  obedecer; os prazos de conservação; e as operações e procedimentos de tratamento, incluindo as\n  medidas destinadas a garantir a legalidade e lealdade do tratamento, como as medidas relativas a\n  outras situações específicas de tratamento em conformidade com o capítulo IX. O direito da União\n  ou do Estado-Membro deve responder a um objetivo de interesse público e ser proporcional ao\n  objetivo legítimo prosseguido."
                 ]
               }
@@ -861,10 +861,10 @@
                     "classType": "SUBPOINT",
                     "content": ["b)", "Recusar-se a dar seguimento ao pedido."]
                   },
-                  "18582c75-a8c3-4ed1-a0cc-4b03bc1ad43e": {
+                  "cpt_3.sct_1.art_12.pt_5.spt_c": {
                     "classType": "SUBPOINT",
                     "content": [
-                      "",
+                      "c)",
                       "Cabe ao responsável pelo tratamento demonstrar o caráter manifestamente infundado ou excessivo do\n  pedido."
                     ]
                   }
@@ -2063,10 +2063,10 @@
                       "Disponibiliza ao responsável pelo tratamento todas as informações necessárias para\n          demonstrar o cumprimento das obrigações previstas no presente artigo e facilita e\n          contribui para as auditorias, inclusive as inspeções, conduzidas pelo responsável pelo\n          tratamento ou por outro auditor por este mandatado."
                     ]
                   },
-                  "c278d7d5-259f-4627-9ac7-988e89d4e6e0": {
+                  "cpt_4.sct_1.art_28.pt_3.spt_i": {
                     "classType": "SUBPOINT",
                     "content": [
-                      "",
+                      "i)",
                       "No que diz respeito ao primeiro parágrafo, alínea h), o subcontratante informa imediatamente o\n  responsável pelo tratamento se, no seu entender, alguma instrução violar o presente regulamento ou\n  outras disposições do direito da União ou dos Estados-Membros em matéria de proteção de dados."
                     ]
                   }
@@ -3654,10 +3654,10 @@
                   "A transferência for realizada a partir de um registo que, nos termos do direito da União\n          ou do Estado-Membro, se destine a informar o público e se encontre aberto à consulta do\n          público em geral ou de qualquer pessoa que possa provar nela ter um interesse legítimo,\n          mas apenas na medida em que as condições de consulta estabelecidas no direito da União ou\n          de um Estado-Membro se encontrem preenchidas nesse caso concreto."
                 ]
               },
-              "03d3237c-defa-4637-be7b-316775816c17": {
+              "cpt_5.art_49.pt_1.spt_h": {
                 "classType": "SUBPOINT",
                 "content": [
-                  "",
+                  "h)",
                   "Quando uma transferência não puder basear-se no disposto no artigo 45.o\n  ou 46.o, incluindo nas regras vinculativas aplicáveis às empresas, e\n  não for aplicável nenhuma das derrogações previstas para as situações específicas a que se refere\n  o primeiro parágrafo do presente número, a transferência para um país terceiro ou uma organização\n  internacional só pode ser efetuada se não for repetitiva, apenas disser respeito a um número\n  limitado de titulares dos dados, for necessária para efeitos dos interesses legítimos visados pelo\n  responsável pelo seu tratamento, desde que a tais interesses não se sobreponham os interesses ou\n  os direitos e liberdades do titular dos dados, e o responsável pelo tratamento tiver ponderado\n  todas as circunstâncias relativas à transferência de dados e, com base nessa avaliação, tiver\n  apresentado garantias adequadas no que respeita à proteção de dados pessoais. O responsável pelo\n  tratamento informa da transferência a autoridade de controlo. Para além de fornecer a informação\n  referida nos artigos 13.o e 14.o, o\n  responsável pelo tratamento presta informações ao titular dos dados sobre a transferência e os\n  interesses legítimos visados."
                 ]
               }
@@ -3853,22 +3853,22 @@
                     "classType": "POINT",
                     "content": "1. Os Estados-Membros estabelecem que cada membro das respetivas autoridades de controlo seja\n  nomeado por procedimento transparente:"
                   },
-                  "0d98a029-23e7-4e32-a601-6c315660ce64": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_a": {
                     "classType": "SUBPOINT",
-                    "content": ["—", "pelo Parlamento,"]
+                    "content": ["a)", "pelo Parlamento,"]
                   },
-                  "52411851-aa55-4a22-b169-399a102e1f3c": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_b": {
                     "classType": "SUBPOINT",
-                    "content": ["—", "pelo Governo,"]
+                    "content": ["b)", "pelo Governo,"]
                   },
-                  "81a9c584-e750-4e22-9d39-cf1e5892e2d8": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_c": {
                     "classType": "SUBPOINT",
-                    "content": ["—", "pelo Chefe de Estado, ou"]
+                    "content": ["c)", "pelo Chefe de Estado, ou"]
                   },
-                  "b670a688-3a5c-4d81-a398-5b41a64ecff9": {
+                  "cpt_6.sct_1.art_53.pt_1.spt_d": {
                     "classType": "SUBPOINT",
                     "content": [
-                      "—",
+                      "d)",
                       "por um organismo independente incumbido da nomeação nos termos do direito do\n          Estado-Membro."
                     ]
                   }
