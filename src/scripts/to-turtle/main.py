@@ -7,6 +7,8 @@ from handlers.handle_chapter import handle_chapter
 from handlers.handle_abstract_chapter import handle_abstract_chapter
 from handlers.handle_national_chapter import handle_national_chapter
 from handlers.handle_national_part import handle_national_part
+from handlers.handle_national_abstract_part import handle_national_abstract_part
+from handlers.handle_national_abstract_chapter import handle_national_abstract_chapter
 
 
 # Create an RDF graph
@@ -213,8 +215,44 @@ graph.add(
     )
 )
 
+national_locales = ["de", "pt"]
+# National Abstract Implementation
+for locale in national_locales:
+    with open(make_path(f"src/datasets/gdpr-{locale}.json"), "r") as f:
+        data = json.load(f)
+        # Start the recursive function
+        for key, node in data.items():
+            node_uri = URIRef(GDPR + key + "_abstract_" + locale)
 
-for locale in ["de", "pt"]:
+            if node["classType"] == "CHAPTER":
+                handle_national_abstract_chapter(
+                    graph,
+                    node,
+                    node_uri,
+                    None,
+                    locale,
+                    {
+                        "RGDPR": RGDPR,
+                        "GDPR": GDPR,
+                        "ELI": ELI,
+                    },
+                )
+            elif node["classType"] == "PART":
+                handle_national_abstract_part(
+                    graph,
+                    node,
+                    node_uri,
+                    locale,
+                    {
+                        "RGDPR": RGDPR,
+                        "GDPR": GDPR,
+                        "ELI": ELI,
+                    },
+                )
+
+# National Concrete Implementation
+"""
+for locale in national_locales:
     rgdpr_uri = URIRef(RGDPR + f"gdpr_{locale}")
     graph.add((rgdpr_uri, RDF.type, ELI.LegalExpression))
     graph.add((rgdpr_uri, ELI.language, Literal(locale)))
@@ -232,6 +270,8 @@ for locale in ["de", "pt"]:
             rgdpr_uri,
         )
     )
+    graph.add((rgdpr_uri, ELI.realizes, _GDPR))
+    graph.add((_GDPR, ELI.is_realized_by, rgdpr_uri))
 
     with open(make_path(f"src/datasets/gdpr-{locale}.json"), "r") as f:
         data = json.load(f)
@@ -264,6 +304,7 @@ for locale in ["de", "pt"]:
                     },
                 )
 
+"""
 
 # Serialize the RDF graph in Turtle format
 graph.serialize(
