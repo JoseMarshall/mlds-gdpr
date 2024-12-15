@@ -3,10 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rgdpr: <http://example.org/rgdpr#> .
 
-gdpr:SubSubPoint a eli:LegalResourceSubdivision ;
-    rdfs:label "SubSubPoint" ;
-    eli:is_part_of gdpr:SubPoint .
-
 gdpr:p_4_abstract_de a gdpr:Part ;
     eli:is_realized_by rgdpr:p_4_de .
 
@@ -928,11 +924,11 @@ gdpr:p_1.cpt_1.art_1.pt_1.spt_1_abstract_de a gdpr:SubPoint ;
     eli:is_part_of gdpr:p_1.cpt_1.art_1.pt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_1.cpt_1.art_1.pt_1.spt_1_de .
 
-gdpr:p_1.cpt_1.art_1.pt_1.spt_2.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_1.cpt_1.art_1.pt_1.spt_2.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_1.cpt_1.art_1.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_1.cpt_1.art_1.pt_1.spt_2.sspt_a_de .
 
-gdpr:p_1.cpt_1.art_1.pt_1.spt_2.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_1.cpt_1.art_1.pt_1.spt_2.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_1.cpt_1.art_1.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_1.cpt_1.art_1.pt_1.spt_2.sspt_b_de .
 
@@ -1408,35 +1404,35 @@ gdpr:p_1.cpt_6.art_21.pt_6_abstract_de a gdpr:Point ;
     eli:is_part_of gdpr:p_1.cpt_6.art_21_abstract_de ;
     eli:is_realized_by rgdpr:p_1.cpt_6.art_21.pt_6_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_a_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_b_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_c_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_c_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_c_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_d_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_d_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_1.sspt_d_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_a_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_b_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_c_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_c_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_c_de .
 
-gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_d_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_d_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_1.art_22.pt_1.spt_2.sspt_d_de .
 
@@ -1688,19 +1684,19 @@ gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_3_abstract_de a gdpr:SubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_2.art_31.pt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_3_de .
 
-gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_a_de .
 
-gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_b_de .
 
-gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_c_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_c_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_c_de .
 
-gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_d_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_d_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_1.sct_2.art_31.pt_2.spt_4.sspt_d_de .
 
@@ -1740,23 +1736,23 @@ gdpr:p_2.cpt_2.art_32.pt_3_abstract_de a gdpr:Point ;
     eli:is_part_of gdpr:p_2.cpt_2.art_32_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_32.pt_3_de .
 
-gdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_33.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_a_de .
 
-gdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_33.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_b_de .
 
-gdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_c_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_c_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_33.pt_1.spt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_33.pt_1.spt_1.sspt_c_de .
 
-gdpr:p_2.cpt_2.art_33.pt_1.spt_2.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_33.pt_1.spt_2.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_33.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_33.pt_1.spt_2.sspt_a_de .
 
-gdpr:p_2.cpt_2.art_33.pt_1.spt_2.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_33.pt_1.spt_2.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_33.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_33.pt_1.spt_2.sspt_b_de .
 
@@ -1772,15 +1768,15 @@ gdpr:p_2.cpt_2.art_34.pt_1.spt_1_abstract_de a gdpr:SubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_34.pt_1_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_34.pt_1.spt_1_de .
 
-gdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_a_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_a_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_34.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_a_de .
 
-gdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_b_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_b_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_34.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_b_de .
 
-gdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_c_abstract_de a gdpr:Part ;
+gdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_c_abstract_de a gdpr:SubSubPoint ;
     eli:is_part_of gdpr:p_2.cpt_2.art_34.pt_1.spt_2_abstract_de ;
     eli:is_realized_by rgdpr:p_2.cpt_2.art_34.pt_1.spt_2.sspt_c_de .
 
@@ -9247,6 +9243,11 @@ rgdpr:p_3.cpt_7_de a eli:LegalExpression ;
     eli:realizes gdpr:p_3.cpt_7_abstract_de ;
     eli:title "Haftung und Sanktionen" ;
     eli:title_alternative "Kapitel 7" .
+
+gdpr:Part a eli:LegalResourceSubdivision ;
+    rdfs:label "Part" ;
+    eli:has_part gdpr:Chapter ;
+    eli:is_part_of gdpr:GDPR .
 
 gdpr:cpt_1.art_1.pt_1 a gdpr:Point ;
     eli:is_part_of gdpr:cpt_1.art_1 ;
@@ -68583,6 +68584,10 @@ gdpr:Section a eli:LegalResourceSubdivision ;
     eli:has_part gdpr:Article ;
     eli:is_part_of gdpr:Chapter .
 
+gdpr:SubSubPoint a eli:LegalResourceSubdivision ;
+    rdfs:label "SubSubPoint" ;
+    eli:is_part_of gdpr:SubPoint .
+
 gdpr:cpt_7.sct_2.art_38.pt_1_abstract_pt a gdpr:Point ;
     eli:has_part gdpr:cpt_7.sct_2.art_38.pt_1.spt_a_abstract_pt,
         gdpr:cpt_7.sct_2.art_38.pt_1.spt_b_abstract_pt,
@@ -68635,11 +68640,6 @@ rgdpr:cpt_7.sct_2.art_38.pt_1_pt a eli:LegalExpression ;
     eli:number "1" ;
     eli:realizes gdpr:cpt_7.sct_2.art_38.pt_1_abstract_pt ;
     eli:title_alternative "Artigo 38.º-1" .
-
-gdpr:Part a eli:LegalResourceSubdivision ;
-    rdfs:label "Part" ;
-    eli:has_part gdpr:Chapter ;
-    eli:is_part_of gdpr:GDPR .
 
 gdpr:cpt_6.sct_2.art_57.pt_1 a gdpr:Point ;
     eli:has_part gdpr:cpt_6.sct_2.art_57.pt_1.spt_a,

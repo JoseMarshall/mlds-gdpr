@@ -18,7 +18,7 @@ def handle_national_abstract_subsubpoint(
     ):
         return
 
-    graph.add((node_uri, RDF.type, custom_namespaces["GDPR"].Part))
+    graph.add((node_uri, RDF.type, custom_namespaces["GDPR"].SubSubPoint))
     realized_uri = URIRef(
         custom_namespaces["RGDPR"]
         + extract_node_id(node_uri, "abstract_" + locale)
