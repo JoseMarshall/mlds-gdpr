@@ -19,13 +19,7 @@ def handle_national_subsubpoint(
         return
 
     graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalExpression))
-    graph.add(
-        (
-            node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
+
     graph.add(
         (
             node_uri,

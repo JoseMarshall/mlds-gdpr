@@ -33,25 +33,10 @@ def handle_national_chapter(
         )
     )
 
-    if parent_uri:
-        graph.add(
-            (
-                node_uri,
-                custom_namespaces["ELI"].is_part_of,
-                parent_uri,
-            )
-        )
-
     for key, value in node["content"].items():
         if value["classType"] == "ARTICLE":
             article_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    article_uri,
-                )
-            )
+
             handle_national_article(
                 graph,
                 value,
@@ -63,13 +48,7 @@ def handle_national_chapter(
 
         elif value["classType"] == "SECTION":
             section_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    section_uri,
-                )
-            )
+
             handle_national_section(
                 graph,
                 value,

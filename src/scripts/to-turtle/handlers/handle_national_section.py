@@ -20,13 +20,7 @@ def handle_national_section(
         return
 
     graph.add((node_uri, RDF.type, custom_namespaces["ELI"].LegalExpression))
-    graph.add(
-        (
-            node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
+
     graph.add(
         (
             node_uri,
@@ -43,13 +37,6 @@ def handle_national_section(
     for key, article in node["content"].items():
         if article["classType"] == "ARTICLE":
             article_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    article_uri,
-                )
-            )
 
             handle_national_article(
                 graph,
