@@ -270,8 +270,6 @@ for locale in national_locales:
             rgdpr_uri,
         )
     )
-    graph.add((rgdpr_uri, ELI.realizes, _GDPR))
-    graph.add((_GDPR, ELI.is_realized_by, rgdpr_uri))
 
     with open(make_path(f"src/datasets/gdpr-{locale}.json"), "r") as f:
         data = json.load(f)

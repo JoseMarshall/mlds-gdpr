@@ -25,13 +25,6 @@ def handle_national_article(
     graph.add(
         (
             node_uri,
-            custom_namespaces["ELI"].is_part_of,
-            parent_uri,
-        )
-    )
-    graph.add(
-        (
-            node_uri,
             custom_namespaces["ELI"].realizes,
             URIRef(
                 custom_namespaces["GDPR"]
@@ -75,13 +68,7 @@ def handle_national_article(
     for key, point in node["content"].items():
         if point["classType"] == "POINT":
             point_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add(
-                (
-                    node_uri,
-                    custom_namespaces["ELI"].has_part,
-                    point_uri,
-                )
-            )
+
             handle_national_point(
                 graph,
                 point,

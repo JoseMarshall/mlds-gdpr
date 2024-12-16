@@ -40,7 +40,7 @@ def handle_national_part(
 
         elif value["classType"] == "CHAPTER":
             chapter_uri = URIRef(custom_namespaces["RGDPR"] + key + "_" + locale)
-            graph.add((node_uri, custom_namespaces["ELI"].has_part, chapter_uri))
+
             handle_national_chapter(
                 graph,
                 value,
