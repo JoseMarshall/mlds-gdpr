@@ -38,52 +38,141 @@ if section == "Overview":
     st.write(f"Number of unique classes: {len(classes)}")
     st.write(f"Number of unique properties: {len(properties)}")
 
-# Search Ontology Section
 elif section == "Search Ontology":
     st.header("Search Ontology")
-    query = st.text_area(
-        "SPARQL Query",
-        """PREFIX : <http://your-ontology-base-iri#>
-        SELECT ?individual ?description
-        WHERE {
-            ?individual :description ?description .
-            FILTER(CONTAINS(?description, "Stellen"))
-        }
-        """
-    )
-    if st.button("Run Query"):
-        try:
-            results = ontology_graph.query(query)
-            st.success("Query executed successfully!")
-            st.write("### Results:")
-            
-            # Display results in a table format
-            for row in results:
-                st.write(f"Individual: {row[0]}, Description: {row[1]}")
-        except Exception as e:
-            st.error(f"Error executing query: {e}")
 
-# Visualize Data Section
-elif section == "Visualize Data":
-    st.header("Visualize Ontology")
-    
-    # Create a sample graph visualization
-    G = nx.DiGraph()
-    for subj, pred, obj in ontology_graph:
-        G.add_edge(str(subj), str(obj), label=str(pred))
-    
-    fig, ax = plt.subplots(figsize=(12, 8))
-    pos = nx.spring_layout(G)
-    nx.draw(
-        G,
-        pos,
-        with_labels=True,
-        node_size=2000,
-        node_color="lightblue",
-        edge_color="gray",
-        font_size=10,
-        ax=ax,
+    # Option to toggle between SPARQL and high-level query
+    query_type = st.radio(
+        "Choose Query Mode", 
+        ["SPARQL Query (Advanced)", "High-Level Query (Easy)"]
     )
-    edge_labels = nx.get_edge_attributes(G, "label")
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
-    st.pyplot(fig)
+
+    if query_type == "SPARQL Query (Advanced)":
+        # SPARQL query input
+        query = st.text_area(
+            "SPARQL Query",
+            """PREFIX eli: <http://data.europa.eu/eli/ontology#>
+            SELECT ?subject ?description
+            WHERE {
+                ?subject eli:description ?description .
+                FILTER(CONTAINS(?description, "Stellen"))
+            }
+            """,
+            height=200
+        )
+
+        # Checkbox for including linked properties
+        include_linked_properties = st.checkbox("Include linked properties/articles (eli:implementation_ensured_by & eli:implementation_of)")
+
+        if st.button("Run Query"):
+            try:
+                # Execute the user-provided query
+                results = ontology_graph.query(query)
+                st.success("Query executed successfully!")
+
+                # Process results and optionally add linked properties
+                data = []
+                for row in results:
+                    subject = row[0]
+                    description = row[1]
+
+                    linked = []
+                    if include_linked_properties:
+                        # Fetch linked properties for this subject
+                        for prop, inverse in [
+                            ("eli:implementation_ensured_by", "eli:implementation_of"),
+                            ("eli:implementation_of", "eli:implementation_ensured_by"),
+                        ]:
+                            query_linked = f"""
+                                PREFIX eli: <http://data.europa.eu/eli/ontology#>
+                                SELECT ?linked
+                                WHERE {{
+                                    <{subject}> eli:{prop} ?linked .
+                                }}
+                            """
+                            linked_results = ontology_graph.query(query_linked)
+                            linked.extend([str(linked_row[0]) for linked_row in linked_results])
+
+                    # Add result to the data list
+                    data.append({
+                        "Subject": subject,
+                        "Description": description,
+                        "Linked Properties": ", ".join(linked) if linked else "None"
+                    })
+
+                # Display results in a table
+                if data:
+                    st.table(data)
+                else:
+                    st.write("No results found.")
+
+            except Exception as e:
+                st.error(f"Error executing query: {e}")
+
+    elif query_type == "High-Level Query (Easy)":
+        st.subheader("Predefined Query Options")
+
+        # Checkboxes for high-level options
+        look_for_articles = st.checkbox("Look for specific article")
+        include_linked_properties = st.checkbox("Include linked properties")
+
+        if st.button("Run Query"):
+            base_query = """
+                PREFIX eli: <http://data.europa.eu/eli/ontology#>
+                SELECT ?subject ?description
+                WHERE {
+                    ?subject eli:description ?description .
+                }
+            """
+            # Query modifications based on checkboxes
+            if look_for_articles:
+                base_query = """
+                    PREFIX eli: <http://data.europa.eu/eli/ontology#>
+                    SELECT ?subject ?description
+                    WHERE {
+                        ?subject a eli:LegalResource ;
+                                 eli:description ?description .
+                    }
+                """
+
+            try:
+                # Run query
+                results = ontology_graph.query(base_query)
+                st.success("Query executed successfully!")
+
+                # Process results and add linked properties if selected
+                data = []
+                for row in results:
+                    subject = row[0]
+                    description = row[1]
+
+                    linked = []
+                    if include_linked_properties:
+                        # Check for linked properties
+                        for prop, inverse in [
+                            ("eli:implementation_ensured_by", "eli:implementation_of"),
+                            ("eli:implementation_of", "eli:implementation_ensured_by"),
+                        ]:
+                            query_linked = f"""
+                                PREFIX eli: <http://data.europa.eu/eli/ontology#>
+                                SELECT ?linked
+                                WHERE {{
+                                    <{subject}> eli:{prop} ?linked .
+                                }}
+                            """
+                            linked_results = ontology_graph.query(query_linked)
+                            linked.extend([str(linked_row[0]) for linked_row in linked_results])
+
+                    data.append({
+                        "Subject": subject,
+                        "Description": description,
+                        "Linked Properties": ", ".join(linked) if linked else "None"
+                    })
+
+                # Display results in a table
+                if data:
+                    st.table(data)
+                else:
+                    st.write("No results found.")
+            except Exception as e:
+                st.error(f"Error executing query: {e}")
