@@ -157,7 +157,7 @@ elif section == "Search Ontology":
                                 PREFIX eli: <http://data.europa.eu/eli/ontology#>
                                 SELECT ?linked
                                 WHERE {{
-                                    <{subject}> eli:{prop} ?linked .
+                                    <{subject}> {prop} ?linked .
                                 }}
                             """
                             linked_results = ontology_graph.query(query_linked)
