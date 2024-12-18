@@ -295,35 +295,78 @@ elif st.session_state["active_section"] == "Visualization":
     # Create a Pyvis Network instance
     net = Network(height="750px", width="100%", directed=True)
 
-    query = "SELECT ?subject ?predicate ?object WHERE {?subject ?predicate ?object .}"
+    query = """
+    SELECT ?subject ?predicate ?object 
+    WHERE {
+        ?subject ?predicate ?object .
+        FILTER(
+            ?predicate IN (
+                <http://data.europa.eu/eli/ontology#is_realized_by>,
+                <http://data.europa.eu/eli/ontology#has_part>,
+                <http://data.europa.eu/eli/ontology#is_part_of>,
+                <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+            ) || 
+            ?subject IN (
+                <http://data.europa.eu/eli/ontology#LegalExpression>,
+                <http://data.europa.eu/eli/ontology#LegalResource>,
+                <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>,
+                <http://example.org/gdpr#Article>,
+                <http://example.org/gdpr#Chapter>,
+                <http://example.org/gdpr#Part>,
+                <http://example.org/gdpr#Point>,
+                <http://example.org/gdpr#Section>,
+                <http://example.org/gdpr#SubPoint>,
+                <http://example.org/gdpr#SubSubPoint>
+            ) ||
+            ?object IN (
+                <http://example.org/gdpr#GDPR>,
+                <http://example.org/rgdpr#>
+            )
+        )
+    }
+    """
     with st.spinner("Generating interactive visualization..."):
         try:
-            # Execute SPARQL query
             results = ontology_graph.query(query)
             count = 0
-            max_triples = 1500  # Limit the number of triples for performance
+            max_triples = 2000  # Adjust as needed for performance
 
-            # Add nodes and edges to the graph
+            # Dictionary to track added nodes and avoid duplicates
+            added_nodes = set()
+
             for subject, predicate, obj in results:
-                if count >= max_triples:
-                    break
                 subj_label = subject.split("/")[-1]
                 obj_label = obj.split("/")[-1]
                 pred_label = predicate.split("#")[-1]
 
-                net.add_node(subj_label,
-                             label=subj_label,
-                             title=subject,
-                             color='#4CAF50')  # Green color for subject nodes
-                net.add_node(obj_label,
-                             label=obj_label,
-                             title=obj,
-                             color='#2196F3')  # Blue color for object nodes
+                # Add subject node if not already added
+                if subj_label not in added_nodes:
+                    net.add_node(subj_label,
+                                 label=subj_label,
+                                 title=subject,
+                                 color='#4CAF50')  # Green for classes
+                    added_nodes.add(subj_label)
+
+                # Add object node if not already added
+                if obj_label not in added_nodes:
+                    net.add_node(obj_label,
+                                 label=obj_label,
+                                 title=obj,
+                                 color='#2196F3')  # Blue for individuals
+                    added_nodes.add(obj_label)
+
+                # Add edge
                 net.add_edge(subj_label, obj_label, label=pred_label)
                 count += 1
 
-            if count == 0:
-                st.warning("No data available to visualize. Please ensure the ontology contains triples.")
+                if count >= max_triples:
+                    break
+
+            # Check if the graph has at least 10 nodes
+            if len(added_nodes) < 10:
+                st.warning("The generated graph contains fewer than 10 nodes. No visualization will be displayed.")
+            elif count == 0:
+                st.warning("No data available to visualize. Please ensure the ontology contains relevant triples.")
             else:
                 # Customize Pyvis options
                 net.set_options("""
@@ -356,4 +399,8 @@ elif st.session_state["active_section"] == "Visualization":
 
         except Exception as e:
             st.error(f"Visualization error: {e}")
+
+
+
+
 
