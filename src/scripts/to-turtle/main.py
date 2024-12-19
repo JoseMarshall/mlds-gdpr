@@ -223,8 +223,15 @@ for locale in national_locales:
         # Start the recursive function
         for key, node in data.items():
             node_uri = URIRef(GDPR + key + "_abstract_" + locale)
+            abstract_layer_uri = URIRef(GDPR + "gdpr_abstract_" + locale)
+            graph.add((abstract_layer_uri, RDF.type, ELI.LegalResource))
+            graph.add(
+                (abstract_layer_uri, RDFS.label, Literal(f"gdpr_abstract_{locale}"))
+            )
+            graph.add((abstract_layer_uri, ELI.has_part, node_uri))
 
             if node["classType"] == "CHAPTER":
+
                 handle_national_abstract_chapter(
                     graph,
                     node,
@@ -253,9 +260,11 @@ for locale in national_locales:
 # National Concrete Implementation
 
 for locale in national_locales:
+    abstract_layer_uri = URIRef(GDPR + "gdpr_abstract_" + locale)
     rgdpr_uri = URIRef(RGDPR + f"gdpr_{locale}")
     graph.add((rgdpr_uri, RDF.type, ELI.LegalExpression))
     graph.add((rgdpr_uri, ELI.language, Literal(locale)))
+    graph.add((rgdpr_uri, ELI.realizes, abstract_layer_uri))
     graph.add(
         (
             rgdpr_uri,
@@ -270,6 +279,8 @@ for locale in national_locales:
             rgdpr_uri,
         )
     )
+
+    graph.add((abstract_layer_uri, ELI.is_realized_by, rgdpr_uri))
 
     with open(make_path(f"src/datasets/gdpr-{locale}.json"), "r") as f:
         data = json.load(f)
