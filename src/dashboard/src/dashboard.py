@@ -218,7 +218,7 @@ elif st.session_state["active_section"] == "Search Ontology":
         st.write("Search the ontology by entering a keyword.")
 
         # Input field for the keyword search
-        search_term = st.text_input("Enter a keyword or phrase:")
+        search_input = st.text_input("Enter a keyword or phrase:")
 
         # Execute the search when the button is clicked
         if st.button("Search"):
