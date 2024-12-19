@@ -303,21 +303,8 @@ elif st.session_state["active_section"] == "Visualization":
             ?predicate IN (
                 <http://data.europa.eu/eli/ontology#is_realized_by>,
                 <http://data.europa.eu/eli/ontology#has_part>,
-                <http://data.europa.eu/eli/ontology#is_part_of>,
-                <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://data.europa.eu/eli/ontology#is_part_of>
             ) || 
-            ?subject IN (
-                <http://data.europa.eu/eli/ontology#LegalExpression>,
-                <http://data.europa.eu/eli/ontology#LegalResource>,
-                <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>,
-                <http://example.org/gdpr#Article>,
-                <http://example.org/gdpr#Chapter>,
-                <http://example.org/gdpr#Part>,
-                <http://example.org/gdpr#Point>,
-                <http://example.org/gdpr#Section>,
-                <http://example.org/gdpr#SubPoint>,
-                <http://example.org/gdpr#SubSubPoint>
-            ) ||
             ?object IN (
                 <http://example.org/gdpr#GDPR>,
                 <http://example.org/rgdpr#>
@@ -329,7 +316,7 @@ elif st.session_state["active_section"] == "Visualization":
         try:
             results = ontology_graph.query(query)
             count = 0
-            max_triples = 2000  # Adjust as needed for performance
+            max_triples = 11000  # Adjust as needed for performance
 
             # Dictionary to track added nodes and avoid duplicates
             added_nodes = set()
