@@ -40,7 +40,7 @@ if "active_section" not in st.session_state:
 st.sidebar.title("Navigation")
 section = st.sidebar.radio(
     "Go to:",
-    ["Overview", "Search Ontology", "Entity Profile", "Visualization"]
+    ["Overview", "Keyword Search", "Advanced Search", "Visualization"]
 )
 
 # Sidebar SPARQL Help Section
@@ -141,54 +141,48 @@ if st.session_state["active_section"] == "Overview":
     st.write(f"**Number of Property types:** {len(property_counts)}")
     st.bar_chart({k: v for k, v in most_common_properties})
 
+elif st.session_state["active_section"] == "Keyword Search":
+    st.header(" Keyword Search")
+    st.write("Search the ontology by entering a keyword.")
 
-# Search Ontology section
-elif st.session_state["active_section"] == "Search Ontology":
-    st.header("Search Ontology")
+    # Input field for the keyword search
+    search_input = st.text_input("Enter a keyword or phrase:")
 
-    # Allow the user to select the search mode
-    query_mode = st.radio("Select Search Mode", ["SPARQL Query", "Keyword Search"])
-
-    if query_mode == "SPARQL Query":
-        st.subheader("SPARQL Query Search")
-        st.write("Enter a custom SPARQL query to explore the ontology.")
-
-        # Pre-filled SPARQL query as a placeholder
-        query = st.text_area(
-            "SPARQL Query",
-            """
-            PREFIX eli: <http://data.europa.eu/eli/ontology#>
-            SELECT ?subject ?description ?title_alt
-            WHERE {
-                ?subject eli:description ?description ;
-                         eli:title_alternative ?title_alt .
-            }
-            """,
-            height=150,
-        )
-
-        if st.button("Run SPARQL Query"):
-            try:
-                results = ontology_graph.query(query)
-                data = []
-                for row in results:
-                    entity_uri = str(row[0])
-                    subject = entity_uri.split("#")[-1] if len(row) > 0 else ""
-                    description = str(row[1]) if len(row) > 1 else ""
-                    title_alt = str(row[2]) if len(row) > 2 else ""
-                    origin = determine_origin(subject)
-                    linked_query = f"""
+    # Execute the search when the button is clicked
+    if st.button("Search"):
+        try:
+            query = """
                     PREFIX eli: <http://data.europa.eu/eli/ontology#>
-                    SELECT ?related
-                    WHERE {{
-                        <{entity_uri}> eli:implementation_of|eli:implementation_ensured_by ?related .
-                    }}
+                    SELECT ?subject ?description ?title_alt
+                    WHERE {
+                        ?subject eli:description ?description ;
+                                eli:title_alternative ?title_alt .
+                    }
                     """
+            results = ontology_graph.query(query)
+            data = []
+            for row in results:
+                entity_uri = str(row[0])
+                subject = entity_uri.split("#")[-1] if len(row) > 0 else ""
+                description = str(row[1]) if len(row) > 1 else ""
+                title_alt = str(row[2]) if len(row) > 2 else ""
+                normalized_description = unidecode(description).lower()
+                normalized_input = unidecode(search_input).lower()
+                if normalized_input in normalized_description:
+                    linked_query = f"""
+                            PREFIX eli: <http://data.europa.eu/eli/ontology#>
+                            SELECT ?related
+                            WHERE {{
+                                <{entity_uri}> eli:implementation_of|eli:implementation_ensured_by ?related .
+                            }}
+                            """
                     linked_results = ontology_graph.query(linked_query)
                     related_articles = [
-                        generate_hyperlink(str(linked_row[0]), f"{str(linked_row[0]).split('#')[-1]} ({determine_origin(str(linked_row[0]).split('#')[-1])})")
+                        generate_hyperlink(str(linked_row[0]),
+                                           f"{str(linked_row[0]).split('#')[-1]} ({determine_origin(str(linked_row[0]).split('#')[-1])})")
                         for linked_row in linked_results
                     ]
+                    origin = determine_origin(subject)
                     data.append({
                         "Origin": origin,
                         "Entity": generate_hyperlink(entity_uri, subject),
@@ -196,87 +190,97 @@ elif st.session_state["active_section"] == "Search Ontology":
                         "Description": description,
                         "Related Articles": "<br>".join(related_articles) if related_articles else "None"
                     })
-                if data:
-                    st.write("### Results")
-                    st.markdown(
-                        "<table border='1'>" +
-                        "<tr>" + "".join(f"<th>{key}</th>" for key in data[0].keys()) + "</tr>" +
-                        "".join(
-                            "<tr>" + "".join(f"<td>{row[key]}</td>" for key in row.keys()) + "</tr>"
-                            for row in data
-                        ) +
-                        "</table>",
-                        unsafe_allow_html=True
-                    )
-                else:
-                    st.info("No results found for the given query.")
-            except Exception as e:
-                st.error(f"Error executing SPARQL query: {e}")
+            if data:
+                st.write("### Results")
+                st.markdown(
+                    "<table border='1'>" +
+                    "<tr>" + "".join(f"<th>{key}</th>" for key in data[0].keys()) + "</tr>" +
+                    "".join(
+                        "<tr>" + "".join(f"<td>{row[key]}</td>" for key in row.keys()) + "</tr>"
+                        for row in data
+                    ) +
+                    "</table>",
+                    unsafe_allow_html=True
+                )
+            else:
+                st.write("No results found.")
+        except Exception as e:
+            st.error(f"Error performing keyword search: {e}")
 
-    elif query_mode == "Keyword Search":
-        st.subheader("Keyword Search")
-        st.write("Search the ontology by entering a keyword.")
 
-        # Input field for the keyword search
-        search_input = st.text_input("Enter a keyword or phrase:")
 
-        # Execute the search when the button is clicked
-        if st.button("Search"):
-            try:
-                query = """
+# Search Ontology section
+elif st.session_state["active_section"] == "Advanced Search":
+    st.header("Advanced Search")
+
+
+
+
+    st.subheader("SPARQL Query Search")
+    st.write("Enter a custom SPARQL query to explore the ontology.")
+
+    # Pre-filled SPARQL query as a placeholder
+    query = st.text_area(
+        "SPARQL Query",
+        """
+        PREFIX eli: <http://data.europa.eu/eli/ontology#>
+        SELECT ?subject ?description ?title_alt
+        WHERE {
+            ?subject eli:description ?description ;
+                     eli:title_alternative ?title_alt .
+        }
+        """,
+        height=150,
+    )
+
+    if st.button("Run SPARQL Query"):
+        try:
+            results = ontology_graph.query(query)
+            data = []
+            for row in results:
+                entity_uri = str(row[0])
+                subject = entity_uri.split("#")[-1] if len(row) > 0 else ""
+                description = str(row[1]) if len(row) > 1 else ""
+                title_alt = str(row[2]) if len(row) > 2 else ""
+                origin = determine_origin(subject)
+                linked_query = f"""
                 PREFIX eli: <http://data.europa.eu/eli/ontology#>
-                SELECT ?subject ?description ?title_alt
-                WHERE {
-                    ?subject eli:description ?description ;
-                            eli:title_alternative ?title_alt .
-                }
+                SELECT ?related
+                WHERE {{
+                    <{entity_uri}> eli:implementation_of|eli:implementation_ensured_by ?related .
+                }}
                 """
-                results = ontology_graph.query(query)
-                data = []
-                for row in results:
-                    entity_uri = str(row[0])
-                    subject = entity_uri.split("#")[-1] if len(row) > 0 else ""
-                    description = str(row[1]) if len(row) > 1 else ""
-                    title_alt = str(row[2]) if len(row) > 2 else ""
-                    normalized_description = unidecode(description).lower()
-                    normalized_input = unidecode(search_input).lower()
-                    if normalized_input in normalized_description:
-                        linked_query = f"""
-                        PREFIX eli: <http://data.europa.eu/eli/ontology#>
-                        SELECT ?related
-                        WHERE {{
-                            <{entity_uri}> eli:implementation_of|eli:implementation_ensured_by ?related .
-                        }}
-                        """
-                        linked_results = ontology_graph.query(linked_query)
-                        related_articles = [
-                            generate_hyperlink(str(linked_row[0]), f"{str(linked_row[0]).split('#')[-1]} ({determine_origin(str(linked_row[0]).split('#')[-1])})")
-                            for linked_row in linked_results
-                        ]
-                        origin = determine_origin(subject)
-                        data.append({
-                            "Origin": origin,
-                            "Entity": generate_hyperlink(entity_uri, subject),
-                            "Title Alternative": title_alt,
-                            "Description": description,
-                            "Related Articles": "<br>".join(related_articles) if related_articles else "None"
-                        })
-                if data:
-                    st.write("### Results")
-                    st.markdown(
-                        "<table border='1'>" +
-                        "<tr>" + "".join(f"<th>{key}</th>" for key in data[0].keys()) + "</tr>" +
-                        "".join(
-                            "<tr>" + "".join(f"<td>{row[key]}</td>" for key in row.keys()) + "</tr>"
-                            for row in data
-                        ) +
-                        "</table>",
-                        unsafe_allow_html=True
-                    )
-                else:
-                    st.write("No results found.")
-            except Exception as e:
-                st.error(f"Error performing keyword search: {e}")
+                linked_results = ontology_graph.query(linked_query)
+                related_articles = [
+                    generate_hyperlink(str(linked_row[0]), f"{str(linked_row[0]).split('#')[-1]} ({determine_origin(str(linked_row[0]).split('#')[-1])})")
+                    for linked_row in linked_results
+                ]
+                data.append({
+                    "Origin": origin,
+                    "Entity": generate_hyperlink(entity_uri, subject),
+                    "Title Alternative": title_alt,
+                    "Description": description,
+                    "Related Articles": "<br>".join(related_articles) if related_articles else "None"
+                })
+            if data:
+                st.write("### Results")
+                st.markdown(
+                    "<table border='1'>" +
+                    "<tr>" + "".join(f"<th>{key}</th>" for key in data[0].keys()) + "</tr>" +
+                    "".join(
+                        "<tr>" + "".join(f"<td>{row[key]}</td>" for key in row.keys()) + "</tr>"
+                        for row in data
+                    ) +
+                    "</table>",
+                    unsafe_allow_html=True
+                )
+            else:
+                st.info("No results found for the given query.")
+        except Exception as e:
+            st.error(f"Error executing SPARQL query: {e}")
+
+
+
 
 # Entity Profile section
 elif st.session_state["active_section"] == "Entity Profile":
