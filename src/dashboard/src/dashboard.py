@@ -11,8 +11,122 @@ from pyvis.network import Network
 import streamlit.components.v1 as components
 
 
+query_params = st.query_params
+
+
+
+# def show_entity_profile(entity_uri):
+#     """Display detailed information about a specific entity"""
+#     print(entity_uri)
+#
+#     entity_query = """
+#     PREFIX eli: <http://data.europa.eu/eli/ontology#>
+#     SELECT ?predicate ?object
+#     WHERE {
+#         <%s> ?predicate ?object .
+#     }
+#     """ % entity_uri
+#
+#     try:
+#         results = ontology_graph.query(entity_query)
+#         st.write(f"SPARQL Results: {list(results)}")
+#         properties = {}
+#         for row in results:
+#             predicate = str(row[0])
+#             obj = str(row[1])
+#             if predicate not in properties:
+#                 properties[predicate] = []
+#             properties[predicate].append(obj)
+#         for predicate, objects in properties.items():
+#             st.markdown(f"**Property:** {predicate}")
+#             for obj in objects:
+#                 st.write(f"- {obj}")
+#
+#     except Exception as e:
+#         st.error(f"Error loading entity profile: {e}")
+
+
+def show_entity_profile(entity_uri):
+    """Display detailed information about a specific entity"""
+    st.header("Entity Profile")
+
+    # Query to get all information about the entity
+    entity_query = """
+    PREFIX eli: <http://data.europa.eu/eli/ontology#>
+    SELECT ?predicate ?object
+    WHERE {
+        <%s> ?predicate ?object .
+    }
+    """
+
+    try:
+        results = ontology_graph.query(entity_query % entity_uri)
+
+        # Group the results by predicate for better organization
+        entity_data = {}
+        for row in results:
+            pred = str(row[0]).split('#')[-1]  # Get the predicate name
+            obj = str(row[1])
+            if pred not in entity_data:
+                entity_data[pred] = []
+            entity_data[pred].append(obj)
+
+        # Display entity information
+        st.subheader(f"Entity: {entity_uri.split('#')[-1]}")
+
+        # Create tabs for different types of information
+        tabs = st.tabs(["Basic Info", "Related Articles", "Implementation Details"])
+
+        with tabs[0]:
+            if "description" in entity_data:
+                st.markdown("### Description")
+                st.write(entity_data["description"][0])
+
+            if "title_alternative" in entity_data:
+                st.markdown("### Alternative Title")
+                st.write(entity_data["title_alternative"][0])
+
+        with tabs[1]:
+            # Query for related articles
+            related_query = """
+            PREFIX eli: <http://data.europa.eu/eli/ontology#>
+            SELECT ?related ?description
+            WHERE {
+                <%s> eli:implementation_of|eli:implementation_ensured_by ?related .
+                OPTIONAL { ?related eli:description ?description }
+            }
+            """ % entity_uri
+
+            related_results = ontology_graph.query(related_query)
+
+            st.markdown("### Related Articles")
+            for row in related_results:
+                with st.expander(f"{str(row[0]).split('#')[-1]}"):
+                    if len(row) > 1 and row[1]:
+                        st.write(str(row[1]))
+                    else:
+                        st.write("No description available")
+
+        with tabs[2]:
+            st.markdown("### Implementation Details")
+            implementation_details = {k: v for k, v in entity_data.items()
+                                      if "implementation" in k.lower()}
+            if implementation_details:
+                for pred, objs in implementation_details.items():
+                    st.markdown(f"**{pred}:**")
+                    for obj in objs:
+                        st.write(f"- {obj}")
+            else:
+                st.write("No implementation details available")
+
+    except Exception as e:
+        st.error(f"Error loading entity profile: {e}")
+
+
 # Function to create hyperlinks
 def generate_hyperlink(entity_uri, label):
+    # st.write(f"Entity URI: {entity_uri}")
+
     encoded_uri = urllib.parse.quote(entity_uri)
     return f'<a href="?entity={encoded_uri}" target="_self">{label}</a>'
 
@@ -38,10 +152,26 @@ if "active_section" not in st.session_state:
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
-section = st.sidebar.radio(
-    "Go to:",
-    ["Overview", "Keyword Search", "Advanced Search", "Visualization"]
-)
+if "entity" in query_params:
+    if st.session_state["active_section"] != "Entity Profile":
+        st.session_state["previous_section"] = st.session_state["active_section"]
+    section = "Entity Profile"
+else:
+    # Your existing navigation code
+    section = st.sidebar.radio(
+        "Go to:",
+        ["Overview", "Keyword Search", "Advanced Search", "Visualization"]
+    )
+st.session_state["active_section"] = section
+# if st.session_state["active_section"] == "Entity Profile":
+#     entity_uri = urllib.parse.unquote(query_params["entity"][0])
+#     show_entity_profile(entity_uri)
+
+    # if st.button("Back to Search"):
+    #     st.query_params.clear()
+    #     st.session_state["active_section"] = st.session_state["previous_section"]  # Restore previous section
+    #     st.rerun()
+
 
 # Sidebar SPARQL Help Section
 st.sidebar.subheader("SPARQL Query Examples")
@@ -87,27 +217,27 @@ def determine_origin(entity_name):
     return "Unknown Origin"
 
 # Entity profile display
-def display_entity_profile(entity_uri):
-    st.subheader("Entity Profile")
-    st.write(f"**Entity Name:** {entity_uri.split('#')[-1]}")
-
-    # SPARQL query to fetch details
-    query = f"""
-    PREFIX eli: <http://data.europa.eu/eli/ontology#>
-    SELECT ?predicate ?object
-    WHERE {{
-        <{entity_uri}> ?predicate ?object .
-    }}
-    """
-    try:
-        results = ontology_graph.query(query)
-        data = [{"Predicate": str(row[0]).split("#")[-1], "Object": str(row[1])} for row in results]
-        if data:
-            st.table(data)
-        else:
-            st.write("No data available for the selected entity.")
-    except Exception as e:
-        st.error(f"SPARQL query error: {e}")
+# def display_entity_profile(entity_uri):
+#     st.subheader("Entity Profile")
+#     st.write(f"**Entity Name:** {entity_uri.split('#')[-1]}")
+#
+#     # SPARQL query to fetch details
+#     query = f"""
+#     PREFIX eli: <http://data.europa.eu/eli/ontology#>
+#     SELECT ?predicate ?object
+#     WHERE {{
+#         <{entity_uri}> ?predicate ?object .
+#     }}
+#     """
+#     try:
+#         results = ontology_graph.query(query)
+#         data = [{"Predicate": str(row[0]).split("#")[-1], "Object": str(row[1])} for row in results]
+#         if data:
+#             st.table(data)
+#         else:
+#             st.write("No data available for the selected entity.")
+#     except Exception as e:
+#         st.error(f"SPARQL query error: {e}")
 
 
 # Overview section
@@ -224,10 +354,10 @@ elif st.session_state["active_section"] == "Advanced Search":
         "SPARQL Query",
         """
         PREFIX eli: <http://data.europa.eu/eli/ontology#>
-        SELECT ?subject ?description ?title_alt
+        SELECT ?subject ?description ?title_alt ?implement
         WHERE {
             ?subject eli:description ?description ;
-                     eli:title_alternative ?title_alt .
+                       eli:implementation_ensured_by ?implement .
         }
         """,
         height=150,
@@ -284,11 +414,14 @@ elif st.session_state["active_section"] == "Advanced Search":
 
 # Entity Profile section
 elif st.session_state["active_section"] == "Entity Profile":
+
     if "entity" in st.query_params:
-        entity_uri = urllib.parse.unquote(st.query_params["entity"][0])
-        display_entity_profile(entity_uri)
+        entity_uri = urllib.parse.unquote(st.query_params["entity"])
+        show_entity_profile(entity_uri)
     else:
         st.write("No entity selected.")
+
+
 
 
 # Visualization section
